@@ -8,6 +8,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.14.0](https://github.com/edwardlthompson/bl4-forge/compare/v1.13.0...v1.14.0) (2026-11-10)
+
+
+### Added
+
+* **forge:** Rafa solver, full archetype loadouts, dual enhancements ([da83696](https://github.com/edwardlthompson/bl4-forge/commit/da83696a36a09e8a24931e45444f8075b9cc5ef1))
+* ship BL4 Forge Peacebreaker guide and web stack ([9b54aff](https://github.com/edwardlthompson/bl4-forge/commit/9b54affb46634a79710f1d112665cb4f1ff9697a))
+
+
+### Fixed
+
+* **ci:** gate android jobs via stack-presence (no job-level hashFiles) ([7fbb204](https://github.com/edwardlthompson/bl4-forge/commit/7fbb204a8a6452f0480b3ee6f63a66df321bc22b))
+* **ci:** restore CodeQL action pins to v4 ([5f3d879](https://github.com/edwardlthompson/bl4-forge/commit/5f3d879f55934eb1de6889317e36c4a47d96c7df))
+* **ci:** skip pruned android/node jobs; update Playwright for BL4 Forge home ([b6ab506](https://github.com/edwardlthompson/bl4-forge/commit/b6ab5066e918bbc7c01ffe41d8cd6abcb431d77f))
+* **ci:** unblock ship CI — e2e rebrand, zizmor env, BSD license ([90d3452](https://github.com/edwardlthompson/bl4-forge/commit/90d34521e06cd365d076ef8672410674025035d8))
+* **ci:** web-only CodeQL; drop oversized Firewerks alt; hygiene uses index tree ([06bd002](https://github.com/edwardlthompson/bl4-forge/commit/06bd00234cedf90301fe58950566013885cb7415))
+* **web:** biome import order; skip stale visual snapshots until rebrand baselines ([50213d7](https://github.com/edwardlthompson/bl4-forge/commit/50213d74151a189ac306d782a5fff619630c921d))
+* **web:** skip stale Playwright visual baselines after rebrand ([4e3391e](https://github.com/edwardlthompson/bl4-forge/commit/4e3391e9a6958f73d12d8ff8d6335787e2cc5355))
+
 ## [1.13.0](https://github.com/edwardlthompson/agent-project-bootstrap/compare/v1.12.1...v1.13.0) (2026-11-09)
 
 ### Added
