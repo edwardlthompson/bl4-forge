@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "promoted_at": null,
+  "count": 0,
+  "mode": "awaiting_human_spot_check",
+  "note": "Prior proxy promotions revoked. Fill spot_check_passed.json after in-game cards, then run tools/datamine/promote.py.",
+  "items": []
+}

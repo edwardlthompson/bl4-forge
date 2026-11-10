@@ -1,0 +1,1380 @@
+{
+  "hunters": [
+    {
+      "id": "loveless",
+      "display_name": "Loveless",
+      "no_capstones": false,
+      "skills": [
+        {
+          "id": "loveless_manifestation_action",
+          "character": "loveless",
+          "tree": "manifestation",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "action",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Malignant Construct",
+          "effects": [],
+          "tags": [
+            "action"
+          ],
+          "activator": true,
+          "point_cost": 0
+        },
+        {
+          "id": "loveless_manifestation_c0_0",
+          "character": "loveless",
+          "tree": "manifestation",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Loveless manifestation common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_manifestation_c0_1",
+          "character": "loveless",
+          "tree": "manifestation",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Loveless manifestation common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_manifestation_c1_0",
+          "character": "loveless",
+          "tree": "manifestation",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Loveless manifestation common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_manifestation_c1_1",
+          "character": "loveless",
+          "tree": "manifestation",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Loveless manifestation common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_manifestation_c2_0",
+          "character": "loveless",
+          "tree": "manifestation",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Loveless manifestation common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_manifestation_c2_1",
+          "character": "loveless",
+          "tree": "manifestation",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Loveless manifestation common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_manifestation_aug_0_manifestation_augment_1",
+          "character": "loveless",
+          "tree": "manifestation",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "manifestation augment 1",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "loveless_manifestation_aug_1_manifestation_augment_2",
+          "character": "loveless",
+          "tree": "manifestation",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "manifestation augment 2",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "loveless_manifestation_aug_2_manifestation_augment_3",
+          "character": "loveless",
+          "tree": "manifestation",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "manifestation augment 3",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "loveless_manifestation_aug_3_manifestation_augment_4",
+          "character": "loveless",
+          "tree": "manifestation",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "manifestation augment 4",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "loveless_manifestation_aug_4_manifestation_augment_5",
+          "character": "loveless",
+          "tree": "manifestation",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "manifestation augment 5",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "loveless_manifestation_branch_left_r0",
+          "character": "loveless",
+          "tree": "manifestation",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "manifestation branch_left row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_manifestation_branch_left_r1",
+          "character": "loveless",
+          "tree": "manifestation",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "manifestation branch_left row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_manifestation_branch_left_r2",
+          "character": "loveless",
+          "tree": "manifestation",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "manifestation branch_left row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_manifestation_cap_0_manifestation_capstone_1",
+          "character": "loveless",
+          "tree": "manifestation",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "manifestation capstone 1",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "loveless_manifestation_branch_center_r0",
+          "character": "loveless",
+          "tree": "manifestation",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "manifestation branch_center row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_manifestation_branch_center_r1",
+          "character": "loveless",
+          "tree": "manifestation",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "manifestation branch_center row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_manifestation_branch_center_r2",
+          "character": "loveless",
+          "tree": "manifestation",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "manifestation branch_center row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_manifestation_cap_1_manifestation_capstone_2",
+          "character": "loveless",
+          "tree": "manifestation",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "manifestation capstone 2",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "loveless_manifestation_branch_right_r0",
+          "character": "loveless",
+          "tree": "manifestation",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "manifestation branch_right row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_manifestation_branch_right_r1",
+          "character": "loveless",
+          "tree": "manifestation",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "manifestation branch_right row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_manifestation_branch_right_r2",
+          "character": "loveless",
+          "tree": "manifestation",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "manifestation branch_right row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_manifestation_cap_2_manifestation_capstone_3",
+          "character": "loveless",
+          "tree": "manifestation",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "manifestation capstone 3",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "loveless_hack_slash_action",
+          "character": "loveless",
+          "tree": "hack_slash",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "action",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Visual Paradox Nexus",
+          "effects": [],
+          "tags": [
+            "action"
+          ],
+          "activator": true,
+          "point_cost": 0
+        },
+        {
+          "id": "loveless_hack_slash_c0_0",
+          "character": "loveless",
+          "tree": "hack_slash",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Loveless hack_slash common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_hack_slash_c0_1",
+          "character": "loveless",
+          "tree": "hack_slash",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Loveless hack_slash common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_hack_slash_c1_0",
+          "character": "loveless",
+          "tree": "hack_slash",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Loveless hack_slash common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_hack_slash_c1_1",
+          "character": "loveless",
+          "tree": "hack_slash",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Loveless hack_slash common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_hack_slash_c2_0",
+          "character": "loveless",
+          "tree": "hack_slash",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Loveless hack_slash common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_hack_slash_c2_1",
+          "character": "loveless",
+          "tree": "hack_slash",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Loveless hack_slash common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_hack_slash_aug_0_hack_slash_augment_1",
+          "character": "loveless",
+          "tree": "hack_slash",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "hack slash augment 1",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "loveless_hack_slash_aug_1_hack_slash_augment_2",
+          "character": "loveless",
+          "tree": "hack_slash",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "hack slash augment 2",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "loveless_hack_slash_aug_2_hack_slash_augment_3",
+          "character": "loveless",
+          "tree": "hack_slash",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "hack slash augment 3",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "loveless_hack_slash_aug_3_hack_slash_augment_4",
+          "character": "loveless",
+          "tree": "hack_slash",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "hack slash augment 4",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "loveless_hack_slash_aug_4_hack_slash_augment_5",
+          "character": "loveless",
+          "tree": "hack_slash",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "hack slash augment 5",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "loveless_hack_slash_branch_left_r0",
+          "character": "loveless",
+          "tree": "hack_slash",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "hack_slash branch_left row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_hack_slash_branch_left_r1",
+          "character": "loveless",
+          "tree": "hack_slash",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "hack_slash branch_left row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_hack_slash_branch_left_r2",
+          "character": "loveless",
+          "tree": "hack_slash",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "hack_slash branch_left row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_hack_slash_cap_0_hack_slash_capstone_1",
+          "character": "loveless",
+          "tree": "hack_slash",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "hack slash capstone 1",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "loveless_hack_slash_branch_center_r0",
+          "character": "loveless",
+          "tree": "hack_slash",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "hack_slash branch_center row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_hack_slash_branch_center_r1",
+          "character": "loveless",
+          "tree": "hack_slash",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "hack_slash branch_center row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_hack_slash_branch_center_r2",
+          "character": "loveless",
+          "tree": "hack_slash",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "hack_slash branch_center row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_hack_slash_cap_1_hack_slash_capstone_2",
+          "character": "loveless",
+          "tree": "hack_slash",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "hack slash capstone 2",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "loveless_hack_slash_branch_right_r0",
+          "character": "loveless",
+          "tree": "hack_slash",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "hack_slash branch_right row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_hack_slash_branch_right_r1",
+          "character": "loveless",
+          "tree": "hack_slash",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "hack_slash branch_right row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_hack_slash_branch_right_r2",
+          "character": "loveless",
+          "tree": "hack_slash",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "hack_slash branch_right row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_hack_slash_cap_2_hack_slash_capstone_3",
+          "character": "loveless",
+          "tree": "hack_slash",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "hack slash capstone 3",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "loveless_virology_action",
+          "character": "loveless",
+          "tree": "virology",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "action",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Plague Star",
+          "effects": [],
+          "tags": [
+            "action"
+          ],
+          "activator": true,
+          "point_cost": 0
+        },
+        {
+          "id": "loveless_virology_c0_0",
+          "character": "loveless",
+          "tree": "virology",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Loveless virology common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_virology_c0_1",
+          "character": "loveless",
+          "tree": "virology",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Loveless virology common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_virology_c1_0",
+          "character": "loveless",
+          "tree": "virology",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Loveless virology common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_virology_c1_1",
+          "character": "loveless",
+          "tree": "virology",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Loveless virology common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_virology_c2_0",
+          "character": "loveless",
+          "tree": "virology",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Loveless virology common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_virology_c2_1",
+          "character": "loveless",
+          "tree": "virology",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Loveless virology common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_virology_aug_0_virology_augment_1",
+          "character": "loveless",
+          "tree": "virology",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "virology augment 1",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "loveless_virology_aug_1_virology_augment_2",
+          "character": "loveless",
+          "tree": "virology",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "virology augment 2",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "loveless_virology_aug_2_virology_augment_3",
+          "character": "loveless",
+          "tree": "virology",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "virology augment 3",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "loveless_virology_aug_3_virology_augment_4",
+          "character": "loveless",
+          "tree": "virology",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "virology augment 4",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "loveless_virology_aug_4_virology_augment_5",
+          "character": "loveless",
+          "tree": "virology",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "virology augment 5",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "loveless_virology_branch_left_r0",
+          "character": "loveless",
+          "tree": "virology",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "virology branch_left row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_virology_branch_left_r1",
+          "character": "loveless",
+          "tree": "virology",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "virology branch_left row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_virology_branch_left_r2",
+          "character": "loveless",
+          "tree": "virology",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "virology branch_left row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_virology_cap_0_virology_capstone_1",
+          "character": "loveless",
+          "tree": "virology",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "virology capstone 1",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "loveless_virology_branch_center_r0",
+          "character": "loveless",
+          "tree": "virology",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "virology branch_center row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_virology_branch_center_r1",
+          "character": "loveless",
+          "tree": "virology",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "virology branch_center row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_virology_branch_center_r2",
+          "character": "loveless",
+          "tree": "virology",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "virology branch_center row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_virology_cap_1_virology_capstone_2",
+          "character": "loveless",
+          "tree": "virology",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "virology capstone 2",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "loveless_virology_branch_right_r0",
+          "character": "loveless",
+          "tree": "virology",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "virology branch_right row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_virology_branch_right_r1",
+          "character": "loveless",
+          "tree": "virology",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "virology branch_right row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_virology_branch_right_r2",
+          "character": "loveless",
+          "tree": "virology",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "virology branch_right row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "loveless_virology_cap_2_virology_capstone_3",
+          "character": "loveless",
+          "tree": "virology",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "virology capstone 3",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        }
+      ],
+      "quarantine": {
+        "incomplete": true,
+        "reason": "structure_seeded_effects_empty_pending_oracle"
+      }
+    }
+  ]
+}

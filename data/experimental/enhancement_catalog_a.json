@@ -1,0 +1,278 @@
+{
+  "experimental": true,
+  "obtainable": "unverified",
+  "patch": "post-1.10-curated",
+  "curated_at": "2026-11-10",
+  "curated_by": "offline_llm",
+  "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/",
+  "note": "Flat index for scoring; effect_text in enhancements/{mfr}.json",
+  "shard": "enhancement_catalog_a.json",
+  "enhancements": [
+    {
+      "id": "atlas_protractor",
+      "manufacturer": "atlas",
+      "name": "Protractor",
+      "requires_licensed_parts": "atlas",
+      "stage": "on_hit",
+      "behavior_tags": [
+        "target_lock",
+        "ammo_economy"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "atlas_sure_shot",
+      "manufacturer": "atlas",
+      "name": "Sure Shot",
+      "requires_licensed_parts": "atlas",
+      "stage": "on_hit",
+      "behavior_tags": [
+        "target_lock",
+        "tracker"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "atlas_tracker_antenna",
+      "manufacturer": "atlas",
+      "name": "Tracker Antenna",
+      "requires_licensed_parts": "atlas",
+      "stage": "rate",
+      "behavior_tags": [
+        "target_lock",
+        "fire_rate"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "atlas_trauma_bond",
+      "manufacturer": "atlas",
+      "name": "Trauma Bond",
+      "requires_licensed_parts": "atlas",
+      "stage": "on_shot",
+      "behavior_tags": [
+        "target_lock",
+        "gun_damage"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "cov_cold_open",
+      "manufacturer": "cov",
+      "name": "Cold Open",
+      "requires_licensed_parts": "cov",
+      "stage": "on_shot",
+      "behavior_tags": [
+        "heat",
+        "gun_damage"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "cov_duct_tape",
+      "manufacturer": "cov",
+      "name": "Duct Tape",
+      "requires_licensed_parts": "cov",
+      "stage": "on_hit",
+      "behavior_tags": [
+        "heat",
+        "crit"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "cov_smelter",
+      "manufacturer": "cov",
+      "name": "Smelter",
+      "requires_licensed_parts": "cov",
+      "stage": "rate",
+      "behavior_tags": [
+        "heat",
+        "fire_rate"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "cov_ventilator",
+      "manufacturer": "cov",
+      "name": "Ventilator",
+      "requires_licensed_parts": "cov",
+      "stage": "flag",
+      "behavior_tags": [
+        "heat",
+        "ammo_economy"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "daedalus_accelerator",
+      "manufacturer": "daedalus",
+      "name": "Accelerator",
+      "requires_licensed_parts": "daedalus",
+      "stage": "rate",
+      "behavior_tags": [
+        "fire_rate",
+        "stacking"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "daedalus_backup_plan",
+      "manufacturer": "daedalus",
+      "name": "Backup Plan",
+      "requires_licensed_parts": "daedalus",
+      "stage": "flag",
+      "behavior_tags": [
+        "ammo_regen"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "daedalus_bullet_fabricator",
+      "manufacturer": "daedalus",
+      "name": "Bullet Fabricator",
+      "requires_licensed_parts": "daedalus",
+      "stage": "on_hit",
+      "behavior_tags": [
+        "on_kill",
+        "mag_refill"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "daedalus_stockpiler",
+      "manufacturer": "daedalus",
+      "name": "Stockpiler",
+      "requires_licensed_parts": "daedalus",
+      "stage": "on_shot",
+      "behavior_tags": [
+        "on_reload",
+        "gun_damage"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "hyperion_bulwark",
+      "manufacturer": "hyperion",
+      "name": "Bulwark",
+      "requires_licensed_parts": "hyperion",
+      "stage": "flag",
+      "behavior_tags": [
+        "gun_shield",
+        "defensive"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "hyperion_shock_guard",
+      "manufacturer": "hyperion",
+      "name": "Shock Guard",
+      "requires_licensed_parts": "hyperion",
+      "stage": "on_hit",
+      "behavior_tags": [
+        "gun_shield",
+        "nova",
+        "defensive"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "hyperion_stabilizer",
+      "manufacturer": "hyperion",
+      "name": "Stabilizer",
+      "requires_licensed_parts": "hyperion",
+      "stage": "flag",
+      "behavior_tags": [
+        "accuracy"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "hyperion_stim_converter",
+      "manufacturer": "hyperion",
+      "name": "Stim Converter",
+      "requires_licensed_parts": "hyperion",
+      "stage": "flag",
+      "behavior_tags": [
+        "gun_shield",
+        "heal",
+        "defensive"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "jakobs_bounce_pass",
+      "manufacturer": "jakobs",
+      "name": "Bounce Pass",
+      "requires_licensed_parts": "jakobs",
+      "stage": "on_hit",
+      "behavior_tags": [
+        "ricochet"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "jakobs_leaper",
+      "manufacturer": "jakobs",
+      "name": "Leaper",
+      "requires_licensed_parts": "jakobs",
+      "stage": "on_hit",
+      "behavior_tags": [
+        "ricochet"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "jakobs_piercer",
+      "manufacturer": "jakobs",
+      "name": "Piercer",
+      "requires_licensed_parts": "jakobs",
+      "stage": "on_hit",
+      "behavior_tags": [
+        "crit",
+        "pierce"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "jakobs_sequencer",
+      "manufacturer": "jakobs",
+      "name": "Sequencer",
+      "requires_licensed_parts": "jakobs",
+      "stage": "on_hit",
+      "behavior_tags": [
+        "crit",
+        "stacking",
+        "gun_damage"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "maliwan_transfuser",
+      "manufacturer": "maliwan",
+      "name": "Transfuser",
+      "requires_licensed_parts": "maliwan",
+      "stage": "on_hit",
+      "behavior_tags": [
+        "status",
+        "on_kill",
+        "spread",
+        "inactive_element"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "maliwan_mixologist",
+      "manufacturer": "maliwan",
+      "name": "Mixologist",
+      "requires_licensed_parts": "maliwan",
+      "stage": "on_shot",
+      "behavior_tags": [
+        "inactive_element",
+        "gun_element_bonus",
+        "dual_element"
+      ],
+      "oracle": "name_inferred"
+    }
+  ]
+}

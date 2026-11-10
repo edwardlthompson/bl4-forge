@@ -1,0 +1,20 @@
+{
+  "id": "mobbing",
+  "label": "Mobbing",
+  "description": "Dense trash packs with frequent kills and short TTKs.",
+  "duration_s": 120,
+  "target_count": 40,
+  "avg_hp": 18000,
+  "crit_chance_base": 0.2,
+  "element_resist": {
+    "incendiary": 0.0,
+    "shock": 0.0,
+    "corrosive": 0.1,
+    "cryo": 0.0,
+    "radiation": 0.0
+  },
+  "mods": {
+    "kill_density": 1.0,
+    "movement": 0.7
+  }
+}

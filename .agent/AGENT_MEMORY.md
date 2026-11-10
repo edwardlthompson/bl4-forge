@@ -34,7 +34,10 @@
 ## Persistent Context
 
 <!-- product-brief-sync:begin -->
-_Template maintainer: no product AGENT.md. Children write AGENT.md before init._
+> Read `AGENT.md` before any sprint row.
+
+**One-liner:** Deterministic Borderlands 4 min/max build solver and public build leaderboard. No LLM in the loop.
+**Do not drift:** borderlands, build-planner, solver, leaderboard, datamine, deterministic, github-pages
 <!-- product-brief-sync:end -->
 
 ### Project Purpose
@@ -146,6 +149,38 @@ Golden Path Settings/About/Feedback are a route stack, not three booleans. Web H
 
 - M66 shape/preferences/commercial GP shipped; upd must not rewrite CodeQL `@v4` to `vcodeql-bundle-*`; About keyword echo only when `branding/product.json` mode is `product`; axe 4.14 needs accessible name ⊆ visible text on settings nav.
 
+### Retrospective — 2026-11-09 (BL4 Forge Sprint 0–8)
+
+- Datamine D0–D7: Steam build `26007962`, AES none, parts 790 / drops 300 / card parse 100%, oracle+6 compile families, quarantine, proxy spot-check → 20 promoted. Solver prune→beam→anneal→Pareto/maximin+substitute deterministic. HUMAN Pages/About/spot-check YOLO via `human_task_forge` + board auto-mark.
+
 ### Retrospective — 2026-11-09 (Argus Parts 1–5)
 
 - Argus foundation: `brand.json` + `app-icon-1024.png`, contract v2, five hygiene gates; rules SoT + `rules.manifest.json`; fleet/briefs planner; YOLO off by default; remote console `enabled: false`. Template does not ship `yolo.on`.
+
+### Retrospective — 2026-11-09 (Sprints 14–18 data/designer gap)
+
+- Skills schema + legality + 6 hunter shards; BalanceData bind + god-roll; AppShell `forge` planner (UX-001 done). Proxy promotions revoked; `promote.py` human-only; freeze stays until 20 in-game cards. HUMAN spot-check still open.
+
+### Retrospective — 2026-11-09 (Sprint 19 MVP preview)
+
+- HUMAN spot-check non-blocking; experimental boards unfrozen. Specializations: 7 nodes, sockets 1–4, max 4 equipped, proc→uptime effects in compose. AppShell: Builds → Stats/Synergy, Specs planner, UX-002/003. Preview: `examples/web` vite :5173.
+
+### Retrospective — 2026-11-09 (Sprint 20 Rafa Build Guide)
+
+- Replaced stub MVP as primary UX. Rafa guide: named hunter, skill/spec spend order, gear+repkit desired rolls, Copy spend order. Stub frontier demoted. Fixture legality-gated.
+
+### Retrospective — 2026-11-09 (Sprint 21 Rafa 69-pt + icons)
+
+- `rules.json` L70 / 69 pts. Multi-tree fusion guide (RA 40 / PP 15 / YG 14) with per-point reasons; Action/Augment/Capstone locked to `remote_agent`; Sitiar→Confeti + Beam Team timeline. FOSS monograms + tree CSS tokens; datamine icons optional/gitignored (`extract_icons.py` stub). No scrape / no committed Gearbox art.
+
+### Retrospective — 2026-11-10 (Sprint 22 effects + synergy)
+
+- Human override: experimental community scrape → `data/experimental/` (`name_inferred` only). Per-rank % on guide spends; VH+grenade synergies in compose/stats; Waterfall+Nuke+radius auto-detect. Never confirmed/leaderboard.
+
+### Retrospective — 2026-11-10 (Sprint 23 static curated builds)
+
+- Offline LLM `/patch-review` writes static core + one-slot adapters; Pages no LLM. Guide: slim top bar, skill|spec columns, Firewerk/Waterfall/Firepot swaps, firmware numeric totals, Grenazerker COM skills.
+
+### Retrospective — 2026-11-10 (Sprint 24 icons + math + god-rolls)
+
+- HUMAN override: commit/publish datamine icons (pending_extract until AES extract). On-Shot×On-Hit staged compose. Full enhancement catalog (44 perks, all manufacturers) + `scoreEnhancements` + `godrollFromBuild`. Guide topband, ranked enhancements, god-roll parts.

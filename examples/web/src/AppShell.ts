@@ -1,38 +1,14 @@
-import { APP_VERSION } from "./about/aboutSession";
 import { createLaunchPromptDialog } from "./about/launchPrompt";
-import type { LaunchPrompt } from "./about/runAppUpdates";
 import { createSwUpdatePrompt } from "./about/swUpdatePrompt";
-import type { DonationConfig } from "./about/types";
-import { createAboutPanel } from "./components/AboutPanel";
-import { createFeedbackPanel } from "./components/FeedbackPanel";
-import { createSettingsPanel } from "./components/SettingsPanel";
+import { mountShellRoute } from "./appShellRoutes";
+import type { AppShellCallbacks, AppShellState } from "./appShellTypes";
 import { isOnline } from "./greet";
 import { t } from "./i18n";
-import { applyPanelScroll, current, type FeedbackKind, type GpRoute, type NavState } from "./nav";
-import { bindPanelDialog } from "./panelDialog";
+import { current, type GpRoute } from "./nav";
+
+export type { AppShellCallbacks, AppShellState } from "./appShellTypes";
 
 let dialogCleanup: (() => void) | undefined;
-
-export type AppShellState = {
-  nav: NavState;
-  feedbackPrefill?: string;
-  updateStatus: string;
-  donations: DonationConfig;
-  launchPrompt: LaunchPrompt | null;
-  releaseRepo?: string;
-  canApplyUpdate?: boolean;
-  showSwUpdatePrompt?: boolean;
-};
-
-export type AppShellCallbacks = {
-  onState: (next: Partial<AppShellState>) => void;
-  onPushRoute: (route: GpRoute, kind?: FeedbackKind) => void;
-  onPop: () => void;
-  onApplyUpdate?: () => void;
-  onDonate?: () => void;
-  onLaunchPrompt?: (accepted: boolean) => void;
-  canApplyUpdate?: boolean;
-};
 
 export function createAppShell(
   root: HTMLElement,
@@ -43,11 +19,21 @@ export function createAppShell(
   const statusKey = online ? "app.status.online" : "app.status.offline";
   const route = current(state.nav);
   const atHome = route === "home";
+  const wideRoute =
+    route === "guide" || route === "stats" || route === "forge" || route === "specs";
+  const mainClass = [
+    "gp-forge-home",
+    wideRoute ? "gp-route-wide" : "",
+    route === "guide" ? "gp-route-guide" : "",
+  ]
+    .filter(Boolean)
+    .join(" ");
 
-  root.innerHTML = `
-    <main>
-      <div class="gp-header">
-        <h1 class="gp-title">${t("app.title")}</h1>
+  const homeChrome = wideRoute
+    ? ""
+    : `
+      <div class="gp-header" data-shell-header>
+        <p class="gp-guide-brand">${t("app.title")}</p>
         <div class="gp-header-actions">
           ${
             atHome
@@ -56,14 +42,40 @@ export function createAppShell(
           }
         </div>
       </div>
-      <section class="gp-status-card" data-testid="home-status">
-        <p class="gp-headline">${t("app.greeting")}</p>
+      <section class="gp-status-card gp-guide-home-card" data-testid="home-status">
+        <h1 class="gp-guide-hunter">${t("guide.home_hunter")}</h1>
+        <p class="gp-guide-sub">${t("guide.home_sub")}</p>
         <p class="gp-body" data-testid="status">${t(statusKey)}</p>
-      </section>
+        <div class="gp-guide-actions">
+          <button type="button" class="gp-btn gp-btn-primary" data-guide-open data-testid="home-guide-cta">${t("guide.open")}</button>
+          <button type="button" class="gp-btn" data-stats-open>${t("guide.stats_secondary")}</button>
+        </div>
+        <p class="gp-settings-hint">${t("guide.home_more")}</p>
+        <div class="gp-guide-secondary">
+          <button type="button" class="gp-settings-btn" data-forge-open>${t("forge.open")}</button>
+          <button type="button" class="gp-settings-btn" data-specs-open>${t("mvp.specs.open")}</button>
+        </div>
+      </section>`;
+
+  root.innerHTML = `
+    <main class="${mainClass}">
+      ${homeChrome}
       <div data-panel-mount></div>
     </main>
   `;
 
+  root.querySelector("[data-guide-open]")?.addEventListener("click", () => {
+    toggleOrPush(route, "guide", callbacks);
+  });
+  root.querySelector("[data-stats-open]")?.addEventListener("click", () => {
+    callbacks.onPushRoute("stats", undefined, "mvp_crit_stack");
+  });
+  root.querySelector("[data-forge-open]")?.addEventListener("click", () => {
+    toggleOrPush(route, "forge", callbacks);
+  });
+  root.querySelector("[data-specs-open]")?.addEventListener("click", () => {
+    toggleOrPush(route, "specs", callbacks);
+  });
   root.querySelector("[data-settings-open]")?.addEventListener("click", () => {
     toggleOrPush(route, "settings", callbacks);
   });
@@ -95,48 +107,7 @@ export function createAppShell(
     );
   }
 
-  if (route === "feedback") {
-    const panel = createFeedbackPanel(state.nav.feedbackKind ?? "bug", {
-      onClose: callbacks.onPop,
-      releaseRepo: state.releaseRepo ?? "",
-      description: state.feedbackPrefill,
-    });
-    mount.appendChild(panel);
-    dialogCleanup = bindPanelDialog(panel, callbacks.onPop);
-    applyPanelScroll(root, state.nav);
-    return;
-  }
-
-  if (route === "settings") {
-    const panel = createSettingsPanel({
-      onClose: callbacks.onPop,
-      onOpenAbout: () => callbacks.onPushRoute("about"),
-    });
-    mount.appendChild(panel);
-    dialogCleanup = bindPanelDialog(panel, callbacks.onPop);
-    applyPanelScroll(root, state.nav);
-    return;
-  }
-
-  if (route !== "about") return;
-
-  mount.appendChild(
-    createAboutPanel(
-      {
-        version: APP_VERSION,
-        updateStatus: state.updateStatus,
-        donations: state.donations,
-        canApplyUpdate: state.canApplyUpdate ?? callbacks.canApplyUpdate,
-      },
-      callbacks.onPop,
-      callbacks.onApplyUpdate,
-      () => callbacks.onPushRoute("feedback", "bug"),
-      () => callbacks.onPushRoute("feedback", "feature"),
-    ),
-  );
-  const aboutPanel = mount.lastElementChild as HTMLElement;
-  dialogCleanup = bindPanelDialog(aboutPanel, callbacks.onPop);
-  applyPanelScroll(root, state.nav);
+  dialogCleanup = mountShellRoute(root, mount, state, route, callbacks);
 }
 
 function toggleOrPush(route: GpRoute, target: GpRoute, callbacks: AppShellCallbacks): void {

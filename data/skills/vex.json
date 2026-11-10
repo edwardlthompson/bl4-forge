@@ -1,0 +1,1380 @@
+{
+  "hunters": [
+    {
+      "id": "vex",
+      "display_name": "Vex",
+      "no_capstones": false,
+      "skills": [
+        {
+          "id": "vex_the_fourth_seal_action",
+          "character": "vex",
+          "tree": "the_fourth_seal",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "action",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Dead Ringer",
+          "effects": [],
+          "tags": [
+            "action"
+          ],
+          "activator": true,
+          "point_cost": 0
+        },
+        {
+          "id": "vex_the_fourth_seal_c0_0",
+          "character": "vex",
+          "tree": "the_fourth_seal",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Vex the_fourth_seal common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_the_fourth_seal_c0_1",
+          "character": "vex",
+          "tree": "the_fourth_seal",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Vex the_fourth_seal common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_the_fourth_seal_c1_0",
+          "character": "vex",
+          "tree": "the_fourth_seal",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Vex the_fourth_seal common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_the_fourth_seal_c1_1",
+          "character": "vex",
+          "tree": "the_fourth_seal",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Vex the_fourth_seal common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_the_fourth_seal_c2_0",
+          "character": "vex",
+          "tree": "the_fourth_seal",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Vex the_fourth_seal common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_the_fourth_seal_c2_1",
+          "character": "vex",
+          "tree": "the_fourth_seal",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Vex the_fourth_seal common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_the_fourth_seal_aug_0_Att_Calc_DarkSiren_ActionSkill_Augment_Geistwave",
+          "character": "vex",
+          "tree": "the_fourth_seal",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Att Calc DarkSiren ActionSkill Augment Geistwave",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "vex_the_fourth_seal_aug_1_Att_Calc_DarkSiren_ActionSkill_Augment_WarlockAndLoad_",
+          "character": "vex",
+          "tree": "the_fourth_seal",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Att Calc DarkSiren ActionSkill Augment WarlockAndLoad GunDamage",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "vex_the_fourth_seal_aug_2_Att_DarkSiren_ActionSkill_PhaseAvatar_Augment_WarlockA",
+          "character": "vex",
+          "tree": "the_fourth_seal",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Att DarkSiren ActionSkill PhaseAvatar Augment WarlockAndLoad Tok",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "vex_the_fourth_seal_aug_3_Att_Calc_DarkSiren_ActionSkill_PhaseShard_Augment_Crit",
+          "character": "vex",
+          "tree": "the_fourth_seal",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Att Calc DarkSiren ActionSkill PhaseShard Augment CriticalSymbio",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "vex_the_fourth_seal_aug_4_Att_DarkSiren_ActionSkill_PhaseShard_Augment_CriticalS",
+          "character": "vex",
+          "tree": "the_fourth_seal",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Att DarkSiren ActionSkill PhaseShard Augment CriticalSymbiosis T",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "vex_the_fourth_seal_branch_left_r0",
+          "character": "vex",
+          "tree": "the_fourth_seal",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "the_fourth_seal branch_left row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_the_fourth_seal_branch_left_r1",
+          "character": "vex",
+          "tree": "the_fourth_seal",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "the_fourth_seal branch_left row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_the_fourth_seal_branch_left_r2",
+          "character": "vex",
+          "tree": "the_fourth_seal",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "the_fourth_seal branch_left row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_the_fourth_seal_cap_0_Att_Calc_DarkSiren_Passives_Capstone",
+          "character": "vex",
+          "tree": "the_fourth_seal",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Att Calc DarkSiren Passives Capstone",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "vex_the_fourth_seal_branch_center_r0",
+          "character": "vex",
+          "tree": "the_fourth_seal",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "the_fourth_seal branch_center row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_the_fourth_seal_branch_center_r1",
+          "character": "vex",
+          "tree": "the_fourth_seal",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "the_fourth_seal branch_center row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_the_fourth_seal_branch_center_r2",
+          "character": "vex",
+          "tree": "the_fourth_seal",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "the_fourth_seal branch_center row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_the_fourth_seal_cap_1_att_calc_darksiren_passives_capstone",
+          "character": "vex",
+          "tree": "the_fourth_seal",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "att calc darksiren passives capstone",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "vex_the_fourth_seal_branch_right_r0",
+          "character": "vex",
+          "tree": "the_fourth_seal",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "the_fourth_seal branch_right row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_the_fourth_seal_branch_right_r1",
+          "character": "vex",
+          "tree": "the_fourth_seal",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "the_fourth_seal branch_right row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_the_fourth_seal_branch_right_r2",
+          "character": "vex",
+          "tree": "the_fourth_seal",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "the_fourth_seal branch_right row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_the_fourth_seal_cap_2_Att_Calc_DarkSiren_Passives_Capstone",
+          "character": "vex",
+          "tree": "the_fourth_seal",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Att Calc DarkSiren Passives Capstone",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "vex_vexcalation_action",
+          "character": "vex",
+          "tree": "vexcalation",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "action",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Incarnate",
+          "effects": [],
+          "tags": [
+            "action"
+          ],
+          "activator": true,
+          "point_cost": 0
+        },
+        {
+          "id": "vex_vexcalation_c0_0",
+          "character": "vex",
+          "tree": "vexcalation",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Vex vexcalation common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_vexcalation_c0_1",
+          "character": "vex",
+          "tree": "vexcalation",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Vex vexcalation common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_vexcalation_c1_0",
+          "character": "vex",
+          "tree": "vexcalation",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Vex vexcalation common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_vexcalation_c1_1",
+          "character": "vex",
+          "tree": "vexcalation",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Vex vexcalation common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_vexcalation_c2_0",
+          "character": "vex",
+          "tree": "vexcalation",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Vex vexcalation common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_vexcalation_c2_1",
+          "character": "vex",
+          "tree": "vexcalation",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Vex vexcalation common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_vexcalation_aug_0_Att_Calc_DarkSiren_ActionSkill_Augment_Geistwave",
+          "character": "vex",
+          "tree": "vexcalation",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Att Calc DarkSiren ActionSkill Augment Geistwave",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "vex_vexcalation_aug_1_Att_Calc_DarkSiren_ActionSkill_Augment_WarlockAndLoad_GunD",
+          "character": "vex",
+          "tree": "vexcalation",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Att Calc DarkSiren ActionSkill Augment WarlockAndLoad GunDamage",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "vex_vexcalation_aug_2_Att_DarkSiren_ActionSkill_PhaseAvatar_Augment_WarlockAndLo",
+          "character": "vex",
+          "tree": "vexcalation",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Att DarkSiren ActionSkill PhaseAvatar Augment WarlockAndLoad Tok",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "vex_vexcalation_aug_3_Att_Calc_DarkSiren_ActionSkill_PhaseShard_Augment_Critical",
+          "character": "vex",
+          "tree": "vexcalation",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Att Calc DarkSiren ActionSkill PhaseShard Augment CriticalSymbio",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "vex_vexcalation_aug_4_Att_DarkSiren_ActionSkill_PhaseShard_Augment_CriticalSymbi",
+          "character": "vex",
+          "tree": "vexcalation",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Att DarkSiren ActionSkill PhaseShard Augment CriticalSymbiosis T",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "vex_vexcalation_branch_left_r0",
+          "character": "vex",
+          "tree": "vexcalation",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "vexcalation branch_left row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_vexcalation_branch_left_r1",
+          "character": "vex",
+          "tree": "vexcalation",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "vexcalation branch_left row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_vexcalation_branch_left_r2",
+          "character": "vex",
+          "tree": "vexcalation",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "vexcalation branch_left row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_vexcalation_cap_0_Att_Calc_DarkSiren_Passives_Capstone",
+          "character": "vex",
+          "tree": "vexcalation",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Att Calc DarkSiren Passives Capstone",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "vex_vexcalation_branch_center_r0",
+          "character": "vex",
+          "tree": "vexcalation",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "vexcalation branch_center row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_vexcalation_branch_center_r1",
+          "character": "vex",
+          "tree": "vexcalation",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "vexcalation branch_center row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_vexcalation_branch_center_r2",
+          "character": "vex",
+          "tree": "vexcalation",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "vexcalation branch_center row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_vexcalation_cap_1_att_calc_darksiren_passives_capstone",
+          "character": "vex",
+          "tree": "vexcalation",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "att calc darksiren passives capstone",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "vex_vexcalation_branch_right_r0",
+          "character": "vex",
+          "tree": "vexcalation",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "vexcalation branch_right row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_vexcalation_branch_right_r1",
+          "character": "vex",
+          "tree": "vexcalation",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "vexcalation branch_right row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_vexcalation_branch_right_r2",
+          "character": "vex",
+          "tree": "vexcalation",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "vexcalation branch_right row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_vexcalation_cap_2_Att_Calc_DarkSiren_Passives_Capstone",
+          "character": "vex",
+          "tree": "vexcalation",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Att Calc DarkSiren Passives Capstone",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "vex_here_comes_trouble_action",
+          "character": "vex",
+          "tree": "here_comes_trouble",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "action",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Phase Phamiliar",
+          "effects": [],
+          "tags": [
+            "action"
+          ],
+          "activator": true,
+          "point_cost": 0
+        },
+        {
+          "id": "vex_here_comes_trouble_c0_0",
+          "character": "vex",
+          "tree": "here_comes_trouble",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Vex here_comes_trouble common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_here_comes_trouble_c0_1",
+          "character": "vex",
+          "tree": "here_comes_trouble",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Vex here_comes_trouble common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_here_comes_trouble_c1_0",
+          "character": "vex",
+          "tree": "here_comes_trouble",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Vex here_comes_trouble common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_here_comes_trouble_c1_1",
+          "character": "vex",
+          "tree": "here_comes_trouble",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Vex here_comes_trouble common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_here_comes_trouble_c2_0",
+          "character": "vex",
+          "tree": "here_comes_trouble",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Vex here_comes_trouble common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_here_comes_trouble_c2_1",
+          "character": "vex",
+          "tree": "here_comes_trouble",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Vex here_comes_trouble common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_here_comes_trouble_aug_0_Att_Calc_DarkSiren_ActionSkill_Augment_Geistwave",
+          "character": "vex",
+          "tree": "here_comes_trouble",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Att Calc DarkSiren ActionSkill Augment Geistwave",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "vex_here_comes_trouble_aug_1_Att_Calc_DarkSiren_ActionSkill_Augment_WarlockAndLo",
+          "character": "vex",
+          "tree": "here_comes_trouble",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Att Calc DarkSiren ActionSkill Augment WarlockAndLoad GunDamage",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "vex_here_comes_trouble_aug_2_Att_DarkSiren_ActionSkill_PhaseAvatar_Augment_Warlo",
+          "character": "vex",
+          "tree": "here_comes_trouble",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Att DarkSiren ActionSkill PhaseAvatar Augment WarlockAndLoad Tok",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "vex_here_comes_trouble_aug_3_Att_Calc_DarkSiren_ActionSkill_PhaseShard_Augment_C",
+          "character": "vex",
+          "tree": "here_comes_trouble",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Att Calc DarkSiren ActionSkill PhaseShard Augment CriticalSymbio",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "vex_here_comes_trouble_aug_4_Att_DarkSiren_ActionSkill_PhaseShard_Augment_Critic",
+          "character": "vex",
+          "tree": "here_comes_trouble",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Att DarkSiren ActionSkill PhaseShard Augment CriticalSymbiosis T",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "vex_here_comes_trouble_branch_left_r0",
+          "character": "vex",
+          "tree": "here_comes_trouble",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "here_comes_trouble branch_left row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_here_comes_trouble_branch_left_r1",
+          "character": "vex",
+          "tree": "here_comes_trouble",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "here_comes_trouble branch_left row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_here_comes_trouble_branch_left_r2",
+          "character": "vex",
+          "tree": "here_comes_trouble",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "here_comes_trouble branch_left row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_here_comes_trouble_cap_0_Att_Calc_DarkSiren_Passives_Capstone",
+          "character": "vex",
+          "tree": "here_comes_trouble",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Att Calc DarkSiren Passives Capstone",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "vex_here_comes_trouble_branch_center_r0",
+          "character": "vex",
+          "tree": "here_comes_trouble",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "here_comes_trouble branch_center row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_here_comes_trouble_branch_center_r1",
+          "character": "vex",
+          "tree": "here_comes_trouble",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "here_comes_trouble branch_center row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_here_comes_trouble_branch_center_r2",
+          "character": "vex",
+          "tree": "here_comes_trouble",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "here_comes_trouble branch_center row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_here_comes_trouble_cap_1_att_calc_darksiren_passives_capstone",
+          "character": "vex",
+          "tree": "here_comes_trouble",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "att calc darksiren passives capstone",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "vex_here_comes_trouble_branch_right_r0",
+          "character": "vex",
+          "tree": "here_comes_trouble",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "here_comes_trouble branch_right row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_here_comes_trouble_branch_right_r1",
+          "character": "vex",
+          "tree": "here_comes_trouble",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "here_comes_trouble branch_right row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_here_comes_trouble_branch_right_r2",
+          "character": "vex",
+          "tree": "here_comes_trouble",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "here_comes_trouble branch_right row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "vex_here_comes_trouble_cap_2_Att_Calc_DarkSiren_Passives_Capstone",
+          "character": "vex",
+          "tree": "here_comes_trouble",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Att Calc DarkSiren Passives Capstone",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        }
+      ],
+      "quarantine": {
+        "incomplete": true,
+        "reason": "structure_seeded_effects_empty_pending_oracle"
+      }
+    }
+  ]
+}

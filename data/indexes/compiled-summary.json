@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "oracle_gated": true,
+  "compiled_count": 394,
+  "families": {
+    "damage": 171,
+    "crit": 40,
+    "fire_rate": 36,
+    "reload_mag": 231,
+    "shield": 10,
+    "elemental": 183
+  },
+  "note": "Full rows in gitignored compiled-parts.json; regenerate via tools/datamine/compile/index.py"
+}

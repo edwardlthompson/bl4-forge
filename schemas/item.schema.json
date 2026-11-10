@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://edwardlthompson.github.io/bl4-forge/schemas/item.schema.json",
+  "title": "BL4 Forge Item",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "slot",
+    "rarity",
+    "effects",
+    "tag_only",
+    "synergy_keys",
+    "obtainable",
+    "gate",
+    "has_location",
+    "evidence",
+    "unparsed",
+    "stale",
+    "game_build"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "name": { "type": "string", "minLength": 1 },
+    "slot": {
+      "type": "string",
+      "enum": ["weapon", "shield", "grenade", "class_mod", "artifact", "enhancement"]
+    },
+    "weapon_type": { "type": "string" },
+    "manufacturer": { "type": "string" },
+    "rarity": {
+      "type": "string",
+      "enum": ["common", "uncommon", "rare", "epic", "legendary", "pearl"]
+    },
+    "elements": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["none", "incendiary", "shock", "corrosive", "cryo", "radiation"]
+      }
+    },
+    "stat_range": {
+      "type": "object",
+      "additionalProperties": {
+        "oneOf": [
+          {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": { "type": "number" }
+          },
+          { "type": "number" }
+        ]
+      }
+    },
+    "firmware_sensitive": { "type": "boolean" },
+    "red_text": { "type": "string" },
+    "effects": {
+      "type": "array",
+      "items": { "$ref": "effect.schema.json" }
+    },
+    "tag_only": { "type": "boolean" },
+    "synergy_keys": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "obtainable": {
+      "type": "string",
+      "enum": ["confirmed", "probable", "unverified", "cut", "dev_only"]
+    },
+    "gate": {
+      "type": "string",
+      "pattern": "^(base|dlc:.+|event:.+)$"
+    },
+    "has_location": { "type": "boolean" },
+    "evidence": {
+      "type": "array",
+      "items": { "$ref": "evidence.schema.json" }
+    },
+    "drop": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "boss": { "type": "string" },
+        "location": { "type": "string" },
+        "rate_band": {
+          "type": "string",
+          "enum": ["common", "uncommon", "rare", "very_rare"]
+        }
+      }
+    },
+    "unparsed": { "type": "boolean" },
+    "stale": { "type": "boolean" },
+    "game_build": { "type": "string", "minLength": 1 }
+  }
+}

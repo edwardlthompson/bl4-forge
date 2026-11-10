@@ -1,0 +1,1061 @@
+{
+  "version": 1,
+  "cards": [
+    {
+      "key": "itemcellstatfirerate",
+      "display_data": "ItemCellStatFireRate",
+      "raw": "Inventory, ItemCellStatFireRate, Fire Rate",
+      "body": "Fire Rate",
+      "table": "Inventory",
+      "source": "display_data"
+    },
+    {
+      "key": "itemcellstatmagazinesize",
+      "display_data": "ItemCellStatMagazineSize",
+      "raw": "Inventory, ItemCellStatMagazineSize, Magazine Size",
+      "body": "Magazine Size",
+      "table": "Inventory",
+      "source": "display_data"
+    },
+    {
+      "key": "uidisplaydata_node_description_assaultrifleammo",
+      "display_data": "UIDisplayData_Node_Description_AssaultRifleAmmo",
+      "raw": "DisplayData_EchoUpgrade, 24FA1304424D3B9856288D8568CCCF5C, +{0} Assault Rifle Ammo",
+      "body": "+{0} Assault Rifle Ammo",
+      "table": "DisplayData_EchoUpgrade",
+      "source": "display_data"
+    },
+    {
+      "key": "uidisplaydata_node_description_backpack",
+      "display_data": "UIDisplayData_Node_Description_Backpack",
+      "raw": "DisplayData_EchoUpgrade, 65F5D23042AC045E108FC59263B25891, +{0} Backpack Slots",
+      "body": "+{0} Backpack Slots",
+      "table": "DisplayData_EchoUpgrade",
+      "source": "display_data"
+    },
+    {
+      "key": "uidisplaydata_node_description_bank",
+      "display_data": "UIDisplayData_Node_Description_Bank",
+      "raw": "DisplayData_EchoUpgrade, E88A351743C11BEE56755B95B805DB3D, +{0} Bank Slots",
+      "body": "+{0} Bank Slots",
+      "table": "DisplayData_EchoUpgrade",
+      "source": "display_data"
+    },
+    {
+      "key": "uidisplaydata_node_description_lostloot",
+      "display_data": "UIDisplayData_Node_Description_LostLoot",
+      "raw": "DisplayData_EchoUpgrade, BD2F5ACE4BE0398044AD83A92C72F14C, +{0} Items Recovered",
+      "body": "+{0} Items Recovered",
+      "table": "DisplayData_EchoUpgrade",
+      "source": "display_data"
+    },
+    {
+      "key": "uidisplaydata_node_description_pistolammo",
+      "display_data": "UIDisplayData_Node_Description_PistolAmmo",
+      "raw": "DisplayData_EchoUpgrade, 29D882D640419A034BB2CE80F8EDD395, +{0} Pistol Ammo",
+      "body": "+{0} Pistol Ammo",
+      "table": "DisplayData_EchoUpgrade",
+      "source": "display_data"
+    },
+    {
+      "key": "uidisplaydata_node_description_shotgunammo",
+      "display_data": "UIDisplayData_Node_Description_ShotgunAmmo",
+      "raw": "DisplayData_EchoUpgrade, 9C1D1A3340534F034EF991BEFE4EFCCD, +{0} Shotgun Ammo",
+      "body": "+{0} Shotgun Ammo",
+      "table": "DisplayData_EchoUpgrade",
+      "source": "display_data"
+    },
+    {
+      "key": "uidisplaydata_node_description_smgammo",
+      "display_data": "UIDisplayData_Node_Description_SMGAmmo",
+      "raw": "DisplayData_EchoUpgrade, B5C736334576F9D4F23EF4B4B4EDB164, +{0} SMG Ammo",
+      "body": "+{0} SMG Ammo",
+      "table": "DisplayData_EchoUpgrade",
+      "source": "display_data"
+    },
+    {
+      "key": "uidisplaydata_node_description_sniperrifleammo",
+      "display_data": "UIDisplayData_Node_Description_SniperRifleAmmo",
+      "raw": "DisplayData_EchoUpgrade, 3E38AFC441D987C8DF9F82BAD1C51192, +{0} Sniper Rifle Ammo",
+      "body": "+{0} Sniper Rifle Ammo",
+      "table": "DisplayData_EchoUpgrade",
+      "source": "display_data"
+    },
+    {
+      "key": "uidisplaydata_node_description_weaponslot",
+      "display_data": "UIDisplayData_Node_Description_WeaponSlot",
+      "raw": "DisplayData_EchoUpgrade, 0A1F54184FBFA3971593A99C4C94D7F8, +{0} Weapon Slot",
+      "body": "+{0} Weapon Slot",
+      "table": "DisplayData_EchoUpgrade",
+      "source": "display_data"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Att_MinGameStage_LicensedPart_HyperionShield",
+      "body": "Att_MinGameStage_LicensedPart_HyperionShield",
+      "table": null,
+      "source": "ncs:attribute.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "LicensedPart_HyperionShield",
+      "body": "LicensedPart_HyperionShield",
+      "table": null,
+      "source": "ncs:attribute.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Att_MinGameStage_LicensedPart_TedioreReload_TedioreACC",
+      "body": "Att_MinGameStage_LicensedPart_TedioreReload_TedioreACC",
+      "table": null,
+      "source": "ncs:attribute.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "LicensedPart_TedioreReload_TedioreAcc",
+      "body": "LicensedPart_TedioreReload_TedioreAcc",
+      "table": null,
+      "source": "ncs:attribute.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "weapon_part_reload_value",
+      "body": "weapon_part_reload_value",
+      "table": null,
+      "source": "ncs:attribute.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "weapon_part_thrown_reload_value",
+      "body": "weapon_part_thrown_reload_value",
+      "table": null,
+      "source": "ncs:attribute.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "att_mingamestage_licensedpart_hyperionshield",
+      "body": "att_mingamestage_licensedpart_hyperionshield",
+      "table": null,
+      "source": "ncs:attribute.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "att_mingamestage_licensedpart_tediorereload_tedioreacc",
+      "body": "att_mingamestage_licensedpart_tediorereload_tedioreacc",
+      "table": null,
+      "source": "ncs:attribute.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Challenges_AssaultRifle, 3FF6BD9A4FE9624B88B6A5B5BF3AC6A6, Get Critical Hits with assault rifles.",
+      "body": "Get Critical Hits with assault rifles.",
+      "table": "Challenges_AssaultRifle",
+      "source": "ncs:challenge.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Challenges_AssaultRifle, 5D9441294B0DBF1108C7A199EA86C099, Kill enemies with Critical Hits from assault rifles.",
+      "body": "Kill enemies with Critical Hits from assault rifles.",
+      "table": "Challenges_AssaultRifle",
+      "source": "ncs:challenge.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Challenges_Borg, 8718819B4215B9974DFB6EA765700E07, Get Critical Hits with Ripper Guns.",
+      "body": "Get Critical Hits with Ripper Guns.",
+      "table": "Challenges_Borg",
+      "source": "ncs:challenge.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Challenges_Jakobs, D480C8C54A7E522B4D5FBEAE48A7DA7E, Get Critical Hits with Jakobs Throwing Knives.",
+      "body": "Get Critical Hits with Jakobs Throwing Knives.",
+      "table": "Challenges_Jakobs",
+      "source": "ncs:challenge.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Challenges_KillOther, 8088057846845210F1B048AC15A640DE, Kill enemies with Critical Hits.",
+      "body": "Kill enemies with Critical Hits.",
+      "table": "Challenges_KillOther",
+      "source": "ncs:challenge.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Challenges_Pistol, 2DF6A6AE429DF220E990C6A9AD97A8CA, Get Critical Hits with pistols.",
+      "body": "Get Critical Hits with pistols.",
+      "table": "Challenges_Pistol",
+      "source": "ncs:challenge.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Challenges_Pistol, EF616BF9451025C33E2072B880FFFE18, Kill enemies with Critical Hits from pistols.",
+      "body": "Kill enemies with Critical Hits from pistols.",
+      "table": "Challenges_Pistol",
+      "source": "ncs:challenge.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Challenges_Shotgun, 644DA6F14220380E05D834B2A62B0596, Get Critical Hits with shotguns.",
+      "body": "Get Critical Hits with shotguns.",
+      "table": "Challenges_Shotgun",
+      "source": "ncs:challenge.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Challenges_Shotgun, 983D31F74B7FBE54D70BD5AABD9D32DF, Kill enemies with Critical Hits from shotguns.",
+      "body": "Kill enemies with Critical Hits from shotguns.",
+      "table": "Challenges_Shotgun",
+      "source": "ncs:challenge.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Challenges_SMG, 69901D6D404E69E6C4F8FBA16372B4B8, Get Critical Hits with SMGs.",
+      "body": "Get Critical Hits with SMGs.",
+      "table": "Challenges_SMG",
+      "source": "ncs:challenge.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Challenges_SMG, 1AA2F7C24D46D3757C39E8A8A27EC075, Kill enemies with Critical Hits from SMGs.",
+      "body": "Kill enemies with Critical Hits from SMGs.",
+      "table": "Challenges_SMG",
+      "source": "ncs:challenge.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Challenges_Sniper, B3764A6743C77F591FDB80A88BD024C2, Get Critical Hits with sniper rifles.",
+      "body": "Get Critical Hits with sniper rifles.",
+      "table": "Challenges_Sniper",
+      "source": "ncs:challenge.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Challenges_Sniper, 8F06EE084A3145F1E705F3A1B7AA75B4, Kill enemies with Critical Hits from sniper rifles.",
+      "body": "Kill enemies with Critical Hits from sniper rifles.",
+      "table": "Challenges_Sniper",
+      "source": "ncs:challenge.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "menu_player_stats, 7333E95E4FF4A1E03A60DE94870F85AE, Gun Damage",
+      "body": "Gun Damage",
+      "table": "menu_player_stats",
+      "source": "ncs:display_data.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "BalanceGlobals, 5A220FAF4447F338E2642BBACF4E76A5, {0} [secondary]Damage Taken[/secondary]",
+      "body": "{0} [secondary]Damage Taken[/secondary]",
+      "table": "BalanceGlobals",
+      "source": "ncs:display_data.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "BalanceGlobals, 574C571F4C88413F35C63AA5433806DD, [secondary]Elemental Affinities[/secondary] matter less",
+      "body": "[secondary]Elemental Affinities[/secondary] matter less",
+      "table": "BalanceGlobals",
+      "source": "ncs:display_data.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "BalanceGlobals, 7C0251404CCAF0E9591895BCB41BEC21, {0} [secondary]Cash Drops[/secondary]",
+      "body": "{0} [secondary]Cash Drops[/secondary]",
+      "table": "BalanceGlobals",
+      "source": "ncs:display_data.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "BalanceGlobals, B9DA1456489CAF7A106B8C81C9102562, [secondary]Loot Quality[/secondary] is increased",
+      "body": "[secondary]Loot Quality[/secondary] is increased",
+      "table": "BalanceGlobals",
+      "source": "ncs:display_data.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "BalanceGlobals, 9D91B0B74EE65374E0352F93A8B3095E, [secondary]Elemental Affinities[/secondary] matter more",
+      "body": "[secondary]Elemental Affinities[/secondary] matter more",
+      "table": "BalanceGlobals",
+      "source": "ncs:display_data.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "BalanceGlobals, 474EF1F340C32B5AADA5D29E5E3D3C42, {0} [secondary]Enemy Health[/secondary]",
+      "body": "{0} [secondary]Enemy Health[/secondary]",
+      "table": "BalanceGlobals",
+      "source": "ncs:display_data.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "BalanceGlobals, 7320AFF44D2DB125D5CA3480AACDBECF, {0} [secondary]Eridium Drops[/secondary]",
+      "body": "{0} [secondary]Eridium Drops[/secondary]",
+      "table": "BalanceGlobals",
+      "source": "ncs:display_data.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "BalanceGlobals, EA5B11534BD9B1D99AB3A1947636F6A5, {0} [secondary]Combat XP[/secondary]",
+      "body": "{0} [secondary]Combat XP[/secondary]",
+      "table": "BalanceGlobals",
+      "source": "ncs:display_data.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Part_Core_VLA_BoxMagazine",
+      "body": "Part_Core_VLA_BoxMagazine",
+      "table": null,
+      "source": "ncs:gbx_ue_data_table.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Part_Stat_Weapon_ReloadSpeed",
+      "body": "Part_Stat_Weapon_ReloadSpeed",
+      "table": null,
+      "source": "ncs:gbx_ue_data_table.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "NexusSerialized, 46D3B0BA4EE0358EA10EC689EC281971, Part_Stat_GunDmg_ShieldFull",
+      "body": "Part_Stat_GunDmg_ShieldFull",
+      "table": "NexusSerialized",
+      "source": "ncs:gbx_ue_data_table.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "NexusSerialized, DA967E7E4D99FCE44615A0A093A3D002, Part_Stat_GunDmg_ShieldEmpty",
+      "body": "Part_Stat_GunDmg_ShieldEmpty",
+      "table": "NexusSerialized",
+      "source": "ncs:gbx_ue_data_table.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "NexusSerialized, 71095EA74416DEB83FC59BAA4CF23E7A, Part_Stat_DmgReduction_Shield",
+      "body": "Part_Stat_DmgReduction_Shield",
+      "table": "NexusSerialized",
+      "source": "ncs:gbx_ue_data_table.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "LicensedPart_TedioreReload_TopAcc",
+      "body": "LicensedPart_TedioreReload_TopAcc",
+      "table": null,
+      "source": "ncs:gbx_ue_data_table.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "LicensedPart_TedioreReload_Grip",
+      "body": "LicensedPart_TedioreReload_Grip",
+      "table": null,
+      "source": "ncs:gbx_ue_data_table.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Weapon Damage Scale",
+      "body": "Weapon Damage Scale",
+      "table": null,
+      "source": "ncs:gbx_ue_data_table.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Critical Hit Chance",
+      "body": "Critical Hit Chance",
+      "table": null,
+      "source": "ncs:gbx_ue_data_table.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Reload Speed",
+      "body": "Reload Speed",
+      "table": null,
+      "source": "ncs:gbx_ue_data_table.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Weapon Damage",
+      "body": "Weapon Damage",
+      "table": null,
+      "source": "ncs:gbx_ue_data_table.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_core_vla_boxmagazine",
+      "body": "part_core_vla_boxmagazine",
+      "table": null,
+      "source": "ncs:gbx_ue_data_table.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_stat_weapon_reloadspeed",
+      "body": "part_stat_weapon_reloadspeed",
+      "table": null,
+      "source": "ncs:gbx_ue_data_table.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Damage Taken",
+      "body": "Damage Taken",
+      "table": null,
+      "source": "ncs:gbx_ue_data_table_4.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Part_Stat2_Weapon_ReloadSpeed",
+      "body": "Part_Stat2_Weapon_ReloadSpeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Part_Stat2_WT_AR_ReloadSpeed",
+      "body": "Part_Stat2_WT_AR_ReloadSpeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Part_Stat2_WT_PS_ReloadSpeed",
+      "body": "Part_Stat2_WT_PS_ReloadSpeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Part_Stat2_WT_SG_ReloadSpeed",
+      "body": "Part_Stat2_WT_SG_ReloadSpeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Part_Stat2_WT_SM_ReloadSpeed",
+      "body": "Part_Stat2_WT_SM_ReloadSpeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Part_Stat2_WT_SR_ReloadSpeed",
+      "body": "Part_Stat2_WT_SR_ReloadSpeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Part_Stat3_Weapon_ReloadSpeed",
+      "body": "Part_Stat3_Weapon_ReloadSpeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Part_Stat3_WT_AR_ReloadSpeed",
+      "body": "Part_Stat3_WT_AR_ReloadSpeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Part_Stat3_WT_PS_ReloadSpeed",
+      "body": "Part_Stat3_WT_PS_ReloadSpeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Part_Stat3_WT_SG_ReloadSpeed",
+      "body": "Part_Stat3_WT_SG_ReloadSpeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Part_Stat3_WT_SM_ReloadSpeed",
+      "body": "Part_Stat3_WT_SM_ReloadSpeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Part_Stat3_WT_SR_ReloadSpeed",
+      "body": "Part_Stat3_WT_SR_ReloadSpeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Part_Stat_WT_AR_ReloadSpeed",
+      "body": "Part_Stat_WT_AR_ReloadSpeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Part_Stat_WT_PS_ReloadSpeed",
+      "body": "Part_Stat_WT_PS_ReloadSpeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Part_Stat_WT_SG_ReloadSpeed",
+      "body": "Part_Stat_WT_SG_ReloadSpeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Part_Stat_WT_SM_ReloadSpeed",
+      "body": "Part_Stat_WT_SM_ReloadSpeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "Part_Stat_WT_SR_ReloadSpeed",
+      "body": "Part_Stat_WT_SR_ReloadSpeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_aug_d_Overshield",
+      "body": "part_aug_d_Overshield",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_aug_d_Overshield_sec",
+      "body": "part_aug_d_Overshield_sec",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_aug_D_ShieldCharge",
+      "body": "part_aug_D_ShieldCharge",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_aug_D_ShieldCharge_sec",
+      "body": "part_aug_D_ShieldCharge_sec",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_aug_o_reload_speed_on_use",
+      "body": "part_aug_o_reload_speed_on_use",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_aug_o_reload_speed_on_use_sec",
+      "body": "part_aug_o_reload_speed_on_use_sec",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_unv_overshield_booster_primary",
+      "body": "part_unv_overshield_booster_primary",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_unv_overshield_booster_secondary",
+      "body": "part_unv_overshield_booster_secondary",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_secondary_elem_corrosive_fire",
+      "body": "part_secondary_elem_corrosive_fire",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_secondary_elem_corrosive_fire_mal",
+      "body": "part_secondary_elem_corrosive_fire_mal",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_secondary_elem_cryo_fire",
+      "body": "part_secondary_elem_cryo_fire",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_secondary_elem_cryo_fire_mal",
+      "body": "part_secondary_elem_cryo_fire_mal",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_secondary_elem_fire_corrosive",
+      "body": "part_secondary_elem_fire_corrosive",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_secondary_elem_fire_corrosive_mal",
+      "body": "part_secondary_elem_fire_corrosive_mal",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_secondary_elem_fire_cryo",
+      "body": "part_secondary_elem_fire_cryo",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_secondary_elem_fire_cryo_mal",
+      "body": "part_secondary_elem_fire_cryo_mal",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_secondary_elem_fire_radiation",
+      "body": "part_secondary_elem_fire_radiation",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_secondary_elem_fire_radiation_mal",
+      "body": "part_secondary_elem_fire_radiation_mal",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_secondary_elem_fire_shock",
+      "body": "part_secondary_elem_fire_shock",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_secondary_elem_fire_shock_mal",
+      "body": "part_secondary_elem_fire_shock_mal",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_secondary_elem_radiation_fire",
+      "body": "part_secondary_elem_radiation_fire",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_secondary_elem_radiation_fire_mal",
+      "body": "part_secondary_elem_radiation_fire_mal",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_secondary_elem_shock_fire",
+      "body": "part_secondary_elem_shock_fire",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_secondary_elem_shock_fire_mal",
+      "body": "part_secondary_elem_shock_fire_mal",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_stat2_weapon_reloadspeed",
+      "body": "part_stat2_weapon_reloadspeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_stat2_wt_ar_reloadspeed",
+      "body": "part_stat2_wt_ar_reloadspeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_stat2_wt_ps_reloadspeed",
+      "body": "part_stat2_wt_ps_reloadspeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_stat2_wt_sg_reloadspeed",
+      "body": "part_stat2_wt_sg_reloadspeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_stat2_wt_sm_reloadspeed",
+      "body": "part_stat2_wt_sm_reloadspeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_stat2_wt_sr_reloadspeed",
+      "body": "part_stat2_wt_sr_reloadspeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_stat3_weapon_reloadspeed",
+      "body": "part_stat3_weapon_reloadspeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_stat3_wt_ar_reloadspeed",
+      "body": "part_stat3_wt_ar_reloadspeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_stat3_wt_ps_reloadspeed",
+      "body": "part_stat3_wt_ps_reloadspeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_stat3_wt_sg_reloadspeed",
+      "body": "part_stat3_wt_sg_reloadspeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_stat3_wt_sm_reloadspeed",
+      "body": "part_stat3_wt_sm_reloadspeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_stat3_wt_sr_reloadspeed",
+      "body": "part_stat3_wt_sr_reloadspeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_stat_wt_ar_reloadspeed",
+      "body": "part_stat_wt_ar_reloadspeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_stat_wt_ps_reloadspeed",
+      "body": "part_stat_wt_ps_reloadspeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_stat_wt_sg_reloadspeed",
+      "body": "part_stat_wt_sg_reloadspeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_stat_wt_sm_reloadspeed",
+      "body": "part_stat_wt_sm_reloadspeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_stat_wt_sr_reloadspeed",
+      "body": "part_stat_wt_sr_reloadspeed",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_aug_d_overshield",
+      "body": "part_aug_d_overshield",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_aug_d_overshield_sec",
+      "body": "part_aug_d_overshield_sec",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_aug_d_shieldcharge",
+      "body": "part_aug_d_shieldcharge",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "part_aug_d_shieldcharge_sec",
+      "body": "part_aug_d_shieldcharge_sec",
+      "table": null,
+      "source": "ncs:inv.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "tooltips_skills, F89217544C107E0B05EBCE915EF44AB6, [primary]Harlowe[/primary] fires an [secondary]Unstable Energy Pocket[/secondary] that de",
+      "body": "[primary]Harlowe[/primary] fires an [secondary]Unstable Energy Pocket[/secondary] that de",
+      "table": "tooltips_skills",
+      "source": "ncs:uitooltipdata.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "tooltips_skills, 99927E7D4B2527D21CABF5BF9168E62D, Deploy a [primary]Terminal[/primary] that [secondary]damages enemies[/secondary] nearby f",
+      "body": "Deploy a [primary]Terminal[/primary] that [secondary]damages enemies[/secondary] nearby f",
+      "table": "tooltips_skills",
+      "source": "ncs:uitooltipdata.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "or a duration, and [secondary]protects allies[/secondary].",
+      "body": "or a duration, and [secondary]protects allies[/secondary].",
+      "table": null,
+      "source": "ncs:uitooltipdata.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "tooltips_skills, ECA3B4D043EF927B40088790927CE27D, [primary]Harlowe[/primary] [secondary]Lifts[/secondary] her current target off the ground",
+      "body": "[primary]Harlowe[/primary] [secondary]Lifts[/secondary] her current target off the ground",
+      "table": "tooltips_skills",
+      "source": "ncs:uitooltipdata.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": " for a [secondary]Duration[/secondary], and can [secondary]Slam[/secondary] them into the ground, causing an explosion.",
+      "body": " for a [secondary]Duration[/secondary], and can [secondary]Slam[/secondary] them into the ground, causing an explosion.",
+      "table": null,
+      "source": "ncs:uitooltipdata.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "tooltips_traits, 287AC4C54E0E703101D424AC31950A09, [secondary]Shared Damage:[/secondary] $VALUE$ of Damage Dealt",
+      "body": "[secondary]Shared Damage:[/secondary] $VALUE$ of Damage Dealt",
+      "table": "tooltips_traits",
+      "source": "ncs:uitooltipdata.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "tooltips_traits, F5CE8E464AE1665F7018EA85CFA6C632, [secondary]Duration:[/secondary] $VALUE$ seconds",
+      "body": "[secondary]Duration:[/secondary] $VALUE$ seconds",
+      "table": "tooltips_traits",
+      "source": "ncs:uitooltipdata.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "tooltips_traits, 798D735A451754C2A03A71BD332306AA, Whenever [primary]Harlowe[/primary] uses her [secondary]Action Skill[/secondary] on enemi",
+      "body": "Whenever [primary]Harlowe[/primary] uses her [secondary]Action Skill[/secondary] on enemi",
+      "table": "tooltips_traits",
+      "source": "ncs:uitooltipdata.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "tooltips_traits, DD13DA22404D2C62C2F6C8BB0A76C273, [primary]Harlowe's[/primary] [secondary]Action Skills[/secondary] apply [primary]Entangle",
+      "body": "[primary]Harlowe's[/primary] [secondary]Action Skills[/secondary] apply [primary]Entangle",
+      "table": "tooltips_traits",
+      "source": "ncs:uitooltipdata.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "d[/primary] to enemies, causing them to share [secondary]Damage taken[/secondary].",
+      "body": "d[/primary] to enemies, causing them to share [secondary]Damage taken[/secondary].",
+      "table": null,
+      "source": "ncs:uitooltipdata.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "tooltips_traits, 1B0772F24E5BCDA917EFB4B90D949774, [secondary]Damage:[/secondary] $VALUE$",
+      "body": "[secondary]Damage:[/secondary] $VALUE$",
+      "table": "tooltips_traits",
+      "source": "ncs:uitooltipdata.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "tooltips_traits, E977EC9C472B7BEFE4ABA5A9DB5ED342, [secondary]Movement Speed:[/secondary] $VALUE$",
+      "body": "[secondary]Movement Speed:[/secondary] $VALUE$",
+      "table": "tooltips_traits",
+      "source": "ncs:uitooltipdata.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "tooltips_traits, 97FA5D634731CC983D5EF2B3C111B3D6, Whenever [primary]Rafa[/primary] activates an [secondary]Action Skill[/secondary], he ent",
+      "body": "Whenever [primary]Rafa[/primary] activates an [secondary]Action Skill[/secondary], he ent",
+      "table": "tooltips_traits",
+      "source": "ncs:uitooltipdata.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "econdary] and deals increased [secondary]Damage[/secondary] with all sources.",
+      "body": "econdary] and deals increased [secondary]Damage[/secondary] with all sources.",
+      "table": null,
+      "source": "ncs:uitooltipdata.bin"
+    },
+    {
+      "key": null,
+      "display_data": null,
+      "raw": "tooltips_vaultcards, 462BDCEA428171BDD025F886F32D169D, Earn [primary]Vault Card Tickets[/primary] by completing [secondary]Daily[/secondary]",
+      "body": "Earn [primary]Vault Card Tickets[/primary] by completing [secondary]Daily[/secondary]",
+      "table": "tooltips_vaultcards",
+      "source": "ncs:uitooltipdata.bin"
+    }
+  ]
+}

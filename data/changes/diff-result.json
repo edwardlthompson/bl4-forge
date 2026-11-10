@@ -1,0 +1,13 @@
+{
+  "added": [
+    "part_c_injected"
+  ],
+  "removed": [
+    "part_b"
+  ],
+  "unchanged": 1,
+  "changed": [
+    "part_b",
+    "part_c_injected"
+  ]
+}

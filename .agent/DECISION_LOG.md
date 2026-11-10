@@ -17,6 +17,34 @@
 
 ## Entries
 
+### 2026-11-10 — Wiki CDN icon fallback + exact Grenazerker COM
+- **Status:** Accepted
+- **Context:** bl4 texture extract not wired / AES empty; guide needed real skill art. Grenazerker COM skill pool is only Sinergia/Arriba/Abajo/Confeti (not Booming Business).
+- **Decision:** Auto-fetch Lootlemon CDN `.avif` into `public/icons/datamine/` via `fetch_wiki_icons.py` when local extract unavailable. Exact L70 COM search: Grenazerker · +3 Sinergia · +4 Confeti · +46% Splash Damage · Gadget Ahoy.
+- **Alternatives considered:** Wait for AES extract only (rejected — blocked UI); spectrum of COM skills (rejected — user demanded one search string).
+- **Consequences:** Third-party CDN dependency for icons; still © Gearbox art; MIT covers code only.
+
+### 2026-11-10 — Publish Gearbox UI icons on Pages (Sprint 24)
+- **Status:** Accepted (human override of AGENT.md “derived JSON only” / no committed Gearbox textures)
+- **Context:** Guide UX needs real skill/gear icons; FOSS monograms were interim. User chose option 2: extract and commit/publish under `examples/web/public/icons/datamine/`.
+- **Decision:** Allow committed datamine webp icons for GitHub Pages. MIT covers project code only. README + guide footer state icons © Gearbox/2K, unaffiliated. Monograms remain `onerror` last resort. Manifest tracks `pending_extract` until HUMAN runs extract with AES/install.
+- **Alternatives considered:** FOSS monograms only (rejected by user); scrapes of Maxroll/bl4tools (rejected); relicensing MIT to “allow” Gearbox IP (impossible).
+- **Consequences:** IP / takedown risk rests with maintainer; CI does not require textures present while `pending_extract: true`.
+
+### 2026-11-10 — LLM offline patch curation → static Pages (Sprint 23)
+- **Status:** Accepted
+- **Context:** User wants proc/synergy discovery without hand-naming every combo; runtime must stay no-LLM; prefer one core build + one-slot archetype swaps.
+- **Decision:** On each patch, human runs `/patch-review`; LLM researches offline and writes experimental static packs (`builds/core.json`, `adapters.json`, `procs.json`, synergy rules). GitHub Pages serves frozen JSON. No LLM API in browser or CI scoring.
+- **Alternatives considered:** Regex interaction miner as primary (deferred); LLM in runtime/CI (rejected — AGENT.md); three full respecs per archetype (rejected — adapters are one-slot swaps).
+- **Consequences:** Guide UI reads static packs; solver remains separate; packs stay `experimental`/`unverified` until human confirmation path.
+
+### 2026-11-10 — Experimental community scrape override (Sprint 22)
+- **Status:** Accepted (human override of AGENT.md datamine-only scrape ban)
+- **Context:** Per-rank skill % and grenade payload/perk synergy required magnitudes not yet in gadget part extract; user chose policy B + Wide.
+- **Decision:** Allow scraping allowlisted community sites into `data/experimental/*` only with `oracle: name_inferred`, `experimental: true`, `obtainable: unverified`. Never promote to `confirmed`, leaderboards, or `data/indexes/`. Datamine/card_match remains the confirmed path.
+- **Alternatives considered:** Wait for full gadget datamine (slow); scrape into production packs (rejected — brief violation).
+- **Consequences:** UI must banner Experimental; `promote_experimental.py` refuses `card_match`; scrape raw HTML stays gitignored under `tools/experimental-scrape/out/`.
+
 ### 2026-11-05 — Child hygiene: `.agent/` memory + golden-path prune
 - **Status:** Accepted
 - **Context:** After pull from main, children must not keep living memory at repo root, and a decided primary stack must drop unused examples/modules (including optional stacks).
@@ -31,7 +59,6 @@
 - **Deleted:** v1.0.0, v0.25.0, v0.24.0, v0.23.0, v0.22.0, v0.21.0, v0.20.0, v0.19.0, v0.18.3, v0.18.2, v0.18.1, v0.18.0, v0.17.0, v0.16.0, v0.15.2, v0.15.1, v0.15.0, v0.14.1, v0.14.0, v0.13.2, v0.13.1, v0.13.0, v0.12.0, v0.11.1, v0.11.0, v0.10.0, v0.9.0, v0.8.0, v0.7.1, v0.7.0, v0.2.1, v0.1.0
 - **Alternatives considered:** Keep full history locally (rejected for portfolio hygiene); force-delete remotes without [HUMAN] (deferred).
 - **Consequences:** Local git tag shows 10 tags. Re-fetch restores remotes until a maintainer prunes origin.
-
 
 ### 2026-10-16 — v1.10.0 /ship
 - **Status:** Accepted

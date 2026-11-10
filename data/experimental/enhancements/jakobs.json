@@ -1,0 +1,126 @@
+{
+  "experimental": true,
+  "obtainable": "unverified",
+  "manufacturer": "jakobs",
+  "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/",
+  "enhancements": [
+    {
+      "id": "jakobs_bounce_pass",
+      "manufacturer": "jakobs",
+      "name": "Bounce Pass",
+      "effect_text": "Guns with Jakobs-Licensed Parts increase the number of possible Ricochets by 1",
+      "requires_licensed_parts": "jakobs",
+      "stage": "on_hit",
+      "effects": [
+        {
+          "op": "flag",
+          "target": "bounce_pass",
+          "value": 1,
+          "stage": "on_hit",
+          "tag_only": true,
+          "tags": [
+            "ricochet"
+          ],
+          "behavior_tags": [
+            "ricochet"
+          ],
+          "oracle": "name_inferred",
+          "label": "Bounce Pass"
+        }
+      ],
+      "behavior_tags": [
+        "ricochet"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "jakobs_leaper",
+      "manufacturer": "jakobs",
+      "name": "Leaper",
+      "effect_text": "Weapons with Jakobs-licensed parts gain a +40% Chance to Ricochet non-critical bullets.",
+      "requires_licensed_parts": "jakobs",
+      "stage": "on_hit",
+      "effects": [
+        {
+          "op": "flag",
+          "target": "leaper",
+          "value": 1,
+          "stage": "on_hit",
+          "tag_only": true,
+          "tags": [
+            "ricochet"
+          ],
+          "behavior_tags": [
+            "ricochet"
+          ],
+          "oracle": "name_inferred",
+          "label": "Leaper"
+        }
+      ],
+      "behavior_tags": [
+        "ricochet"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "jakobs_piercer",
+      "manufacturer": "jakobs",
+      "name": "Piercer",
+      "effect_text": "Guns with Jakobs-licensed parts have a 20% Chance to grant a Critical Hit",
+      "requires_licensed_parts": "jakobs",
+      "stage": "on_hit",
+      "effects": [
+        {
+          "op": "flag",
+          "target": "piercer",
+          "value": 1,
+          "stage": "on_hit",
+          "tag_only": true,
+          "tags": [
+            "crit",
+            "pierce"
+          ],
+          "behavior_tags": [
+            "crit",
+            "pierce"
+          ],
+          "oracle": "name_inferred",
+          "label": "Piercer"
+        }
+      ],
+      "behavior_tags": [
+        "crit",
+        "pierce"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "jakobs_sequencer",
+      "manufacturer": "jakobs",
+      "name": "Sequencer",
+      "effect_text": "Guns with Jakobs-Licensed Parts grant consecutive Critical Hits a stacking +5% Bonus Damage for a Maximum of 8 Stacks",
+      "requires_licensed_parts": "jakobs",
+      "stage": "on_hit",
+      "effects": [
+        {
+          "op": "add",
+          "target": "gun_damage",
+          "value": 0.4,
+          "stage": "on_hit",
+          "oracle": "name_inferred",
+          "label": "Sequencer"
+        }
+      ],
+      "behavior_tags": [
+        "crit",
+        "stacking",
+        "gun_damage"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    }
+  ]
+}

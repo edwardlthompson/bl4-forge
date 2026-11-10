@@ -22,7 +22,9 @@ export default defineConfig({
         "src/nav/history.ts",
         "src/nav/session.ts",
         "src/nav/controller.ts",
+        "src/solver/**/*.ts",
       ],
+      exclude: ["src/**/*.test.ts", "src/solver/index.ts", "src/solver/types.ts"],
       thresholds: {
         lines: 90,
         functions: 90,

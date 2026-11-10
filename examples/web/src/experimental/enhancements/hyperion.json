@@ -1,0 +1,143 @@
+{
+  "experimental": true,
+  "obtainable": "unverified",
+  "manufacturer": "hyperion",
+  "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/",
+  "enhancements": [
+    {
+      "id": "hyperion_bulwark",
+      "manufacturer": "hyperion",
+      "name": "Bulwark",
+      "effect_text": "Guns with Hyperion-licensed parts gain 100% Weapon Shield Capacity",
+      "requires_licensed_parts": "hyperion",
+      "stage": "flag",
+      "effects": [
+        {
+          "op": "flag",
+          "target": "bulwark",
+          "value": 1,
+          "stage": "flag",
+          "tag_only": true,
+          "tags": [
+            "gun_shield",
+            "defensive"
+          ],
+          "behavior_tags": [
+            "gun_shield",
+            "defensive"
+          ],
+          "oracle": "name_inferred",
+          "label": "Bulwark"
+        }
+      ],
+      "behavior_tags": [
+        "gun_shield",
+        "defensive"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "hyperion_shock_guard",
+      "manufacturer": "hyperion",
+      "name": "Shock Guard",
+      "effect_text": "Guns with Hyperion-licensed parts trigger a Shock Nova when deployed (8s CD)",
+      "requires_licensed_parts": "hyperion",
+      "stage": "on_hit",
+      "effects": [
+        {
+          "op": "flag",
+          "target": "shock_guard",
+          "value": 1,
+          "stage": "on_hit",
+          "tag_only": true,
+          "tags": [
+            "gun_shield",
+            "nova",
+            "defensive"
+          ],
+          "behavior_tags": [
+            "gun_shield",
+            "nova",
+            "defensive"
+          ],
+          "oracle": "name_inferred",
+          "label": "Shock Guard"
+        }
+      ],
+      "behavior_tags": [
+        "gun_shield",
+        "nova",
+        "defensive"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "hyperion_stabilizer",
+      "manufacturer": "hyperion",
+      "name": "Stabilizer",
+      "effect_text": "Guns with Hyperion-licensed parts gain +40% Accuracy",
+      "requires_licensed_parts": "hyperion",
+      "stage": "flag",
+      "effects": [
+        {
+          "op": "flag",
+          "target": "stabilizer",
+          "value": 1,
+          "stage": "flag",
+          "tag_only": true,
+          "tags": [
+            "accuracy"
+          ],
+          "behavior_tags": [
+            "accuracy"
+          ],
+          "oracle": "name_inferred",
+          "label": "Stabilizer"
+        }
+      ],
+      "behavior_tags": [
+        "accuracy"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "hyperion_stim_converter",
+      "manufacturer": "hyperion",
+      "name": "Stim Converter",
+      "effect_text": "Guns with Hyperion-licensed parts regenerate up to 10% Health when the Gun Shield is hit",
+      "requires_licensed_parts": "hyperion",
+      "stage": "flag",
+      "effects": [
+        {
+          "op": "flag",
+          "target": "stim_converter",
+          "value": 1,
+          "stage": "flag",
+          "tag_only": true,
+          "tags": [
+            "gun_shield",
+            "heal",
+            "defensive"
+          ],
+          "behavior_tags": [
+            "gun_shield",
+            "heal",
+            "defensive"
+          ],
+          "oracle": "name_inferred",
+          "label": "Stim Converter"
+        }
+      ],
+      "behavior_tags": [
+        "gun_shield",
+        "heal",
+        "defensive"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    }
+  ]
+}

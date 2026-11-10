@@ -1,0 +1,15 @@
+{
+  "experimental": true,
+  "obtainable": "unverified",
+  "patch": "post-1.10-curated",
+  "curated_at": "2026-11-10",
+  "curated_by": "offline_llm",
+  "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/",
+  "note": "Flat index for scoring; effect_text in enhancements/{mfr}.json",
+  "shards": [
+    "enhancement_catalog_a.json",
+    "enhancement_catalog_b.json"
+  ],
+  "count": 44,
+  "detail_dir": "enhancements/"
+}

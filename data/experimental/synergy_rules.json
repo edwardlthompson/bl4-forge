@@ -1,0 +1,71 @@
+{
+  "experimental": true,
+  "obtainable": "unverified",
+  "oracle_default": "name_inferred",
+  "discovered_by": "offline_llm",
+  "rules": [
+    {
+      "id": "booming_business_splash_crit_chain",
+      "title": "Booming Business ↔ splash crit",
+      "why": "El Paraguas splash crit lets spawned grenades crit, retriggering Booming Business free grenades.",
+      "require_all": ["spawn_grenade", "on_crit"],
+      "require_any": ["splash_crit", "grenade_crit"],
+      "effects": [
+        { "op": "add", "target": "ordnance_damage", "value": 0.15, "oracle": "name_inferred", "label": "Crit→grenade loop", "tags": ["synergy"] }
+      ],
+      "recommend_grenade": {
+        "grenade_id": "vla_grenade_gadget.comp_05_legendary_Waterfall",
+        "payload": "lingering",
+        "payload_augment": "pulsing",
+        "perk": "nuke"
+      }
+    },
+    {
+      "id": "firewerk_afk_clear",
+      "title": "Firewerk AFK clear",
+      "why": "On-kill homing missiles create more kills while Peacebreaker/Booming Business keep pressure without aiming.",
+      "require_all": ["on_kill_missiles"],
+      "require_any": ["spawn_grenade", "chain_explode", "afk_clear"],
+      "effects": [
+        { "op": "add", "target": "ordnance_damage", "value": 0.1, "oracle": "name_inferred", "label": "Firewerk kill loop", "tags": ["synergy", "afk"] }
+      ]
+    },
+    {
+      "id": "grenazerker_double_spawn",
+      "title": "Grenazerker double spawns",
+      "why": "COM doubles Booming Business / skill-spawned grenades.",
+      "require_all": ["spawn_grenade", "double_grenade_spawn"],
+      "require_any": ["ordnance", "chain_explode"],
+      "effects": [
+        { "op": "add", "target": "ordnance_damage", "value": 0.12, "oracle": "name_inferred", "label": "Double grenade spawn", "tags": ["synergy"] }
+      ]
+    },
+    {
+      "id": "waterfall_nuke_splash",
+      "title": "Waterfall + Nuke splash chain",
+      "why": "Nuke radius/damage lets Waterfall enemy explosions reach more targets so chain hops continue.",
+      "require_all": ["chain_explode", "nuke", "splash"],
+      "require_any": ["radius"],
+      "effects": [
+        { "op": "add", "target": "ordnance_damage", "value": 0.2, "oracle": "name_inferred", "label": "Waterfall×Nuke synergy", "tags": ["synergy"] },
+        { "op": "add", "target": "splash_radius", "value": 0.15, "oracle": "name_inferred", "label": "Chain radius assist", "tag_only": true, "tags": ["radius", "synergy"] }
+      ],
+      "recommend_grenade": {
+        "grenade_id": "vla_grenade_gadget.comp_05_legendary_Waterfall",
+        "payload": "lingering",
+        "payload_augment": "pulsing",
+        "perk": "nuke"
+      }
+    },
+    {
+      "id": "firmware_radius_stack",
+      "title": "Airstrike + Get Throwin radius",
+      "why": "2pc Airstrike radius + 2pc Get Throwin radius stack for Waterfall hop connectivity.",
+      "require_all": ["radius"],
+      "require_any": ["chain_explode", "splash"],
+      "effects": [
+        { "op": "add", "target": "splash_radius", "value": 0.4, "oracle": "name_inferred", "label": "Firmware radius stack (+40%)", "tag_only": true, "tags": ["radius", "firmware"] }
+      ]
+    }
+  ]
+}

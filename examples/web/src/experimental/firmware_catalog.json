@@ -1,0 +1,36 @@
+{
+  "experimental": true,
+  "obtainable": "unverified",
+  "oracle_default": "name_inferred",
+  "scraped_at": "2026-11-10",
+  "sources": [
+    "https://mentalmars.com/borderlands-4/loot/firmware/",
+    "https://game8.co/games/Borderlands-4/archives/551606"
+  ],
+  "sets": {
+    "airstrike": {
+      "name": "Airstrike",
+      "pieces": [
+        { "count": 1, "target": "splash_radius", "value": 0.2, "label": "Splash Radius +20%" },
+        { "count": 2, "target": "splash_damage", "value": 0.2, "label": "Splash Damage +20%" },
+        { "count": 3, "target": "on_kill_missile_strike", "value": 1, "label": "On kill: missile strike", "tag_only": true }
+      ]
+    },
+    "get_throwin": {
+      "name": "Get Throwin",
+      "pieces": [
+        { "count": 1, "target": "ordnance_damage", "value": 0.1, "label": "Ordnance Damage +10%" },
+        { "count": 2, "target": "splash_radius", "value": 0.2, "label": "Splash Radius +20%" },
+        { "count": 3, "target": "homing_missile_chance", "value": 0.5, "label": "50% homing missiles on grenade/Tediore throw", "tag_only": true }
+      ]
+    },
+    "gadget_ahoy": {
+      "name": "Gadget Ahoy",
+      "pieces": [
+        { "count": 1, "target": "ordnance_cooldown", "value": -0.15, "label": "Ordnance CD −15%", "tag_only": true },
+        { "count": 2, "target": "ordnance_damage", "value": 0.2, "label": "Ordnance Damage +20%" },
+        { "count": 3, "target": "ordnance_kill_damage", "value": 0.2, "label": "Ordnance kills +20% damage 15s", "tag_only": true }
+      ]
+    }
+  }
+}

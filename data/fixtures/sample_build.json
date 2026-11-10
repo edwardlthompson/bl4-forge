@@ -1,0 +1,22 @@
+{
+  "id": "scaffold_build_001",
+  "hunter": "placeholder_hunter",
+  "archetype": "mobbing",
+  "rank": 1,
+  "score": 100.0,
+  "score_normalized": 100.0,
+  "skills": [
+    { "id": "ph_root", "rank": 1 },
+    { "id": "ph_branch", "rank": 5 }
+  ],
+  "loadout": {
+    "weapon_1": "jakobs_pistol_terminus"
+  },
+  "patch": "0.0.0-scaffold",
+  "game_build": "scaffold",
+  "solver_version": "0.0.0",
+  "scenario_hash": "scaffold",
+  "seed": 1,
+  "generated_at": "2026-11-09T00:00:00.000Z",
+  "experimental": true
+}

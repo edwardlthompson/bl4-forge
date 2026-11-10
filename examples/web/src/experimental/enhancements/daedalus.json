@@ -1,0 +1,119 @@
+{
+  "experimental": true,
+  "obtainable": "unverified",
+  "manufacturer": "daedalus",
+  "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/",
+  "enhancements": [
+    {
+      "id": "daedalus_accelerator",
+      "manufacturer": "daedalus",
+      "name": "Accelerator",
+      "effect_text": "Guns with Daedalus-licensed parts gain +1% Fire Rate per each bullet fired, for up to a Maximum 50 Stacks, which reset on Reload.",
+      "requires_licensed_parts": "daedalus",
+      "stage": "rate",
+      "effects": [
+        {
+          "op": "add",
+          "target": "fire_rate",
+          "value": 0.5,
+          "stage": "rate",
+          "oracle": "name_inferred",
+          "label": "Accelerator"
+        }
+      ],
+      "behavior_tags": [
+        "fire_rate",
+        "stacking"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "daedalus_backup_plan",
+      "manufacturer": "daedalus",
+      "name": "Backup Plan",
+      "effect_text": "Guns with Daedalus-licensed parts slowly regenerate reserved Ammo while equipped",
+      "requires_licensed_parts": "daedalus",
+      "stage": "flag",
+      "effects": [
+        {
+          "op": "flag",
+          "target": "backup_plan",
+          "value": 1,
+          "stage": "flag",
+          "tag_only": true,
+          "tags": [
+            "ammo_regen"
+          ],
+          "behavior_tags": [
+            "ammo_regen"
+          ],
+          "oracle": "name_inferred",
+          "label": "Backup Plan"
+        }
+      ],
+      "behavior_tags": [
+        "ammo_regen"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "daedalus_bullet_fabricator",
+      "manufacturer": "daedalus",
+      "name": "Bullet Fabricator",
+      "effect_text": "On kill, guns with Daedalus-licensed parts have a 40% Chance to refill your Magazines",
+      "requires_licensed_parts": "daedalus",
+      "stage": "on_hit",
+      "effects": [
+        {
+          "op": "flag",
+          "target": "bullet_fabricator",
+          "value": 1,
+          "stage": "on_hit",
+          "tag_only": true,
+          "tags": [
+            "on_kill",
+            "mag_refill"
+          ],
+          "behavior_tags": [
+            "on_kill",
+            "mag_refill"
+          ],
+          "oracle": "name_inferred",
+          "label": "Bullet Fabricator"
+        }
+      ],
+      "behavior_tags": [
+        "on_kill",
+        "mag_refill"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "daedalus_stockpiler",
+      "manufacturer": "daedalus",
+      "name": "Stockpiler",
+      "effect_text": "On Reload, Guns with Daedalus-licensed parts gain up to +25% Damage based on the amount of spare Ammo for the currently-equipped Gun",
+      "requires_licensed_parts": "daedalus",
+      "stage": "on_shot",
+      "effects": [
+        {
+          "op": "add",
+          "target": "enhancement_gun",
+          "value": 0.25,
+          "stage": "on_shot",
+          "oracle": "name_inferred",
+          "label": "Stockpiler"
+        }
+      ],
+      "behavior_tags": [
+        "on_reload",
+        "gun_damage"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    }
+  ]
+}

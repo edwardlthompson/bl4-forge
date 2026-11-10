@@ -24,6 +24,9 @@ import {
 } from "./nav";
 import { runNavTransition } from "./nav/viewTransitions";
 import { shareTargetDescription } from "./share-target";
+import { prefersReducedMotion } from "./site/a11y";
+// Thin forge site wiring (workers + permalink helpers stay off main-thread hot path).
+import { decodePermalink } from "./site/permalink";
 import { initTheme, subscribeThemeChange } from "./theme";
 
 let popAbort: AbortController | undefined;
@@ -33,6 +36,8 @@ export function bootstrapApp(appRoot: HTMLDivElement): void {
   popAbort = new AbortController();
   initTheme();
   installCrashHandler(() => getSaveCrashes());
+  void decodePermalink(window.location.search);
+  document.documentElement.dataset.reducedMotion = prefersReducedMotion() ? "1" : "0";
   const shared = shareTargetDescription(new URLSearchParams(window.location.search));
   const intent = applyFeedbackIntents(loadNav(), {
     crash: Boolean(readPendingCrash()),
@@ -68,8 +73,8 @@ export function bootstrapApp(appRoot: HTMLDivElement): void {
           state = { ...state, ...patch };
           render();
         },
-        onPushRoute: (route, kind) => {
-          const next = navCtl.pushRoute(route, kind);
+        onPushRoute: (route, kind, buildId) => {
+          const next = navCtl.pushRoute(route, kind, buildId);
           if (next) applyNav(next);
         },
         onPop: () => navCtl.popFromUi(),

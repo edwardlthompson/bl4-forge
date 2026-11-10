@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://edwardlthompson.github.io/bl4-forge/schemas/build-adapters.schema.json",
+  "title": "BL4 Forge archetype adapters (one-slot swap)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["experimental", "obtainable", "patch", "core_ref", "adapters"],
+  "properties": {
+    "experimental": { "const": true },
+    "obtainable": { "const": "unverified" },
+    "patch": { "type": "string" },
+    "core_ref": { "type": "string" },
+    "adapters": {
+      "type": "object",
+      "required": ["balanced", "mobbing", "bossing"],
+      "additionalProperties": false,
+      "properties": {
+        "balanced": { "$ref": "#/$defs/adapter" },
+        "mobbing": { "$ref": "#/$defs/adapter" },
+        "bossing": { "$ref": "#/$defs/adapter" }
+      }
+    }
+  },
+  "$defs": {
+    "adapter": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["swap_slot", "swap_item", "why"],
+      "properties": {
+        "swap_slot": {
+          "type": "string",
+          "enum": ["weapon", "shield", "grenade", "class_mod", "artifact", "enhancement", "repkit"]
+        },
+        "swap_item": { "type": "string" },
+        "why": { "type": "string" },
+        "secondary_notes": { "type": "array", "items": { "type": "string" } },
+        "gear_deltas": { "type": "object" }
+      }
+    }
+  }
+}

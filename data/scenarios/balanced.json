@@ -1,0 +1,24 @@
+{
+  "id": "balanced",
+  "label": "Balanced",
+  "description": "Maximin of mobbing and bossing floors; not an average.",
+  "duration_s": 150,
+  "target_count": 12,
+  "avg_hp": 120000,
+  "crit_chance_base": 0.22,
+  "element_resist": {
+    "incendiary": 0.05,
+    "shock": 0.05,
+    "corrosive": 0.05,
+    "cryo": 0.05,
+    "radiation": 0.05
+  },
+  "mods": {
+    "kill_density": 0.45,
+    "movement": 0.55
+  },
+  "scoring": {
+    "strategy": "maximin",
+    "components": ["mobbing", "bossing"]
+  }
+}

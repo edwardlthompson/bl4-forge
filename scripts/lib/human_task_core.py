@@ -68,6 +68,39 @@ def resolve_config(root: Path) -> dict[str, str]:
     return cfg
 
 
+def mark_build_plan_row(root: Path, owner: str, task: str) -> bool:
+    """Flip matching 🔲 [OWNER] row to ✅ when automation succeeds (YOLO)."""
+    path = root / "BUILD_PLAN.md"
+    if not path.is_file():
+        return False
+    owner_u = owner.upper()
+    # Match on a distinctive substring of the task (first 40 chars of prose).
+    needle = task.strip().replace("`", "")
+    if " — " in needle:
+        needle = needle.split(" — ", 1)[0].strip()
+    needle = needle[:60]
+    # Also try a short unique fragment (handles board backticks / path noise).
+    fragments = [needle]
+    for token in ("GITHUB_ABOUT", "Pages deploys", "spot-check", "Extraction verified"):
+        if token.lower() in task.lower():
+            fragments.append(token)
+    text = path.read_text(encoding="utf-8")
+    lines = text.splitlines(keepends=True)
+    changed = False
+    out: list[str] = []
+    for line in lines:
+        line_plain = line.replace("`", "")
+        hit = any(f and f in line_plain for f in fragments)
+        if "🔲" in line and f"[{owner_u}]" in line and hit and not changed:
+            out.append(line.replace("🔲", "✅", 1))
+            changed = True
+        else:
+            out.append(line)
+    if changed:
+        path.write_text("".join(out), encoding="utf-8")
+    return changed
+
+
 def git_has_remote(root: Path) -> bool:
     if not (root / ".git").is_dir():
         return False

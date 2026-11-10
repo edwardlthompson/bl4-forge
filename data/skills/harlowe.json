@@ -1,0 +1,1380 @@
+{
+  "hunters": [
+    {
+      "id": "harlowe",
+      "display_name": "Harlowe",
+      "no_capstones": false,
+      "skills": [
+        {
+          "id": "harlowe_creative_bursts_action",
+          "character": "harlowe",
+          "tree": "creative_bursts",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "action",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Chroma Accelerator",
+          "effects": [],
+          "tags": [
+            "action"
+          ],
+          "activator": true,
+          "point_cost": 0
+        },
+        {
+          "id": "harlowe_creative_bursts_c0_0",
+          "character": "harlowe",
+          "tree": "creative_bursts",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Harlowe creative_bursts common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_creative_bursts_c0_1",
+          "character": "harlowe",
+          "tree": "creative_bursts",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Harlowe creative_bursts common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_creative_bursts_c1_0",
+          "character": "harlowe",
+          "tree": "creative_bursts",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Harlowe creative_bursts common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_creative_bursts_c1_1",
+          "character": "harlowe",
+          "tree": "creative_bursts",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Harlowe creative_bursts common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_creative_bursts_c2_0",
+          "character": "harlowe",
+          "tree": "creative_bursts",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Harlowe creative_bursts common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_creative_bursts_c2_1",
+          "character": "harlowe",
+          "tree": "creative_bursts",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Harlowe creative_bursts common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_creative_bursts_aug_0_creative_bursts_augment_1",
+          "character": "harlowe",
+          "tree": "creative_bursts",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "creative bursts augment 1",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "harlowe_creative_bursts_aug_1_creative_bursts_augment_2",
+          "character": "harlowe",
+          "tree": "creative_bursts",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "creative bursts augment 2",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "harlowe_creative_bursts_aug_2_creative_bursts_augment_3",
+          "character": "harlowe",
+          "tree": "creative_bursts",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "creative bursts augment 3",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "harlowe_creative_bursts_aug_3_creative_bursts_augment_4",
+          "character": "harlowe",
+          "tree": "creative_bursts",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "creative bursts augment 4",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "harlowe_creative_bursts_aug_4_creative_bursts_augment_5",
+          "character": "harlowe",
+          "tree": "creative_bursts",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "creative bursts augment 5",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "harlowe_creative_bursts_branch_left_r0",
+          "character": "harlowe",
+          "tree": "creative_bursts",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "creative_bursts branch_left row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_creative_bursts_branch_left_r1",
+          "character": "harlowe",
+          "tree": "creative_bursts",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "creative_bursts branch_left row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_creative_bursts_branch_left_r2",
+          "character": "harlowe",
+          "tree": "creative_bursts",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "creative_bursts branch_left row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_creative_bursts_cap_0_creative_bursts_capstone_1",
+          "character": "harlowe",
+          "tree": "creative_bursts",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "creative bursts capstone 1",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "harlowe_creative_bursts_branch_center_r0",
+          "character": "harlowe",
+          "tree": "creative_bursts",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "creative_bursts branch_center row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_creative_bursts_branch_center_r1",
+          "character": "harlowe",
+          "tree": "creative_bursts",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "creative_bursts branch_center row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_creative_bursts_branch_center_r2",
+          "character": "harlowe",
+          "tree": "creative_bursts",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "creative_bursts branch_center row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_creative_bursts_cap_1_creative_bursts_capstone_2",
+          "character": "harlowe",
+          "tree": "creative_bursts",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "creative bursts capstone 2",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "harlowe_creative_bursts_branch_right_r0",
+          "character": "harlowe",
+          "tree": "creative_bursts",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "creative_bursts branch_right row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_creative_bursts_branch_right_r1",
+          "character": "harlowe",
+          "tree": "creative_bursts",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "creative_bursts branch_right row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_creative_bursts_branch_right_r2",
+          "character": "harlowe",
+          "tree": "creative_bursts",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "creative_bursts branch_right row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_creative_bursts_cap_2_creative_bursts_capstone_3",
+          "character": "harlowe",
+          "tree": "creative_bursts",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "creative bursts capstone 3",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "harlowe_seize_the_day_action",
+          "character": "harlowe",
+          "tree": "seize_the_day",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "action",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Zero Point",
+          "effects": [],
+          "tags": [
+            "action"
+          ],
+          "activator": true,
+          "point_cost": 0
+        },
+        {
+          "id": "harlowe_seize_the_day_c0_0",
+          "character": "harlowe",
+          "tree": "seize_the_day",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Harlowe seize_the_day common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_seize_the_day_c0_1",
+          "character": "harlowe",
+          "tree": "seize_the_day",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Harlowe seize_the_day common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_seize_the_day_c1_0",
+          "character": "harlowe",
+          "tree": "seize_the_day",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Harlowe seize_the_day common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_seize_the_day_c1_1",
+          "character": "harlowe",
+          "tree": "seize_the_day",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Harlowe seize_the_day common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_seize_the_day_c2_0",
+          "character": "harlowe",
+          "tree": "seize_the_day",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Harlowe seize_the_day common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_seize_the_day_c2_1",
+          "character": "harlowe",
+          "tree": "seize_the_day",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Harlowe seize_the_day common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_seize_the_day_aug_0_seize_the_day_augment_1",
+          "character": "harlowe",
+          "tree": "seize_the_day",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "seize the day augment 1",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "harlowe_seize_the_day_aug_1_seize_the_day_augment_2",
+          "character": "harlowe",
+          "tree": "seize_the_day",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "seize the day augment 2",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "harlowe_seize_the_day_aug_2_seize_the_day_augment_3",
+          "character": "harlowe",
+          "tree": "seize_the_day",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "seize the day augment 3",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "harlowe_seize_the_day_aug_3_seize_the_day_augment_4",
+          "character": "harlowe",
+          "tree": "seize_the_day",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "seize the day augment 4",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "harlowe_seize_the_day_aug_4_seize_the_day_augment_5",
+          "character": "harlowe",
+          "tree": "seize_the_day",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "seize the day augment 5",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "harlowe_seize_the_day_branch_left_r0",
+          "character": "harlowe",
+          "tree": "seize_the_day",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "seize_the_day branch_left row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_seize_the_day_branch_left_r1",
+          "character": "harlowe",
+          "tree": "seize_the_day",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "seize_the_day branch_left row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_seize_the_day_branch_left_r2",
+          "character": "harlowe",
+          "tree": "seize_the_day",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "seize_the_day branch_left row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_seize_the_day_cap_0_seize_the_day_capstone_1",
+          "character": "harlowe",
+          "tree": "seize_the_day",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "seize the day capstone 1",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "harlowe_seize_the_day_branch_center_r0",
+          "character": "harlowe",
+          "tree": "seize_the_day",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "seize_the_day branch_center row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_seize_the_day_branch_center_r1",
+          "character": "harlowe",
+          "tree": "seize_the_day",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "seize_the_day branch_center row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_seize_the_day_branch_center_r2",
+          "character": "harlowe",
+          "tree": "seize_the_day",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "seize_the_day branch_center row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_seize_the_day_cap_1_seize_the_day_capstone_2",
+          "character": "harlowe",
+          "tree": "seize_the_day",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "seize the day capstone 2",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "harlowe_seize_the_day_branch_right_r0",
+          "character": "harlowe",
+          "tree": "seize_the_day",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "seize_the_day branch_right row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_seize_the_day_branch_right_r1",
+          "character": "harlowe",
+          "tree": "seize_the_day",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "seize_the_day branch_right row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_seize_the_day_branch_right_r2",
+          "character": "harlowe",
+          "tree": "seize_the_day",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "seize_the_day branch_right row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_seize_the_day_cap_2_seize_the_day_capstone_3",
+          "character": "harlowe",
+          "tree": "seize_the_day",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "seize the day capstone 3",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "harlowe_cosmic_brilliance_action",
+          "character": "harlowe",
+          "tree": "cosmic_brilliance",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "action",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Flux Generator",
+          "effects": [],
+          "tags": [
+            "action"
+          ],
+          "activator": true,
+          "point_cost": 0
+        },
+        {
+          "id": "harlowe_cosmic_brilliance_c0_0",
+          "character": "harlowe",
+          "tree": "cosmic_brilliance",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Harlowe cosmic_brilliance common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_cosmic_brilliance_c0_1",
+          "character": "harlowe",
+          "tree": "cosmic_brilliance",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Harlowe cosmic_brilliance common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_cosmic_brilliance_c1_0",
+          "character": "harlowe",
+          "tree": "cosmic_brilliance",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Harlowe cosmic_brilliance common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_cosmic_brilliance_c1_1",
+          "character": "harlowe",
+          "tree": "cosmic_brilliance",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Harlowe cosmic_brilliance common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_cosmic_brilliance_c2_0",
+          "character": "harlowe",
+          "tree": "cosmic_brilliance",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Harlowe cosmic_brilliance common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_cosmic_brilliance_c2_1",
+          "character": "harlowe",
+          "tree": "cosmic_brilliance",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Harlowe cosmic_brilliance common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_cosmic_brilliance_aug_0_cosmic_brilliance_augment_1",
+          "character": "harlowe",
+          "tree": "cosmic_brilliance",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "cosmic brilliance augment 1",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "harlowe_cosmic_brilliance_aug_1_cosmic_brilliance_augment_2",
+          "character": "harlowe",
+          "tree": "cosmic_brilliance",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "cosmic brilliance augment 2",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "harlowe_cosmic_brilliance_aug_2_cosmic_brilliance_augment_3",
+          "character": "harlowe",
+          "tree": "cosmic_brilliance",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "cosmic brilliance augment 3",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "harlowe_cosmic_brilliance_aug_3_cosmic_brilliance_augment_4",
+          "character": "harlowe",
+          "tree": "cosmic_brilliance",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "cosmic brilliance augment 4",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "harlowe_cosmic_brilliance_aug_4_cosmic_brilliance_augment_5",
+          "character": "harlowe",
+          "tree": "cosmic_brilliance",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "cosmic brilliance augment 5",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "harlowe_cosmic_brilliance_branch_left_r0",
+          "character": "harlowe",
+          "tree": "cosmic_brilliance",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "cosmic_brilliance branch_left row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_cosmic_brilliance_branch_left_r1",
+          "character": "harlowe",
+          "tree": "cosmic_brilliance",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "cosmic_brilliance branch_left row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_cosmic_brilliance_branch_left_r2",
+          "character": "harlowe",
+          "tree": "cosmic_brilliance",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "cosmic_brilliance branch_left row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_cosmic_brilliance_cap_0_cosmic_brilliance_capstone_1",
+          "character": "harlowe",
+          "tree": "cosmic_brilliance",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "cosmic brilliance capstone 1",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "harlowe_cosmic_brilliance_branch_center_r0",
+          "character": "harlowe",
+          "tree": "cosmic_brilliance",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "cosmic_brilliance branch_center row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_cosmic_brilliance_branch_center_r1",
+          "character": "harlowe",
+          "tree": "cosmic_brilliance",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "cosmic_brilliance branch_center row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_cosmic_brilliance_branch_center_r2",
+          "character": "harlowe",
+          "tree": "cosmic_brilliance",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "cosmic_brilliance branch_center row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_cosmic_brilliance_cap_1_cosmic_brilliance_capstone_2",
+          "character": "harlowe",
+          "tree": "cosmic_brilliance",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "cosmic brilliance capstone 2",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "harlowe_cosmic_brilliance_branch_right_r0",
+          "character": "harlowe",
+          "tree": "cosmic_brilliance",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "cosmic_brilliance branch_right row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_cosmic_brilliance_branch_right_r1",
+          "character": "harlowe",
+          "tree": "cosmic_brilliance",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "cosmic_brilliance branch_right row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_cosmic_brilliance_branch_right_r2",
+          "character": "harlowe",
+          "tree": "cosmic_brilliance",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "cosmic_brilliance branch_right row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "harlowe_cosmic_brilliance_cap_2_cosmic_brilliance_capstone_3",
+          "character": "harlowe",
+          "tree": "cosmic_brilliance",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "cosmic brilliance capstone 3",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        }
+      ],
+      "quarantine": {
+        "incomplete": true,
+        "reason": "structure_seeded_effects_empty_pending_oracle"
+      }
+    }
+  ]
+}

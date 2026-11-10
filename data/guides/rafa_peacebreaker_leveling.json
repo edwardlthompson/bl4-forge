@@ -1,0 +1,2082 @@
+{
+  "version": 2,
+  "id": "rafa_peacebreaker_leveling",
+  "title": "Rafa — Peacebreaker AFK core (69)",
+  "hunter_id": "rafa",
+  "hunter_display_name": "Rafa",
+  "subtitle": "Exo-Soldier · Peacebreaker · Booming Business loop",
+  "archetype": "Core + one-slot archetype swaps",
+  "point_budget": 69,
+  "level_cap": 70,
+  "experimental": true,
+  "action_tree": "remote_agent",
+  "evidence": [
+    "manual",
+    "https://borderlands.2k.com/borderlands-4/update-notes/",
+    "https://borderlands.2k.com/borderlands-4/game-info/vault-hunters/rafa/"
+  ],
+  "action_skill_id": "pb_action",
+  "action_skill_name": "Peacebreaker Cannons",
+  "augment_ids": [
+    "pb_aug_confeti"
+  ],
+  "augment_names": [
+    "Confeti Protocol"
+  ],
+  "capstone_id": "pb_cap_beam_team",
+  "capstone_name": "Beam Team",
+  "hunter": {
+    "id": "rafa",
+    "display_name": "Rafa",
+    "no_capstones": false,
+    "skills": [
+      {
+        "id": "pb_action",
+        "character": "rafa",
+        "tree": "remote_agent",
+        "tier": 0,
+        "row": 0,
+        "lane": "common",
+        "kind": "action",
+        "max_rank": 1,
+        "requires": [],
+        "effect_text": "Peacebreaker Cannons",
+        "effects": [],
+        "tags": [
+          "action"
+        ],
+        "activator": true,
+        "point_cost": 0,
+        "display_name": "Peacebreaker Cannons"
+      },
+      {
+        "id": "pb_deadline",
+        "character": "rafa",
+        "tree": "remote_agent",
+        "tier": 0,
+        "row": 0,
+        "lane": "common",
+        "kind": "passive",
+        "max_rank": 5,
+        "requires": [],
+        "effect_text": "Overdrive Fire Rate + Reload",
+        "effects": [],
+        "tags": [
+          "passive"
+        ],
+        "activator": false,
+        "display_name": "Deadline"
+      },
+      {
+        "id": "pb_thrill",
+        "character": "rafa",
+        "tree": "remote_agent",
+        "tier": 0,
+        "row": 0,
+        "lane": "common",
+        "kind": "passive",
+        "max_rank": 5,
+        "requires": [],
+        "effect_text": "Overdrive Fire Rate",
+        "effects": [],
+        "tags": [
+          "passive"
+        ],
+        "activator": false,
+        "display_name": "The Thrill"
+      },
+      {
+        "id": "pb_las_jaras",
+        "character": "rafa",
+        "tree": "remote_agent",
+        "tier": 1,
+        "row": 1,
+        "lane": "common",
+        "kind": "passive",
+        "max_rank": 5,
+        "requires": [],
+        "effect_text": "Overdrive ammo regen",
+        "effects": [],
+        "tags": [
+          "passive"
+        ],
+        "activator": false,
+        "display_name": "Las Jaras"
+      },
+      {
+        "id": "pb_vitriol",
+        "character": "rafa",
+        "tree": "remote_agent",
+        "tier": 1,
+        "row": 1,
+        "lane": "common",
+        "kind": "passive",
+        "max_rank": 5,
+        "requires": [],
+        "effect_text": "First shot corrosive",
+        "effects": [],
+        "tags": [
+          "passive"
+        ],
+        "activator": false,
+        "display_name": "Vitriol"
+      },
+      {
+        "id": "pb_everdrive",
+        "character": "rafa",
+        "tree": "remote_agent",
+        "tier": 2,
+        "row": 2,
+        "lane": "common",
+        "kind": "passive",
+        "max_rank": 5,
+        "requires": [],
+        "effect_text": "Overdrive duration",
+        "effects": [],
+        "tags": [
+          "passive"
+        ],
+        "activator": false,
+        "display_name": "Everdrive"
+      },
+      {
+        "id": "pb_barrage",
+        "character": "rafa",
+        "tree": "remote_agent",
+        "tier": 2,
+        "row": 2,
+        "lane": "common",
+        "kind": "passive",
+        "max_rank": 5,
+        "requires": [],
+        "effect_text": "Overdrive splash",
+        "effects": [],
+        "tags": [
+          "passive"
+        ],
+        "activator": false,
+        "display_name": "Barrage"
+      },
+      {
+        "id": "pb_brain_dump",
+        "character": "rafa",
+        "tree": "remote_agent",
+        "tier": 0,
+        "row": 0,
+        "lane": "branch_left",
+        "kind": "passive",
+        "max_rank": 5,
+        "requires": [],
+        "effect_text": "Overdrive gun crit",
+        "effects": [],
+        "tags": [
+          "passive"
+        ],
+        "activator": false,
+        "display_name": "Brain Dump"
+      },
+      {
+        "id": "pb_temerario",
+        "character": "rafa",
+        "tree": "remote_agent",
+        "tier": 1,
+        "row": 1,
+        "lane": "branch_left",
+        "kind": "passive",
+        "max_rank": 5,
+        "requires": [],
+        "effect_text": "Overdrive gun damage",
+        "effects": [],
+        "tags": [
+          "passive"
+        ],
+        "activator": false,
+        "display_name": "Temerario"
+      },
+      {
+        "id": "pb_aug_sitiar",
+        "character": "rafa",
+        "tree": "remote_agent",
+        "tier": 0,
+        "row": 0,
+        "lane": "common",
+        "kind": "augment",
+        "max_rank": 1,
+        "requires": [],
+        "effect_text": "Sitiar augment",
+        "effects": [],
+        "tags": [
+          "augment"
+        ],
+        "activator": false,
+        "point_cost": 0,
+        "display_name": "Sitiar"
+      },
+      {
+        "id": "pb_aug_confeti",
+        "character": "rafa",
+        "tree": "remote_agent",
+        "tier": 0,
+        "row": 0,
+        "lane": "common",
+        "kind": "augment",
+        "max_rank": 1,
+        "requires": [],
+        "effect_text": "Ordnance-linked Peacebreaker augment",
+        "effects": [],
+        "tags": [
+          "augment"
+        ],
+        "activator": false,
+        "point_cost": 0,
+        "display_name": "Confeti Protocol"
+      },
+      {
+        "id": "pb_cap_beam_team",
+        "character": "rafa",
+        "tree": "remote_agent",
+        "tier": 2,
+        "row": 2,
+        "lane": "branch_left",
+        "kind": "capstone",
+        "max_rank": 1,
+        "requires": [],
+        "effect_text": "Beam Team",
+        "effects": [],
+        "tags": [
+          "capstone"
+        ],
+        "activator": false,
+        "point_cost": 0,
+        "display_name": "Beam Team"
+      },
+      {
+        "id": "pp_rinse",
+        "character": "rafa",
+        "tree": "people_person",
+        "tier": 0,
+        "row": 0,
+        "lane": "common",
+        "kind": "passive",
+        "max_rank": 5,
+        "requires": [],
+        "effect_text": "Reload Speed",
+        "effects": [],
+        "tags": [
+          "passive"
+        ],
+        "activator": false,
+        "display_name": "Rinse"
+      },
+      {
+        "id": "pp_first_impression",
+        "character": "rafa",
+        "tree": "people_person",
+        "tier": 1,
+        "row": 1,
+        "lane": "common",
+        "kind": "passive",
+        "max_rank": 5,
+        "requires": [],
+        "effect_text": "First shot damage",
+        "effects": [],
+        "tags": [
+          "passive"
+        ],
+        "activator": false,
+        "display_name": "First Impression"
+      },
+      {
+        "id": "pp_al_centro",
+        "character": "rafa",
+        "tree": "people_person",
+        "tier": 1,
+        "row": 1,
+        "lane": "common",
+        "kind": "passive",
+        "max_rank": 5,
+        "requires": [],
+        "effect_text": "Overdrive handling",
+        "effects": [],
+        "tags": [
+          "passive"
+        ],
+        "activator": false,
+        "display_name": "Al Centro"
+      },
+      {
+        "id": "yg_handshake",
+        "character": "rafa",
+        "tree": "this_years_gimmick",
+        "tier": 0,
+        "row": 0,
+        "lane": "common",
+        "kind": "passive",
+        "max_rank": 5,
+        "requires": [],
+        "effect_text": "Gun + Melee damage",
+        "effects": [],
+        "tags": [
+          "passive"
+        ],
+        "activator": false,
+        "display_name": "Handshake Deal"
+      },
+      {
+        "id": "yg_midnight",
+        "character": "rafa",
+        "tree": "this_years_gimmick",
+        "tier": 1,
+        "row": 1,
+        "lane": "common",
+        "kind": "passive",
+        "max_rank": 5,
+        "requires": [],
+        "effect_text": "Action corrosive over time",
+        "effects": [],
+        "tags": [
+          "passive"
+        ],
+        "activator": false,
+        "display_name": "Midnight Oil"
+      },
+      {
+        "id": "yg_expedite",
+        "character": "rafa",
+        "tree": "this_years_gimmick",
+        "tier": 2,
+        "row": 2,
+        "lane": "common",
+        "kind": "passive",
+        "max_rank": 5,
+        "requires": [],
+        "effect_text": "Overdrive move speed",
+        "effects": [],
+        "tags": [
+          "passive"
+        ],
+        "activator": false,
+        "display_name": "Expedite"
+      },
+      {
+        "id": "yg_booming_business",
+        "character": "rafa",
+        "tree": "this_years_gimmick",
+        "tier": 2,
+        "row": 2,
+        "lane": "common",
+        "kind": "passive",
+        "max_rank": 5,
+        "requires": [],
+        "effect_text": "Booming Business",
+        "effects": [],
+        "tags": [
+          "passive"
+        ],
+        "activator": false,
+        "display_name": "Booming Business"
+      },
+      {
+        "id": "yg_el_paraguas",
+        "character": "rafa",
+        "tree": "this_years_gimmick",
+        "tier": 1,
+        "row": 1,
+        "lane": "common",
+        "kind": "passive",
+        "max_rank": 5,
+        "requires": [],
+        "effect_text": "El Paraguas",
+        "effects": [],
+        "tags": [
+          "passive"
+        ],
+        "activator": false,
+        "display_name": "El Paraguas"
+      }
+    ]
+  },
+  "allocation": {
+    "hunterId": "rafa",
+    "ranks": [
+      {
+        "id": "pb_deadline",
+        "rank": 5
+      },
+      {
+        "id": "pb_thrill",
+        "rank": 5
+      },
+      {
+        "id": "pb_las_jaras",
+        "rank": 5
+      },
+      {
+        "id": "pb_vitriol",
+        "rank": 5
+      },
+      {
+        "id": "pb_everdrive",
+        "rank": 5
+      },
+      {
+        "id": "pb_barrage",
+        "rank": 5
+      },
+      {
+        "id": "pb_brain_dump",
+        "rank": 5
+      },
+      {
+        "id": "pb_temerario",
+        "rank": 5
+      },
+      {
+        "id": "pp_rinse",
+        "rank": 5
+      },
+      {
+        "id": "pp_al_centro",
+        "rank": 5
+      },
+      {
+        "id": "yg_handshake",
+        "rank": 5
+      },
+      {
+        "id": "yg_booming_business",
+        "rank": 5
+      },
+      {
+        "id": "yg_el_paraguas",
+        "rank": 5
+      },
+      {
+        "id": "yg_midnight",
+        "rank": 4
+      }
+    ],
+    "actionSkillId": "pb_action",
+    "augmentIds": [
+      "pb_aug_confeti"
+    ],
+    "capstoneId": "pb_cap_beam_team",
+    "pointBudget": 69
+  },
+  "loadout_timeline": [
+    {
+      "at_level": 6,
+      "equip": {
+        "augment": "Sitiar"
+      },
+      "why": "Early Peacebreaker gun-damage augment while you finish the Remote Agent trunk."
+    },
+    {
+      "at_level": 32,
+      "replace": {
+        "from": "Sitiar",
+        "to": "Confeti Protocol"
+      },
+      "why": "Swap to ordnance-linked Peacebreaker augment once Barrage/splash and grenade uptime matter more than early Sitiar."
+    },
+    {
+      "at_level": 42,
+      "equip": {
+        "capstone": "Beam Team"
+      },
+      "why": "Temerario unlocked the Capstone row — equip Beam Team for dual-beam Peacebreaker."
+    },
+    {
+      "at_level": 55,
+      "note": "Hold Confeti + Beam Team to 70."
+    }
+  ],
+  "spec": {
+    "node_points": {
+      "brute": 20,
+      "sharpshooter": 10,
+      "runner": 10,
+      "daredevil": 20,
+      "killer": 10
+    },
+    "equipped": [
+      "now_with_caffeine",
+      "riddle_you_this",
+      "i_am_a_gun",
+      "a_honed_mind"
+    ],
+    "spend_order": [
+      {
+        "step": 1,
+        "kind": "node",
+        "node": "brute",
+        "to": 1,
+        "display_name": "Brute → 1",
+        "reason": "Invest Brute to 1."
+      },
+      {
+        "step": 2,
+        "kind": "node",
+        "node": "brute",
+        "to": 2,
+        "display_name": "Brute → 2",
+        "reason": "Invest Brute to 2."
+      },
+      {
+        "step": 3,
+        "kind": "node",
+        "node": "brute",
+        "to": 3,
+        "display_name": "Brute → 3",
+        "reason": "Invest Brute to 3."
+      },
+      {
+        "step": 4,
+        "kind": "node",
+        "node": "brute",
+        "to": 4,
+        "display_name": "Brute → 4",
+        "reason": "Invest Brute to 4."
+      },
+      {
+        "step": 5,
+        "kind": "node",
+        "node": "brute",
+        "to": 5,
+        "display_name": "Brute → 5",
+        "reason": "Invest Brute to 5."
+      },
+      {
+        "step": 6,
+        "kind": "node",
+        "node": "brute",
+        "to": 6,
+        "display_name": "Brute → 6",
+        "reason": "Invest Brute to 6."
+      },
+      {
+        "step": 7,
+        "kind": "node",
+        "node": "brute",
+        "to": 7,
+        "display_name": "Brute → 7",
+        "reason": "Invest Brute to 7."
+      },
+      {
+        "step": 8,
+        "kind": "node",
+        "node": "brute",
+        "to": 8,
+        "display_name": "Brute → 8",
+        "reason": "Invest Brute to 8."
+      },
+      {
+        "step": 9,
+        "kind": "node",
+        "node": "brute",
+        "to": 9,
+        "display_name": "Brute → 9",
+        "reason": "Invest Brute to 9."
+      },
+      {
+        "step": 10,
+        "kind": "node",
+        "node": "brute",
+        "to": 10,
+        "display_name": "Brute → 10",
+        "reason": "Invest Brute to 10 — opens Killer prestige path"
+      },
+      {
+        "step": 11,
+        "kind": "node",
+        "node": "sharpshooter",
+        "to": 1,
+        "display_name": "Sharpshooter → 1",
+        "reason": "Invest Sharpshooter to 1."
+      },
+      {
+        "step": 12,
+        "kind": "node",
+        "node": "sharpshooter",
+        "to": 2,
+        "display_name": "Sharpshooter → 2",
+        "reason": "Invest Sharpshooter to 2."
+      },
+      {
+        "step": 13,
+        "kind": "node",
+        "node": "sharpshooter",
+        "to": 3,
+        "display_name": "Sharpshooter → 3",
+        "reason": "Invest Sharpshooter to 3."
+      },
+      {
+        "step": 14,
+        "kind": "node",
+        "node": "sharpshooter",
+        "to": 4,
+        "display_name": "Sharpshooter → 4",
+        "reason": "Invest Sharpshooter to 4."
+      },
+      {
+        "step": 15,
+        "kind": "node",
+        "node": "sharpshooter",
+        "to": 5,
+        "display_name": "Sharpshooter → 5",
+        "reason": "Invest Sharpshooter to 5."
+      },
+      {
+        "step": 16,
+        "kind": "node",
+        "node": "sharpshooter",
+        "to": 6,
+        "display_name": "Sharpshooter → 6",
+        "reason": "Invest Sharpshooter to 6."
+      },
+      {
+        "step": 17,
+        "kind": "node",
+        "node": "sharpshooter",
+        "to": 7,
+        "display_name": "Sharpshooter → 7",
+        "reason": "Invest Sharpshooter to 7."
+      },
+      {
+        "step": 18,
+        "kind": "node",
+        "node": "sharpshooter",
+        "to": 8,
+        "display_name": "Sharpshooter → 8",
+        "reason": "Invest Sharpshooter to 8."
+      },
+      {
+        "step": 19,
+        "kind": "node",
+        "node": "sharpshooter",
+        "to": 9,
+        "display_name": "Sharpshooter → 9",
+        "reason": "Invest Sharpshooter to 9."
+      },
+      {
+        "step": 20,
+        "kind": "node",
+        "node": "sharpshooter",
+        "to": 10,
+        "display_name": "Sharpshooter → 10",
+        "reason": "Invest Sharpshooter to 10 — reload/accuracy bridge; unlocks Killer + Daredevil"
+      },
+      {
+        "step": 21,
+        "kind": "node",
+        "node": "runner",
+        "to": 1,
+        "display_name": "Runner → 1",
+        "reason": "Invest Runner to 1."
+      },
+      {
+        "step": 22,
+        "kind": "node",
+        "node": "runner",
+        "to": 2,
+        "display_name": "Runner → 2",
+        "reason": "Invest Runner to 2."
+      },
+      {
+        "step": 23,
+        "kind": "node",
+        "node": "runner",
+        "to": 3,
+        "display_name": "Runner → 3",
+        "reason": "Invest Runner to 3."
+      },
+      {
+        "step": 24,
+        "kind": "node",
+        "node": "runner",
+        "to": 4,
+        "display_name": "Runner → 4",
+        "reason": "Invest Runner to 4."
+      },
+      {
+        "step": 25,
+        "kind": "node",
+        "node": "runner",
+        "to": 5,
+        "display_name": "Runner → 5",
+        "reason": "Invest Runner to 5."
+      },
+      {
+        "step": 26,
+        "kind": "node",
+        "node": "runner",
+        "to": 6,
+        "display_name": "Runner → 6",
+        "reason": "Invest Runner to 6."
+      },
+      {
+        "step": 27,
+        "kind": "node",
+        "node": "runner",
+        "to": 7,
+        "display_name": "Runner → 7",
+        "reason": "Invest Runner to 7."
+      },
+      {
+        "step": 28,
+        "kind": "node",
+        "node": "runner",
+        "to": 8,
+        "display_name": "Runner → 8",
+        "reason": "Invest Runner to 8."
+      },
+      {
+        "step": 29,
+        "kind": "node",
+        "node": "runner",
+        "to": 9,
+        "display_name": "Runner → 9",
+        "reason": "Invest Runner to 9."
+      },
+      {
+        "step": 30,
+        "kind": "node",
+        "node": "runner",
+        "to": 10,
+        "display_name": "Runner → 10",
+        "reason": "Invest Runner to 10 — with Sharpshooter 10 unlocks Daredevil prestige"
+      },
+      {
+        "step": 31,
+        "kind": "equip",
+        "socket": 1,
+        "skill_id": "now_with_caffeine",
+        "display_name": "Equip: Now With Caffeine",
+        "reason": "Socket 1 unlocks — Action Skill cooldown for Peacebreaker uptime. No replace."
+      },
+      {
+        "step": 32,
+        "kind": "node",
+        "node": "brute",
+        "to": 11,
+        "display_name": "Brute → 11",
+        "reason": "Invest Brute to 11."
+      },
+      {
+        "step": 33,
+        "kind": "node",
+        "node": "brute",
+        "to": 12,
+        "display_name": "Brute → 12",
+        "reason": "Invest Brute to 12."
+      },
+      {
+        "step": 34,
+        "kind": "node",
+        "node": "brute",
+        "to": 13,
+        "display_name": "Brute → 13",
+        "reason": "Invest Brute to 13."
+      },
+      {
+        "step": 35,
+        "kind": "node",
+        "node": "brute",
+        "to": 14,
+        "display_name": "Brute → 14",
+        "reason": "Invest Brute to 14."
+      },
+      {
+        "step": 36,
+        "kind": "node",
+        "node": "brute",
+        "to": 15,
+        "display_name": "Brute → 15",
+        "reason": "Invest Brute to 15."
+      },
+      {
+        "step": 37,
+        "kind": "node",
+        "node": "brute",
+        "to": 16,
+        "display_name": "Brute → 16",
+        "reason": "Invest Brute to 16."
+      },
+      {
+        "step": 38,
+        "kind": "node",
+        "node": "brute",
+        "to": 17,
+        "display_name": "Brute → 17",
+        "reason": "Invest Brute to 17."
+      },
+      {
+        "step": 39,
+        "kind": "node",
+        "node": "brute",
+        "to": 18,
+        "display_name": "Brute → 18",
+        "reason": "Invest Brute to 18."
+      },
+      {
+        "step": 40,
+        "kind": "node",
+        "node": "brute",
+        "to": 19,
+        "display_name": "Brute → 19",
+        "reason": "Invest Brute to 19."
+      },
+      {
+        "step": 41,
+        "kind": "node",
+        "node": "brute",
+        "to": 20,
+        "display_name": "Brute → 20",
+        "reason": "Invest Brute to 20 — unlocks Riddle You This"
+      },
+      {
+        "step": 42,
+        "kind": "equip",
+        "socket": 2,
+        "skill_id": "riddle_you_this",
+        "display_name": "Equip: Riddle You This",
+        "reason": "Socket 2 — gun-damage stacks while shooting feed Booming Business crits. Keep Caffeine."
+      },
+      {
+        "step": 43,
+        "kind": "node",
+        "node": "daredevil",
+        "to": 1,
+        "display_name": "Daredevil → 1",
+        "reason": "Invest Daredevil to 1."
+      },
+      {
+        "step": 44,
+        "kind": "node",
+        "node": "daredevil",
+        "to": 2,
+        "display_name": "Daredevil → 2",
+        "reason": "Invest Daredevil to 2."
+      },
+      {
+        "step": 45,
+        "kind": "node",
+        "node": "daredevil",
+        "to": 3,
+        "display_name": "Daredevil → 3",
+        "reason": "Invest Daredevil to 3."
+      },
+      {
+        "step": 46,
+        "kind": "node",
+        "node": "daredevil",
+        "to": 4,
+        "display_name": "Daredevil → 4",
+        "reason": "Invest Daredevil to 4."
+      },
+      {
+        "step": 47,
+        "kind": "node",
+        "node": "daredevil",
+        "to": 5,
+        "display_name": "Daredevil → 5",
+        "reason": "Invest Daredevil to 5."
+      },
+      {
+        "step": 48,
+        "kind": "node",
+        "node": "daredevil",
+        "to": 6,
+        "display_name": "Daredevil → 6",
+        "reason": "Invest Daredevil to 6."
+      },
+      {
+        "step": 49,
+        "kind": "node",
+        "node": "daredevil",
+        "to": 7,
+        "display_name": "Daredevil → 7",
+        "reason": "Invest Daredevil to 7."
+      },
+      {
+        "step": 50,
+        "kind": "node",
+        "node": "daredevil",
+        "to": 8,
+        "display_name": "Daredevil → 8",
+        "reason": "Invest Daredevil to 8."
+      },
+      {
+        "step": 51,
+        "kind": "node",
+        "node": "daredevil",
+        "to": 9,
+        "display_name": "Daredevil → 9",
+        "reason": "Invest Daredevil to 9."
+      },
+      {
+        "step": 52,
+        "kind": "node",
+        "node": "daredevil",
+        "to": 10,
+        "display_name": "Daredevil → 10",
+        "reason": "Invest Daredevil to 10 — opens I Am A Gun"
+      },
+      {
+        "step": 53,
+        "kind": "equip",
+        "socket": 3,
+        "skill_id": "i_am_a_gun",
+        "display_name": "Equip: I Am A Gun",
+        "reason": "Socket 3 — Peacebreaker scales with gun bonuses. Keep Caffeine + Riddle."
+      },
+      {
+        "step": 54,
+        "kind": "node",
+        "node": "daredevil",
+        "to": 11,
+        "display_name": "Daredevil → 11",
+        "reason": "Invest Daredevil to 11."
+      },
+      {
+        "step": 55,
+        "kind": "node",
+        "node": "daredevil",
+        "to": 12,
+        "display_name": "Daredevil → 12",
+        "reason": "Invest Daredevil to 12."
+      },
+      {
+        "step": 56,
+        "kind": "node",
+        "node": "daredevil",
+        "to": 13,
+        "display_name": "Daredevil → 13",
+        "reason": "Invest Daredevil to 13."
+      },
+      {
+        "step": 57,
+        "kind": "node",
+        "node": "daredevil",
+        "to": 14,
+        "display_name": "Daredevil → 14",
+        "reason": "Invest Daredevil to 14."
+      },
+      {
+        "step": 58,
+        "kind": "node",
+        "node": "daredevil",
+        "to": 15,
+        "display_name": "Daredevil → 15",
+        "reason": "Invest Daredevil to 15."
+      },
+      {
+        "step": 59,
+        "kind": "node",
+        "node": "daredevil",
+        "to": 16,
+        "display_name": "Daredevil → 16",
+        "reason": "Invest Daredevil to 16."
+      },
+      {
+        "step": 60,
+        "kind": "node",
+        "node": "daredevil",
+        "to": 17,
+        "display_name": "Daredevil → 17",
+        "reason": "Invest Daredevil to 17."
+      },
+      {
+        "step": 61,
+        "kind": "node",
+        "node": "daredevil",
+        "to": 18,
+        "display_name": "Daredevil → 18",
+        "reason": "Invest Daredevil to 18."
+      },
+      {
+        "step": 62,
+        "kind": "node",
+        "node": "daredevil",
+        "to": 19,
+        "display_name": "Daredevil → 19",
+        "reason": "Invest Daredevil to 19."
+      },
+      {
+        "step": 63,
+        "kind": "node",
+        "node": "daredevil",
+        "to": 20,
+        "display_name": "Daredevil → 20",
+        "reason": "Invest Daredevil to 20 — unlocks A Honed Mind"
+      },
+      {
+        "step": 64,
+        "kind": "equip",
+        "socket": 4,
+        "skill_id": "a_honed_mind",
+        "display_name": "Equip: A Honed Mind",
+        "reason": "Socket 4 (full) — Action Skill crit for more Booming Business. Keep prior three; do not replace."
+      },
+      {
+        "step": 65,
+        "kind": "node",
+        "node": "killer",
+        "to": 1,
+        "display_name": "Killer → 1",
+        "reason": "Invest Killer to 1."
+      },
+      {
+        "step": 66,
+        "kind": "node",
+        "node": "killer",
+        "to": 2,
+        "display_name": "Killer → 2",
+        "reason": "Invest Killer to 2."
+      },
+      {
+        "step": 67,
+        "kind": "node",
+        "node": "killer",
+        "to": 3,
+        "display_name": "Killer → 3",
+        "reason": "Invest Killer to 3."
+      },
+      {
+        "step": 68,
+        "kind": "node",
+        "node": "killer",
+        "to": 4,
+        "display_name": "Killer → 4",
+        "reason": "Invest Killer to 4."
+      },
+      {
+        "step": 69,
+        "kind": "node",
+        "node": "killer",
+        "to": 5,
+        "display_name": "Killer → 5",
+        "reason": "Invest Killer to 5."
+      },
+      {
+        "step": 70,
+        "kind": "node",
+        "node": "killer",
+        "to": 6,
+        "display_name": "Killer → 6",
+        "reason": "Invest Killer to 6."
+      },
+      {
+        "step": 71,
+        "kind": "node",
+        "node": "killer",
+        "to": 7,
+        "display_name": "Killer → 7",
+        "reason": "Invest Killer to 7."
+      },
+      {
+        "step": 72,
+        "kind": "node",
+        "node": "killer",
+        "to": 8,
+        "display_name": "Killer → 8",
+        "reason": "Invest Killer to 8."
+      },
+      {
+        "step": 73,
+        "kind": "node",
+        "node": "killer",
+        "to": 9,
+        "display_name": "Killer → 9",
+        "reason": "Invest Killer to 9."
+      },
+      {
+        "step": 74,
+        "kind": "node",
+        "node": "killer",
+        "to": 10,
+        "display_name": "Killer → 10",
+        "reason": "Invest Killer to 10 — crit/status path — sockets already full, no equip/replace"
+      }
+    ]
+  },
+  "gear": [
+    {
+      "slot": "weapon",
+      "slot_index": 1,
+      "item_hint": "Assault Rifle (primary)",
+      "priorities": [
+        "Gun Damage",
+        "Fire Rate",
+        "Magazine Size",
+        "Crit Damage"
+      ],
+      "avoid": [
+        "Pure Melee Damage"
+      ],
+      "icon_id": "slot_weapon"
+    },
+    {
+      "slot": "weapon",
+      "slot_index": 2,
+      "item_hint": "SMG / Shotgun (swap)",
+      "priorities": [
+        "Close-range Damage",
+        "Status Chance",
+        "Reload Speed"
+      ],
+      "avoid": [],
+      "icon_id": "slot_weapon"
+    },
+    {
+      "slot": "weapon",
+      "slot_index": 3,
+      "item_hint": "Sniper / Boss weapon",
+      "priorities": [
+        "Crit Damage",
+        "Boss Damage",
+        "Handling"
+      ],
+      "avoid": [],
+      "icon_id": "slot_weapon"
+    },
+    {
+      "slot": "weapon",
+      "slot_index": 4,
+      "item_hint": "Element coverage",
+      "priorities": [
+        "Shock or Corrosive",
+        "Ordnance Synergy"
+      ],
+      "avoid": [],
+      "icon_id": "slot_weapon"
+    },
+    {
+      "slot": "shield",
+      "item_hint": "Firewerk (mobbing swap) / high capacity (baseline)",
+      "priorities": [
+        "On-kill missiles (Firewerk)",
+        "Max Shield",
+        "Recharge Rate"
+      ],
+      "avoid": [
+        "Empty amplifier if you cannot keep shields up"
+      ],
+      "icon_id": "gear_firewerk"
+    },
+    {
+      "slot": "grenade",
+      "item_hint": "Waterfall (balanced) / Firepot (bossing swap)",
+      "priorities": [
+        "Lingering+Pulsing+Nuke",
+        "Splash Radius",
+        "Ordnance Damage"
+      ],
+      "avoid": [],
+      "icon_id": "gear_waterfall"
+    },
+    {
+      "slot": "class_mod",
+      "item_hint": "Grenazerker L70 — search: +3 Sinergia / +4 Confeti / Splash Damage / Gadget Ahoy",
+      "priorities": [
+        "+3 Sinergia",
+        "+4 Confeti",
+        "+46% Splash Damage",
+        "Gadget Ahoy firmware",
+        "Fixed +35% Gun Damage"
+      ],
+      "avoid": [
+        "Arriba points",
+        "Abajo points",
+        "Sinergia <3",
+        "Confeti <4",
+        "non-Splash random passive"
+      ],
+      "icon_id": "gear_grenazerker"
+    },
+    {
+      "slot": "artifact",
+      "item_hint": "Movement / Overdrive",
+      "priorities": [
+        "Move Speed",
+        "Action Skill Damage",
+        "Splash Radius"
+      ],
+      "avoid": [],
+      "icon_id": "slot_artifact"
+    },
+    {
+      "slot": "enhancement",
+      "item_hint": "Firmware",
+      "priorities": [
+        "Deadeye / Crit",
+        "Gun Damage"
+      ],
+      "avoid": [],
+      "icon_id": "slot_enhancement"
+    },
+    {
+      "slot": "repkit",
+      "item_hint": "Repkit",
+      "priorities": [
+        "Charges",
+        "Cooldown Reduction",
+        "Heal amount / Duration"
+      ],
+      "avoid": [
+        "Ultra-long CD with 1 charge"
+      ],
+      "icon_id": "slot_repkit"
+    }
+  ],
+  "tree_summary": [
+    {
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "points": 40,
+      "note": ""
+    },
+    {
+      "tree": "People Person",
+      "tree_id": "people_person",
+      "points": 10,
+      "note": ""
+    },
+    {
+      "tree": "This Year's Gimmick",
+      "tree_id": "this_years_gimmick",
+      "points": 19,
+      "note": ""
+    }
+  ],
+  "skill_spend_order": [
+    {
+      "step": 1,
+      "level": 2,
+      "skill_id": "pb_deadline",
+      "display_name": "Deadline",
+      "points": 1,
+      "to_rank": 1,
+      "reason": "Rank 1/5: Overdrive Fire Rate + Reload — Peacebreaker uptime.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_deadline"
+    },
+    {
+      "step": 2,
+      "level": 3,
+      "skill_id": "pb_deadline",
+      "display_name": "Deadline",
+      "points": 1,
+      "to_rank": 2,
+      "reason": "Rank 2/5: Overdrive Fire Rate + Reload — Peacebreaker uptime.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_deadline"
+    },
+    {
+      "step": 3,
+      "level": 4,
+      "skill_id": "pb_deadline",
+      "display_name": "Deadline",
+      "points": 1,
+      "to_rank": 3,
+      "reason": "Rank 3/5: Overdrive Fire Rate + Reload — Peacebreaker uptime.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_deadline"
+    },
+    {
+      "step": 4,
+      "level": 5,
+      "skill_id": "pb_deadline",
+      "display_name": "Deadline",
+      "points": 1,
+      "to_rank": 4,
+      "reason": "Rank 4/5: Overdrive Fire Rate + Reload — Peacebreaker uptime.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_deadline"
+    },
+    {
+      "step": 5,
+      "level": 6,
+      "skill_id": "pb_deadline",
+      "display_name": "Deadline",
+      "points": 1,
+      "to_rank": 5,
+      "reason": "Rank 5/5: Overdrive Fire Rate + Reload — Peacebreaker uptime.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_deadline"
+    },
+    {
+      "step": 6,
+      "level": 7,
+      "skill_id": "pb_thrill",
+      "display_name": "The Thrill",
+      "points": 1,
+      "to_rank": 1,
+      "reason": "Rank 1/5: Extra Fire Rate (stronger in Overdrive).",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_thrill"
+    },
+    {
+      "step": 7,
+      "level": 8,
+      "skill_id": "pb_thrill",
+      "display_name": "The Thrill",
+      "points": 1,
+      "to_rank": 2,
+      "reason": "Rank 2/5: Extra Fire Rate (stronger in Overdrive).",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_thrill"
+    },
+    {
+      "step": 8,
+      "level": 9,
+      "skill_id": "pb_thrill",
+      "display_name": "The Thrill",
+      "points": 1,
+      "to_rank": 3,
+      "reason": "Rank 3/5: Extra Fire Rate (stronger in Overdrive).",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_thrill"
+    },
+    {
+      "step": 9,
+      "level": 10,
+      "skill_id": "pb_thrill",
+      "display_name": "The Thrill",
+      "points": 1,
+      "to_rank": 4,
+      "reason": "Rank 4/5: Extra Fire Rate (stronger in Overdrive).",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_thrill"
+    },
+    {
+      "step": 10,
+      "level": 11,
+      "skill_id": "pb_thrill",
+      "display_name": "The Thrill",
+      "points": 1,
+      "to_rank": 5,
+      "reason": "Rank 5/5: Extra Fire Rate (stronger in Overdrive).",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_thrill"
+    },
+    {
+      "step": 11,
+      "level": 12,
+      "skill_id": "pb_las_jaras",
+      "display_name": "Las Jaras",
+      "points": 1,
+      "to_rank": 1,
+      "reason": "Rank 1/5: Ammo regen in Overdrive.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_las_jaras"
+    },
+    {
+      "step": 12,
+      "level": 13,
+      "skill_id": "pb_las_jaras",
+      "display_name": "Las Jaras",
+      "points": 1,
+      "to_rank": 2,
+      "reason": "Rank 2/5: Ammo regen in Overdrive.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_las_jaras"
+    },
+    {
+      "step": 13,
+      "level": 14,
+      "skill_id": "pb_las_jaras",
+      "display_name": "Las Jaras",
+      "points": 1,
+      "to_rank": 3,
+      "reason": "Rank 3/5: Ammo regen in Overdrive.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_las_jaras"
+    },
+    {
+      "step": 14,
+      "level": 15,
+      "skill_id": "pb_las_jaras",
+      "display_name": "Las Jaras",
+      "points": 1,
+      "to_rank": 4,
+      "reason": "Rank 4/5: Ammo regen in Overdrive.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_las_jaras"
+    },
+    {
+      "step": 15,
+      "level": 16,
+      "skill_id": "pb_las_jaras",
+      "display_name": "Las Jaras",
+      "points": 1,
+      "to_rank": 5,
+      "reason": "Rank 5/5: Ammo regen in Overdrive.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_las_jaras"
+    },
+    {
+      "step": 16,
+      "level": 17,
+      "skill_id": "pb_vitriol",
+      "display_name": "Vitriol",
+      "points": 1,
+      "to_rank": 1,
+      "reason": "Rank 1/5: First-shot corrosive — status opener.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_vitriol"
+    },
+    {
+      "step": 17,
+      "level": 18,
+      "skill_id": "pb_vitriol",
+      "display_name": "Vitriol",
+      "points": 1,
+      "to_rank": 2,
+      "reason": "Rank 2/5: First-shot corrosive — status opener.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_vitriol"
+    },
+    {
+      "step": 18,
+      "level": 19,
+      "skill_id": "pb_vitriol",
+      "display_name": "Vitriol",
+      "points": 1,
+      "to_rank": 3,
+      "reason": "Rank 3/5: First-shot corrosive — status opener.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_vitriol"
+    },
+    {
+      "step": 19,
+      "level": 20,
+      "skill_id": "pb_vitriol",
+      "display_name": "Vitriol",
+      "points": 1,
+      "to_rank": 4,
+      "reason": "Rank 4/5: First-shot corrosive — status opener.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_vitriol"
+    },
+    {
+      "step": 20,
+      "level": 21,
+      "skill_id": "pb_vitriol",
+      "display_name": "Vitriol",
+      "points": 1,
+      "to_rank": 5,
+      "reason": "Rank 5/5: First-shot corrosive — status opener.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_vitriol"
+    },
+    {
+      "step": 21,
+      "level": 22,
+      "skill_id": "pb_everdrive",
+      "display_name": "Everdrive",
+      "points": 1,
+      "to_rank": 1,
+      "reason": "Rank 1/5: Longer Overdrive windows.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_everdrive"
+    },
+    {
+      "step": 22,
+      "level": 23,
+      "skill_id": "pb_everdrive",
+      "display_name": "Everdrive",
+      "points": 1,
+      "to_rank": 2,
+      "reason": "Rank 2/5: Longer Overdrive windows.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_everdrive"
+    },
+    {
+      "step": 23,
+      "level": 24,
+      "skill_id": "pb_everdrive",
+      "display_name": "Everdrive",
+      "points": 1,
+      "to_rank": 3,
+      "reason": "Rank 3/5: Longer Overdrive windows.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_everdrive"
+    },
+    {
+      "step": 24,
+      "level": 25,
+      "skill_id": "pb_everdrive",
+      "display_name": "Everdrive",
+      "points": 1,
+      "to_rank": 4,
+      "reason": "Rank 4/5: Longer Overdrive windows.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_everdrive"
+    },
+    {
+      "step": 25,
+      "level": 26,
+      "skill_id": "pb_everdrive",
+      "display_name": "Everdrive",
+      "points": 1,
+      "to_rank": 5,
+      "reason": "Rank 5/5: Longer Overdrive windows.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_everdrive"
+    },
+    {
+      "step": 26,
+      "level": 27,
+      "skill_id": "pb_barrage",
+      "display_name": "Barrage",
+      "points": 1,
+      "to_rank": 1,
+      "reason": "Rank 1/5: Overdrive splash — feeds Waterfall / Firewerk.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_barrage"
+    },
+    {
+      "step": 27,
+      "level": 28,
+      "skill_id": "pb_barrage",
+      "display_name": "Barrage",
+      "points": 1,
+      "to_rank": 2,
+      "reason": "Rank 2/5: Overdrive splash — feeds Waterfall / Firewerk.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_barrage"
+    },
+    {
+      "step": 28,
+      "level": 29,
+      "skill_id": "pb_barrage",
+      "display_name": "Barrage",
+      "points": 1,
+      "to_rank": 3,
+      "reason": "Rank 3/5: Overdrive splash — feeds Waterfall / Firewerk.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_barrage"
+    },
+    {
+      "step": 29,
+      "level": 30,
+      "skill_id": "pb_barrage",
+      "display_name": "Barrage",
+      "points": 1,
+      "to_rank": 4,
+      "reason": "Rank 4/5: Overdrive splash — feeds Waterfall / Firewerk.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_barrage"
+    },
+    {
+      "step": 30,
+      "level": 31,
+      "skill_id": "pb_barrage",
+      "display_name": "Barrage",
+      "points": 1,
+      "to_rank": 5,
+      "reason": "Rank 5/5: Overdrive splash — feeds Waterfall / Firewerk.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_barrage"
+    },
+    {
+      "step": 31,
+      "level": 32,
+      "skill_id": "pb_brain_dump",
+      "display_name": "Brain Dump",
+      "points": 1,
+      "to_rank": 1,
+      "reason": "Rank 1/5: Overdrive gun crit — fuels Booming Business.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_brain_dump"
+    },
+    {
+      "step": 32,
+      "level": 33,
+      "skill_id": "pb_brain_dump",
+      "display_name": "Brain Dump",
+      "points": 1,
+      "to_rank": 2,
+      "reason": "Rank 2/5: Overdrive gun crit — fuels Booming Business.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_brain_dump"
+    },
+    {
+      "step": 33,
+      "level": 34,
+      "skill_id": "pb_brain_dump",
+      "display_name": "Brain Dump",
+      "points": 1,
+      "to_rank": 3,
+      "reason": "Rank 3/5: Overdrive gun crit — fuels Booming Business.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_brain_dump"
+    },
+    {
+      "step": 34,
+      "level": 35,
+      "skill_id": "pb_brain_dump",
+      "display_name": "Brain Dump",
+      "points": 1,
+      "to_rank": 4,
+      "reason": "Rank 4/5: Overdrive gun crit — fuels Booming Business.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_brain_dump"
+    },
+    {
+      "step": 35,
+      "level": 36,
+      "skill_id": "pb_brain_dump",
+      "display_name": "Brain Dump",
+      "points": 1,
+      "to_rank": 5,
+      "reason": "Rank 5/5: Overdrive gun crit — fuels Booming Business.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_brain_dump"
+    },
+    {
+      "step": 36,
+      "level": 37,
+      "skill_id": "pb_temerario",
+      "display_name": "Temerario",
+      "points": 1,
+      "to_rank": 1,
+      "reason": "Rank 1/5: Overdrive gun damage; Capstone row access.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_temerario"
+    },
+    {
+      "step": 37,
+      "level": 38,
+      "skill_id": "pb_temerario",
+      "display_name": "Temerario",
+      "points": 1,
+      "to_rank": 2,
+      "reason": "Rank 2/5: Overdrive gun damage; Capstone row access.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_temerario"
+    },
+    {
+      "step": 38,
+      "level": 39,
+      "skill_id": "pb_temerario",
+      "display_name": "Temerario",
+      "points": 1,
+      "to_rank": 3,
+      "reason": "Rank 3/5: Overdrive gun damage; Capstone row access.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_temerario"
+    },
+    {
+      "step": 39,
+      "level": 40,
+      "skill_id": "pb_temerario",
+      "display_name": "Temerario",
+      "points": 1,
+      "to_rank": 4,
+      "reason": "Rank 4/5: Overdrive gun damage; Capstone row access.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_temerario"
+    },
+    {
+      "step": 40,
+      "level": 41,
+      "skill_id": "pb_temerario",
+      "display_name": "Temerario",
+      "points": 1,
+      "to_rank": 5,
+      "reason": "Rank 5/5: Overdrive gun damage; Capstone row access.",
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "icon_id": "pb_temerario"
+    },
+    {
+      "step": 41,
+      "level": 42,
+      "skill_id": "pp_rinse",
+      "display_name": "Rinse",
+      "points": 1,
+      "to_rank": 1,
+      "reason": "Rank 1/5: Reload Speed — magazines for Vitriol + cannons.",
+      "tree": "People Person",
+      "tree_id": "people_person",
+      "icon_id": "pp_rinse"
+    },
+    {
+      "step": 42,
+      "level": 43,
+      "skill_id": "pp_rinse",
+      "display_name": "Rinse",
+      "points": 1,
+      "to_rank": 2,
+      "reason": "Rank 2/5: Reload Speed — magazines for Vitriol + cannons.",
+      "tree": "People Person",
+      "tree_id": "people_person",
+      "icon_id": "pp_rinse"
+    },
+    {
+      "step": 43,
+      "level": 44,
+      "skill_id": "pp_rinse",
+      "display_name": "Rinse",
+      "points": 1,
+      "to_rank": 3,
+      "reason": "Rank 3/5: Reload Speed — magazines for Vitriol + cannons.",
+      "tree": "People Person",
+      "tree_id": "people_person",
+      "icon_id": "pp_rinse"
+    },
+    {
+      "step": 44,
+      "level": 45,
+      "skill_id": "pp_rinse",
+      "display_name": "Rinse",
+      "points": 1,
+      "to_rank": 4,
+      "reason": "Rank 4/5: Reload Speed — magazines for Vitriol + cannons.",
+      "tree": "People Person",
+      "tree_id": "people_person",
+      "icon_id": "pp_rinse"
+    },
+    {
+      "step": 45,
+      "level": 46,
+      "skill_id": "pp_rinse",
+      "display_name": "Rinse",
+      "points": 1,
+      "to_rank": 5,
+      "reason": "Rank 5/5: Reload Speed — magazines for Vitriol + cannons.",
+      "tree": "People Person",
+      "tree_id": "people_person",
+      "icon_id": "pp_rinse"
+    },
+    {
+      "step": 46,
+      "level": 47,
+      "skill_id": "pp_al_centro",
+      "display_name": "Al Centro",
+      "points": 1,
+      "to_rank": 1,
+      "reason": "Rank 1/5: Overdrive handling — keep cannons on target.",
+      "tree": "People Person",
+      "tree_id": "people_person",
+      "icon_id": "pp_al_centro"
+    },
+    {
+      "step": 47,
+      "level": 48,
+      "skill_id": "pp_al_centro",
+      "display_name": "Al Centro",
+      "points": 1,
+      "to_rank": 2,
+      "reason": "Rank 2/5: Overdrive handling — keep cannons on target.",
+      "tree": "People Person",
+      "tree_id": "people_person",
+      "icon_id": "pp_al_centro"
+    },
+    {
+      "step": 48,
+      "level": 49,
+      "skill_id": "pp_al_centro",
+      "display_name": "Al Centro",
+      "points": 1,
+      "to_rank": 3,
+      "reason": "Rank 3/5: Overdrive handling — keep cannons on target.",
+      "tree": "People Person",
+      "tree_id": "people_person",
+      "icon_id": "pp_al_centro"
+    },
+    {
+      "step": 49,
+      "level": 50,
+      "skill_id": "pp_al_centro",
+      "display_name": "Al Centro",
+      "points": 1,
+      "to_rank": 4,
+      "reason": "Rank 4/5: Overdrive handling — keep cannons on target.",
+      "tree": "People Person",
+      "tree_id": "people_person",
+      "icon_id": "pp_al_centro"
+    },
+    {
+      "step": 50,
+      "level": 51,
+      "skill_id": "pp_al_centro",
+      "display_name": "Al Centro",
+      "points": 1,
+      "to_rank": 5,
+      "reason": "Rank 5/5: Overdrive handling — keep cannons on target.",
+      "tree": "People Person",
+      "tree_id": "people_person",
+      "icon_id": "pp_al_centro"
+    },
+    {
+      "step": 51,
+      "level": 52,
+      "skill_id": "yg_handshake",
+      "display_name": "Handshake Deal",
+      "points": 1,
+      "to_rank": 1,
+      "reason": "Rank 1/5: Flat Gun + Melee damage floor.",
+      "tree": "This Year's Gimmick",
+      "tree_id": "this_years_gimmick",
+      "icon_id": "yg_handshake"
+    },
+    {
+      "step": 52,
+      "level": 53,
+      "skill_id": "yg_handshake",
+      "display_name": "Handshake Deal",
+      "points": 1,
+      "to_rank": 2,
+      "reason": "Rank 2/5: Flat Gun + Melee damage floor.",
+      "tree": "This Year's Gimmick",
+      "tree_id": "this_years_gimmick",
+      "icon_id": "yg_handshake"
+    },
+    {
+      "step": 53,
+      "level": 54,
+      "skill_id": "yg_handshake",
+      "display_name": "Handshake Deal",
+      "points": 1,
+      "to_rank": 3,
+      "reason": "Rank 3/5: Flat Gun + Melee damage floor.",
+      "tree": "This Year's Gimmick",
+      "tree_id": "this_years_gimmick",
+      "icon_id": "yg_handshake"
+    },
+    {
+      "step": 54,
+      "level": 55,
+      "skill_id": "yg_handshake",
+      "display_name": "Handshake Deal",
+      "points": 1,
+      "to_rank": 4,
+      "reason": "Rank 4/5: Flat Gun + Melee damage floor.",
+      "tree": "This Year's Gimmick",
+      "tree_id": "this_years_gimmick",
+      "icon_id": "yg_handshake"
+    },
+    {
+      "step": 55,
+      "level": 56,
+      "skill_id": "yg_handshake",
+      "display_name": "Handshake Deal",
+      "points": 1,
+      "to_rank": 5,
+      "reason": "Rank 5/5: Flat Gun + Melee damage floor.",
+      "tree": "This Year's Gimmick",
+      "tree_id": "this_years_gimmick",
+      "icon_id": "yg_handshake"
+    },
+    {
+      "step": 56,
+      "level": 57,
+      "skill_id": "yg_booming_business",
+      "display_name": "Booming Business",
+      "points": 1,
+      "to_rank": 1,
+      "reason": "Rank 1/5: Crit → free grenade chance — AFK ordnance engine.",
+      "tree": "This Year's Gimmick",
+      "tree_id": "this_years_gimmick",
+      "icon_id": "yg_booming_business"
+    },
+    {
+      "step": 57,
+      "level": 58,
+      "skill_id": "yg_booming_business",
+      "display_name": "Booming Business",
+      "points": 1,
+      "to_rank": 2,
+      "reason": "Rank 2/5: Crit → free grenade chance — AFK ordnance engine.",
+      "tree": "This Year's Gimmick",
+      "tree_id": "this_years_gimmick",
+      "icon_id": "yg_booming_business"
+    },
+    {
+      "step": 58,
+      "level": 59,
+      "skill_id": "yg_booming_business",
+      "display_name": "Booming Business",
+      "points": 1,
+      "to_rank": 3,
+      "reason": "Rank 3/5: Crit → free grenade chance — AFK ordnance engine.",
+      "tree": "This Year's Gimmick",
+      "tree_id": "this_years_gimmick",
+      "icon_id": "yg_booming_business"
+    },
+    {
+      "step": 59,
+      "level": 60,
+      "skill_id": "yg_booming_business",
+      "display_name": "Booming Business",
+      "points": 1,
+      "to_rank": 4,
+      "reason": "Rank 4/5: Crit → free grenade chance — AFK ordnance engine.",
+      "tree": "This Year's Gimmick",
+      "tree_id": "this_years_gimmick",
+      "icon_id": "yg_booming_business"
+    },
+    {
+      "step": 60,
+      "level": 61,
+      "skill_id": "yg_booming_business",
+      "display_name": "Booming Business",
+      "points": 1,
+      "to_rank": 5,
+      "reason": "Rank 5/5: Crit → free grenade chance — AFK ordnance engine.",
+      "tree": "This Year's Gimmick",
+      "tree_id": "this_years_gimmick",
+      "icon_id": "yg_booming_business"
+    },
+    {
+      "step": 61,
+      "level": 62,
+      "skill_id": "yg_el_paraguas",
+      "display_name": "El Paraguas",
+      "points": 1,
+      "to_rank": 1,
+      "reason": "Rank 1/5: Splash damage + splash crit — closes grenade crit loop.",
+      "tree": "This Year's Gimmick",
+      "tree_id": "this_years_gimmick",
+      "icon_id": "yg_el_paraguas"
+    },
+    {
+      "step": 62,
+      "level": 63,
+      "skill_id": "yg_el_paraguas",
+      "display_name": "El Paraguas",
+      "points": 1,
+      "to_rank": 2,
+      "reason": "Rank 2/5: Splash damage + splash crit — closes grenade crit loop.",
+      "tree": "This Year's Gimmick",
+      "tree_id": "this_years_gimmick",
+      "icon_id": "yg_el_paraguas"
+    },
+    {
+      "step": 63,
+      "level": 64,
+      "skill_id": "yg_el_paraguas",
+      "display_name": "El Paraguas",
+      "points": 1,
+      "to_rank": 3,
+      "reason": "Rank 3/5: Splash damage + splash crit — closes grenade crit loop.",
+      "tree": "This Year's Gimmick",
+      "tree_id": "this_years_gimmick",
+      "icon_id": "yg_el_paraguas"
+    },
+    {
+      "step": 64,
+      "level": 65,
+      "skill_id": "yg_el_paraguas",
+      "display_name": "El Paraguas",
+      "points": 1,
+      "to_rank": 4,
+      "reason": "Rank 4/5: Splash damage + splash crit — closes grenade crit loop.",
+      "tree": "This Year's Gimmick",
+      "tree_id": "this_years_gimmick",
+      "icon_id": "yg_el_paraguas"
+    },
+    {
+      "step": 65,
+      "level": 66,
+      "skill_id": "yg_el_paraguas",
+      "display_name": "El Paraguas",
+      "points": 1,
+      "to_rank": 5,
+      "reason": "Rank 5/5: Splash damage + splash crit — closes grenade crit loop.",
+      "tree": "This Year's Gimmick",
+      "tree_id": "this_years_gimmick",
+      "icon_id": "yg_el_paraguas"
+    },
+    {
+      "step": 66,
+      "level": 67,
+      "skill_id": "yg_midnight",
+      "display_name": "Midnight Oil",
+      "points": 1,
+      "to_rank": 1,
+      "reason": "Rank 1/4: Action corrosive over time (stop at 4/5 for 69).",
+      "tree": "This Year's Gimmick",
+      "tree_id": "this_years_gimmick",
+      "icon_id": "yg_midnight"
+    },
+    {
+      "step": 67,
+      "level": 68,
+      "skill_id": "yg_midnight",
+      "display_name": "Midnight Oil",
+      "points": 1,
+      "to_rank": 2,
+      "reason": "Rank 2/4: Action corrosive over time (stop at 4/5 for 69).",
+      "tree": "This Year's Gimmick",
+      "tree_id": "this_years_gimmick",
+      "icon_id": "yg_midnight"
+    },
+    {
+      "step": 68,
+      "level": 69,
+      "skill_id": "yg_midnight",
+      "display_name": "Midnight Oil",
+      "points": 1,
+      "to_rank": 3,
+      "reason": "Rank 3/4: Action corrosive over time (stop at 4/5 for 69).",
+      "tree": "This Year's Gimmick",
+      "tree_id": "this_years_gimmick",
+      "icon_id": "yg_midnight"
+    },
+    {
+      "step": 69,
+      "level": 70,
+      "skill_id": "yg_midnight",
+      "display_name": "Midnight Oil",
+      "points": 1,
+      "to_rank": 4,
+      "reason": "Rank 4/4: Action corrosive over time (stop at 4/5 for 69).",
+      "tree": "This Year's Gimmick",
+      "tree_id": "this_years_gimmick",
+      "icon_id": "yg_midnight"
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import { t } from "../i18n";
 import { applySettingsBundle, parseSettings, snapshotSettings } from "../settings/export";
 import { applySettingsThemeMode, getSettingsThemeMode } from "../settings/preferences";
 import { applySettingsSearch } from "../settings/search";
+import { splitSerialPaste, verifySerialTokens } from "../site/serial";
 import type { ThemeMode } from "../theme";
 
 export type SettingsPanelCallbacks = {
@@ -46,9 +47,16 @@ export function createSettingsPanel(callbacks: SettingsPanelCallbacks): HTMLElem
         <input type="checkbox" data-save-crashes />
       </label>
     </section>
-    <section class="gp-settings-group" data-settings-haystack="${t("settings.section.data")} ${t("settings.export")} ${t("settings.import")}">
+    <section class="gp-settings-group" data-settings-haystack="${t("settings.section.data")} ${t("settings.export")} ${t("settings.import")} ${t("mvp.serial.label")} ${t("mvp.share.label")}">
       <h3>${t("settings.section.data")}</h3>
+      <label class="gp-settings-row">
+        <span>${t("mvp.serial.label")}</span>
+        <textarea data-serial-paste rows="3" aria-label="${t("mvp.serial.label")}" placeholder="${t("mvp.serial.placeholder")}"></textarea>
+      </label>
+      <p class="gp-settings-hint" data-serial-status role="status">${t("mvp.serial.empty")}</p>
       <div class="gp-settings-row gp-settings-actions">
+        <button type="button" data-serial-check>${t("mvp.serial.check")}</button>
+        <button type="button" data-share-md>${t("mvp.share.copy")}</button>
         <button type="button" data-settings-export>${t("settings.export")}</button>
         <button type="button" data-settings-import>${t("settings.import")}</button>
         <input type="file" accept="application/json" hidden data-settings-import-file />
@@ -113,6 +121,28 @@ export function createSettingsPanel(callbacks: SettingsPanelCallbacks): HTMLElem
       const bundle = parseSettings(raw);
       if (bundle) applySettingsBundle(bundle);
     });
+  });
+
+  const serialStatus = panel.querySelector<HTMLElement>("[data-serial-status]");
+  panel.querySelector("[data-serial-check]")?.addEventListener("click", () => {
+    const raw = panel.querySelector<HTMLTextAreaElement>("[data-serial-paste]")?.value ?? "";
+    const parts = splitSerialPaste(raw);
+    if (!parts.length) {
+      if (serialStatus) serialStatus.textContent = t("mvp.serial.empty");
+      return;
+    }
+    const verified = verifySerialTokens(parts);
+    if (serialStatus) {
+      serialStatus.textContent = t("mvp.serial.result").replace(
+        "{n}",
+        String(verified.matches.length),
+      );
+    }
+  });
+  panel.querySelector("[data-share-md]")?.addEventListener("click", () => {
+    const md = `# BL4 Forge MVP\n\n${t("mvp.share.body")}\n`;
+    void navigator.clipboard?.writeText(md);
+    if (serialStatus) serialStatus.textContent = t("mvp.share.copied");
   });
   return panel;
 }

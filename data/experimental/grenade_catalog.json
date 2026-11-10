@@ -1,0 +1,183 @@
+{
+  "experimental": true,
+  "obtainable": "unverified",
+  "oracle_default": "name_inferred",
+  "scraped_at": "2026-11-10",
+  "confidence": "community_table",
+  "sources": [
+    "https://www.lootlemon.com/grenade-mod/waterfall-bl4",
+    "https://mentalmars.com/gear/waterfall-bl4/"
+  ],
+  "roll_slots": ["payload", "payload_augment", "perk"],
+  "grenades": [
+    {
+      "id": "vla_grenade_gadget.comp_05_legendary_Waterfall",
+      "name": "Waterfall",
+      "manufacturer": "Vladof",
+      "delivery": "lob",
+      "behavior_tags": ["chain_explode", "splash", "ordnance"],
+      "legendary_effect": {
+        "summary": "Enemies hit by splash explode for half damage; chains continue down to ~1.56% damage.",
+        "behavior_tags": ["chain_explode", "splash"]
+      },
+      "payloads": [
+        {
+          "id": "lingering",
+          "name": "Lingering",
+          "behavior_tags": ["lingering", "status", "splash"],
+          "augments": [
+            { "id": "pulsing", "name": "Pulsing", "behavior_tags": ["pulse", "splash", "radius"] },
+            { "id": "fracture", "name": "Fracture", "behavior_tags": ["pillars", "splash"] },
+            { "id": "duration", "name": "Duration", "behavior_tags": ["duration"] },
+            { "id": "splat_pack", "name": "Splat Pack", "behavior_tags": ["puddle", "splash"] },
+            { "id": "alchemic", "name": "Alchemic", "behavior_tags": ["status"] }
+          ]
+        },
+        {
+          "id": "mirv",
+          "name": "MIRV",
+          "behavior_tags": ["mirv", "splash", "spawn_grenade"],
+          "augments": [
+            { "id": "micro_mirv", "name": "Micro MIRV", "behavior_tags": ["mirv", "spawn_grenade"] },
+            { "id": "tightly_packed", "name": "Tightly Packed", "behavior_tags": ["mirv"] },
+            { "id": "rubberized", "name": "Rubberized", "behavior_tags": ["bounce"] },
+            { "id": "spring", "name": "Spring", "behavior_tags": ["bounce", "splash"] }
+          ]
+        },
+        {
+          "id": "singularity",
+          "name": "Singularity",
+          "behavior_tags": ["singularity", "pull"],
+          "augments": [
+            { "id": "collapsing", "name": "Collapsing", "behavior_tags": ["radius", "pull"] },
+            { "id": "gnawing", "name": "Gnawing", "behavior_tags": ["dot"] },
+            { "id": "prolonged", "name": "Prolonged", "behavior_tags": ["duration"] },
+            { "id": "repulsor", "name": "Repulsor", "behavior_tags": ["knockback"] }
+          ]
+        },
+        {
+          "id": "artillery",
+          "name": "Artillery",
+          "behavior_tags": ["artillery", "splash", "spawn_grenade"],
+          "augments": [
+            { "id": "missiles", "name": "Missiles", "behavior_tags": ["homing", "splash"] },
+            { "id": "mortar", "name": "Mortar", "behavior_tags": ["splash"] },
+            { "id": "maglock", "name": "Maglock", "behavior_tags": ["homing"] },
+            { "id": "duration", "name": "Duration", "behavior_tags": ["duration"] },
+            { "id": "ricochet", "name": "Ricochet", "behavior_tags": ["ricochet"] }
+          ]
+        },
+        {
+          "id": "divider",
+          "name": "Divider",
+          "behavior_tags": ["spawn_grenade", "divider"],
+          "augments": [
+            { "id": "long_division", "name": "Long Division", "behavior_tags": ["spawn_grenade"] },
+            { "id": "splinter", "name": "Splinter", "behavior_tags": ["spawn_grenade"] },
+            { "id": "spring", "name": "Spring", "behavior_tags": ["bounce"] },
+            { "id": "pulling", "name": "Pulling", "behavior_tags": ["singularity"] },
+            { "id": "repeater", "name": "Repeater", "behavior_tags": ["spawn_grenade"] }
+          ]
+        },
+        {
+          "id": "spring",
+          "name": "Spring",
+          "behavior_tags": ["bounce", "splash"],
+          "augments": [
+            { "id": "compounding", "name": "Compounding", "behavior_tags": ["damage", "radius"] },
+            { "id": "spawning", "name": "Spawning", "behavior_tags": ["spawn_grenade"] },
+            { "id": "apex", "name": "Apex", "behavior_tags": ["splash"] },
+            { "id": "bouncer", "name": "Bouncer", "behavior_tags": ["homing"] },
+            { "id": "tightly_coiled", "name": "Tightly Coiled", "behavior_tags": ["bounce"] }
+          ]
+        }
+      ],
+      "perks": [
+        {
+          "id": "nuke",
+          "name": "Nuke",
+          "behavior_tags": ["nuke", "splash", "radius", "damage"],
+          "effects": [
+            { "op": "add", "target": "ordnance_damage", "value": 0.31, "oracle": "name_inferred", "label": "Nuke Damage" },
+            { "op": "add", "target": "splash_radius", "value": 0.62, "oracle": "name_inferred", "label": "Nuke Radius", "tag_only": true, "tags": ["radius"] },
+            { "op": "add", "target": "ordnance_cooldown", "value": 0.25, "oracle": "name_inferred", "label": "Nuke Cooldown Penalty", "tag_only": true, "tags": ["cooldown"] }
+          ]
+        },
+        {
+          "id": "expansive",
+          "name": "Expansive",
+          "behavior_tags": ["radius", "splash"],
+          "effects": [
+            { "op": "add", "target": "splash_radius", "value": 0.41, "oracle": "name_inferred", "label": "Expansive Radius", "tag_only": true, "tags": ["radius"] }
+          ]
+        },
+        {
+          "id": "explosive",
+          "name": "Explosive",
+          "behavior_tags": ["damage"],
+          "effects": [
+            { "op": "add", "target": "ordnance_damage", "value": 0.21, "oracle": "name_inferred", "label": "Explosive Damage" }
+          ]
+        },
+        {
+          "id": "express",
+          "name": "Express",
+          "behavior_tags": ["cooldown"],
+          "effects": [
+            { "op": "add", "target": "ordnance_cooldown", "value": -0.21, "oracle": "name_inferred", "label": "Express Cooldown", "tag_only": true, "tags": ["cooldown"] }
+          ]
+        },
+        {
+          "id": "overflow",
+          "name": "Overflow",
+          "behavior_tags": ["charges"],
+          "effects": [
+            { "op": "add", "target": "ordnance_charges", "value": 1, "oracle": "name_inferred", "label": "Overflow Charges", "tag_only": true, "tags": ["charges"] }
+          ]
+        },
+        {
+          "id": "hazardous",
+          "name": "Hazardous",
+          "behavior_tags": ["status"],
+          "effects": [
+            { "op": "add", "target": "status_chance", "value": 0.17, "oracle": "name_inferred", "label": "Hazardous Status", "tag_only": true, "tags": ["status"] }
+          ]
+        },
+        {
+          "id": "exacting",
+          "name": "Exacting",
+          "behavior_tags": ["crit"],
+          "effects": [
+            { "op": "add", "target": "crit_chance", "value": 0.25, "oracle": "name_inferred", "label": "Exacting Crit" }
+          ]
+        },
+        {
+          "id": "bloodthirsty",
+          "name": "Bloodthirsty",
+          "behavior_tags": ["lifesteal"],
+          "effects": [
+            { "op": "add", "target": "ordnance_lifesteal", "value": 0.17, "oracle": "name_inferred", "label": "Bloodthirsty Lifesteal", "tag_only": true, "tags": ["lifesteal"] }
+          ]
+        },
+        {
+          "id": "concussive",
+          "name": "Concussive",
+          "behavior_tags": ["knockback"],
+          "effects": [
+            { "op": "add", "target": "knockback", "value": 0.83, "oracle": "name_inferred", "label": "Concussive Knockback", "tag_only": true, "tags": ["knockback"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "generic_airdrop_firmware",
+      "name": "Airdrop / Get Throwin firmware (radius)",
+      "manufacturer": "firmware",
+      "delivery": "airdrop",
+      "behavior_tags": ["airdrop", "radius", "splash"],
+      "payloads": [],
+      "perks": [],
+      "note": "Firmware pair often cited for +radius enabling Waterfall hops; experimental tag source only."
+    }
+  ]
+}

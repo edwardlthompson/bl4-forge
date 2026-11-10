@@ -76,6 +76,23 @@ examples/android/app/src/main/assets/donations.json
 target/
 examples/rust/target/
 
+# Datamine maintainer toolchain (pinned rebuild; never commit AES/install path)
+tools/vendor/
+tools/bin/bl4
+tools/bin/bl4.exe
+tools/bin/uextract
+tools/bin/uextract.exe
+tools/datamine/.env
+tools/datamine/out/
+tools/experimental-scrape/out/
+# Full string dump exceeds 500KB tracked-file budget; commit corpus/report only.
+data/indexes/cards.json
+# Full compile/quarantine dumps are regenerable; commit summaries only.
+data/indexes/compiled-parts.json
+data/indexes/quarantine.json
+data/indexes/spot_check_passed.json
+
+
 # Python caches
 .pytest_cache/
 .mypy_cache/
@@ -112,3 +129,6 @@ CODE_REVIEW.md
 RELEASE_NOTES.md
 scratchpad.md
 .cursor/handoff-*.md
+
+tools/bin/oo2core*.dll
+tools/bin/*.dll

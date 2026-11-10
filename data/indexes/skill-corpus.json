@@ -1,0 +1,720 @@
+{
+  "version": 1,
+  "count": 102,
+  "cards": [
+    {
+      "key": "actionskillactiveequiptext",
+      "table": "Skills",
+      "body": "Action Skill Is Active; Cannot Equip",
+      "raw": "Skills, 146D96CE41B94A2D2B9C508CD472D399, Action Skill Is Active; Cannot Equip",
+      "source": "display_data"
+    },
+    {
+      "key": "actionskillactiveunequiptext",
+      "table": "Skills",
+      "body": "Action Skill Is Active; Cannot Unequip",
+      "raw": "Skills, 428529A243F0F76CA3536F85912FBEC8, Action Skill Is Active; Cannot Unequip",
+      "source": "display_data"
+    },
+    {
+      "key": "actionskillscategorytext",
+      "table": "NewCharacter",
+      "body": "Action Skills",
+      "raw": "NewCharacter, ActionSkillsCategoryText, Action Skills",
+      "source": "display_data"
+    },
+    {
+      "key": "actionskilltext",
+      "table": "Skills",
+      "body": "Action Skill",
+      "raw": "Skills, A461AF024CD64A4C0DE7D58F5AB902FD, Action Skill",
+      "source": "display_data"
+    },
+    {
+      "key": "additionalpassivestext",
+      "table": "Skills",
+      "body": "Additional Passives",
+      "raw": "Skills, 4A38A3134581ED55FB8E44AD4E50E3D5, Additional Passives",
+      "source": "display_data"
+    },
+    {
+      "key": "augmenttext",
+      "table": "Skills",
+      "body": "Augment",
+      "raw": "Skills, BF42635F4DB820B9356011961CF257FE, Augment",
+      "source": "display_data"
+    },
+    {
+      "key": "bigmap_action_begintraitmission",
+      "table": "BigMap",
+      "body": "Begin Mission",
+      "raw": "BigMap, BigMap_Action_BeginTraitMission, Begin Mission",
+      "source": "display_data"
+    },
+    {
+      "key": "capstonetext",
+      "table": "Skills",
+      "body": "Capstone",
+      "raw": "Skills, A8448D2149E23AD1F1CC53873C49CC4C, Capstone",
+      "source": "display_data"
+    },
+    {
+      "key": "chooseloadouttext",
+      "table": "Skills",
+      "body": "Choose a loadout Passive Skill to swap.",
+      "raw": "Skills, F0625DD94247C20415E5628F015E01DA, Choose a loadout Passive Skill to swap.",
+      "source": "display_data"
+    },
+    {
+      "key": "equipactionskilltext",
+      "table": "Skills",
+      "body": "Equip Action Skill",
+      "raw": "Skills, 79F04F974737C953F48A55ACC5CE1300, Equip Action Skill",
+      "source": "display_data"
+    },
+    {
+      "key": "equipaugmenttext",
+      "table": "Skills",
+      "body": "Equip Augment",
+      "raw": "Skills, 9DD84120423BDDB3FDCB878D780118F9, Equip Augment",
+      "source": "display_data"
+    },
+    {
+      "key": "equipcapstonetext",
+      "table": "Skills",
+      "body": "Equip Capstone",
+      "raw": "Skills, 9F86E5E74BD69876ABFF3BAC93F23276, Equip Capstone",
+      "source": "display_data"
+    },
+    {
+      "key": "equippassivetext",
+      "table": "Skills",
+      "body": "Equip Passive Skill",
+      "raw": "Skills, 5FEDF35F4965C1E9F9510B9BEF7157E0, Equip Passive Skill",
+      "source": "display_data"
+    },
+    {
+      "key": "fromclassmodtext",
+      "table": "Skills",
+      "body": "[+{0} from Class Mod]",
+      "raw": "Skills, 6373265549C2B2CB5543A59E7945CBA0, [+{0} from Class Mod]",
+      "source": "display_data"
+    },
+    {
+      "key": "name_trait_damage_increase",
+      "table": "TraitData_AI",
+      "body": "Strong",
+      "raw": "TraitData_AI, 125B6ACB4F5B38B4DCE222A5AB4175BB, Strong",
+      "source": "display_data"
+    },
+    {
+      "key": "investfivepointstext",
+      "table": "Skills",
+      "body": "Invest 5 Points",
+      "raw": "Skills, BA0363F44261F2B055C8B685CA834D63, Invest 5 Points",
+      "source": "display_data"
+    },
+    {
+      "key": "investmaxtext",
+      "table": "Skills",
+      "body": "Invest Maximum Points",
+      "raw": "Skills, 15425450403E6E4A850D61A203A1042A, Invest Maximum Points",
+      "source": "display_data"
+    },
+    {
+      "key": "investpointtext",
+      "table": "Skills",
+      "body": "Invest Point",
+      "raw": "Skills, 326A3BF54DA050CFB838888BE8C42518, Invest Point",
+      "source": "display_data"
+    },
+    {
+      "key": "specialization_level_up_notification",
+      "table": "notification_message",
+      "body": "You Leveled Up",
+      "raw": "notification_message, F6DA8D56429B298A5DC4A1AFD471FBA9, You Leveled Up",
+      "source": "display_data"
+    },
+    {
+      "key": "loadoutlockedtext",
+      "table": "Skills",
+      "body": "Locked. Invest More Points",
+      "raw": "Skills, DBA6B1004C3B42E1F7B759A534D9B64F, Locked. Invest More Points",
+      "source": "display_data"
+    },
+    {
+      "key": "loadouttext",
+      "table": "Skills",
+      "body": "Loadout",
+      "raw": "Skills, C4B9F12041A383971CE8A7BDC1EDF391, Loadout",
+      "source": "display_data"
+    },
+    {
+      "key": "pointinbranchtext",
+      "table": "Skills",
+      "body": "Requires {0} Point in Branch",
+      "raw": "Skills, 36E6D8F6440917DA410F15A593F12DFF, Requires {0} Point in Branch",
+      "source": "display_data"
+    },
+    {
+      "key": "pointrequiredintext",
+      "table": "Skills",
+      "body": "Requires {0} Point in {1}",
+      "raw": "Skills, D77A1A324DB4B16CAF567683BAD4807E, Requires {0} Point in {1}",
+      "source": "display_data"
+    },
+    {
+      "key": "pointrequiredtext",
+      "table": "Skills",
+      "body": "Requires {0} Point",
+      "raw": "Skills, AFB6F66F4D7EC4E0E5BD31BCD7569CB8, Requires {0} Point",
+      "source": "display_data"
+    },
+    {
+      "key": "pointsinbranchtext",
+      "table": "Skills",
+      "body": "Requires {0} Points in Branch",
+      "raw": "Skills, 457548F348D8513957A973A70665D7DA, Requires {0} Points in Branch",
+      "source": "display_data"
+    },
+    {
+      "key": "pointsinvestedtext",
+      "table": "Skills",
+      "body": "Points Invested",
+      "raw": "Skills, BDF8E7CF4C3EAEE037910F950370394E, Points Invested",
+      "source": "display_data"
+    },
+    {
+      "key": "pointsrequiredintext",
+      "table": "Skills",
+      "body": "Requires {0} Points in {1}",
+      "raw": "Skills, C67DD35C4F53594EEF507881C393CD40, Requires {0} Points in {1}",
+      "source": "display_data"
+    },
+    {
+      "key": "pointsrequiredtext",
+      "table": "Skills",
+      "body": "Requires {0} Points",
+      "raw": "Skills, 50BECD8040C04A5CE0B22A81CD1172DA, Requires {0} Points",
+      "source": "display_data"
+    },
+    {
+      "key": "requiresactionskilltext",
+      "table": "Skills",
+      "body": "Requires an Equipped Action Skill",
+      "raw": "Skills, 933176E04691C16413A19E9ABFC30350, Requires an Equipped Action Skill",
+      "source": "display_data"
+    },
+    {
+      "key": "requirestext",
+      "table": "Skills",
+      "body": "Requires {0}",
+      "raw": "Skills, F1C84756487B6C2B6B3280BA7D513175, Requires {0}",
+      "source": "display_data"
+    },
+    {
+      "key": "respecallhint",
+      "table": "Skills",
+      "body": "Respec All",
+      "raw": "Skills, FD719016485DD5CEDC47568A198A2B93, Respec All",
+      "source": "display_data"
+    },
+    {
+      "key": "respecnodetext",
+      "table": "Skills",
+      "body": "Respec Node",
+      "raw": "Skills, A6B5A0DF455063DE34C9A29583FAB689, Respec Node",
+      "source": "display_data"
+    },
+    {
+      "key": "respecpointsheadertext",
+      "table": "Skills",
+      "body": "Respec Points",
+      "raw": "Skills, 5ED0CC4F46168D8E3E5B09B056DD00A3, Respec Points",
+      "source": "display_data"
+    },
+    {
+      "key": "respectreehint",
+      "table": "Skills",
+      "body": "Respec Tree",
+      "raw": "Skills, C392589F4A654E70F1F9A5A39C70BCEC, Respec Tree",
+      "source": "display_data"
+    },
+    {
+      "key": "skillbonustext",
+      "table": "Inventory",
+      "body": "Skill Bonus",
+      "raw": "Inventory, SkillBonusText, Skill Bonus",
+      "source": "display_data"
+    },
+    {
+      "key": "skillpointsavailabletext",
+      "table": "Skills",
+      "body": "Skill Points",
+      "raw": "Skills, 9D47EABE4D57461DA3B98DAF79A647AD, Skill Points",
+      "source": "display_data"
+    },
+    {
+      "key": "skillsentry",
+      "table": "StatusMenu",
+      "body": "Skills",
+      "raw": "StatusMenu, SkillsEntry, Skills",
+      "source": "display_data"
+    },
+    {
+      "key": "specializationsentry",
+      "table": "StatusMenu",
+      "body": "Specializations",
+      "raw": "StatusMenu, DB000E9C404209E20D49068B338D619B, Specializations",
+      "source": "display_data"
+    },
+    {
+      "key": "specpointsavailabletext",
+      "table": "Skills",
+      "body": "Specialization Points",
+      "raw": "Skills, 511FCEE4494D626B40F17087F7C8F331, Specialization Points",
+      "source": "display_data"
+    },
+    {
+      "key": "swapaugmenttext",
+      "table": "Skills",
+      "body": "Swap Augment",
+      "raw": "Skills, 08A1C7724C36F3FE932A07AA1FE1F340, Swap Augment",
+      "source": "display_data"
+    },
+    {
+      "key": "swapcapstonetext",
+      "table": "Skills",
+      "body": "Swap Capstone",
+      "raw": "Skills, 0E390E6040E1928D8F24D3818238AF98, Swap Capstone",
+      "source": "display_data"
+    },
+    {
+      "key": "swappassivetext",
+      "table": "Skills",
+      "body": "Swap Passive",
+      "raw": "Skills, 0E2482FB4C5CA08ED31C6DB0D4A32675, Swap Passive",
+      "source": "display_data"
+    },
+    {
+      "key": "traitsfilterlabel",
+      "table": "Inventory",
+      "body": "Traits",
+      "raw": "Inventory, TraitsFilterLabel, Traits",
+      "source": "display_data"
+    },
+    {
+      "key": "travelweeklytraitmissioncancelledtext",
+      "table": "travel_notification",
+      "body": "Abandoning Wildcard Mission",
+      "raw": "travel_notification, TravelWeeklyTraitMissionCancelledText, Abandoning Wildcard Mission",
+      "source": "display_data"
+    },
+    {
+      "key": "travelweeklytraitmissioncompletetext",
+      "table": "travel_notification",
+      "body": "Wildcard Mission Complete",
+      "raw": "travel_notification, TravelWeeklyTraitMissionCompleteText, Wildcard Mission Complete",
+      "source": "display_data"
+    },
+    {
+      "key": "ui_locationtypename_traitmissiongiver",
+      "table": "discovery",
+      "body": "Wildcard Mission Giver",
+      "raw": "discovery, DDDB2BF14AB30BAFA79ADABED317015E, Wildcard Mission Giver",
+      "source": "display_data"
+    },
+    {
+      "key": "uibigmap_start_trait_mission",
+      "table": "BigMap",
+      "body": "Modifiers",
+      "raw": "BigMap, UIBigMap_Start_Trait_Mission, Modifiers",
+      "source": "display_data"
+    },
+    {
+      "key": "undohint",
+      "table": "Skills",
+      "body": "Undo",
+      "raw": "Skills, 99D7552840DE10C05AE1C3B0DC519E20, Undo",
+      "source": "display_data"
+    },
+    {
+      "key": "unequipactionskilltext",
+      "table": "Skills",
+      "body": "Unequip Action Skill",
+      "raw": "Skills, AB83592E428EECEA7428CD8EED929CAB, Unequip Action Skill",
+      "source": "display_data"
+    },
+    {
+      "key": "unequipaugmenttext",
+      "table": "Skills",
+      "body": "Unequip Augment",
+      "raw": "Skills, E984721745C1FAD9F84BB2B002AC9635, Unequip Augment",
+      "source": "display_data"
+    },
+    {
+      "key": "unequipcapstonetext",
+      "table": "Skills",
+      "body": "Unequip Capstone",
+      "raw": "Skills, 1D912F6E41D7FAF1962FEEBFE853E079, Unequip Capstone",
+      "source": "display_data"
+    },
+    {
+      "key": "unequippassivetext",
+      "table": "Skills",
+      "body": "Unequip Passive Skill",
+      "raw": "Skills, 47143E52425F5D08F696FBA30DB5D033, Unequip Passive Skill",
+      "source": "display_data"
+    },
+    {
+      "key": "name_ds_p_spiritcompanion",
+      "table": "DarkSiren_Passives_Duplicate",
+      "body": "Spirit Companion",
+      "raw": "DarkSiren_Passives_Duplicate, 5E02D10E48044FD562F93A9DD11DDB78, Spirit Companion",
+      "source": "display_data"
+    },
+    {
+      "key": "name_grav_terminal_halosidekick",
+      "table": "DarkSiren_ActionSkill_PhaseShard",
+      "body": "HALO Sidekick",
+      "raw": "DarkSiren_ActionSkill_PhaseShard, 39F999A34610A7122466EC9E80990396, HALO Sidekick",
+      "source": "display_data"
+    },
+    {
+      "key": "name_pld_p_forgeaxe",
+      "table": "DarkSiren_ActionSkill_PhaseShard",
+      "body": "Forge Axe",
+      "raw": "DarkSiren_ActionSkill_PhaseShard, E1F57C7746D2F028261EB383C3C048B2, Forge Axe",
+      "source": "display_data"
+    },
+    {
+      "key": "name_pld_p_forgehammer",
+      "table": "DarkSiren_ActionSkill_PhaseShard",
+      "body": "Forge Hammer",
+      "raw": "DarkSiren_ActionSkill_PhaseShard, A399BC0844C0A558E86971A056E1F709, Forge Hammer",
+      "source": "display_data"
+    },
+    {
+      "key": "name_pld_p_forgesword",
+      "table": "DarkSiren_ActionSkill_PhaseShard",
+      "body": "Forge Sword",
+      "raw": "DarkSiren_ActionSkill_PhaseShard, DE803C6547E1B9EF47E0F7AF25036ECD, Forge Sword",
+      "source": "display_data"
+    },
+    {
+      "key": "name_pld_p_forgeweapon",
+      "table": "DarkSiren_ActionSkill_PhaseShard",
+      "body": "Forge Weapon",
+      "raw": "DarkSiren_ActionSkill_PhaseShard, 8F66C66C4CB3A5FC3720E591D4823DD2, Forge Weapon",
+      "source": "display_data"
+    },
+    {
+      "key": "name_loot_cash",
+      "table": "TraitData_AI",
+      "body": "Wealthy",
+      "raw": "TraitData_AI, B82CAEF3490ABB18E745A1BC4C4DA90B, Wealthy",
+      "source": "display_data"
+    },
+    {
+      "key": "name_loot_eridium",
+      "table": "TraitData_AI",
+      "body": "Bougie",
+      "raw": "TraitData_AI, EA212A1E40169316CED90B91E8BD2DE7, Bougie",
+      "source": "display_data"
+    },
+    {
+      "key": "name_loot_gear",
+      "table": "TraitData_AI",
+      "body": "Quartermaster",
+      "raw": "TraitData_AI, F257FCEB41620517197E68B2440FA2D9, Quartermaster",
+      "source": "display_data"
+    },
+    {
+      "key": "name_loot_guns",
+      "table": "TraitData_AI",
+      "body": "Arms Dealer",
+      "raw": "TraitData_AI, 27B9C62B4CDB736B85ED859DCE283FB4, Arms Dealer",
+      "source": "display_data"
+    },
+    {
+      "key": "name_trait_damage_deflect",
+      "table": "TraitData_AI",
+      "body": "Deflector",
+      "raw": "TraitData_AI, 8E0A59C34761036E2EF885A5146A54DA, Deflector",
+      "source": "display_data"
+    },
+    {
+      "key": "name_trait_damage_lockreactions",
+      "table": "TraitData_AI",
+      "body": "Immovable",
+      "raw": "TraitData_AI, 677C3DE4400655156DEAB89A56299974, Immovable",
+      "source": "display_data"
+    },
+    {
+      "key": "name_trait_damage_returnprojectile",
+      "table": "TraitData_AI",
+      "body": "Irritable",
+      "raw": "TraitData_AI, 00C8EA5947ABDC7878E9A18AB8B03C4A, Irritable",
+      "source": "display_data"
+    },
+    {
+      "key": "name_trait_damage_speedburst",
+      "table": "TraitData_AI",
+      "body": "Quickened",
+      "raw": "TraitData_AI, B7A4C8464C539BAAE663E6AF69646CD1, Quickened",
+      "source": "display_data"
+    },
+    {
+      "key": "name_trait_death_dropprojectile",
+      "table": "TraitData_AI",
+      "body": "Tricky",
+      "raw": "TraitData_AI, 86440A3547BB9AC3BE09439A6E3A4175, Tricky",
+      "source": "display_data"
+    },
+    {
+      "key": "name_trait_death_explode",
+      "table": "TraitData_AI",
+      "body": "Ticking",
+      "raw": "TraitData_AI, 20EAA83F41CC239962A643B89622F756, Ticking",
+      "source": "display_data"
+    },
+    {
+      "key": "name_trait_death_freeze",
+      "table": "TraitData_AI",
+      "body": "Cold Hearted",
+      "raw": "TraitData_AI, 1A95B7C341EE399552AE07B3CD1F6B5B, Cold Hearted",
+      "source": "display_data"
+    },
+    {
+      "key": "name_trait_death_returnprojectile",
+      "table": "TraitData_AI",
+      "body": "Vengeful",
+      "raw": "TraitData_AI, C6622F06469A735054D92EBFCA5B4DBF, Vengeful",
+      "source": "display_data"
+    },
+    {
+      "key": "name_trait_death_singularity",
+      "table": "TraitData_AI",
+      "body": "Centripetal",
+      "raw": "TraitData_AI, AD05E0A64DF87C078FDEDDABDD2B4490, Centripetal",
+      "source": "display_data"
+    },
+    {
+      "key": "name_trait_elemental_chains",
+      "table": "TraitData_AI",
+      "body": "Chain Master",
+      "raw": "TraitData_AI, 57EFC0E047D0AE95B3E39C87C4661E3B, Chain Master",
+      "source": "display_data"
+    },
+    {
+      "key": "name_trait_elemental_cycle",
+      "table": "TraitData_AI",
+      "body": "Chromatic",
+      "raw": "TraitData_AI, 8909169642AF81D77F8E428B9222CA37, Chromatic",
+      "source": "display_data"
+    },
+    {
+      "key": "name_trait_elemental_heal",
+      "table": "TraitData_AI",
+      "body": "Elemental Eater",
+      "raw": "TraitData_AI, B21EB6534DE2A7E9050E1B9BC8BFC754, Elemental Eater",
+      "source": "display_data"
+    },
+    {
+      "key": "name_trait_elemental_spread",
+      "table": "TraitData_AI",
+      "body": "Contagious",
+      "raw": "TraitData_AI, FC916445429C052BB8A4BA87E4E42564, Contagious",
+      "source": "display_data"
+    },
+    {
+      "key": "name_trait_elemental_trail",
+      "table": "TraitData_AI",
+      "body": "Leaking",
+      "raw": "TraitData_AI, CAB8C26B4386E17BC0EEA1B50BF93889, Leaking",
+      "source": "display_data"
+    },
+    {
+      "key": "name_trait_health_addarmorbar",
+      "table": "TraitData_AI",
+      "body": "Armored",
+      "raw": "TraitData_AI, 57624CC34952E03D92C71482A2651436, Armored",
+      "source": "display_data"
+    },
+    {
+      "key": "name_trait_health_addenergybar",
+      "table": "TraitData_AI",
+      "body": "Shielded",
+      "raw": "TraitData_AI, 635422B8460C6BAE28268F80D292CBB4, Shielded",
+      "source": "display_data"
+    },
+    {
+      "key": "name_trait_health_addfleshbar",
+      "table": "TraitData_AI",
+      "body": "Healthy",
+      "raw": "TraitData_AI, 10F83F464F55E9F9ED586DB217AE768F, Healthy",
+      "source": "display_data"
+    },
+    {
+      "key": "name_trait_health_levelup",
+      "table": "TraitData_AI",
+      "body": "Experienced",
+      "raw": "TraitData_AI, AE5B146D442A09F0D40DDE9BB3BFB08E, Experienced",
+      "source": "display_data"
+    },
+    {
+      "key": "name_trait_health_regen",
+      "table": "TraitData_AI",
+      "body": "Regenerative",
+      "raw": "TraitData_AI, CD767DBE49B378CE4061C7877FEFC730, Regenerative",
+      "source": "display_data"
+    },
+    {
+      "key": "name_trait_health_steal",
+      "table": "TraitData_AI",
+      "body": "Vampiric",
+      "raw": "TraitData_AI, 003F466C454B926E2CB78BB460F3E8DD, Vampiric",
+      "source": "display_data"
+    },
+    {
+      "key": "name_trait_silly_critical",
+      "table": "TraitData_AI",
+      "body": "One Crit Wonder",
+      "raw": "TraitData_AI, 4501B3A148EDDA5CF14D43BB8128BD54, One Crit Wonder",
+      "source": "display_data"
+    },
+    {
+      "key": "name_trait_special_barricade",
+      "table": "TraitData_AI",
+      "body": "Fortified",
+      "raw": "TraitData_AI, B55CAFCE4E736A71038128BAA026B3D2, Fortified",
+      "source": "display_data"
+    },
+    {
+      "key": "name_trait_special_immune",
+      "table": "TraitData_AI",
+      "body": "Deal With It",
+      "raw": "TraitData_AI, E88D6790443AE9C1FEEC9B80BCBB5F92, Deal With It",
+      "source": "display_data"
+    },
+    {
+      "key": "name_trait_special_invisible",
+      "table": "TraitData_AI",
+      "body": "Invisible",
+      "raw": "TraitData_AI, A060A61A43F910DC209A56B6535A0656, Invisible",
+      "source": "display_data"
+    },
+    {
+      "key": "name_trait_special_invulnerable",
+      "table": "TraitData_AI",
+      "body": "Invulnerable",
+      "raw": "TraitData_AI, D571D1AB4E1B86B4F636ECBD7107FB75, Invulnerable",
+      "source": "display_data"
+    },
+    {
+      "key": "name_traitdronebarricade",
+      "table": "npcs",
+      "body": "Fortification Instrument",
+      "raw": "npcs, FB54222E49E510AA698144B7E814FFA6, Fortification Instrument",
+      "source": "display_data"
+    },
+    {
+      "key": "name_traitdroneinvisible",
+      "table": "npcs",
+      "body": "Invisibility Orb",
+      "raw": "npcs, Name_TraitDroneInvisible, Invisibility Orb",
+      "source": "display_data"
+    },
+    {
+      "key": "name_traitdroneinvulnerable",
+      "table": "npcs",
+      "body": "Invulnerability Orb",
+      "raw": "npcs, Name_TraitDroneInvulnerable, Invulnerability Orb",
+      "source": "display_data"
+    },
+    {
+      "key": "",
+      "table": "tooltips_skills",
+      "body": "[primary]Harlowe[/primary] fires an [secondary]Unstable Energy Pocket[/secondary] that de",
+      "raw": "tooltips_skills, F89217544C107E0B05EBCE915EF44AB6, [primary]Harlowe[/primary] fires an [secondary]Unstable Energy Pocket[/secondary] that de",
+      "source": "ncs:uitooltipdata.bin"
+    },
+    {
+      "key": "",
+      "table": "tooltips_skills",
+      "body": "Press [ACTION SKILL BUTTON] to throw your H.A.L.O. TERMINAL that continually emits CRYO D",
+      "raw": "tooltips_skills, 54C9E3184701664D8868CAAF7A33C8A1, Press [ACTION SKILL BUTTON] to throw your H.A.L.O. TERMINAL that continually emits CRYO D",
+      "source": "ncs:uitooltipdata.bin"
+    },
+    {
+      "key": "",
+      "table": "tooltips_skills",
+      "body": "Deploy a [primary]Terminal[/primary] that [secondary]damages enemies[/secondary] nearby f",
+      "raw": "tooltips_skills, 99927E7D4B2527D21CABF5BF9168E62D, Deploy a [primary]Terminal[/primary] that [secondary]damages enemies[/secondary] nearby f",
+      "source": "ncs:uitooltipdata.bin"
+    },
+    {
+      "key": "",
+      "table": "tooltips_skills",
+      "body": "[primary]Harlowe[/primary] [secondary]Lifts[/secondary] her current target off the ground",
+      "raw": "tooltips_skills, ECA3B4D043EF927B40088790927CE27D, [primary]Harlowe[/primary] [secondary]Lifts[/secondary] her current target off the ground",
+      "source": "ncs:uitooltipdata.bin"
+    },
+    {
+      "key": "",
+      "table": "tooltips_traits",
+      "body": "[secondary]Shared Damage:[/secondary] $VALUE$ of Damage Dealt",
+      "raw": "tooltips_traits, 287AC4C54E0E703101D424AC31950A09, [secondary]Shared Damage:[/secondary] $VALUE$ of Damage Dealt",
+      "source": "ncs:uitooltipdata.bin"
+    },
+    {
+      "key": "",
+      "table": "tooltips_traits",
+      "body": "[secondary]Duration:[/secondary] $VALUE$ seconds",
+      "raw": "tooltips_traits, F5CE8E464AE1665F7018EA85CFA6C632, [secondary]Duration:[/secondary] $VALUE$ seconds",
+      "source": "ncs:uitooltipdata.bin"
+    },
+    {
+      "key": "",
+      "table": "tooltips_traits",
+      "body": "Whenever [primary]Harlowe[/primary] uses her [secondary]Action Skill[/secondary] on enemi",
+      "raw": "tooltips_traits, 798D735A451754C2A03A71BD332306AA, Whenever [primary]Harlowe[/primary] uses her [secondary]Action Skill[/secondary] on enemi",
+      "source": "ncs:uitooltipdata.bin"
+    },
+    {
+      "key": "",
+      "table": "tooltips_traits",
+      "body": "[primary]Harlowe's[/primary] [secondary]Action Skills[/secondary] apply [primary]Entangle",
+      "raw": "tooltips_traits, DD13DA22404D2C62C2F6C8BB0A76C273, [primary]Harlowe's[/primary] [secondary]Action Skills[/secondary] apply [primary]Entangle",
+      "source": "ncs:uitooltipdata.bin"
+    },
+    {
+      "key": "",
+      "table": "tooltips_traits",
+      "body": "[secondary]Damage:[/secondary] $VALUE$",
+      "raw": "tooltips_traits, 1B0772F24E5BCDA917EFB4B90D949774, [secondary]Damage:[/secondary] $VALUE$",
+      "source": "ncs:uitooltipdata.bin"
+    },
+    {
+      "key": "",
+      "table": "tooltips_traits",
+      "body": "[secondary]Movement Speed:[/secondary] $VALUE$",
+      "raw": "tooltips_traits, E977EC9C472B7BEFE4ABA5A9DB5ED342, [secondary]Movement Speed:[/secondary] $VALUE$",
+      "source": "ncs:uitooltipdata.bin"
+    },
+    {
+      "key": "",
+      "table": "tooltips_traits",
+      "body": "Whenever [primary]Rafa[/primary] activates an [secondary]Action Skill[/secondary], he ent",
+      "raw": "tooltips_traits, 97FA5D634731CC983D5EF2B3C111B3D6, Whenever [primary]Rafa[/primary] activates an [secondary]Action Skill[/secondary], he ent",
+      "source": "ncs:uitooltipdata.bin"
+    },
+    {
+      "key": "",
+      "table": "tooltips_vaultcards",
+      "body": "Earn [primary]Vault Card Tickets[/primary] by completing [secondary]Daily[/secondary]",
+      "raw": "tooltips_vaultcards, 462BDCEA428171BDD025F886F32D169D, Earn [primary]Vault Card Tickets[/primary] by completing [secondary]Daily[/secondary]",
+      "source": "ncs:uitooltipdata.bin"
+    }
+  ]
+}

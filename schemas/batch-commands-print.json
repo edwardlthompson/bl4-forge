@@ -259,6 +259,11 @@
       "kind": "step",
       "group": "session",
       "caption": "Full repo settings + golden-path status report (read-only)."
+    },
+    "patch-review": {
+      "kind": "step",
+      "group": "build",
+      "caption": "Offline LLM patch curation for BL4 Forge static builds (no runtime LLM)."
     }
   }
 }

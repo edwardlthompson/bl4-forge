@@ -1,0 +1,13 @@
+{
+  "parts": 790,
+  "with_attributes": 142,
+  "balance_props_harvested": 53,
+  "targets": [
+    "crit_damage",
+    "fire_rate",
+    "gun_damage",
+    "magazine_size",
+    "reload_speed"
+  ],
+  "note": "Numeric ranges provisional (name+prop presence); deepen when table values extract cleanly"
+}

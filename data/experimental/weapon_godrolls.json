@@ -1,0 +1,64 @@
+{
+  "experimental": true,
+  "obtainable": "unverified",
+  "patch": "post-1.10-curated",
+  "curated_at": "2026-11-10",
+  "curated_by": "offline_llm",
+  "note": "Named weapons illustrate profiles from godrollFromBuild — not certified optima.",
+  "examples": [
+    {
+      "id": "maliwan_beam_tosser",
+      "name": "Maliwan Beam Tosser (dual-element)",
+      "licenses": ["maliwan"],
+      "weapon_type": "smg_or_rifle",
+      "element_pairing": ["shock", "incendiary"],
+      "illustrates_tags": ["inactive_element", "dual_element", "gun_element_bonus", "inherit_gun_element"]
+    },
+    {
+      "id": "jakobs_ricochet_rifle",
+      "name": "Jakobs ricochet rifle",
+      "licenses": ["jakobs"],
+      "weapon_type": "rifle",
+      "element_pairing": ["kinetic"],
+      "illustrates_tags": ["ricochet", "crit", "pierce"]
+    },
+    {
+      "id": "torgue_splash_sticky",
+      "name": "Torgue sticky / splash gun",
+      "licenses": ["torgue"],
+      "weapon_type": "splash_friendly",
+      "element_pairing": ["explosive"],
+      "illustrates_tags": ["splash", "radius", "afk_clear", "on_kill"]
+    },
+    {
+      "id": "vladof_underbarrel",
+      "name": "Vladof underbarrel platform",
+      "licenses": ["vladof"],
+      "weapon_type": "ar",
+      "element_pairing": ["any"],
+      "illustrates_tags": ["underbarrel", "fire_rate", "multishot"]
+    }
+  ],
+  "part_priority_templates": [
+    {
+      "id": "maliwan_dual",
+      "when_tags": ["inactive_element", "dual_element", "mixologist", "gun_element_bonus"],
+      "parts": ["maliwan_element_mode_a", "maliwan_element_mode_b", "favor_mixologist_enhancement"]
+    },
+    {
+      "id": "pb_inherit",
+      "when_tags": ["inherit_gun_element", "inherit_gun_parts", "collaborative_ignition"],
+      "parts": ["parts_that_snapshot_to_peacebreaker", "ricochet_or_element_on_held_gun"]
+    },
+    {
+      "id": "jakobs_rico",
+      "when_tags": ["ricochet"],
+      "parts": ["jakobs_ricochet_accessory", "favor_bounce_pass_or_leaper"]
+    },
+    {
+      "id": "torgue_splash",
+      "when_tags": ["splash", "radius"],
+      "parts": ["torgue_sticky_mag", "favor_head_ringer_or_air_burst"]
+    }
+  ]
+}

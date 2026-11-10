@@ -1,0 +1,10 @@
+{
+  "report": {
+    "corpus": 132,
+    "parsed": 132,
+    "rate": 1.0,
+    "pass": true,
+    "note": "Corpus = INTEREST-filtered NCS strings; effects provisional (name_inferred) until D2 oracle."
+  },
+  "misses": []
+}

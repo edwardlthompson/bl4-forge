@@ -4,11 +4,10 @@
 > Walk this with `/coach` or `/tour` (`docs/help/TOUR.md` in other IDEs). Industry **why** lives in [`BEST_PRACTICES.md`](BEST_PRACTICES.md).
 
 <!-- bootstrap-project-card -->
-**Product:** agent-project-bootstrap
-**Purpose:** GitHub Template for FOSS coding-agent projects
-**Stack:** multi
+**Product:** BL4 Forge
+**Purpose:** Deterministic Borderlands 4 min/max build solver and public build leaderboard. No LLM in the loop.
+**Stack:** web
 <!-- /bootstrap-project-card -->
-
 ## Week 1 — Make it yours
 
 - 🔲 Run `scripts/init-project.sh` (or `.ps1`) if you have not already

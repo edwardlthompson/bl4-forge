@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "rule": "confirmed/published still needs human spot-check; experimental MVP is unfrozen",
+  "count": 394,
+  "coverage_gate": "green_experimental_mvp",
+  "note": "Full export gitignored as quarantine.json; regenerate via quarantine.py"
+}

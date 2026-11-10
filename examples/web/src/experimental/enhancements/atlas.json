@@ -1,0 +1,122 @@
+{
+  "experimental": true,
+  "obtainable": "unverified",
+  "manufacturer": "atlas",
+  "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/",
+  "enhancements": [
+    {
+      "id": "atlas_protractor",
+      "manufacturer": "atlas",
+      "name": "Protractor",
+      "effect_text": "Guns with Atlas-licensed parts have a +50% Chance to not consume Ammo while Target Lock is active",
+      "requires_licensed_parts": "atlas",
+      "stage": "on_hit",
+      "effects": [
+        {
+          "op": "flag",
+          "target": "protractor",
+          "value": 1,
+          "stage": "on_hit",
+          "tag_only": true,
+          "tags": [
+            "target_lock",
+            "ammo_economy"
+          ],
+          "behavior_tags": [
+            "target_lock",
+            "ammo_economy"
+          ],
+          "oracle": "name_inferred",
+          "label": "Protractor"
+        }
+      ],
+      "behavior_tags": [
+        "target_lock",
+        "ammo_economy"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "atlas_sure_shot",
+      "manufacturer": "atlas",
+      "name": "Sure Shot",
+      "effect_text": "Projectiles from Guns with Atlas-licensed parts automatically attach a Tracker Dart every 25 seconds",
+      "requires_licensed_parts": "atlas",
+      "stage": "on_hit",
+      "effects": [
+        {
+          "op": "flag",
+          "target": "sure_shot",
+          "value": 1,
+          "stage": "on_hit",
+          "tag_only": true,
+          "tags": [
+            "target_lock",
+            "tracker"
+          ],
+          "behavior_tags": [
+            "target_lock",
+            "tracker"
+          ],
+          "oracle": "name_inferred",
+          "label": "Sure Shot"
+        }
+      ],
+      "behavior_tags": [
+        "target_lock",
+        "tracker"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "atlas_tracker_antenna",
+      "manufacturer": "atlas",
+      "name": "Tracker Antenna",
+      "effect_text": "Guns with Atlas-licensed parts gain +40% Fire Rate while Target Lock is active",
+      "requires_licensed_parts": "atlas",
+      "stage": "rate",
+      "effects": [
+        {
+          "op": "add",
+          "target": "fire_rate",
+          "value": 0.4,
+          "stage": "rate",
+          "oracle": "name_inferred",
+          "label": "Tracker Antenna"
+        }
+      ],
+      "behavior_tags": [
+        "target_lock",
+        "fire_rate"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "atlas_trauma_bond",
+      "manufacturer": "atlas",
+      "name": "Trauma Bond",
+      "effect_text": "Guns with Atlas-licensed parts gain +30% Damage while Target Lock is active",
+      "requires_licensed_parts": "atlas",
+      "stage": "on_shot",
+      "effects": [
+        {
+          "op": "add",
+          "target": "enhancement_gun",
+          "value": 0.3,
+          "stage": "on_shot",
+          "oracle": "name_inferred",
+          "label": "Trauma Bond"
+        }
+      ],
+      "behavior_tags": [
+        "target_lock",
+        "gun_damage"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "experimental": true,
+  "obtainable": "unverified",
+  "manufacturer": "ripper",
+  "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/",
+  "enhancements": [
+    {
+      "id": "ripper_freeloader",
+      "manufacturer": "ripper",
+      "name": "Freeloader",
+      "effect_text": "Weapons with Ripper-Licensed Parts have a +30% Chance to instantly refill the Magazine when it is empty.",
+      "requires_licensed_parts": "ripper",
+      "stage": "flag",
+      "effects": [
+        {
+          "op": "flag",
+          "target": "freeloader",
+          "value": 1,
+          "stage": "flag",
+          "tag_only": true,
+          "tags": [
+            "mag_refill"
+          ],
+          "behavior_tags": [
+            "mag_refill"
+          ],
+          "oracle": "name_inferred",
+          "label": "Freeloader"
+        }
+      ],
+      "behavior_tags": [
+        "mag_refill"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "ripper_high_roller",
+      "manufacturer": "ripper",
+      "name": "High Roller",
+      "effect_text": "Weapons with Ripper-licensed parts increase Weapon Damage by +2% for each consecutive shot fired, for a max 25 stacks.",
+      "requires_licensed_parts": "ripper",
+      "stage": "on_shot",
+      "effects": [
+        {
+          "op": "add",
+          "target": "enhancement_gun",
+          "value": 0.5,
+          "stage": "on_shot",
+          "oracle": "name_inferred",
+          "label": "High Roller"
+        }
+      ],
+      "behavior_tags": [
+        "stacking",
+        "gun_damage"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "ripper_hard_charger",
+      "manufacturer": "ripper",
+      "name": "Hard Charger",
+      "effect_text": "Guns with Ripper-Licensed Parts gain +25% Damage, but Charge Time is increased by 30%",
+      "requires_licensed_parts": "ripper",
+      "stage": "on_shot",
+      "effects": [
+        {
+          "op": "add",
+          "target": "enhancement_gun",
+          "value": 0.25,
+          "stage": "on_shot",
+          "oracle": "name_inferred",
+          "label": "Hard Charger"
+        }
+      ],
+      "behavior_tags": [
+        "charge",
+        "gun_damage"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "ripper_short_circuit",
+      "manufacturer": "ripper",
+      "name": "Short Circuit",
+      "effect_text": "After Reloading an empty Magazine, Guns with Ripper-licensed parts have a 30% Chance to increase the next Magazine Fire Rate +100%",
+      "requires_licensed_parts": "ripper",
+      "stage": "rate",
+      "effects": [
+        {
+          "op": "add",
+          "target": "fire_rate",
+          "value": 1.0,
+          "stage": "rate",
+          "oracle": "name_inferred",
+          "label": "Short Circuit"
+        }
+      ],
+      "behavior_tags": [
+        "on_reload",
+        "fire_rate"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    }
+  ]
+}

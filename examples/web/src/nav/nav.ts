@@ -5,7 +5,17 @@ export function homeNav(): NavState {
 }
 
 export function isRoute(value: unknown): value is GpRoute {
-  return value === "home" || value === "settings" || value === "about" || value === "feedback";
+  return (
+    value === "home" ||
+    value === "settings" ||
+    value === "about" ||
+    value === "feedback" ||
+    value === "forge" ||
+    value === "guide" ||
+    value === "builds" ||
+    value === "stats" ||
+    value === "specs"
+  );
 }
 
 export function normalizeStack(raw: readonly unknown[]): GpRoute[] {
@@ -39,16 +49,24 @@ export function setPrompt(state: NavState, open: boolean): NavState {
   return { ...state, promptOpen: open };
 }
 
-export function push(state: NavState, route: GpRoute, kind?: FeedbackKind): NavState {
+export function push(
+  state: NavState,
+  route: GpRoute,
+  kind?: FeedbackKind,
+  buildId?: string,
+): NavState {
   if (route === "home") {
     if (isHome(state) && state.feedbackKind === undefined) return state;
-    return { ...state, stack: ["home"], feedbackKind: undefined };
+    return { ...state, stack: ["home"], feedbackKind: undefined, buildId: undefined };
   }
-  if (current(state) === route) return state;
+  if (current(state) === route && (buildId === undefined || state.buildId === buildId)) {
+    return state;
+  }
   return {
     ...state,
     stack: [...normalizeStack(state.stack), route],
     feedbackKind: route === "feedback" ? (kind ?? "bug") : undefined,
+    buildId: route === "stats" ? (buildId ?? state.buildId) : state.buildId,
   };
 }
 

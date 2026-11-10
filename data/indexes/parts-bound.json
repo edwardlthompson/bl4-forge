@@ -1,0 +1,6388 @@
+{
+  "version": 1,
+  "parts": [
+    {
+      "category": 1,
+      "index": 1,
+      "name": "base_comp_02_uncommon",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 2,
+      "name": "base_comp_03_rare",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 3,
+      "name": "base_comp_04_epic",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 4,
+      "name": "base_comp_05_legendary",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 5,
+      "name": "part_secondary_elem_shock_radiation_mal",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 6,
+      "name": "part_secondary_elem_shock_fire_mal",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 7,
+      "name": "part_secondary_elem_shock_cryo_mal",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 8,
+      "name": "part_secondary_elem_shock_corrosive_mal",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 9,
+      "name": "part_secondary_elem_radiation_shock_mal",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 10,
+      "name": "part_corrosive",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 11,
+      "name": "part_cryo",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 12,
+      "name": "part_fire",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 13,
+      "name": "part_radiation",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 14,
+      "name": "part_shock",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 15,
+      "name": "part_secondary_elem_radiation_fire_mal",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 16,
+      "name": "part_secondary_elem_radiation_cryo_mal",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 17,
+      "name": "part_secondary_elem_radiation_corrosive_mal",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 18,
+      "name": "part_secondary_elem_fire_radiation_mal",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 19,
+      "name": "part_secondary_elem_fire_cryo_mal",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 20,
+      "name": "part_secondary_elem_fire_corrosive_mal",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 21,
+      "name": "part_secondary_elem_cryo_shock_mal",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 22,
+      "name": "part_secondary_elem_cryo_radiation_mal",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 23,
+      "name": "part_secondary_elem_cryo_fire_mal",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 24,
+      "name": "part_secondary_elem_cryo_corrosive_mal",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 25,
+      "name": "part_secondary_elem_corrosive_shock_mal",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 26,
+      "name": "part_secondary_elem_corrosive_radiation_mal",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 27,
+      "name": "part_secondary_elem_corrosive_fire_mal",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 28,
+      "name": "part_secondary_elem_corrosive_cryo_mal",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 29,
+      "name": "part_secondary_elem_shock_radiation",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 30,
+      "name": "part_secondary_elem_fire_radiation",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 31,
+      "name": "part_secondary_elem_cryo_radiation",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 32,
+      "name": "part_secondary_elem_corrosive_radiation",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 33,
+      "name": "part_secondary_elem_radiation_corrosive",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 34,
+      "name": "part_secondary_elem_shock_corrosive",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 35,
+      "name": "part_secondary_elem_fire_corrosive",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 36,
+      "name": "part_secondary_elem_cryo_corrosive",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 37,
+      "name": "part_secondary_elem_radiation_cryo",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 38,
+      "name": "part_secondary_elem_shock_cryo",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 39,
+      "name": "part_secondary_elem_fire_cryo",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 40,
+      "name": "part_secondary_elem_corrosive_cryo",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 41,
+      "name": "part_secondary_elem_radiation_fire",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 42,
+      "name": "part_secondary_elem_cryo_fire",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 43,
+      "name": "part_secondary_elem_shock_fire",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 44,
+      "name": "part_secondary_elem_corrosive_fire",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 45,
+      "name": "part_secondary_elem_radiation_shock",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 46,
+      "name": "part_secondary_elem_cryo_shock",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 47,
+      "name": "part_secondary_elem_corrosive_shock",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 48,
+      "name": "part_secondary_elem_fire_shock_mal",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 49,
+      "name": "part_secondary_elem_fire_shock",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 50,
+      "name": "base_comp_01_common",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 51,
+      "name": "pearl_damage",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 52,
+      "name": "pearl_reload",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 1,
+      "index": 53,
+      "name": "pearl_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 1,
+      "index": 54,
+      "name": "pearl_handling",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 55,
+      "name": "pearl_normal",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 56,
+      "name": "pearl_shock",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 57,
+      "name": "pearl_radiation",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 58,
+      "name": "pearl_corrosive",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 59,
+      "name": "pearl_cryo",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 60,
+      "name": "pearl_fire",
+      "attributes": []
+    },
+    {
+      "category": 1,
+      "index": 61,
+      "name": "base_comp_06_pearlescent",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 1,
+      "name": "stat2_criticalhitchance_melee",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        },
+        {
+          "target": "crit_chance",
+          "op": "add",
+          "min": 0.02,
+          "max": 0.15,
+          "median": 0.08499999999999999,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 2,
+      "name": "stat2_ordnance_cooldown",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 3,
+      "name": "stat_ordnance_cooldown",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 4,
+      "name": "statspecial_miniondamage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 5,
+      "name": "statspecial_lifesteal",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 6,
+      "name": "statspecial_commandskill_cooldown",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 7,
+      "name": "statspecial_phaseclone_healthloss",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 8,
+      "name": "statspecial_attunement_duration",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 9,
+      "name": "stat_criticalhitchance_ordnance",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        },
+        {
+          "target": "crit_chance",
+          "op": "add",
+          "min": 0.02,
+          "max": 0.15,
+          "median": 0.08499999999999999,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 10,
+      "name": "stat2_criticalhitchance_ordnance",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        },
+        {
+          "target": "crit_chance",
+          "op": "add",
+          "min": 0.02,
+          "max": 0.15,
+          "median": 0.08499999999999999,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 11,
+      "name": "stat_criticalhitchance_skill",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        },
+        {
+          "target": "crit_chance",
+          "op": "add",
+          "min": 0.02,
+          "max": 0.15,
+          "median": 0.08499999999999999,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 12,
+      "name": "stat2_criticalhitchance_skill",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        },
+        {
+          "target": "crit_chance",
+          "op": "add",
+          "min": 0.02,
+          "max": 0.15,
+          "median": 0.08499999999999999,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 13,
+      "name": "stat2_criticalhitchance_gun",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        },
+        {
+          "target": "crit_chance",
+          "op": "add",
+          "min": 0.02,
+          "max": 0.15,
+          "median": 0.08499999999999999,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 14,
+      "name": "stat_criticalhitchance_gun",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        },
+        {
+          "target": "crit_chance",
+          "op": "add",
+          "min": 0.02,
+          "max": 0.15,
+          "median": 0.08499999999999999,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 15,
+      "name": "stat2_actionskill_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 16,
+      "name": "stat_actionskill_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 17,
+      "name": "stat2_ordnance_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 18,
+      "name": "stat_ordnance_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 19,
+      "name": "stat_all_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 20,
+      "name": "stat2_all_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 21,
+      "name": "stat2_statuseffect_chance",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 22,
+      "name": "stat2_statuseffect_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 23,
+      "name": "stat_statuseffect_chance",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 24,
+      "name": "stat_statuseffect_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 25,
+      "name": "stat2_kinetic_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 26,
+      "name": "stat2_elemental_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 27,
+      "name": "stat_kinetic_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 28,
+      "name": "stat_elemental_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 29,
+      "name": "stat_skill_duration",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 30,
+      "name": "stat_weapon_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 31,
+      "name": "stat_splash_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 32,
+      "name": "stat_skill_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 33,
+      "name": "stat_skill_cooldown_rate",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 34,
+      "name": "stat_shield_regen_rate",
+      "attributes": [
+        {
+          "target": "shield_recharge",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 35,
+      "name": "stat_reload_speed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 36,
+      "name": "stat_melee_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 37,
+      "name": "stat_max_health",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 38,
+      "name": "stat_fire_rate",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 39,
+      "name": "stat_damage_reduction",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 40,
+      "name": "stat_crit_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 41,
+      "name": "stat_health_regen",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 42,
+      "name": "stat_speed",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 43,
+      "name": "stat_pistol_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 44,
+      "name": "stat_smg_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 45,
+      "name": "stat_assaultrifle_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 46,
+      "name": "stat_shotgun_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 47,
+      "name": "stat_shield_capacity",
+      "attributes": [
+        {
+          "target": "shield_capacity",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 48,
+      "name": "stat_sniper_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 49,
+      "name": "stat2_skill_duration",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 50,
+      "name": "stat2_weapon_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 51,
+      "name": "stat2_splash_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 52,
+      "name": "stat2_skill_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 53,
+      "name": "stat2_skill_cooldown_rate",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 54,
+      "name": "stat2_shield_regen_rate",
+      "attributes": [
+        {
+          "target": "shield_recharge",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 55,
+      "name": "stat2_reload_speed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 56,
+      "name": "stat2_melee_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 57,
+      "name": "stat2_max_health",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 58,
+      "name": "stat2_fire_rate",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 59,
+      "name": "stat2_damage_reduction",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 60,
+      "name": "stat2_crit_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 61,
+      "name": "stat2_health_regen",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 62,
+      "name": "stat2_speed",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 63,
+      "name": "stat2_pistol_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 64,
+      "name": "stat2_smg_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 65,
+      "name": "stat2_assaultrifle_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 66,
+      "name": "stat2_shotgun_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 67,
+      "name": "stat2_shield_capacity",
+      "attributes": [
+        {
+          "target": "shield_capacity",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 68,
+      "name": "stat2_sniper_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 69,
+      "name": "comp_01_common",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 70,
+      "name": "comp_02_uncommon",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 71,
+      "name": "comp_03_rare",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 72,
+      "name": "comp_04_epic",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 73,
+      "name": "comp_05_legendary",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 74,
+      "name": "part_firmware_risky_boots",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 75,
+      "name": "part_firmware_god_killer",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 76,
+      "name": "part_firmware_reel_big_fist",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 77,
+      "name": "part_firmware_lifeblood",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 78,
+      "name": "part_firmware_airstrike",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 79,
+      "name": "part_firmware_high_caliber",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 80,
+      "name": "part_firmware_gadget_ahoy",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 81,
+      "name": "part_firmware_baker",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 82,
+      "name": "part_firmware_oscar_mike",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 83,
+      "name": "part_firmware_rubberband_man",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 84,
+      "name": "part_firmware_deadeye",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 85,
+      "name": "part_firmware_action_fist",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 86,
+      "name": "part_firmware_goojfc",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 87,
+      "name": "part_firmware_atlas_ex",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 88,
+      "name": "part_firmware_atlas_infinum",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 89,
+      "name": "part_firmware_trickshot",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 90,
+      "name": "part_firmware_jacked",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 91,
+      "name": "part_firmware_get_throwin",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 92,
+      "name": "part_firmware_heating_up",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 93,
+      "name": "part_firmware_bullets_to_spare",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 94,
+      "name": "part_firmware_daeddy_o",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 95,
+      "name": "statspecial_stasis_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 96,
+      "name": "statspecial_puddle_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 97,
+      "name": "statspecial_forgeskill_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 98,
+      "name": "statspecial_detonation_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 99,
+      "name": "statspecial_cryo_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 100,
+      "name": "statspecial_forgedrone_duration",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 101,
+      "name": "statspecial_incendiary_damage",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 102,
+      "name": "stat_criticalhitchance_melee",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        },
+        {
+          "target": "crit_chance",
+          "op": "add",
+          "min": 0.02,
+          "max": 0.15,
+          "median": 0.08499999999999999,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 103,
+      "name": "part_firmware_skillcraft",
+      "attributes": []
+    },
+    {
+      "category": 234,
+      "index": 105,
+      "name": "statspecial_movementspeed",
+      "attributes": []
+    },
+    {
+      "category": 238,
+      "index": 1,
+      "name": "default_repkit_comp_01",
+      "attributes": []
+    },
+    {
+      "category": 238,
+      "index": 2,
+      "name": "default_repkit_body",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 1,
+      "name": "part_firmware_god_killer",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 2,
+      "name": "part_firmware_reel_big_fist",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 3,
+      "name": "part_firmware_lifeblood",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 4,
+      "name": "part_firmware_airstrike",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 5,
+      "name": "part_firmware_high_caliber",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 6,
+      "name": "part_firmware_gadget_ahoy",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 7,
+      "name": "part_firmware_baker",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 8,
+      "name": "part_firmware_oscar_mike",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 9,
+      "name": "part_firmware_rubberband_man",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 10,
+      "name": "part_firmware_deadeye",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 11,
+      "name": "part_firmware_action_fist",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 12,
+      "name": "part_firmware_goojfc",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 13,
+      "name": "part_firmware_atlas_ex",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 14,
+      "name": "part_firmware_atlas_infinum",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 15,
+      "name": "part_firmware_trickshot",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 16,
+      "name": "part_firmware_jacked",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 17,
+      "name": "part_firmware_get_throwin",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 18,
+      "name": "part_firmware_heating_up",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 19,
+      "name": "part_firmware_bullets_to_spare",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 20,
+      "name": "part_firmware_daeddy_o",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 21,
+      "name": "part_aug_u_rep_kit_duration_sec_jak_vla",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 22,
+      "name": "part_aug_d_elemental_resist_shock_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 23,
+      "name": "part_aug_d_elemental_resist_radiation_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 24,
+      "name": "part_aug_d_elemental_resist_fire_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 25,
+      "name": "part_aug_d_elemental_resist_cryo_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 26,
+      "name": "part_aug_d_elemental_resist_corrosive_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 27,
+      "name": "part_aug_ele_immunity_shock_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 28,
+      "name": "part_aug_ele_immunity_radiation_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 29,
+      "name": "part_aug_ele_immunity_fire_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 30,
+      "name": "part_aug_ele_immunity_cryo_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 31,
+      "name": "part_aug_ele_immunity_corrosive_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 32,
+      "name": "part_aug_ele_splat_shock",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 33,
+      "name": "part_aug_ele_splat_radiation",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 34,
+      "name": "part_aug_ele_splat_cryo",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 35,
+      "name": "part_aug_ele_splat_corrosive",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 36,
+      "name": "part_aug_ele_splat_fire",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 37,
+      "name": "part_aug_ele_nova_corrosive",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 38,
+      "name": "part_aug_ele_nova_cryo",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 39,
+      "name": "part_aug_ele_nova_fire",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 40,
+      "name": "part_aug_ele_nova_radiation",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 41,
+      "name": "part_aug_ele_nova_shock",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 42,
+      "name": "part_aug_ele_immunity_shock",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 43,
+      "name": "part_aug_ele_immunity_radiation",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 44,
+      "name": "part_aug_ele_immunity_fire",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 45,
+      "name": "part_aug_ele_immunity_cryo",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 46,
+      "name": "part_aug_ele_immunity_corrosive",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 47,
+      "name": "part_aug_d_elemental_resist_radiation",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 48,
+      "name": "part_aug_d_elemental_resist_cryo",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 49,
+      "name": "part_aug_d_elemental_resist_shock",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 50,
+      "name": "part_aug_d_elemental_resist_fire",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 51,
+      "name": "part_aug_d_elemental_resist_corrosive",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 52,
+      "name": "part_aug_d_aoe_heal",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 53,
+      "name": "part_aug_d_elemental_resist",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 54,
+      "name": "part_aug_d_overshield",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 55,
+      "name": "part_aug_d_elemental_immunity",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 56,
+      "name": "part_aug_d_healthburst",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 57,
+      "name": "part_aug_d_shieldcharge",
+      "attributes": [
+        {
+          "target": "shield_recharge",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 243,
+      "index": 58,
+      "name": "part_aug_d_lifesteal",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 59,
+      "name": "part_aug_d_dmg_reduction_on_use",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 60,
+      "name": "part_aug_u_rep_kit_duration",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 61,
+      "name": "part_aug_u_alldmg_on_use",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 62,
+      "name": "part_aug_u_askill_cooldown_on_use",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 63,
+      "name": "part_aug_o_elemental_dmg_on_use",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 64,
+      "name": "part_aug_o_splashdmg_on_use",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 65,
+      "name": "part_aug_o_reload_speed_on_use",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 243,
+      "index": 66,
+      "name": "part_aug_o_nova_blast_on_use",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 67,
+      "name": "part_aug_u_move_speed_on_use",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 68,
+      "name": "part_aug_u_gadget_cooldown_on_use",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 69,
+      "name": "part_aug_o_melee_boost_on_use",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 70,
+      "name": "part_aug_d_increased_healing",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 71,
+      "name": "part_aug_o_fire_rate_on_use",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 72,
+      "name": "part_aug_o_elemental_ground_splat",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 73,
+      "name": "part_aug_o_amp_next_shot",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 74,
+      "name": "part_aug_u_rep_kit_cd_reduction",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 75,
+      "name": "part_aug_d_aoe_heal_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 76,
+      "name": "part_aug_d_elemental_resist_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 77,
+      "name": "part_aug_d_overshield_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 78,
+      "name": "part_aug_d_elemental_immunity_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 79,
+      "name": "part_aug_d_healthburst_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 80,
+      "name": "part_aug_d_shieldcharge_sec",
+      "attributes": [
+        {
+          "target": "shield_recharge",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 243,
+      "index": 81,
+      "name": "part_aug_d_lifesteal_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 82,
+      "name": "part_aug_d_dmg_reduction_on_use_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 83,
+      "name": "part_aug_u_rep_kit_duration_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 84,
+      "name": "part_aug_u_alldmg_on_use_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 85,
+      "name": "part_aug_u_askill_cooldown_on_use_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 86,
+      "name": "part_aug_o_elemental_dmg_on_use_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 87,
+      "name": "part_aug_o_splashdmg_on_use_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 88,
+      "name": "part_aug_o_reload_speed_on_use_sec",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 243,
+      "index": 89,
+      "name": "part_aug_o_nova_blast_on_use_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 90,
+      "name": "part_aug_u_move_speed_on_use_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 91,
+      "name": "part_aug_u_gadget_cooldown_on_use_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 92,
+      "name": "part_aug_o_melee_boost_on_use_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 93,
+      "name": "part_aug_d_increased_healing_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 94,
+      "name": "part_aug_o_fire_rate_on_use_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 95,
+      "name": "part_aug_o_elemental_ground_splat_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 96,
+      "name": "part_aug_o_amp_next_shot_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 97,
+      "name": "part_aug_u_rep_kit_cd_reduction_sec",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 98,
+      "name": "part_element_fire",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 99,
+      "name": "part_element_radiation",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 100,
+      "name": "part_element_corrosive",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 101,
+      "name": "part_element_shock",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 102,
+      "name": "part_element_cryo",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 103,
+      "name": "part_payload_small",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 104,
+      "name": "part_payload_medium",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 105,
+      "name": "part_payload_large",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 106,
+      "name": "part_payload_huge",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 107,
+      "name": "comp_01_common",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 108,
+      "name": "comp_02_uncommon",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 109,
+      "name": "comp_03_rare",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 110,
+      "name": "comp_04_epic",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 111,
+      "name": "comp_05_legendary",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 112,
+      "name": "part_firmware_risky_boots",
+      "attributes": []
+    },
+    {
+      "category": 243,
+      "index": 113,
+      "name": "part_firmware_skillcraft",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 1,
+      "name": "part_firmware_god_killer",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 2,
+      "name": "part_firmware_reel_big_fist",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 3,
+      "name": "part_firmware_lifeblood",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 4,
+      "name": "part_firmware_airstrike",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 5,
+      "name": "part_firmware_high_caliber",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 6,
+      "name": "part_firmware_gadget_ahoy",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 7,
+      "name": "part_firmware_baker",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 8,
+      "name": "part_firmware_oscar_mike",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 9,
+      "name": "part_firmware_rubberband_man",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 10,
+      "name": "part_firmware_deadeye",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 11,
+      "name": "part_firmware_action_fist",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 12,
+      "name": "part_firmware_goojfc",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 13,
+      "name": "part_firmware_atlas_ex",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 14,
+      "name": "part_firmware_atlas_infinum",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 15,
+      "name": "part_firmware_trickshot",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 16,
+      "name": "part_firmware_jacked",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 17,
+      "name": "part_firmware_get_throwin",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 18,
+      "name": "part_firmware_heating_up",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 19,
+      "name": "part_firmware_bullets_to_spare",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 20,
+      "name": "part_firmware_daeddy_o",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 21,
+      "name": "comp_05_legendary",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 22,
+      "name": "comp_04_epic",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 23,
+      "name": "comp_03_rare",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 24,
+      "name": "comp_02_uncommon",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 25,
+      "name": "comp_01_common",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 26,
+      "name": "part_firmware_risky_boots",
+      "attributes": []
+    },
+    {
+      "category": 244,
+      "index": 27,
+      "name": "part_firmware_skillcraft",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 1,
+      "name": "part_firmware_god_killer",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 2,
+      "name": "part_firmware_reel_big_fist",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 3,
+      "name": "part_firmware_lifeblood",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 4,
+      "name": "part_firmware_airstrike",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 5,
+      "name": "part_firmware_high_caliber",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 6,
+      "name": "part_firmware_gadget_ahoy",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 7,
+      "name": "part_firmware_baker",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 8,
+      "name": "part_firmware_oscar_mike",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 9,
+      "name": "part_firmware_rubberband_man",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 10,
+      "name": "part_firmware_deadeye",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 11,
+      "name": "part_firmware_action_fist",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 12,
+      "name": "part_firmware_goojfc",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 13,
+      "name": "part_firmware_atlas_ex",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 14,
+      "name": "part_firmware_atlas_infinum",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 15,
+      "name": "part_firmware_trickshot",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 16,
+      "name": "part_firmware_jacked",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 17,
+      "name": "part_firmware_get_throwin",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 18,
+      "name": "part_firmware_heating_up",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 19,
+      "name": "part_firmware_bullets_to_spare",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 20,
+      "name": "part_firmware_daeddy_o",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 21,
+      "name": "part_normal",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 22,
+      "name": "part_corrosive",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 23,
+      "name": "part_cryo",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 24,
+      "name": "part_fire",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 25,
+      "name": "part_radiation",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 26,
+      "name": "part_shock",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 27,
+      "name": "part_unv_utility_secondary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 28,
+      "name": "part_unv_utility_primary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 29,
+      "name": "part_unv_turtle_secondary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 30,
+      "name": "part_unv_turtle_primary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 31,
+      "name": "part_unv_sturdy_secondary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 32,
+      "name": "part_unv_sturdy_primary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 33,
+      "name": "part_unv_spike_secondary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 34,
+      "name": "part_unv_spike_primary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 35,
+      "name": "part_unv_resistant_secondary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 36,
+      "name": "part_unv_resistant_primary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 37,
+      "name": "part_unv_reflect_secondary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 38,
+      "name": "part_unv_reflect_primary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 39,
+      "name": "part_unv_power_booster_secondary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 40,
+      "name": "part_unv_power_booster_primary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 41,
+      "name": "part_unv_pinpoint_secondary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 42,
+      "name": "part_unv_pinpoint_primary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 43,
+      "name": "part_unv_overshield_booster_secondary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 44,
+      "name": "part_unv_overshield_booster_primary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 45,
+      "name": "part_unv_mag_refresh_booster_secondary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 46,
+      "name": "part_unv_mag_refresh_booster_primary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 47,
+      "name": "part_unv_health_booster_secondary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 48,
+      "name": "part_unv_health_booster_primary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 49,
+      "name": "part_unv_healthy_secondary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 50,
+      "name": "part_unv_healthy_primary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 51,
+      "name": "part_unv_evasive_secondary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 52,
+      "name": "part_unv_evasive_primary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 53,
+      "name": "part_unv_capacity_secondary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 54,
+      "name": "part_unv_capacity_primary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 55,
+      "name": "part_unv_adaptive_secondary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 56,
+      "name": "part_unv_adaptive_primary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 57,
+      "name": "part_unv_absorb_secondary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 58,
+      "name": "part_unv_absorb_primary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 59,
+      "name": "comp_01_common",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 60,
+      "name": "comp_02_uncommon",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 61,
+      "name": "comp_03_rare",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 62,
+      "name": "comp_04_epic",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 63,
+      "name": "comp_05_legendary",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 64,
+      "name": "part_firmware_risky_boots",
+      "attributes": []
+    },
+    {
+      "category": 246,
+      "index": 65,
+      "name": "part_firmware_skillcraft",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 1,
+      "name": "part_firmware_god_killer",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 2,
+      "name": "part_firmware_reel_big_fist",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 3,
+      "name": "part_firmware_lifeblood",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 4,
+      "name": "part_firmware_airstrike",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 5,
+      "name": "part_firmware_high_caliber",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 6,
+      "name": "part_firmware_gadget_ahoy",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 7,
+      "name": "part_firmware_baker",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 8,
+      "name": "part_firmware_oscar_mike",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 9,
+      "name": "part_firmware_rubberband_man",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 10,
+      "name": "part_firmware_deadeye",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 11,
+      "name": "part_firmware_action_fist",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 12,
+      "name": "part_firmware_goojfc",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 13,
+      "name": "part_firmware_atlas_ex",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 14,
+      "name": "part_firmware_atlas_infinum",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 15,
+      "name": "part_firmware_trickshot",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 16,
+      "name": "part_firmware_jacked",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 17,
+      "name": "part_firmware_get_throwin",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 18,
+      "name": "part_firmware_heating_up",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 19,
+      "name": "part_firmware_bullets_to_spare",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 20,
+      "name": "part_firmware_daeddy_o",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 21,
+      "name": "part_stat_wt_sr_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 22,
+      "name": "part_stat_wt_sg_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 23,
+      "name": "part_stat_wt_sm_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 24,
+      "name": "part_stat_wt_ps_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 25,
+      "name": "part_stat_wt_ar_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 26,
+      "name": "part_stat_wt_sr_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 27,
+      "name": "part_stat_wt_sg_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 28,
+      "name": "part_stat_wt_sm_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 29,
+      "name": "part_stat_wt_ps_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 30,
+      "name": "part_stat_wt_ar_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 31,
+      "name": "part_stat_wt_sr_damage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 32,
+      "name": "part_stat_wt_sg_damage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 33,
+      "name": "part_stat_wt_sm_damage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 34,
+      "name": "part_stat_wt_ps_damage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 35,
+      "name": "part_stat_wt_ar_damage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 36,
+      "name": "part_stat_wt_sr_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 37,
+      "name": "part_stat_wt_sg_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 38,
+      "name": "part_stat_wt_sm_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 39,
+      "name": "part_stat_wt_ps_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 40,
+      "name": "part_stat_wt_ar_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 41,
+      "name": "part_stat_wt_sr_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 42,
+      "name": "part_stat_wt_sg_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 43,
+      "name": "part_stat_wt_sm_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 44,
+      "name": "part_stat_wt_ps_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 45,
+      "name": "part_stat_wt_ar_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 46,
+      "name": "part_stat_wt_sr_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 47,
+      "name": "part_stat_wt_sg_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 48,
+      "name": "part_stat_wt_sm_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 49,
+      "name": "part_stat_wt_ps_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 50,
+      "name": "part_stat_wt_ar_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 51,
+      "name": "part_stat_wt_sg_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 52,
+      "name": "part_stat_wt_ps_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 53,
+      "name": "part_stat_wt_sr_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 54,
+      "name": "part_stat_wt_sm_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 55,
+      "name": "part_stat_wt_ar_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 56,
+      "name": "part_stat_wt_sr_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 57,
+      "name": "part_stat_wt_sg_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 58,
+      "name": "part_stat_wt_sm_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 59,
+      "name": "part_stat_wt_ps_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 60,
+      "name": "part_stat_wt_ar_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 61,
+      "name": "part_stat_wt_ps_statuseffectdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 62,
+      "name": "part_stat_wt_sr_statuseffectdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 63,
+      "name": "part_stat_wt_sg_statuseffectdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 64,
+      "name": "part_stat_wt_sm_statuseffectdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 65,
+      "name": "part_stat_wt_ar_statuseffectdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 66,
+      "name": "part_stat_wt_sg_statuseffectchance",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 67,
+      "name": "part_stat_wt_sm_statuseffectchance",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 68,
+      "name": "part_stat_wt_sr_statuseffectchance",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 69,
+      "name": "part_stat_wt_ps_statuseffectchance",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 70,
+      "name": "part_stat_wt_ar_statuseffectchance",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 71,
+      "name": "part_stat_wt_ar_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 72,
+      "name": "part_stat_wt_ps_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 73,
+      "name": "part_stat_wt_sg_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 74,
+      "name": "part_stat_wt_sm_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 75,
+      "name": "part_stat_wt_sr_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 76,
+      "name": "part_body_05_legendary",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 77,
+      "name": "part_body_04_epic",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 78,
+      "name": "part_body_03_rare",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 79,
+      "name": "part_body_02_uncommon",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 80,
+      "name": "part_body_01_common",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 81,
+      "name": "part_stat_weapon_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 82,
+      "name": "part_stat_weapon_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 83,
+      "name": "part_stat_statuseffect_chance",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 84,
+      "name": "part_stat_statuseffect_damage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 85,
+      "name": "part_stat_weapon_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 86,
+      "name": "part_stat_weapon_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 87,
+      "name": "part_stat_weapon_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 88,
+      "name": "part_stat_weapon_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 89,
+      "name": "part_stat_weapon_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 90,
+      "name": "part_stat_weapon_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 91,
+      "name": "part_stat_weapon_damage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 92,
+      "name": "part_stat_wt_sr_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 93,
+      "name": "part_stat_wt_sm_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 94,
+      "name": "part_stat_wt_sg_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 95,
+      "name": "part_stat_wt_ar_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 96,
+      "name": "part_stat_wt_ps_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 97,
+      "name": "part_stat_weapon_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 98,
+      "name": "comp_01_common",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 99,
+      "name": "comp_02_uncommon",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 100,
+      "name": "comp_03_rare",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 101,
+      "name": "comp_04_epic",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 102,
+      "name": "comp_05_legendary",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 103,
+      "name": "part_firmware_risky_boots",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 104,
+      "name": "part_stat3_wt_sr_statuseffectdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 105,
+      "name": "part_stat3_wt_sr_statuseffectchance",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 106,
+      "name": "part_stat3_wt_sr_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 107,
+      "name": "part_stat3_wt_sr_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 108,
+      "name": "part_stat3_wt_sr_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 109,
+      "name": "part_stat3_wt_sr_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 110,
+      "name": "part_stat3_wt_sr_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 111,
+      "name": "part_stat3_wt_sr_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 112,
+      "name": "part_stat3_wt_sr_damage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 113,
+      "name": "part_stat3_wt_sr_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 114,
+      "name": "part_stat3_wt_sr_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 115,
+      "name": "part_stat3_wt_sr_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 116,
+      "name": "part_stat3_wt_sm_statuseffectdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 117,
+      "name": "part_stat3_wt_sm_statuseffectchance",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 118,
+      "name": "part_stat3_wt_sm_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 119,
+      "name": "part_stat3_wt_sm_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 120,
+      "name": "part_stat3_wt_sm_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 121,
+      "name": "part_stat3_wt_sm_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 122,
+      "name": "part_stat3_wt_sm_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 123,
+      "name": "part_stat3_wt_sm_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 124,
+      "name": "part_stat3_wt_sm_damage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 125,
+      "name": "part_stat3_wt_sm_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 126,
+      "name": "part_stat3_wt_sm_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 127,
+      "name": "part_stat3_wt_sm_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 128,
+      "name": "part_stat3_wt_sg_statuseffectdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 129,
+      "name": "part_stat3_wt_sg_statuseffectchance",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 130,
+      "name": "part_stat3_wt_sg_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 131,
+      "name": "part_stat3_wt_sg_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 132,
+      "name": "part_stat3_wt_sg_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 133,
+      "name": "part_stat3_wt_sg_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 134,
+      "name": "part_stat3_wt_sg_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 135,
+      "name": "part_stat3_wt_sg_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 136,
+      "name": "part_stat3_wt_sg_damage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 137,
+      "name": "part_stat3_wt_sg_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 138,
+      "name": "part_stat3_wt_sg_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 139,
+      "name": "part_stat3_wt_sg_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 140,
+      "name": "part_stat3_wt_ps_statuseffectdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 141,
+      "name": "part_stat3_wt_ps_statuseffectchance",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 142,
+      "name": "part_stat3_wt_ps_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 143,
+      "name": "part_stat3_wt_ps_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 144,
+      "name": "part_stat3_wt_ps_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 145,
+      "name": "part_stat3_wt_ps_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 146,
+      "name": "part_stat3_wt_ps_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 147,
+      "name": "part_stat3_wt_ps_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 148,
+      "name": "part_stat3_wt_ps_damage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 149,
+      "name": "part_stat3_wt_ps_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 150,
+      "name": "part_stat3_wt_ps_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 151,
+      "name": "part_stat3_wt_ps_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 152,
+      "name": "part_stat3_wt_ar_statuseffectdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 153,
+      "name": "part_stat3_wt_ar_statuseffectchance",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 154,
+      "name": "part_stat3_wt_ar_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 155,
+      "name": "part_stat3_wt_ar_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 156,
+      "name": "part_stat3_wt_ar_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 157,
+      "name": "part_stat3_wt_ar_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 158,
+      "name": "part_stat3_wt_ar_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 159,
+      "name": "part_stat3_wt_ar_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 160,
+      "name": "part_stat3_wt_ar_damage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 161,
+      "name": "part_stat3_wt_ar_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 162,
+      "name": "part_stat3_wt_ar_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 163,
+      "name": "part_stat3_wt_ar_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 164,
+      "name": "part_stat3_weapon_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 165,
+      "name": "part_stat3_weapon_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 166,
+      "name": "part_stat3_weapon_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 167,
+      "name": "part_stat3_weapon_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 168,
+      "name": "part_stat3_weapon_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 169,
+      "name": "part_stat3_weapon_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 170,
+      "name": "part_stat3_weapon_damage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 171,
+      "name": "part_stat3_weapon_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 172,
+      "name": "part_stat3_weapon_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 173,
+      "name": "part_stat3_weapon_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 174,
+      "name": "part_stat3_statuseffect_damage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 175,
+      "name": "part_stat3_statuseffect_chance",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 176,
+      "name": "part_stat2_statuseffect_chance",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 177,
+      "name": "part_stat2_statuseffect_damage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 178,
+      "name": "part_stat2_weapon_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 179,
+      "name": "part_stat2_weapon_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 180,
+      "name": "part_stat2_weapon_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 181,
+      "name": "part_stat2_weapon_damage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 182,
+      "name": "part_stat2_weapon_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 183,
+      "name": "part_stat2_weapon_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 184,
+      "name": "part_stat2_weapon_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 185,
+      "name": "part_stat2_weapon_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 186,
+      "name": "part_stat2_weapon_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 187,
+      "name": "part_stat2_weapon_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 188,
+      "name": "part_stat2_wt_ar_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 189,
+      "name": "part_stat2_wt_ar_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 190,
+      "name": "part_stat2_wt_ar_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 191,
+      "name": "part_stat2_wt_ar_damage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 192,
+      "name": "part_stat2_wt_ar_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 193,
+      "name": "part_stat2_wt_ar_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 194,
+      "name": "part_stat2_wt_ar_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 195,
+      "name": "part_stat2_wt_ar_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 196,
+      "name": "part_stat2_wt_ar_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 197,
+      "name": "part_stat2_wt_ar_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 198,
+      "name": "part_stat2_wt_ar_statuseffectchance",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 199,
+      "name": "part_stat2_wt_ar_statuseffectdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 200,
+      "name": "part_stat2_wt_ps_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 201,
+      "name": "part_stat2_wt_ps_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 202,
+      "name": "part_stat2_wt_ps_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 203,
+      "name": "part_stat2_wt_ps_damage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 204,
+      "name": "part_stat2_wt_ps_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 205,
+      "name": "part_stat2_wt_ps_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 206,
+      "name": "part_stat2_wt_ps_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 207,
+      "name": "part_stat2_wt_ps_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 208,
+      "name": "part_stat2_wt_ps_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 209,
+      "name": "part_stat2_wt_ps_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 210,
+      "name": "part_stat2_wt_ps_statuseffectchance",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 211,
+      "name": "part_stat2_wt_ps_statuseffectdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 212,
+      "name": "part_stat2_wt_sg_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 213,
+      "name": "part_stat2_wt_sg_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 214,
+      "name": "part_stat2_wt_sg_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 215,
+      "name": "part_stat2_wt_sg_damage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 216,
+      "name": "part_stat2_wt_sg_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 217,
+      "name": "part_stat2_wt_sg_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 218,
+      "name": "part_stat2_wt_sg_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 219,
+      "name": "part_stat2_wt_sg_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 220,
+      "name": "part_stat2_wt_sg_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 221,
+      "name": "part_stat2_wt_sg_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 222,
+      "name": "part_stat2_wt_sg_statuseffectchance",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 223,
+      "name": "part_stat2_wt_sg_statuseffectdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 224,
+      "name": "part_stat2_wt_sm_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 225,
+      "name": "part_stat2_wt_sm_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 226,
+      "name": "part_stat2_wt_sm_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 227,
+      "name": "part_stat2_wt_sm_damage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 228,
+      "name": "part_stat2_wt_sm_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 229,
+      "name": "part_stat2_wt_sm_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 230,
+      "name": "part_stat2_wt_sm_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 231,
+      "name": "part_stat2_wt_sm_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 232,
+      "name": "part_stat2_wt_sm_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 233,
+      "name": "part_stat2_wt_sm_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 234,
+      "name": "part_stat2_wt_sm_statuseffectchance",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 235,
+      "name": "part_stat2_wt_sm_statuseffectdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 236,
+      "name": "part_stat2_wt_sr_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 237,
+      "name": "part_stat2_wt_sr_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 238,
+      "name": "part_stat2_wt_sr_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 239,
+      "name": "part_stat2_wt_sr_damage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 240,
+      "name": "part_stat2_wt_sr_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 241,
+      "name": "part_stat2_wt_sr_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 242,
+      "name": "part_stat2_wt_sr_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 243,
+      "name": "part_stat2_wt_sr_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 244,
+      "name": "part_stat2_wt_sr_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 245,
+      "name": "part_stat2_wt_sr_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 246,
+      "name": "part_stat2_wt_sr_statuseffectchance",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 247,
+      "name": "part_stat2_wt_sr_statuseffectdamage",
+      "attributes": []
+    },
+    {
+      "category": 247,
+      "index": 248,
+      "name": "part_firmware_skillcraft",
+      "attributes": []
+    },
+    {
+      "category": 276,
+      "index": 1,
+      "name": "comp_04_epic",
+      "attributes": []
+    },
+    {
+      "category": 276,
+      "index": 2,
+      "name": "comp_03_rare",
+      "attributes": []
+    },
+    {
+      "category": 276,
+      "index": 3,
+      "name": "comp_02_uncommon",
+      "attributes": []
+    },
+    {
+      "category": 276,
+      "index": 4,
+      "name": "comp_01_common",
+      "attributes": []
+    },
+    {
+      "category": 276,
+      "index": 5,
+      "name": "comp_05_legendary",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 176,
+      "name": "part_stat2_statuseffect_chance",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 177,
+      "name": "part_stat2_statuseffect_damage",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 178,
+      "name": "part_stat2_weapon_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 179,
+      "name": "part_stat2_weapon_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 180,
+      "name": "part_stat2_weapon_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 181,
+      "name": "part_stat2_weapon_damage",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 182,
+      "name": "part_stat2_weapon_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 183,
+      "name": "part_stat2_weapon_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 184,
+      "name": "part_stat2_weapon_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 185,
+      "name": "part_stat2_weapon_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 186,
+      "name": "part_stat2_weapon_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 187,
+      "name": "part_stat2_weapon_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 188,
+      "name": "part_stat2_wt_ar_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 189,
+      "name": "part_stat2_wt_ar_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 190,
+      "name": "part_stat2_wt_ar_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 191,
+      "name": "part_stat2_wt_ar_damage",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 192,
+      "name": "part_stat2_wt_ar_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 193,
+      "name": "part_stat2_wt_ar_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 194,
+      "name": "part_stat2_wt_ar_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 195,
+      "name": "part_stat2_wt_ar_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 196,
+      "name": "part_stat2_wt_ar_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 197,
+      "name": "part_stat2_wt_ar_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 198,
+      "name": "part_stat2_wt_ar_statuseffectchance",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 199,
+      "name": "part_stat2_wt_ar_statuseffectdamage",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 200,
+      "name": "part_stat2_wt_ps_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 201,
+      "name": "part_stat2_wt_ps_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 202,
+      "name": "part_stat2_wt_ps_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 203,
+      "name": "part_stat2_wt_ps_damage",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 204,
+      "name": "part_stat2_wt_ps_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 205,
+      "name": "part_stat2_wt_ps_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 206,
+      "name": "part_stat2_wt_ps_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 207,
+      "name": "part_stat2_wt_ps_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 208,
+      "name": "part_stat2_wt_ps_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 209,
+      "name": "part_stat2_wt_ps_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 210,
+      "name": "part_stat2_wt_ps_statuseffectchance",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 211,
+      "name": "part_stat2_wt_ps_statuseffectdamage",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 212,
+      "name": "part_stat2_wt_sg_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 213,
+      "name": "part_stat2_wt_sg_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 214,
+      "name": "part_stat2_wt_sg_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 215,
+      "name": "part_stat2_wt_sg_damage",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 216,
+      "name": "part_stat2_wt_sg_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 217,
+      "name": "part_stat2_wt_sg_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 218,
+      "name": "part_stat2_wt_sg_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 219,
+      "name": "part_stat2_wt_sg_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 220,
+      "name": "part_stat2_wt_sg_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 221,
+      "name": "part_stat2_wt_sg_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 222,
+      "name": "part_stat2_wt_sg_statuseffectchance",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 223,
+      "name": "part_stat2_wt_sg_statuseffectdamage",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 224,
+      "name": "part_stat2_wt_sm_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 225,
+      "name": "part_stat2_wt_sm_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 226,
+      "name": "part_stat2_wt_sm_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 227,
+      "name": "part_stat2_wt_sm_damage",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 228,
+      "name": "part_stat2_wt_sm_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 229,
+      "name": "part_stat2_wt_sm_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 230,
+      "name": "part_stat2_wt_sm_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 231,
+      "name": "part_stat2_wt_sm_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 232,
+      "name": "part_stat2_wt_sm_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 233,
+      "name": "part_stat2_wt_sm_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 234,
+      "name": "part_stat2_wt_sm_statuseffectchance",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 235,
+      "name": "part_stat2_wt_sm_statuseffectdamage",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 236,
+      "name": "part_stat2_wt_sr_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 237,
+      "name": "part_stat2_wt_sr_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 238,
+      "name": "part_stat2_wt_sr_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 239,
+      "name": "part_stat2_wt_sr_damage",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 240,
+      "name": "part_stat2_wt_sr_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 241,
+      "name": "part_stat2_wt_sr_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 242,
+      "name": "part_stat2_wt_sr_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 243,
+      "name": "part_stat2_wt_sr_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 244,
+      "name": "part_stat2_wt_sr_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 245,
+      "name": "part_stat2_wt_sr_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 246,
+      "name": "part_stat2_wt_sr_statuseffectchance",
+      "attributes": []
+    },
+    {
+      "category": 10001,
+      "index": 247,
+      "name": "part_stat2_wt_sr_statuseffectdamage",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 104,
+      "name": "part_stat3_wt_sr_statuseffectdamage",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 105,
+      "name": "part_stat3_wt_sr_statuseffectchance",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 106,
+      "name": "part_stat3_wt_sr_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 107,
+      "name": "part_stat3_wt_sr_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 108,
+      "name": "part_stat3_wt_sr_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 109,
+      "name": "part_stat3_wt_sr_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 110,
+      "name": "part_stat3_wt_sr_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 111,
+      "name": "part_stat3_wt_sr_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 112,
+      "name": "part_stat3_wt_sr_damage",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 113,
+      "name": "part_stat3_wt_sr_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 114,
+      "name": "part_stat3_wt_sr_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 115,
+      "name": "part_stat3_wt_sr_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 116,
+      "name": "part_stat3_wt_sm_statuseffectdamage",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 117,
+      "name": "part_stat3_wt_sm_statuseffectchance",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 118,
+      "name": "part_stat3_wt_sm_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 119,
+      "name": "part_stat3_wt_sm_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 120,
+      "name": "part_stat3_wt_sm_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 121,
+      "name": "part_stat3_wt_sm_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 122,
+      "name": "part_stat3_wt_sm_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 123,
+      "name": "part_stat3_wt_sm_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 124,
+      "name": "part_stat3_wt_sm_damage",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 125,
+      "name": "part_stat3_wt_sm_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 126,
+      "name": "part_stat3_wt_sm_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 127,
+      "name": "part_stat3_wt_sm_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 128,
+      "name": "part_stat3_wt_sg_statuseffectdamage",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 129,
+      "name": "part_stat3_wt_sg_statuseffectchance",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 130,
+      "name": "part_stat3_wt_sg_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 131,
+      "name": "part_stat3_wt_sg_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 132,
+      "name": "part_stat3_wt_sg_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 133,
+      "name": "part_stat3_wt_sg_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 134,
+      "name": "part_stat3_wt_sg_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 135,
+      "name": "part_stat3_wt_sg_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 136,
+      "name": "part_stat3_wt_sg_damage",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 137,
+      "name": "part_stat3_wt_sg_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 138,
+      "name": "part_stat3_wt_sg_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 139,
+      "name": "part_stat3_wt_sg_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 140,
+      "name": "part_stat3_wt_ps_statuseffectdamage",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 141,
+      "name": "part_stat3_wt_ps_statuseffectchance",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 142,
+      "name": "part_stat3_wt_ps_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 143,
+      "name": "part_stat3_wt_ps_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 144,
+      "name": "part_stat3_wt_ps_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 145,
+      "name": "part_stat3_wt_ps_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 146,
+      "name": "part_stat3_wt_ps_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 147,
+      "name": "part_stat3_wt_ps_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 148,
+      "name": "part_stat3_wt_ps_damage",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 149,
+      "name": "part_stat3_wt_ps_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 150,
+      "name": "part_stat3_wt_ps_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 151,
+      "name": "part_stat3_wt_ps_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 152,
+      "name": "part_stat3_wt_ar_statuseffectdamage",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 153,
+      "name": "part_stat3_wt_ar_statuseffectchance",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 154,
+      "name": "part_stat3_wt_ar_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 155,
+      "name": "part_stat3_wt_ar_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 156,
+      "name": "part_stat3_wt_ar_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 157,
+      "name": "part_stat3_wt_ar_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 158,
+      "name": "part_stat3_wt_ar_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 159,
+      "name": "part_stat3_wt_ar_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 160,
+      "name": "part_stat3_wt_ar_damage",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 161,
+      "name": "part_stat3_wt_ar_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 162,
+      "name": "part_stat3_wt_ar_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 163,
+      "name": "part_stat3_wt_ar_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 164,
+      "name": "part_stat3_weapon_splashradius",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 165,
+      "name": "part_stat3_weapon_splashdamage",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 166,
+      "name": "part_stat3_weapon_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 167,
+      "name": "part_stat3_weapon_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 168,
+      "name": "part_stat3_weapon_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 169,
+      "name": "part_stat3_weapon_equipspeed",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 170,
+      "name": "part_stat3_weapon_damage",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 171,
+      "name": "part_stat3_weapon_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 172,
+      "name": "part_stat3_weapon_ads_proficiency",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 173,
+      "name": "part_stat3_weapon_accuracy",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 174,
+      "name": "part_stat3_statuseffect_damage",
+      "attributes": []
+    },
+    {
+      "category": 10002,
+      "index": 175,
+      "name": "part_stat3_statuseffect_chance",
+      "attributes": []
+    },
+    {
+      "category": 10003,
+      "index": 1,
+      "name": "base_comp_02_uncommon",
+      "attributes": []
+    },
+    {
+      "category": 10003,
+      "index": 2,
+      "name": "base_comp_03_rare",
+      "attributes": []
+    },
+    {
+      "category": 10003,
+      "index": 3,
+      "name": "base_comp_04_epic",
+      "attributes": []
+    },
+    {
+      "category": 10003,
+      "index": 4,
+      "name": "base_comp_05_legendary",
+      "attributes": []
+    },
+    {
+      "category": 10003,
+      "index": 50,
+      "name": "base_comp_01_common",
+      "attributes": []
+    },
+    {
+      "category": 10003,
+      "index": 61,
+      "name": "base_comp_06_pearlescent",
+      "attributes": []
+    },
+    {
+      "category": 10004,
+      "index": 27,
+      "name": "part_firmware_skillcraft",
+      "attributes": []
+    },
+    {
+      "category": 10004,
+      "index": 65,
+      "name": "part_firmware_skillcraft",
+      "attributes": []
+    },
+    {
+      "category": 10004,
+      "index": 103,
+      "name": "part_firmware_skillcraft",
+      "attributes": []
+    },
+    {
+      "category": 10004,
+      "index": 113,
+      "name": "part_firmware_skillcraft",
+      "attributes": []
+    },
+    {
+      "category": 10004,
+      "index": 248,
+      "name": "part_firmware_skillcraft",
+      "attributes": []
+    },
+    {
+      "category": 10005,
+      "index": 55,
+      "name": "pearl_normal",
+      "attributes": []
+    },
+    {
+      "category": 10005,
+      "index": 56,
+      "name": "pearl_shock",
+      "attributes": []
+    },
+    {
+      "category": 10005,
+      "index": 57,
+      "name": "pearl_radiation",
+      "attributes": []
+    },
+    {
+      "category": 10005,
+      "index": 58,
+      "name": "pearl_corrosive",
+      "attributes": []
+    },
+    {
+      "category": 10005,
+      "index": 59,
+      "name": "pearl_cryo",
+      "attributes": []
+    },
+    {
+      "category": 10005,
+      "index": 60,
+      "name": "pearl_fire",
+      "attributes": []
+    },
+    {
+      "category": 10006,
+      "index": 51,
+      "name": "pearl_damage",
+      "attributes": []
+    },
+    {
+      "category": 10006,
+      "index": 52,
+      "name": "pearl_reload",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10006,
+      "index": 53,
+      "name": "pearl_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 10006,
+      "index": 54,
+      "name": "pearl_handling",
+      "attributes": []
+    }
+  ],
+  "prop_count": 53
+}

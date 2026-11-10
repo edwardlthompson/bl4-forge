@@ -1,0 +1,128 @@
+{
+  "experimental": true,
+  "obtainable": "unverified",
+  "manufacturer": "maliwan",
+  "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/",
+  "enhancements": [
+    {
+      "id": "maliwan_transfuser",
+      "manufacturer": "maliwan",
+      "name": "Transfuser",
+      "effect_text": "On kill, Weapons with Maliwan-Licensed parts spread their active Status Effect to up to 3 nearby targets.",
+      "requires_licensed_parts": "maliwan",
+      "stage": "on_hit",
+      "effects": [
+        {
+          "op": "flag",
+          "target": "transfuser",
+          "value": 1,
+          "stage": "on_hit",
+          "tag_only": true,
+          "tags": [
+            "status",
+            "on_kill",
+            "spread",
+            "inactive_element"
+          ],
+          "behavior_tags": [
+            "status",
+            "on_kill",
+            "spread",
+            "inactive_element"
+          ],
+          "oracle": "name_inferred",
+          "label": "Transfuser"
+        }
+      ],
+      "behavior_tags": [
+        "status",
+        "on_kill",
+        "spread",
+        "inactive_element"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "maliwan_mixologist",
+      "manufacturer": "maliwan",
+      "name": "Mixologist",
+      "effect_text": "Guns with Maliwan-licensed parts deal +10% Bonus Damage from the inactive Mode Element",
+      "requires_licensed_parts": "maliwan",
+      "stage": "on_shot",
+      "effects": [
+        {
+          "op": "add",
+          "target": "enhancement_gun",
+          "value": 0.1,
+          "stage": "on_shot",
+          "oracle": "name_inferred",
+          "label": "Mixologist"
+        }
+      ],
+      "behavior_tags": [
+        "inactive_element",
+        "gun_element_bonus",
+        "dual_element"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "maliwan_primed_potency",
+      "manufacturer": "maliwan",
+      "name": "Primed Potency",
+      "effect_text": "Guns with Maliwan Licensed Parts have +100% Status Effect Chance on the first bullet after Reload",
+      "requires_licensed_parts": "maliwan",
+      "stage": "on_hit",
+      "effects": [
+        {
+          "op": "flag",
+          "target": "primed_potency",
+          "value": 1,
+          "stage": "on_hit",
+          "tag_only": true,
+          "tags": [
+            "status",
+            "on_reload"
+          ],
+          "behavior_tags": [
+            "status",
+            "on_reload"
+          ],
+          "oracle": "name_inferred",
+          "label": "Primed Potency"
+        }
+      ],
+      "behavior_tags": [
+        "status",
+        "on_reload"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "maliwan_synthesizer",
+      "manufacturer": "maliwan",
+      "name": "Synthesizer",
+      "effect_text": "Guns with Maliwan-licensed parts have +25% Status Effect Damage",
+      "requires_licensed_parts": "maliwan",
+      "stage": "on_hit",
+      "effects": [
+        {
+          "op": "add",
+          "target": "status_damage",
+          "value": 0.25,
+          "stage": "on_hit",
+          "oracle": "name_inferred",
+          "label": "Synthesizer"
+        }
+      ],
+      "behavior_tags": [
+        "status"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    }
+  ]
+}

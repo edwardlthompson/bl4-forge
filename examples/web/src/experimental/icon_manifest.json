@@ -1,0 +1,180 @@
+{
+  "experimental": true,
+  "obtainable": "unverified",
+  "policy": "HUMAN override Sprint 24 \u2014 commit Gearbox UI icons under examples/web/public/icons/datamine when extract succeeds. MIT does not license Gearbox art.",
+  "resolver": "datamine_webp_primary_mono_onerror",
+  "icons": {
+    "pb_deadline": {
+      "path": "/icons/datamine/pb_deadline.avif",
+      "pending_extract": false,
+      "source": "lootlemon_cdn"
+    },
+    "pb_thrill": {
+      "path": "/icons/datamine/pb_thrill.avif",
+      "pending_extract": false,
+      "source": "lootlemon_cdn"
+    },
+    "pb_las_jaras": {
+      "path": "/icons/datamine/pb_las_jaras.avif",
+      "pending_extract": false,
+      "source": "lootlemon_cdn"
+    },
+    "pb_vitriol": {
+      "path": "/icons/datamine/pb_vitriol.avif",
+      "pending_extract": false,
+      "source": "lootlemon_cdn"
+    },
+    "pb_everdrive": {
+      "path": "/icons/datamine/pb_everdrive.avif",
+      "pending_extract": false,
+      "source": "lootlemon_cdn"
+    },
+    "pb_barrage": {
+      "path": "/icons/datamine/pb_barrage.avif",
+      "pending_extract": false,
+      "source": "lootlemon_cdn"
+    },
+    "pb_brain_dump": {
+      "path": "/icons/datamine/pb_brain_dump.avif",
+      "pending_extract": false,
+      "source": "lootlemon_cdn"
+    },
+    "pb_temerario": {
+      "path": "/icons/datamine/pb_temerario.avif",
+      "pending_extract": false,
+      "source": "lootlemon_cdn"
+    },
+    "pp_rinse": {
+      "path": "/icons/datamine/pp_rinse.avif",
+      "pending_extract": false,
+      "source": "lootlemon_cdn"
+    },
+    "pp_al_centro": {
+      "path": "/icons/datamine/pp_al_centro.avif",
+      "pending_extract": false,
+      "source": "lootlemon_cdn"
+    },
+    "yg_handshake": {
+      "path": "/icons/datamine/yg_handshake.avif",
+      "pending_extract": false,
+      "source": "lootlemon_cdn"
+    },
+    "yg_booming_business": {
+      "path": "/icons/datamine/yg_booming_business.avif",
+      "pending_extract": false,
+      "source": "lootlemon_cdn"
+    },
+    "yg_el_paraguas": {
+      "path": "/icons/datamine/yg_el_paraguas.avif",
+      "pending_extract": false,
+      "source": "lootlemon_cdn"
+    },
+    "yg_midnight": {
+      "path": "/icons/datamine/yg_midnight.avif",
+      "pending_extract": false,
+      "source": "lootlemon_cdn"
+    },
+    "pb_action": {
+      "path": "/icons/datamine/pb_action.avif",
+      "pending_extract": false,
+      "source": "lootlemon_cdn"
+    },
+    "pb_aug_confeti": {
+      "path": "/icons/datamine/pb_aug_confeti.avif",
+      "pending_extract": false,
+      "source": "lootlemon_cdn"
+    },
+    "pb_cap_beam_team": {
+      "path": "/icons/datamine/pb_cap_beam_team.avif",
+      "pending_extract": false,
+      "source": "lootlemon_cdn"
+    },
+    "collaborative_ignition": {
+      "path": "/icons/datamine/collaborative_ignition.avif",
+      "pending_extract": false,
+      "source": "lootlemon_cdn"
+    },
+    "slot_weapon": {
+      "path": "/icons/datamine/slot_weapon.webp",
+      "pending_extract": true
+    },
+    "slot_shield": {
+      "path": "/icons/datamine/slot_shield.avif",
+      "pending_extract": false,
+      "source": "wiki_cdn"
+    },
+    "slot_grenade": {
+      "path": "/icons/datamine/slot_grenade.jpg",
+      "pending_extract": false,
+      "source": "wiki_cdn"
+    },
+    "slot_class_mod": {
+      "path": "/icons/datamine/slot_class_mod.avif",
+      "pending_extract": false,
+      "source": "wiki_cdn"
+    },
+    "slot_artifact": {
+      "path": "/icons/datamine/slot_artifact.webp",
+      "pending_extract": true
+    },
+    "slot_enhancement": {
+      "path": "/icons/datamine/slot_enhancement.webp",
+      "pending_extract": true
+    },
+    "slot_repkit": {
+      "path": "/icons/datamine/slot_repkit.webp",
+      "pending_extract": true
+    },
+    "yg_expedite": {
+      "path": "/icons/datamine/yg_expedite.avif",
+      "pending_extract": false,
+      "source": "lootlemon_cdn"
+    },
+    "pp_first_impression": {
+      "path": "/icons/datamine/pp_first_impression.avif",
+      "pending_extract": false,
+      "source": "lootlemon_cdn"
+    },
+    "pb_aug_sitiar": {
+      "path": "/icons/datamine/pb_aug_sitiar.avif",
+      "pending_extract": false,
+      "source": "lootlemon_cdn"
+    },
+    "pp_sinergia": {
+      "path": "/icons/datamine/pp_sinergia.avif",
+      "pending_extract": false,
+      "source": "lootlemon_cdn"
+    },
+    "pp_arriba": {
+      "path": "/icons/datamine/pp_arriba.avif",
+      "pending_extract": false,
+      "source": "lootlemon_cdn"
+    },
+    "pp_abajo": {
+      "path": "/icons/datamine/pp_abajo.avif",
+      "pending_extract": false,
+      "source": "lootlemon_cdn"
+    },
+    "gear_waterfall": {
+      "path": "/icons/datamine/gear_waterfall.jpg",
+      "pending_extract": false,
+      "source": "wiki_cdn"
+    },
+    "gear_firewerk": {
+      "path": "/icons/datamine/gear_firewerk.avif",
+      "pending_extract": false,
+      "source": "wiki_cdn"
+    },
+    "gear_grenazerker": {
+      "path": "/icons/datamine/gear_grenazerker.avif",
+      "pending_extract": false,
+      "source": "wiki_cdn"
+    },
+    "gear_firewerks_alt": {
+      "path": "/icons/datamine/gear_firewerks_alt.jpg",
+      "pending_extract": false,
+      "source": "wiki_cdn"
+    }
+  },
+  "note": "Icons from Lootlemon CDN when bl4 extract unavailable. \u00a9 Gearbox art via third party."
+}

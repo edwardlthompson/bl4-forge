@@ -1,0 +1,11 @@
+{
+  "slots": [
+    { "id": "weapon", "count": 4, "label": "Weapon" },
+    { "id": "shield", "count": 1, "label": "Shield" },
+    { "id": "grenade", "count": 1, "label": "Grenade / Ordnance" },
+    { "id": "class_mod", "count": 1, "label": "Class Mod" },
+    { "id": "artifact", "count": 1, "label": "Artifact" },
+    { "id": "enhancement", "count": 1, "label": "Enhancement" },
+    { "id": "repkit", "count": 1, "label": "Repkit" }
+  ]
+}

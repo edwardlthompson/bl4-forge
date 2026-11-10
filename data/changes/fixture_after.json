@@ -1,0 +1,10 @@
+{
+  "parts": [
+    {
+      "name": "part_a"
+    },
+    {
+      "name": "part_c_injected"
+    }
+  ]
+}

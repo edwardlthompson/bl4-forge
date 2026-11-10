@@ -1,0 +1,327 @@
+{
+  "experimental": true,
+  "obtainable": "unverified",
+  "oracle_default": "name_inferred",
+  "scraped_at": "2026-11-10",
+  "confidence": "community_table",
+  "sources": [
+    "https://mentalmars.com/borderlands-4/characters/rafa/",
+    "https://borderlands.2k.com/borderlands-4/game-info/vault-hunters/rafa/"
+  ],
+  "note": "Per-rank magnitudes inferred from MentalMars/Gearbox community tables (per-point). Never promote to confirmed without card_match.",
+  "skills": {
+    "pb_deadline": {
+      "display_name": "Deadline",
+      "max_rank": 5,
+      "source_url": "https://mentalmars.com/borderlands-4/characters/rafa/",
+      "behavior_tags": ["overdrive", "fire_rate", "reload"],
+      "effects": [
+        {
+          "op": "add",
+          "target": "fire_rate",
+          "value": 0.03,
+          "values_by_rank": [0.03, 0.06, 0.09, 0.12, 0.15],
+          "cond": { "type": "while_overdrive" },
+          "oracle": "name_inferred",
+          "label": "Overdrive Fire Rate"
+        },
+        {
+          "op": "add",
+          "target": "reload_speed",
+          "value": 0.05,
+          "values_by_rank": [0.05, 0.1, 0.15, 0.2, 0.25],
+          "cond": { "type": "while_overdrive" },
+          "oracle": "name_inferred",
+          "label": "Overdrive Reload"
+        }
+      ]
+    },
+    "pb_thrill": {
+      "display_name": "The Thrill",
+      "max_rank": 5,
+      "source_url": "https://mentalmars.com/borderlands-4/characters/rafa/",
+      "behavior_tags": ["overdrive", "fire_rate"],
+      "effects": [
+        {
+          "op": "add",
+          "target": "fire_rate",
+          "value": 0.02,
+          "values_by_rank": [0.02, 0.04, 0.06, 0.08, 0.1],
+          "cond": { "type": "always" },
+          "oracle": "name_inferred",
+          "label": "Fire Rate"
+        },
+        {
+          "op": "add",
+          "target": "fire_rate",
+          "value": 0.03,
+          "values_by_rank": [0.03, 0.06, 0.09, 0.12, 0.15],
+          "cond": { "type": "while_overdrive" },
+          "oracle": "name_inferred",
+          "label": "Overdrive Fire Rate"
+        }
+      ]
+    },
+    "pb_las_jaras": {
+      "display_name": "Las Jaras",
+      "max_rank": 5,
+      "behavior_tags": ["overdrive", "ammo_regen"],
+      "effects": [
+        {
+          "op": "add",
+          "target": "ammo_regen",
+          "value": 0.005,
+          "values_by_rank": [0.005, 0.01, 0.015, 0.02, 0.025],
+          "cond": { "type": "while_overdrive" },
+          "oracle": "name_inferred",
+          "label": "Overdrive Ammo Regen",
+          "tag_only": true,
+          "tags": ["ammo_regen"]
+        }
+      ]
+    },
+    "pb_vitriol": {
+      "display_name": "Vitriol",
+      "max_rank": 5,
+      "behavior_tags": ["status", "corrosive", "first_shot"],
+      "effects": [
+        {
+          "op": "add",
+          "target": "status_chance",
+          "value": 0.04,
+          "values_by_rank": [0.04, 0.08, 0.12, 0.16, 0.2],
+          "cond": { "type": "always" },
+          "oracle": "name_inferred",
+          "label": "First-shot Corrosive Chance",
+          "tag_only": true,
+          "tags": ["status", "corrosive"]
+        }
+      ]
+    },
+    "pb_everdrive": {
+      "display_name": "Everdrive",
+      "max_rank": 5,
+      "behavior_tags": ["overdrive", "duration"],
+      "effects": [
+        {
+          "op": "add",
+          "target": "overdrive_duration",
+          "value": 0.06,
+          "values_by_rank": [0.06, 0.12, 0.18, 0.24, 0.3],
+          "cond": { "type": "always" },
+          "oracle": "name_inferred",
+          "label": "Overdrive Duration",
+          "tag_only": true,
+          "tags": ["overdrive_duration"]
+        }
+      ]
+    },
+    "pb_barrage": {
+      "display_name": "Barrage",
+      "max_rank": 5,
+      "behavior_tags": ["overdrive", "splash"],
+      "effects": [
+        {
+          "op": "add",
+          "target": "splash_damage",
+          "value": 0.1,
+          "values_by_rank": [0.1, 0.2, 0.3, 0.4, 0.5],
+          "cond": { "type": "while_overdrive" },
+          "oracle": "name_inferred",
+          "label": "Overdrive Splash Damage"
+        }
+      ]
+    },
+    "pb_brain_dump": {
+      "display_name": "Brain Dump",
+      "max_rank": 5,
+      "behavior_tags": ["overdrive", "crit"],
+      "effects": [
+        {
+          "op": "add",
+          "target": "crit_chance",
+          "value": 0.05,
+          "values_by_rank": [0.05, 0.1, 0.15, 0.2, 0.25],
+          "cond": { "type": "while_overdrive" },
+          "oracle": "name_inferred",
+          "label": "Overdrive Crit Chance"
+        }
+      ]
+    },
+    "pb_temerario": {
+      "display_name": "Temerario",
+      "max_rank": 5,
+      "behavior_tags": ["overdrive", "gun_damage"],
+      "effects": [
+        {
+          "op": "add",
+          "target": "gun_damage",
+          "value": 0.01,
+          "values_by_rank": [0.01, 0.02, 0.03, 0.04, 0.05],
+          "cond": { "type": "while_overdrive" },
+          "oracle": "name_inferred",
+          "label": "Overdrive Gun Damage /s (stack proxy)"
+        }
+      ]
+    },
+    "pp_rinse": {
+      "display_name": "Rinse",
+      "max_rank": 5,
+      "behavior_tags": ["reload"],
+      "effects": [
+        {
+          "op": "add",
+          "target": "reload_speed",
+          "value": 0.04,
+          "values_by_rank": [0.04, 0.08, 0.12, 0.16, 0.2],
+          "cond": { "type": "always" },
+          "oracle": "name_inferred",
+          "label": "Reload Speed"
+        }
+      ]
+    },
+    "pp_first_impression": {
+      "display_name": "First Impression",
+      "max_rank": 5,
+      "behavior_tags": ["gun_damage", "first_shot"],
+      "effects": [
+        {
+          "op": "add",
+          "target": "gun_damage",
+          "value": 0.08,
+          "values_by_rank": [0.08, 0.16, 0.24, 0.32, 0.4],
+          "cond": { "type": "always" },
+          "oracle": "name_inferred",
+          "label": "First-shot Gun Damage"
+        }
+      ]
+    },
+    "pp_al_centro": {
+      "display_name": "Al Centro",
+      "max_rank": 5,
+      "behavior_tags": ["overdrive", "handling"],
+      "effects": [
+        {
+          "op": "add",
+          "target": "handling",
+          "value": 0.12,
+          "values_by_rank": [0.12, 0.24, 0.36, 0.48, 0.6],
+          "cond": { "type": "while_overdrive" },
+          "oracle": "name_inferred",
+          "label": "Overdrive Handling",
+          "tag_only": true,
+          "tags": ["handling"]
+        }
+      ]
+    },
+    "yg_handshake": {
+      "display_name": "Handshake Deal",
+      "max_rank": 5,
+      "behavior_tags": ["gun_damage", "melee"],
+      "effects": [
+        {
+          "op": "add",
+          "target": "gun_damage",
+          "value": 0.03,
+          "values_by_rank": [0.03, 0.06, 0.09, 0.12, 0.15],
+          "cond": { "type": "always" },
+          "oracle": "name_inferred",
+          "label": "Gun Damage"
+        },
+        {
+          "op": "add",
+          "target": "melee_damage",
+          "value": 0.03,
+          "values_by_rank": [0.03, 0.06, 0.09, 0.12, 0.15],
+          "cond": { "type": "always" },
+          "oracle": "name_inferred",
+          "label": "Melee Damage"
+        }
+      ]
+    },
+    "yg_midnight": {
+      "display_name": "Midnight Oil",
+      "max_rank": 5,
+      "behavior_tags": ["action", "corrosive", "ordnance"],
+      "effects": [
+        {
+          "op": "add",
+          "target": "action_corrosive",
+          "value": 0.05,
+          "values_by_rank": [0.05, 0.1, 0.15, 0.2, 0.25],
+          "cond": { "type": "always" },
+          "oracle": "name_inferred",
+          "label": "Action Corrosive Bonus",
+          "tag_only": true,
+          "tags": ["corrosive", "action"]
+        }
+      ]
+    },
+    "yg_booming_business": {
+      "display_name": "Booming Business",
+      "max_rank": 5,
+      "behavior_tags": ["spawn_grenade", "on_crit", "ordnance"],
+      "effects": [
+        {
+          "op": "add",
+          "target": "grenade_on_crit_chance",
+          "value": 0.08,
+          "values_by_rank": [0.08, 0.16, 0.24, 0.32, 0.4],
+          "cond": { "type": "on_crit" },
+          "oracle": "name_inferred",
+          "label": "Crit → Free Grenade Chance",
+          "tag_only": true,
+          "tags": ["spawn_grenade", "on_crit"],
+          "behavior_tags": ["spawn_grenade", "on_crit"]
+        }
+      ]
+    },
+    "yg_el_paraguas": {
+      "display_name": "El Paraguas",
+      "max_rank": 5,
+      "behavior_tags": ["splash", "splash_crit", "grenade_crit"],
+      "effects": [
+        {
+          "op": "add",
+          "target": "splash_damage",
+          "value": 0.07,
+          "values_by_rank": [0.07, 0.14, 0.21, 0.28, 0.35],
+          "cond": { "type": "always" },
+          "oracle": "name_inferred",
+          "label": "Splash Damage"
+        },
+        {
+          "op": "add",
+          "target": "splash_crit_chance",
+          "value": 0.03,
+          "values_by_rank": [0.03, 0.06, 0.09, 0.12, 0.15],
+          "cond": { "type": "always" },
+          "oracle": "name_inferred",
+          "label": "Splash Crit Chance",
+          "tag_only": true,
+          "tags": ["splash_crit", "grenade_crit"],
+          "behavior_tags": ["splash_crit", "grenade_crit"]
+        }
+      ]
+    },
+    "yg_expedite": {
+      "display_name": "Expedite",
+      "max_rank": 5,
+      "behavior_tags": ["overdrive", "move_speed"],
+      "effects": [
+        {
+          "op": "add",
+          "target": "move_speed",
+          "value": 0.04,
+          "values_by_rank": [0.04, 0.08, 0.12, 0.16, 0.2],
+          "cond": { "type": "while_overdrive" },
+          "oracle": "name_inferred",
+          "label": "Overdrive Move Speed",
+          "tag_only": true,
+          "tags": ["move_speed"]
+        }
+      ]
+    }
+  }
+}
+

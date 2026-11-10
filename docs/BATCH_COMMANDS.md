@@ -64,6 +64,7 @@
 | `/speed` | Agent mode speed — Cloud allowed | — | — |
 | `/mode` | Print current Agent Mode + policy | — | — |
 | `/status` | Full settings + golden-path status report | — | — |
+| `/patch-review` | Offline LLM patch curation for static builds (no runtime LLM) | — | — |
 ## Decision tree
 
 ```

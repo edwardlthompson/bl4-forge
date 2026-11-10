@@ -5,7 +5,7 @@ import type { FeedbackKind, GpRoute, NavState } from "./types";
 
 export type HistoryNav = {
   get: () => NavState;
-  pushRoute: (route: GpRoute, kind?: FeedbackKind) => NavState | null;
+  pushRoute: (route: GpRoute, kind?: FeedbackKind, buildId?: string) => NavState | null;
   popFromUi: () => void;
   openPrompt: () => NavState;
   onPopState: (root: ParentNode) => { nav: NavState; trapHome: boolean };
@@ -18,12 +18,12 @@ export function createHistoryNav(
   let nav = initial;
   return {
     get: () => nav,
-    pushRoute(route, kind) {
-      if (current(nav) === route) {
+    pushRoute(route, kind, buildId) {
+      if (current(nav) === route && (buildId === undefined || nav.buildId === buildId)) {
         historyRef.back();
         return null;
       }
-      nav = push(nav, route, kind);
+      nav = push(nav, route, kind, buildId);
       saveNav(nav);
       pushPanelHistory(historyRef, historyDepth(nav));
       return nav;

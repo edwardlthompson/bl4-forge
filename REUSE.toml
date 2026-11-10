@@ -11,3 +11,19 @@ path = ["templates/licenses/Apache-2.0.txt"]
 precedence = "override"
 SPDX-FileCopyrightText = "Apache Software Foundation and contributors"
 SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = [
+  "tools/datamine/**",
+  "tools/bin/README.md",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 BL4 Forge contributors"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = ["tools/datamine/README.md"]
+precedence = "override"
+SPDX-FileCopyrightText = "2025 bl4 Contributors; 2026 BL4 Forge contributors"
+SPDX-License-Identifier = "BSD-2-Clause AND MIT"
+

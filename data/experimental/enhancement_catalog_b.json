@@ -1,0 +1,276 @@
+{
+  "experimental": true,
+  "obtainable": "unverified",
+  "patch": "post-1.10-curated",
+  "curated_at": "2026-11-10",
+  "curated_by": "offline_llm",
+  "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/",
+  "note": "Flat index for scoring; effect_text in enhancements/{mfr}.json",
+  "shard": "enhancement_catalog_b.json",
+  "enhancements": [
+    {
+      "id": "maliwan_primed_potency",
+      "manufacturer": "maliwan",
+      "name": "Primed Potency",
+      "requires_licensed_parts": "maliwan",
+      "stage": "on_hit",
+      "behavior_tags": [
+        "status",
+        "on_reload"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "maliwan_synthesizer",
+      "manufacturer": "maliwan",
+      "name": "Synthesizer",
+      "requires_licensed_parts": "maliwan",
+      "stage": "on_hit",
+      "behavior_tags": [
+        "status"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "order_ammo_generator",
+      "manufacturer": "order",
+      "name": "Ammo Generator",
+      "requires_licensed_parts": "order",
+      "stage": "flag",
+      "behavior_tags": [
+        "ammo_regen"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "order_free_charger",
+      "manufacturer": "order",
+      "name": "Free Charger",
+      "requires_licensed_parts": "order",
+      "stage": "on_shot",
+      "behavior_tags": [
+        "charge",
+        "ammo_economy"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "order_muzzle_brake",
+      "manufacturer": "order",
+      "name": "Muzzle Brake",
+      "requires_licensed_parts": "order",
+      "stage": "rate",
+      "behavior_tags": [
+        "charge",
+        "accuracy",
+        "fire_rate"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "order_power_shot",
+      "manufacturer": "order",
+      "name": "Power Shot",
+      "requires_licensed_parts": "order",
+      "stage": "on_shot",
+      "behavior_tags": [
+        "charge",
+        "gun_damage"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "ripper_freeloader",
+      "manufacturer": "ripper",
+      "name": "Freeloader",
+      "requires_licensed_parts": "ripper",
+      "stage": "flag",
+      "behavior_tags": [
+        "mag_refill"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "ripper_high_roller",
+      "manufacturer": "ripper",
+      "name": "High Roller",
+      "requires_licensed_parts": "ripper",
+      "stage": "on_shot",
+      "behavior_tags": [
+        "stacking",
+        "gun_damage"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "ripper_hard_charger",
+      "manufacturer": "ripper",
+      "name": "Hard Charger",
+      "requires_licensed_parts": "ripper",
+      "stage": "on_shot",
+      "behavior_tags": [
+        "charge",
+        "gun_damage"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "ripper_short_circuit",
+      "manufacturer": "ripper",
+      "name": "Short Circuit",
+      "requires_licensed_parts": "ripper",
+      "stage": "rate",
+      "behavior_tags": [
+        "on_reload",
+        "fire_rate"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "tediore_banger",
+      "manufacturer": "tediore",
+      "name": "Banger",
+      "requires_licensed_parts": "tediore",
+      "stage": "on_hit",
+      "behavior_tags": [
+        "throw",
+        "reload_throw"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "tediore_digi_divider",
+      "manufacturer": "tediore",
+      "name": "Digi-Divider",
+      "requires_licensed_parts": "tediore",
+      "stage": "on_hit",
+      "behavior_tags": [
+        "reload_throw",
+        "projectile"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "tediore_extend_a_friend",
+      "manufacturer": "tediore",
+      "name": "Extend-a-Friend",
+      "requires_licensed_parts": "tediore",
+      "stage": "flag",
+      "behavior_tags": [
+        "reload_throw",
+        "turret"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "tediore_recycler",
+      "manufacturer": "tediore",
+      "name": "Recycler",
+      "requires_licensed_parts": "tediore",
+      "stage": "flag",
+      "behavior_tags": [
+        "ammo_economy",
+        "reload_throw"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "torgue_air_burst",
+      "manufacturer": "torgue",
+      "name": "Air Burst",
+      "requires_licensed_parts": "torgue",
+      "stage": "on_hit",
+      "behavior_tags": [
+        "splash",
+        "explosive"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "torgue_boompuppy",
+      "manufacturer": "torgue",
+      "name": "Boompuppy",
+      "requires_licensed_parts": "torgue",
+      "stage": "on_hit",
+      "behavior_tags": [
+        "on_kill",
+        "splash",
+        "afk_clear"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "torgue_explosi_ception",
+      "manufacturer": "torgue",
+      "name": "Explosi-ception",
+      "requires_licensed_parts": "torgue",
+      "stage": "on_hit",
+      "behavior_tags": [
+        "splash",
+        "sticky",
+        "gun_damage"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "torgue_head_ringer",
+      "manufacturer": "torgue",
+      "name": "Head Ringer",
+      "requires_licensed_parts": "torgue",
+      "stage": "on_hit",
+      "behavior_tags": [
+        "splash",
+        "radius",
+        "gun_damage"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "vladof_bottom_feeder",
+      "manufacturer": "vladof",
+      "name": "Bottom Feeder",
+      "requires_licensed_parts": "vladof",
+      "stage": "flag",
+      "behavior_tags": [
+        "underbarrel"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "vladof_box_magazine",
+      "manufacturer": "vladof",
+      "name": "Box Magazine",
+      "requires_licensed_parts": "vladof",
+      "stage": "rate",
+      "behavior_tags": [
+        "fire_rate",
+        "mag"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "vladof_bullet_hose",
+      "manufacturer": "vladof",
+      "name": "Bullet Hose",
+      "requires_licensed_parts": "vladof",
+      "stage": "on_shot",
+      "behavior_tags": [
+        "projectile",
+        "multishot"
+      ],
+      "oracle": "name_inferred"
+    },
+    {
+      "id": "vladof_underdog",
+      "manufacturer": "vladof",
+      "name": "Underdog",
+      "requires_licensed_parts": "vladof",
+      "stage": "on_hit",
+      "behavior_tags": [
+        "underbarrel",
+        "gun_damage"
+      ],
+      "oracle": "name_inferred"
+    }
+  ]
+}

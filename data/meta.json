@@ -1,0 +1,22 @@
+{
+  "patch": "0.0.0-scaffold",
+  "game_build": "26007962",
+  "aes_key_id": "none",
+  "usmap_version": "",
+  "bl4_commit": "ae17c6dc5432364b05933f3a6ceeb739b2b52b07",
+  "retrieved_at": "2026-11-10T00:33:04Z",
+  "coverage": {
+    "parsed": 132,
+    "tag_only": 0,
+    "unparsed": 0,
+    "total": 132,
+    "parts_indexed": 790,
+    "drops_indexed": 300,
+    "card_parse_rate": 1.0
+  },
+  "last_promotion": {
+    "at": null,
+    "count": 0,
+    "mode": "awaiting_human_spot_check"
+  }
+}

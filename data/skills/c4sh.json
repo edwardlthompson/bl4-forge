@@ -1,0 +1,1263 @@
+{
+  "hunters": [
+    {
+      "id": "c4sh",
+      "display_name": "C4SH",
+      "no_capstones": true,
+      "skills": [
+        {
+          "id": "c4sh_chaos_walking_action",
+          "character": "c4sh",
+          "tree": "chaos_walking",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "action",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Cross Fire",
+          "effects": [],
+          "tags": [
+            "action"
+          ],
+          "activator": true,
+          "point_cost": 0
+        },
+        {
+          "id": "c4sh_chaos_walking_c0_0",
+          "character": "c4sh",
+          "tree": "chaos_walking",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "C4SH chaos_walking common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_chaos_walking_c0_1",
+          "character": "c4sh",
+          "tree": "chaos_walking",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "C4SH chaos_walking common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_chaos_walking_c1_0",
+          "character": "c4sh",
+          "tree": "chaos_walking",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "C4SH chaos_walking common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_chaos_walking_c1_1",
+          "character": "c4sh",
+          "tree": "chaos_walking",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "C4SH chaos_walking common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_chaos_walking_c2_0",
+          "character": "c4sh",
+          "tree": "chaos_walking",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "C4SH chaos_walking common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_chaos_walking_c2_1",
+          "character": "c4sh",
+          "tree": "chaos_walking",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "C4SH chaos_walking common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_chaos_walking_devils_tines",
+          "character": "c4sh",
+          "tree": "chaos_walking",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Devil's Tines",
+          "effects": [],
+          "tags": [
+            "devils_tines"
+          ],
+          "activator": false,
+          "devils_tines": true
+        },
+        {
+          "id": "c4sh_chaos_walking_aug_0_Calc_Robo_Cleromancy_Augment3_WindfallDuration",
+          "character": "c4sh",
+          "tree": "chaos_walking",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Calc Robo Cleromancy Augment3 WindfallDuration",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "c4sh_chaos_walking_aug_1_calc_robo_cleromancy_augment3_windfallduration",
+          "character": "c4sh",
+          "tree": "chaos_walking",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "calc robo cleromancy augment3 windfallduration",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "c4sh_chaos_walking_aug_2_chaos_walking_augment_3",
+          "character": "c4sh",
+          "tree": "chaos_walking",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "chaos walking augment 3",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "c4sh_chaos_walking_aug_3_chaos_walking_augment_4",
+          "character": "c4sh",
+          "tree": "chaos_walking",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "chaos walking augment 4",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "c4sh_chaos_walking_aug_4_chaos_walking_augment_5",
+          "character": "c4sh",
+          "tree": "chaos_walking",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "chaos walking augment 5",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "c4sh_chaos_walking_branch_left_r0",
+          "character": "c4sh",
+          "tree": "chaos_walking",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "chaos_walking branch_left row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_chaos_walking_branch_left_r1",
+          "character": "c4sh",
+          "tree": "chaos_walking",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "chaos_walking branch_left row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_chaos_walking_branch_left_r2",
+          "character": "c4sh",
+          "tree": "chaos_walking",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "chaos_walking branch_left row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_chaos_walking_branch_center_r0",
+          "character": "c4sh",
+          "tree": "chaos_walking",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "chaos_walking branch_center row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_chaos_walking_branch_center_r1",
+          "character": "c4sh",
+          "tree": "chaos_walking",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "chaos_walking branch_center row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_chaos_walking_branch_center_r2",
+          "character": "c4sh",
+          "tree": "chaos_walking",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "chaos_walking branch_center row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_chaos_walking_branch_right_r0",
+          "character": "c4sh",
+          "tree": "chaos_walking",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "chaos_walking branch_right row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_chaos_walking_branch_right_r1",
+          "character": "c4sh",
+          "tree": "chaos_walking",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "chaos_walking branch_right row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_chaos_walking_branch_right_r2",
+          "character": "c4sh",
+          "tree": "chaos_walking",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "chaos_walking branch_right row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_luck_of_the_draw_action",
+          "character": "c4sh",
+          "tree": "luck_of_the_draw",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "action",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Sleight Of Hand",
+          "effects": [],
+          "tags": [
+            "action"
+          ],
+          "activator": true,
+          "point_cost": 0
+        },
+        {
+          "id": "c4sh_luck_of_the_draw_c0_0",
+          "character": "c4sh",
+          "tree": "luck_of_the_draw",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "C4SH luck_of_the_draw common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_luck_of_the_draw_c0_1",
+          "character": "c4sh",
+          "tree": "luck_of_the_draw",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "C4SH luck_of_the_draw common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_luck_of_the_draw_c1_0",
+          "character": "c4sh",
+          "tree": "luck_of_the_draw",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "C4SH luck_of_the_draw common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_luck_of_the_draw_c1_1",
+          "character": "c4sh",
+          "tree": "luck_of_the_draw",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "C4SH luck_of_the_draw common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_luck_of_the_draw_c2_0",
+          "character": "c4sh",
+          "tree": "luck_of_the_draw",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "C4SH luck_of_the_draw common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_luck_of_the_draw_c2_1",
+          "character": "c4sh",
+          "tree": "luck_of_the_draw",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "C4SH luck_of_the_draw common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_luck_of_the_draw_devils_tines",
+          "character": "c4sh",
+          "tree": "luck_of_the_draw",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Devil's Tines",
+          "effects": [],
+          "tags": [
+            "devils_tines"
+          ],
+          "activator": false,
+          "devils_tines": true
+        },
+        {
+          "id": "c4sh_luck_of_the_draw_aug_0_Calc_Robo_Cleromancy_Augment3_WindfallDuration",
+          "character": "c4sh",
+          "tree": "luck_of_the_draw",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Calc Robo Cleromancy Augment3 WindfallDuration",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "c4sh_luck_of_the_draw_aug_1_calc_robo_cleromancy_augment3_windfallduration",
+          "character": "c4sh",
+          "tree": "luck_of_the_draw",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "calc robo cleromancy augment3 windfallduration",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "c4sh_luck_of_the_draw_aug_2_luck_of_the_draw_augment_3",
+          "character": "c4sh",
+          "tree": "luck_of_the_draw",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "luck of the draw augment 3",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "c4sh_luck_of_the_draw_aug_3_luck_of_the_draw_augment_4",
+          "character": "c4sh",
+          "tree": "luck_of_the_draw",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "luck of the draw augment 4",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "c4sh_luck_of_the_draw_aug_4_luck_of_the_draw_augment_5",
+          "character": "c4sh",
+          "tree": "luck_of_the_draw",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "luck of the draw augment 5",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "c4sh_luck_of_the_draw_branch_left_r0",
+          "character": "c4sh",
+          "tree": "luck_of_the_draw",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "luck_of_the_draw branch_left row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_luck_of_the_draw_branch_left_r1",
+          "character": "c4sh",
+          "tree": "luck_of_the_draw",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "luck_of_the_draw branch_left row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_luck_of_the_draw_branch_left_r2",
+          "character": "c4sh",
+          "tree": "luck_of_the_draw",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "luck_of_the_draw branch_left row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_luck_of_the_draw_branch_center_r0",
+          "character": "c4sh",
+          "tree": "luck_of_the_draw",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "luck_of_the_draw branch_center row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_luck_of_the_draw_branch_center_r1",
+          "character": "c4sh",
+          "tree": "luck_of_the_draw",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "luck_of_the_draw branch_center row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_luck_of_the_draw_branch_center_r2",
+          "character": "c4sh",
+          "tree": "luck_of_the_draw",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "luck_of_the_draw branch_center row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_luck_of_the_draw_branch_right_r0",
+          "character": "c4sh",
+          "tree": "luck_of_the_draw",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "luck_of_the_draw branch_right row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_luck_of_the_draw_branch_right_r1",
+          "character": "c4sh",
+          "tree": "luck_of_the_draw",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "luck_of_the_draw branch_right row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_luck_of_the_draw_branch_right_r2",
+          "character": "c4sh",
+          "tree": "luck_of_the_draw",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "luck_of_the_draw branch_right row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_roll_the_bones_action",
+          "character": "c4sh",
+          "tree": "roll_the_bones",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "action",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Cleromancy",
+          "effects": [],
+          "tags": [
+            "action"
+          ],
+          "activator": true,
+          "point_cost": 0
+        },
+        {
+          "id": "c4sh_roll_the_bones_c0_0",
+          "character": "c4sh",
+          "tree": "roll_the_bones",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "C4SH roll_the_bones common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_roll_the_bones_c0_1",
+          "character": "c4sh",
+          "tree": "roll_the_bones",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "C4SH roll_the_bones common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_roll_the_bones_c1_0",
+          "character": "c4sh",
+          "tree": "roll_the_bones",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "C4SH roll_the_bones common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_roll_the_bones_c1_1",
+          "character": "c4sh",
+          "tree": "roll_the_bones",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "C4SH roll_the_bones common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_roll_the_bones_c2_0",
+          "character": "c4sh",
+          "tree": "roll_the_bones",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "C4SH roll_the_bones common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_roll_the_bones_c2_1",
+          "character": "c4sh",
+          "tree": "roll_the_bones",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "C4SH roll_the_bones common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_roll_the_bones_devils_tines",
+          "character": "c4sh",
+          "tree": "roll_the_bones",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Devil's Tines",
+          "effects": [],
+          "tags": [
+            "devils_tines"
+          ],
+          "activator": false,
+          "devils_tines": true
+        },
+        {
+          "id": "c4sh_roll_the_bones_aug_0_Calc_Robo_Cleromancy_Augment3_WindfallDuration",
+          "character": "c4sh",
+          "tree": "roll_the_bones",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Calc Robo Cleromancy Augment3 WindfallDuration",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "c4sh_roll_the_bones_aug_1_calc_robo_cleromancy_augment3_windfallduration",
+          "character": "c4sh",
+          "tree": "roll_the_bones",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "calc robo cleromancy augment3 windfallduration",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "c4sh_roll_the_bones_aug_2_roll_the_bones_augment_3",
+          "character": "c4sh",
+          "tree": "roll_the_bones",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "roll the bones augment 3",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "c4sh_roll_the_bones_aug_3_roll_the_bones_augment_4",
+          "character": "c4sh",
+          "tree": "roll_the_bones",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "roll the bones augment 4",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "c4sh_roll_the_bones_aug_4_roll_the_bones_augment_5",
+          "character": "c4sh",
+          "tree": "roll_the_bones",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "roll the bones augment 5",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "c4sh_roll_the_bones_branch_left_r0",
+          "character": "c4sh",
+          "tree": "roll_the_bones",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "roll_the_bones branch_left row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_roll_the_bones_branch_left_r1",
+          "character": "c4sh",
+          "tree": "roll_the_bones",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "roll_the_bones branch_left row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_roll_the_bones_branch_left_r2",
+          "character": "c4sh",
+          "tree": "roll_the_bones",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "roll_the_bones branch_left row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_roll_the_bones_branch_center_r0",
+          "character": "c4sh",
+          "tree": "roll_the_bones",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "roll_the_bones branch_center row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_roll_the_bones_branch_center_r1",
+          "character": "c4sh",
+          "tree": "roll_the_bones",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "roll_the_bones branch_center row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_roll_the_bones_branch_center_r2",
+          "character": "c4sh",
+          "tree": "roll_the_bones",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "roll_the_bones branch_center row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_roll_the_bones_branch_right_r0",
+          "character": "c4sh",
+          "tree": "roll_the_bones",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "roll_the_bones branch_right row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_roll_the_bones_branch_right_r1",
+          "character": "c4sh",
+          "tree": "roll_the_bones",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "roll_the_bones branch_right row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "c4sh_roll_the_bones_branch_right_r2",
+          "character": "c4sh",
+          "tree": "roll_the_bones",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "roll_the_bones branch_right row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        }
+      ],
+      "quarantine": {
+        "incomplete": true,
+        "reason": "structure_seeded_effects_empty_pending_oracle"
+      }
+    }
+  ]
+}

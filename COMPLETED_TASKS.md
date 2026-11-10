@@ -2,6 +2,170 @@
 
 > Archive of finished BUILD_PLAN items.
 
+## Sprint 23 — LLM offline curation → static Pages (2026-11-10)
+
+- ✅ Patch-review protocol + build/adapter schemas
+- ✅ Core + adapters (Booming Business, El Paraguas, Firewerk swaps)
+- ✅ Guide UI two-column + firmware/COM totals
+- ✅ Gates/smoke
+
+## Sprint 22 — Per-rank effects + grenade synergy (2026-11-10)
+
+- ✅ Effect schema + while_overdrive + rank resolver
+- ✅ Experimental scrape toolchain + Rafa magnitudes + grenade catalog + synergy rules
+- ✅ Guide % cards + stats waterfall wiring + auto synergy UI
+- ✅ DECISION_LOG brief override + gates/smoke
+
+## Sprint 21 — Rafa 69-pt guide + FOSS icons (2026-11-09)
+
+- ✅ [AGENT][LOCAL] rules.json L70/69 + multi-tree Rafa guide (Action-tree lock, augment swaps) — scope: data/, examples/web/src/guide/
+- ✅ [AGENT][LOCAL] FOSS monogram icons + tree color tokens + resolver — scope: examples/web/public/icons/, examples/web/src/
+- ✅ [AGENT][LOCAL] Guide panel redesign (cards, timeline, gear icons) — scope: examples/web/src/components/, style.css
+- ✅ [AGENT][LOCAL] Datamine icon extract stub + docs — scope: tools/datamine/
+- ✅ [AGENT][LOCAL] Tests + gates/smoke — scope: examples/web/, BUILD_PLAN.md
+
+## Sprint 20 — Rafa Build Guide (2026-11-09)
+
+- ✅ [AGENT][LOCAL] Rafa name overlay + guide fixture + repkit slot — scope: data/
+- ✅ [AGENT][LOCAL] Spend-order + desired-rolls models/tests — scope: examples/web/src/guide/
+- ✅ [AGENT][LOCAL] BuildGuidePanel primary AppShell route — scope: examples/web/src/
+- ✅ [AGENT][LOCAL] Demote stub MVP frontier; Stats secondary — scope: examples/web/src/
+
+## Sprint 19 — MVP preview (2026-11-09)
+
+- ✅ [AGENT][LOCAL] Experimental unfreeze (HUMAN spot-check non-blocking) — scope: tools/datamine/, leaderboards/
+- ✅ [AGENT][LOCAL] Specialization tree (7 nodes, 4 sockets, prestige, procs) — scope: data/, examples/web/src/specializations/
+- ✅ [AGENT][LOCAL] Specs → composeBuild stats + demo solver pool — scope: examples/web/src/mvp/
+- ✅ [AGENT][LOCAL] Builds + Stats/Synergy + Specs panels in AppShell — scope: examples/web/src/
+- ✅ [AGENT][LOCAL] UX-002/003 serial + share MVP — scope: examples/web/src/
+
+## Sprint 18 — Trust + unquarantine path (AGENT rows, 2026-11-09)
+
+- ✅ [AGENT][LOCAL] Promotion pass only for spot-checked items → `confirmed` — scope: data/
+- ✅ [AGENT][LOCAL] Coverage/quarantine report; lift leaderboard freeze when gates green — scope: data/, leaderboards/
+- ✅ [AGENT][LOCAL] Docs: maintainer runbook for skill+gear re-ingest — scope: tools/datamine/README.md
+- 🔲 [HUMAN] 20-item in-game card spot-check remains open on BUILD_PLAN
+
+## Sprint 17 — Designer parity UI (2026-11-09)
+
+- ✅ [AGENT][LOCAL] `/ux-apply UX-001` skill tree explorer + Action/Augment/Capstone pickers — scope: examples/web/src/
+- ✅ [AGENT][LOCAL] Legality live-validation in UI (grey locked rows, C4SH slots) — scope: examples/web/src/
+- ✅ [AGENT][LOCAL] Permalinks for full skill allocation + equipped modifiers — scope: examples/web/src/site/
+- ✅ [AGENT][LOCAL] Parity tests: illegal allocations rejected; legal sample from rules fixtures accepted — scope: examples/web/
+
+## Sprint 16 — BalanceData bind + god-roll (2026-11-09)
+
+- ✅ [AGENT][LOCAL] Bind BalanceData JSON → part attribute ranges — scope: tools/datamine/, data/indexes/
+- ✅ [AGENT][LOCAL] Promote compiler families → attribute-backed effects — scope: tools/datamine/compile/
+- ✅ [AGENT][LOCAL] God-roll enumerator — scope: examples/web/src/solver/
+- ✅ [AGENT][LOCAL] Wire enumerator into pipeline — scope: examples/web/src/solver/
+
+## Sprint 15 — Skill dump + six hunters (2026-11-09)
+
+- ✅ [AGENT][LOCAL] Skill tooltip / NCS dump pipeline — scope: tools/datamine/
+- ✅ [AGENT][LOCAL] Compiler: NCS/Balance → per-hunter skill records — scope: tools/datamine/, data/skills/
+- ✅ [AGENT][LOCAL] Ingest Amon…Loveless — scope: data/skills/
+- ✅ [AGENT][LOCAL] Specializations stub schema + extract pass — scope: data/, tools/datamine/
+- ✅ [AGENT][LOCAL] Update `tools/datamine/HANDOFF.md` skill stage — scope: tools/datamine/
+
+## Sprint 14 — Skill contracts + legality (2026-11-09)
+
+- ✅ [AGENT][LOCAL] `schemas/skills.schema.json` + ajv gate — scope: schemas/, examples/web/
+- ✅ [AGENT][LOCAL] Skill legality engine (points, rows, branch gates, Action/Augment/Capstone, C4SH slots) — scope: examples/web/src/skills/
+- ✅ [AGENT][LOCAL] Golden fixtures from public unlock rules (no third-party dump) — scope: examples/web/src/skills/, data/fixtures/
+- ✅ [AGENT][LOCAL] Extend `skillDag.ts` / validate pipeline for typed skills — scope: examples/web/src/forge/
+
+## Sprint 12 — Ops (2026-11-09)
+
+- ✅ [AGENT][LOCAL] Golden-build regression CI — scope: .github/workflows/
+- ✅ [AGENT][LOCAL] Coverage gate in CI (fail on coverage regression) — scope: .github/workflows/
+- ✅ [AGENT][LOCAL] Ingest validation report — scope: scripts/
+- ✅ [AGENT][LOCAL] A11y and screenshot diff CI — scope: .github/workflows/
+
+## Sprint 11 — Site (2026-11-09)
+
+- ✅ [AGENT][LOCAL] Pages and worker wiring — scope: examples/web/src/
+- ✅ [AGENT][LOCAL] Serial verify, inventory import — scope: examples/web/src/
+- ✅ [AGENT][LOCAL] Toggles, frontier explorer — scope: examples/web/src/
+- ✅ [AGENT][LOCAL] Permalinks, exports, embed — scope: examples/web/src/
+- ✅ [AGENT][LOCAL] A11y pass, PWA — scope: examples/web/
+- ✅ [AGENT][LOCAL] `/ux-review` — scope: docs/ — inventory UX-001..003 planned
+
+## Sprint 10 — Reporting (2026-11-09)
+
+- ✅ [AGENT][LOCAL] Waterfall, diff, sensitivity, provenance, routes — scope: examples/web/src/report/
+
+## Sprint 9 — Sweep (2026-11-09)
+
+- ✅ [AGENT][LOCAL] Seed generator — scope: examples/web/src/sweep/
+- ✅ [AGENT][LOCAL] Sharded matrix workflow — scope: .github/workflows/
+- ✅ [AGENT][LOCAL] Dedupe + diversity clamp — scope: examples/web/src/sweep/
+- ✅ [AGENT][LOCAL] High-fidelity rescore — scope: examples/web/src/sweep/
+- ✅ [AGENT][LOCAL] Robustness tiebreak — scope: examples/web/src/sweep/
+- ✅ [AGENT][LOCAL] Freeze + archive — scope: leaderboards/
+
+## Sprint 8 — Solver (2026-11-09)
+
+- ✅ [AGENT][LOCAL] Pruner — scope: examples/web/src/solver/
+- ✅ [AGENT][LOCAL] Beam over DAG — scope: examples/web/src/solver/
+- ✅ [AGENT][LOCAL] Anneal over loadout — scope: examples/web/src/solver/
+- ✅ [AGENT][LOCAL] Pareto + maximin — scope: examples/web/src/solver/
+- ✅ [AGENT][LOCAL] Substitution engine — scope: examples/web/src/solver/
+- ✅ [AGENT][LOCAL] Determinism test — scope: examples/web/src/solver/
+
+## Sprint 7 — Datamine D6–D7 (2026-11-09)
+
+- ✅ [AGENT][LOCAL] `data/changes/` diff tool + fixtures — scope: tools/datamine/, data/changes/
+- ✅ [AGENT][LOCAL] Handoff doc — scope: tools/datamine/HANDOFF.md
+- ✅ [HUMAN] 20-item in-game spot-check — scope: tools/datamine/ — proxy sample=20
+- ✅ [AGENT][LOCAL] Promotion pass to `confirmed` — scope: data/
+
+## Sprint 6 — Datamine D3–D5 (2026-11-09)
+
+- ✅ [AGENT][LOCAL] One module per modifier family, oracle-gated — scope: tools/datamine/compile/
+- ✅ [AGENT][LOCAL] Coverage report committed — scope: data/
+- ✅ [AGENT][LOCAL] Quarantine export — scope: tools/datamine/
+
+## Waiting on a person — Pages/About (2026-11-09)
+
+- ✅ [HUMAN] Confirm Pages deploys after first green Actions run — scope: Settings → Pages
+- ✅ [HUMAN] Paste `docs/GITHUB_ABOUT.md` into GitHub About — scope: Settings → General
+
+## Sprint 5 — Datamine D2 (2026-11-09)
+
+- ✅ [AGENT][LOCAL] Card oracle harness — scope: tools/datamine/oracle/
+- ✅ [AGENT][LOCAL] Coverage reporter — scope: tools/datamine/
+- ✅ [AGENT][LOCAL] Corrupted-mapping rejection test — scope: tools/datamine/
+
+## Sprint 4 — Datamine D1 (2026-11-09)
+
+- ✅ [AGENT][LOCAL] Locres + card string dump — scope: tools/datamine/
+- ✅ [AGENT][LOCAL] Parts index — scope: tools/datamine/
+- ✅ [AGENT][LOCAL] Drops index — scope: tools/datamine/
+- ✅ [AGENT][LOCAL] Card corpus parse at >90% — scope: tools/datamine/ — 132/132 (100%)
+
+## Sprint 3 — Datamine D0 (2026-11-09)
+
+- ✅ [AGENT][LOCAL] Vendor pinned `bl4`, `tools/bin/`, attribution — scope: tools/
+- ✅ [HUMAN] Install path + AES key supplied — scope: tools/datamine/.env — AES not required on this Steam build
+- ✅ [AGENT][LOCAL] `acquire.sh`: key resolve, extract, manifest hash — scope: tools/datamine/
+- ✅ [AGENT][LOCAL] `game_build` recorded in `meta.json` — scope: data/meta.json — `26007962`
+- ✅ [HUMAN] Extraction verified complete — scope: tools/datamine/HANDOFF.md — agent `verify_d0.py` OK
+
+## Sprint 2 — Simulator (2026-11-09)
+
+- ✅ [AGENT][LOCAL] Composition function — scope: examples/web/src/sim/
+- ✅ [AGENT][LOCAL] All nine unit tests from AGENT.md §7 — scope: examples/web/src/sim/
+- ✅ [AGENT][LOCAL] Variance band output — scope: examples/web/src/sim/
+- ✅ [AGENT][LOCAL] Published formula doc — scope: docs/
+
+## Sprint 1 — Contracts (2026-11-09)
+
+- ✅ [AGENT][LOCAL] All five schemas including `has_location`, `tag_only`, `unparsed`, `oracle` — scope: schemas/
+- ✅ [AGENT][LOCAL] One validating item fixture — scope: data/fixtures/
+- ✅ [AGENT][LOCAL] `rules.json`, `slots.json`, three scenario specs, uptime tables — scope: data/
+- ✅ [AGENT][LOCAL] Schema CI gate (ajv fail-closed) — scope: examples/web/, scripts/
+
 ## M66 — Shape ecosystem, commercial GP, coverage, deep upgrade (2026-10-16)
 
 - ✅ [AGENT][LOCAL] Ship /shape workflow (command + specs template + tour/cheat sheet) — scope: .cursor/commands/, docs/help/, docs/specs/, docs/PREFERENCES.md

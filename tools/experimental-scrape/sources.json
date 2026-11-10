@@ -1,0 +1,29 @@
+{
+  "policy": "experimental_only_name_inferred",
+  "never_promote_to": ["confirmed", "leaderboard", "data/indexes"],
+  "skills": [
+    {
+      "id": "rafa_mentalmars",
+      "url": "https://mentalmars.com/borderlands-4/characters/rafa/",
+      "hunter": "rafa"
+    },
+    {
+      "id": "rafa_deadline_lootlemon",
+      "url": "https://www.lootlemon.com/skill/rafa-deadline",
+      "hunter": "rafa",
+      "skill_hint": "Deadline"
+    }
+  ],
+  "grenades": [
+    {
+      "id": "waterfall_lootlemon",
+      "url": "https://www.lootlemon.com/grenade-mod/waterfall-bl4",
+      "grenade_id": "vla_grenade_gadget.comp_05_legendary_Waterfall"
+    },
+    {
+      "id": "waterfall_mentalmars",
+      "url": "https://mentalmars.com/gear/waterfall-bl4/",
+      "grenade_id": "vla_grenade_gadget.comp_05_legendary_Waterfall"
+    }
+  ]
+}

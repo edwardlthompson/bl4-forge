@@ -1,0 +1,131 @@
+{
+  "experimental": true,
+  "obtainable": "unverified",
+  "manufacturer": "order",
+  "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/",
+  "enhancements": [
+    {
+      "id": "order_ammo_generator",
+      "manufacturer": "order",
+      "name": "Ammo Generator",
+      "effect_text": "Weapons with Order-licensed parts slowly refill from reserve Ammo while held.",
+      "requires_licensed_parts": "order",
+      "stage": "flag",
+      "effects": [
+        {
+          "op": "flag",
+          "target": "ammo_generator",
+          "value": 1,
+          "stage": "flag",
+          "tag_only": true,
+          "tags": [
+            "ammo_regen"
+          ],
+          "behavior_tags": [
+            "ammo_regen"
+          ],
+          "oracle": "name_inferred",
+          "label": "Ammo Generator"
+        }
+      ],
+      "behavior_tags": [
+        "ammo_regen"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "order_free_charger",
+      "manufacturer": "order",
+      "name": "Free Charger",
+      "effect_text": "Weapons with Order-Licensed Parts at Max Charge have a +30% Chance to make the next shot Charge Time and Ammo cost 0.",
+      "requires_licensed_parts": "order",
+      "stage": "on_shot",
+      "effects": [
+        {
+          "op": "flag",
+          "target": "free_charger",
+          "value": 1,
+          "stage": "on_shot",
+          "tag_only": true,
+          "tags": [
+            "charge",
+            "ammo_economy"
+          ],
+          "behavior_tags": [
+            "charge",
+            "ammo_economy"
+          ],
+          "oracle": "name_inferred",
+          "label": "Free Charger"
+        }
+      ],
+      "behavior_tags": [
+        "charge",
+        "ammo_economy"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "order_muzzle_brake",
+      "manufacturer": "order",
+      "name": "Muzzle Brake",
+      "effect_text": "Guns with Order Licensed Parts gain +50% Accuracy and +50% Burst Fire Speed when firing from Maximum Charge",
+      "requires_licensed_parts": "order",
+      "stage": "rate",
+      "effects": [
+        {
+          "op": "flag",
+          "target": "muzzle_brake",
+          "value": 1,
+          "stage": "flag",
+          "tag_only": true,
+          "tags": [
+            "charge",
+            "accuracy",
+            "fire_rate"
+          ],
+          "behavior_tags": [
+            "charge",
+            "accuracy",
+            "fire_rate"
+          ],
+          "oracle": "name_inferred",
+          "label": "Muzzle Brake"
+        }
+      ],
+      "behavior_tags": [
+        "charge",
+        "accuracy",
+        "fire_rate"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "order_power_shot",
+      "manufacturer": "order",
+      "name": "Power Shot",
+      "effect_text": "Guns with Order-Licensed parts gain 30% Damage when firing from Maximum Charge",
+      "requires_licensed_parts": "order",
+      "stage": "on_shot",
+      "effects": [
+        {
+          "op": "add",
+          "target": "enhancement_gun",
+          "value": 0.3,
+          "stage": "on_shot",
+          "oracle": "name_inferred",
+          "label": "Power Shot"
+        }
+      ],
+      "behavior_tags": [
+        "charge",
+        "gun_damage"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    }
+  ]
+}

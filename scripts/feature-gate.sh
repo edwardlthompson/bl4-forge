@@ -124,6 +124,7 @@ fail_gate() {
     web-lint) SUGGESTED=("fix TypeScript errors in feature scope" "run npm run lint in examples/web" "run npm run format in examples/web if format script exists") ;;
     web-format) SUGGESTED=("run npm run format in examples/web") ;;
     web-test) SUGGESTED=("fix failing vitest in src/{feature}/" "run npm test in examples/web") ;;
+    web-schemas) SUGGESTED=("fix schema/fixture drift under schemas/ and data/" "run npm run validate:schemas in examples/web") ;;
     web-build) SUGGESTED=("fix build errors" "run npm run build in examples/web") ;;
     web-lighthouse-floors) SUGGESTED=("restore categories:accessibility minScore 0.95 in examples/web/.lighthouserc.json" "keep categories:best-practices minScore at least 0.9" "keep categories:performance minScore at least 0.9" "keep largest-contentful-paint maxNumericValue <= 2500" "keep total-blocking-time maxNumericValue <= 300 (lab INP proxy)") ;;
     web-sw-cache-budget) SUGGESTED=("trim examples/web/public/sw.js PRECACHE list" "keep shell assets under SW_CACHE_MAX_BYTES (default 256KiB)" "run bash scripts/check-sw-cache-budget.sh") ;;
@@ -332,6 +333,9 @@ if should_run web && [ -f examples/web/package.json ]; then
       run_in_dir examples/web web-format npm run format:check
     fi
     run_in_dir examples/web web-test npm test
+    if grep -q '"validate:schemas"' examples/web/package.json 2>/dev/null; then
+      run_in_dir examples/web web-schemas npm run validate:schemas
+    fi
   run_cmd locale-pack-budget bash scripts/check-locale-pack-budget.sh
     run_in_dir examples/web web-build npm run build
     run_cmd web-lighthouse-floors bash scripts/check-lighthouse-floors.sh

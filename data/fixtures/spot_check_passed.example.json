@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "batch": "YYYY-MM-DD-human",
+  "verifier": "human",
+  "note": "Copy to data/indexes/spot_check_passed.json after in-game card checks. Agents must not invent rows.",
+  "items": [
+    {
+      "id": "ExamplePartName",
+      "card_match": true,
+      "notes": "Tooltip matched compiled effects"
+    }
+  ]
+}

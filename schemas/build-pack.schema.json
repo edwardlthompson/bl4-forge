@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://edwardlthompson.github.io/bl4-forge/schemas/build-pack.schema.json",
+  "title": "BL4 Forge experimental static build pack (core)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["experimental", "obtainable", "patch", "hunter_id", "action_tree", "allocation", "spec", "firmware", "class_mod", "sources"],
+  "properties": {
+    "experimental": { "const": true },
+    "obtainable": { "const": "unverified" },
+    "patch": { "type": "string", "minLength": 1 },
+    "curated_at": { "type": "string" },
+    "curated_by": { "type": "string", "description": "offline_llm | human" },
+    "hunter_id": { "type": "string" },
+    "title": { "type": "string" },
+    "action_tree": { "type": "string" },
+    "action_skill_id": { "type": "string" },
+    "augment_ids": { "type": "array", "items": { "type": "string" } },
+    "capstone_id": { "type": ["string", "null"] },
+    "point_budget": { "type": "integer" },
+    "allocation": { "type": "object" },
+    "spec": { "type": "object" },
+    "firmware": {
+      "type": "object",
+      "required": ["pieces"],
+      "properties": {
+        "pieces": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["set_id", "count"],
+            "properties": {
+              "set_id": { "type": "string" },
+              "count": { "type": "integer", "minimum": 1, "maximum": 3 },
+              "slot_hint": { "type": "string" }
+            }
+          }
+        },
+        "notes": { "type": "string" }
+      }
+    },
+    "class_mod": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "desired_rolls": { "type": "array", "items": { "type": "string" } },
+        "desired_skills": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "display_name", "why"],
+            "properties": {
+              "id": { "type": "string" },
+              "display_name": { "type": "string" },
+              "why": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "baseline_gear": { "type": "object" },
+    "narrative": { "type": "string" },
+    "sources": { "type": "array", "items": { "type": "string" } }
+  }
+}

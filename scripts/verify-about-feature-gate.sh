@@ -41,6 +41,8 @@ ABOUT_TRACKED=(
   examples/web/src/appBootstrap.test.ts
   examples/web/src/AppShell.ts
   examples/web/src/AppShell.test.ts
+  examples/web/src/appShellRoutes.ts
+  examples/web/src/appShellTypes.ts
   examples/web/src/components/AboutPanel.ts
   examples/web/src/settings/preferences.ts
   examples/web/e2e/app.spec.ts
@@ -68,7 +70,7 @@ PY
   if [ -d "$BACKUP/about" ]; then
     rm -rf "$WEB_SRC/about"
     cp -a "$BACKUP/about" "$WEB_SRC/about" || git checkout HEAD -- examples/web/src/about || true
-    for rel in main.ts appBootstrap.ts appBootstrap.test.ts AppShell.ts AppShell.test.ts; do
+    for rel in main.ts appBootstrap.ts appBootstrap.test.ts AppShell.ts AppShell.test.ts appShellRoutes.ts appShellTypes.ts; do
       if [ -f "$BACKUP/$rel" ]; then
         copy_retry "$BACKUP/$rel" "$WEB_SRC/$rel" || git checkout HEAD -- "examples/web/src/$rel" || true
       fi
@@ -119,6 +121,12 @@ cp -a "$WEB_SRC/appBootstrap.test.ts" "$BACKUP/appBootstrap.test.ts"
 cp -a "$WEB_SRC/AppShell.ts" "$BACKUP/AppShell.ts"
 if [ -f "$WEB_SRC/AppShell.test.ts" ]; then
   cp -a "$WEB_SRC/AppShell.test.ts" "$BACKUP/AppShell.test.ts"
+fi
+if [ -f "$WEB_SRC/appShellRoutes.ts" ]; then
+  cp -a "$WEB_SRC/appShellRoutes.ts" "$BACKUP/appShellRoutes.ts"
+fi
+if [ -f "$WEB_SRC/appShellTypes.ts" ]; then
+  cp -a "$WEB_SRC/appShellTypes.ts" "$BACKUP/appShellTypes.ts"
 fi
 cp -a "$WEB_SRC/components/AboutPanel.ts" "$BACKUP/components/AboutPanel.ts"
 cp -a "$WEB_SRC/settings/preferences.ts" "$BACKUP/settings/preferences.ts"
@@ -193,6 +201,8 @@ for path in (
     web / "appBootstrap.test.ts",
     web / "AppShell.ts",
     web / "AppShell.test.ts",
+    web / "appShellRoutes.ts",
+    web / "appShellTypes.ts",
     web / "components" / "AboutPanel.ts",
 ):
     if path.is_dir():
@@ -247,10 +257,22 @@ cli_gate() {
   local stack="$1"
   local step="$2"
   case "$stack" in
-    rust) command -v cargo >/dev/null 2>&1 || { echo "SKIP rust About $step (cargo not found)"; return 0; } ;;
-    go) command -v go >/dev/null 2>&1 || { echo "SKIP go About $step (go not found)"; return 0; } ;;
-    node) command -v npm >/dev/null 2>&1 || { echo "SKIP node About $step (npm not found)"; return 0; } ;;
-    python) command -v uv >/dev/null 2>&1 || { echo "SKIP python About $step (uv not found)"; return 0; } ;;
+    rust)
+      [ -f examples/rust/Cargo.toml ] || { echo "SKIP rust About $step (stack pruned)"; return 0; }
+      command -v cargo >/dev/null 2>&1 || { echo "SKIP rust About $step (cargo not found)"; return 0; }
+      ;;
+    go)
+      [ -f examples/go/go.mod ] || [ -f examples/go/main.go ] || { echo "SKIP go About $step (stack pruned)"; return 0; }
+      command -v go >/dev/null 2>&1 || { echo "SKIP go About $step (go not found)"; return 0; }
+      ;;
+    node)
+      [ -f examples/node/package.json ] || { echo "SKIP node About $step (stack pruned)"; return 0; }
+      command -v npm >/dev/null 2>&1 || { echo "SKIP node About $step (npm not found)"; return 0; }
+      ;;
+    python)
+      [ -f examples/python/pyproject.toml ] || { echo "SKIP python About $step (stack pruned)"; return 0; }
+      command -v uv >/dev/null 2>&1 || { echo "SKIP python About $step (uv not found)"; return 0; }
+      ;;
   esac
   bash scripts/feature-gate.sh --stack "$stack" --skip-preamble --step "$step"
 }

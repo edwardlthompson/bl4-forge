@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://edwardlthompson.github.io/bl4-forge/schemas/build.schema.json",
+  "title": "BL4 Forge Build Pack",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "hunter",
+    "archetype",
+    "rank",
+    "score",
+    "skills",
+    "loadout",
+    "patch",
+    "game_build",
+    "solver_version",
+    "scenario_hash",
+    "seed",
+    "generated_at"
+  ],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "hunter": { "type": "string", "minLength": 1 },
+    "archetype": {
+      "type": "string",
+      "enum": ["mobbing", "bossing", "balanced"]
+    },
+    "rank": { "type": "integer", "minimum": 1 },
+    "score": { "type": "number" },
+    "score_normalized": { "type": "number" },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "rank"],
+        "properties": {
+          "id": { "type": "string" },
+          "rank": { "type": "integer", "minimum": 1 }
+        }
+      }
+    },
+    "loadout": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    },
+    "patch": { "type": "string", "minLength": 1 },
+    "game_build": { "type": "string", "minLength": 1 },
+    "solver_version": { "type": "string", "minLength": 1 },
+    "scenario_hash": { "type": "string", "minLength": 1 },
+    "seed": { "type": "integer" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "experimental": { "type": "boolean" }
+  }
+}

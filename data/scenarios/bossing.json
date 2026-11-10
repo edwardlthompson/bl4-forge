@@ -1,0 +1,20 @@
+{
+  "id": "bossing",
+  "label": "Bossing",
+  "description": "Single high-HP target with sparse kills.",
+  "duration_s": 180,
+  "target_count": 1,
+  "avg_hp": 2500000,
+  "crit_chance_base": 0.25,
+  "element_resist": {
+    "incendiary": 0.15,
+    "shock": 0.1,
+    "corrosive": 0.0,
+    "cryo": 0.05,
+    "radiation": 0.1
+  },
+  "mods": {
+    "kill_density": 0.05,
+    "movement": 0.4
+  }
+}

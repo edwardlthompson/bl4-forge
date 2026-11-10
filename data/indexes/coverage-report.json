@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "generated_at": "2026-11-10T03:02:00Z",
+  "game_build": "26007962",
+  "parts_indexed": 790,
+  "parts_bound_estimate": 0,
+  "quarantine_count": 394,
+  "promoted_count": 0,
+  "promotion_mode": "awaiting_human_spot_check",
+  "spot_check_manifest_present": false,
+  "leaderboard_freeze_lifted": true,
+  "published_certification": "awaiting_human_spot_check",
+  "gate": "green_experimental_mvp"
+}

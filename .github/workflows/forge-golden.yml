@@ -1,0 +1,42 @@
+# Golden-build regression + coverage floor for BL4 Forge web stack.
+name: Forge golden
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "examples/web/**"
+      - "data/**"
+      - "schemas/**"
+      - ".github/workflows/forge-golden.yml"
+  pull_request:
+    paths:
+      - "examples/web/**"
+      - "data/**"
+      - "schemas/**"
+      - ".github/workflows/forge-golden.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  golden:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: examples/web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: examples/web/package-lock.json
+      - run: npm ci
+      - name: Schema validate
+        run: npm run validate:schemas
+      - name: Unit + coverage floors
+        run: npm test
+      - name: Sim + solver determinism slice
+        run: npx vitest run src/sim src/solver --coverage=false

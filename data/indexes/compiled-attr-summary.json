@@ -1,0 +1,177 @@
+{
+  "version": 1,
+  "attribute_effects": 150,
+  "by_target": {
+    "reload_speed": 36,
+    "fire_rate": 32,
+    "crit_damage": 38,
+    "crit_chance": 8,
+    "shield_recharge": 4,
+    "shield_capacity": 2,
+    "magazine_size": 30
+  },
+  "sample": [
+    {
+      "part": "pearl_reload",
+      "op": "mul",
+      "target": "reload_speed",
+      "min": 1.05,
+      "max": 1.25,
+      "oracle": "name_inferred"
+    },
+    {
+      "part": "pearl_firerate",
+      "op": "mul",
+      "target": "fire_rate",
+      "min": 1.05,
+      "max": 1.25,
+      "oracle": "name_inferred"
+    },
+    {
+      "part": "stat2_criticalhitchance_melee",
+      "op": "mul",
+      "target": "crit_damage",
+      "min": 1.05,
+      "max": 1.25,
+      "oracle": "name_inferred"
+    },
+    {
+      "part": "stat2_criticalhitchance_melee",
+      "op": "add",
+      "target": "crit_chance",
+      "min": 0.02,
+      "max": 0.15,
+      "oracle": "name_inferred"
+    },
+    {
+      "part": "stat_criticalhitchance_ordnance",
+      "op": "mul",
+      "target": "crit_damage",
+      "min": 1.05,
+      "max": 1.25,
+      "oracle": "name_inferred"
+    },
+    {
+      "part": "stat_criticalhitchance_ordnance",
+      "op": "add",
+      "target": "crit_chance",
+      "min": 0.02,
+      "max": 0.15,
+      "oracle": "name_inferred"
+    },
+    {
+      "part": "stat2_criticalhitchance_ordnance",
+      "op": "mul",
+      "target": "crit_damage",
+      "min": 1.05,
+      "max": 1.25,
+      "oracle": "name_inferred"
+    },
+    {
+      "part": "stat2_criticalhitchance_ordnance",
+      "op": "add",
+      "target": "crit_chance",
+      "min": 0.02,
+      "max": 0.15,
+      "oracle": "name_inferred"
+    },
+    {
+      "part": "stat_criticalhitchance_skill",
+      "op": "mul",
+      "target": "crit_damage",
+      "min": 1.05,
+      "max": 1.25,
+      "oracle": "name_inferred"
+    },
+    {
+      "part": "stat_criticalhitchance_skill",
+      "op": "add",
+      "target": "crit_chance",
+      "min": 0.02,
+      "max": 0.15,
+      "oracle": "name_inferred"
+    },
+    {
+      "part": "stat2_criticalhitchance_skill",
+      "op": "mul",
+      "target": "crit_damage",
+      "min": 1.05,
+      "max": 1.25,
+      "oracle": "name_inferred"
+    },
+    {
+      "part": "stat2_criticalhitchance_skill",
+      "op": "add",
+      "target": "crit_chance",
+      "min": 0.02,
+      "max": 0.15,
+      "oracle": "name_inferred"
+    },
+    {
+      "part": "stat2_criticalhitchance_gun",
+      "op": "mul",
+      "target": "crit_damage",
+      "min": 1.05,
+      "max": 1.25,
+      "oracle": "name_inferred"
+    },
+    {
+      "part": "stat2_criticalhitchance_gun",
+      "op": "add",
+      "target": "crit_chance",
+      "min": 0.02,
+      "max": 0.15,
+      "oracle": "name_inferred"
+    },
+    {
+      "part": "stat_criticalhitchance_gun",
+      "op": "mul",
+      "target": "crit_damage",
+      "min": 1.05,
+      "max": 1.25,
+      "oracle": "name_inferred"
+    },
+    {
+      "part": "stat_criticalhitchance_gun",
+      "op": "add",
+      "target": "crit_chance",
+      "min": 0.02,
+      "max": 0.15,
+      "oracle": "name_inferred"
+    },
+    {
+      "part": "stat_shield_regen_rate",
+      "op": "mul",
+      "target": "shield_recharge",
+      "min": 1.05,
+      "max": 1.25,
+      "oracle": "name_inferred"
+    },
+    {
+      "part": "stat_reload_speed",
+      "op": "mul",
+      "target": "reload_speed",
+      "min": 1.05,
+      "max": 1.25,
+      "oracle": "name_inferred"
+    },
+    {
+      "part": "stat_shield_capacity",
+      "op": "mul",
+      "target": "shield_capacity",
+      "min": 1.05,
+      "max": 1.25,
+      "oracle": "name_inferred"
+    },
+    {
+      "part": "stat2_shield_regen_rate",
+      "op": "mul",
+      "target": "shield_recharge",
+      "min": 1.05,
+      "max": 1.25,
+      "oracle": "name_inferred"
+    }
+  ],
+  "oracle": "name_inferred",
+  "note": "Attribute-backed provisional; not card_match"
+}

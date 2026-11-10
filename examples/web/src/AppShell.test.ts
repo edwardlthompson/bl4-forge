@@ -72,6 +72,16 @@ describe("createAppShell nav render", () => {
     expect(root.querySelector("[data-testid='settings-panel']")).toBeTruthy();
   });
 
+  it("opens guide full-width and hides home chrome", () => {
+    const root = document.createElement("div");
+    createAppShell(root, { ...baseState(), nav: push(homeNav(), "guide") }, handlers());
+    const main = root.querySelector("main");
+    expect(main?.classList.contains("gp-route-wide")).toBe(true);
+    expect(main?.classList.contains("gp-route-guide")).toBe(true);
+    expect(root.querySelector("[data-testid='home-status']")).toBeNull();
+    expect(root.querySelector(".gp-build-guide")).toBeTruthy();
+  });
+
   it("restores persisted panel scroll", () => {
     const root = document.createElement("div");
     const nav = recordScroll(push(homeNav(), "settings"), "settings", 42);

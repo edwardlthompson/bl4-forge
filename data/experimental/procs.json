@@ -1,0 +1,94 @@
+{
+  "experimental": true,
+  "obtainable": "unverified",
+  "patch": "post-1.10-curated",
+  "curated_at": "2026-11-10",
+  "curated_by": "offline_llm",
+  "sources": [
+    "https://borderlands.2k.com/borderlands-4/game-info/vault-hunters/rafa/",
+    "https://www.lootlemon.com/skill/rafa-booming-business",
+    "https://mobalytics.gg/borderlands-4/guides/rafa-damage-formula-encyclopedia"
+  ],
+  "procs": [
+    {
+      "id": "booming_business_crit_grenade",
+      "source_kind": "skill",
+      "source_id": "yg_booming_business",
+      "trigger": "on_crit",
+      "action": "spawn_grenade",
+      "produces": ["ordnance_hit", "splash", "spawn_grenade"],
+      "oracle": "name_inferred",
+      "summary": "On critical hit, chance to spawn free grenade (equipped copy); community ~4s internal CD."
+    },
+    {
+      "id": "el_paraguas_splash_crit",
+      "source_kind": "skill",
+      "source_id": "yg_el_paraguas",
+      "trigger": "always",
+      "action": "grant_crit_chance",
+      "produces": ["splash_crit", "grenade_crit", "splash"],
+      "oracle": "name_inferred",
+      "summary": "Splash damage + splash crit chance — lets grenade splash crit into Booming Business."
+    },
+    {
+      "id": "firewerk_on_kill_missiles",
+      "source_kind": "shield",
+      "source_id": "firewerk",
+      "trigger": "on_kill",
+      "action": "spawn_missiles",
+      "produces": ["on_kill", "homing", "afk_clear"],
+      "oracle": "name_inferred",
+      "summary": "On kill, launch homing missiles that clear adds (AFK mobbing)."
+    },
+    {
+      "id": "grenazerker_double_spawn",
+      "source_kind": "com",
+      "source_id": "grenazerker",
+      "trigger": "spawn_grenade",
+      "action": "double_grenade_spawn",
+      "produces": ["spawn_grenade", "double_grenade_spawn"],
+      "oracle": "name_inferred",
+      "summary": "Grenazerker COM: skill-spawned grenades come in pairs."
+    },
+    {
+      "id": "waterfall_chain_explode",
+      "source_kind": "grenade",
+      "source_id": "vla_grenade_gadget.comp_05_legendary_Waterfall",
+      "trigger": "on_ordnance_hit",
+      "action": "apply_splash",
+      "produces": ["chain_explode", "splash"],
+      "oracle": "name_inferred",
+      "summary": "Enemies hit by splash explode for half damage; chain continues."
+    },
+    {
+      "id": "collaborative_ignition_overdrive",
+      "source_kind": "skill",
+      "source_id": "collaborative_ignition",
+      "trigger": "while_overdrive",
+      "action": "gun_element_bonus",
+      "produces": ["gun_element_bonus", "collaborative_ignition", "while_overdrive"],
+      "oracle": "name_inferred",
+      "summary": "Overdrive: skills/ordnances deal bonus damage in current gun element."
+    },
+    {
+      "id": "pb_gun_element_inherit",
+      "source_kind": "action_skill",
+      "source_id": "pb_action",
+      "trigger": "always",
+      "action": "inherit_gun_element",
+      "produces": ["inherit_gun_element", "inherit_gun_parts"],
+      "oracle": "name_inferred",
+      "summary": "Peacebreaker cannons inherit held gun characteristics/elements."
+    },
+    {
+      "id": "mixologist_inactive_element",
+      "source_kind": "enhancement",
+      "source_id": "maliwan_mixologist",
+      "trigger": "always",
+      "action": "inactive_element_bonus",
+      "produces": ["inactive_element", "dual_element", "gun_element_bonus"],
+      "oracle": "name_inferred",
+      "summary": "Mixologist: +10% bonus damage from inactive Maliwan mode element."
+    }
+  ]
+}

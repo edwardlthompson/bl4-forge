@@ -1,0 +1,55 @@
+{
+  "id": "jakobs_pistol_terminus",
+  "name": "Terminus",
+  "slot": "weapon",
+  "weapon_type": "pistol",
+  "manufacturer": "jakobs",
+  "rarity": "legendary",
+  "elements": ["incendiary", "none"],
+  "stat_range": {
+    "damage": [1180, 1310],
+    "damage_median": 1240,
+    "fire_rate": [4.0, 4.4]
+  },
+  "firmware_sensitive": true,
+  "red_text": "Scaffold fixture — not an in-game claim.",
+  "effects": [
+    {
+      "op": "mul",
+      "target": "gun_damage",
+      "value": 1.25,
+      "cond": { "type": "on_kill", "window_s": 5 },
+      "stack_max": 10,
+      "tags": ["dps", "sustained"],
+      "source_part": "part_dmg_mult_02",
+      "oracle": "card_match"
+    }
+  ],
+  "tag_only": false,
+  "synergy_keys": ["crit", "incendiary_dot", "sustained"],
+  "obtainable": "probable",
+  "gate": "base",
+  "has_location": true,
+  "evidence": [
+    {
+      "kind": "datamine_drop",
+      "ref": "drops:1234",
+      "game_build": "scaffold",
+      "retrieved_at": "2026-11-08"
+    },
+    {
+      "kind": "card_oracle",
+      "ref": "oracle:jakobs_pistol_terminus",
+      "result": "pass",
+      "retrieved_at": "2026-11-08"
+    }
+  ],
+  "drop": {
+    "boss": "scaffold_boss",
+    "location": "scaffold_map",
+    "rate_band": "rare"
+  },
+  "unparsed": false,
+  "stale": false,
+  "game_build": "scaffold"
+}

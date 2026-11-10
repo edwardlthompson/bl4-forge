@@ -1,0 +1,44 @@
+{
+  "experimental": true,
+  "obtainable": "unverified",
+  "patch": "post-1.10-curated",
+  "core_ref": "data/experimental/builds/core.json",
+  "adapters": {
+    "balanced": {
+      "swap_slot": "grenade",
+      "swap_item": "Waterfall (Lingering + Pulsing + Nuke)",
+      "why": "Default: chain explosions + Nuke radius cover mixed content without respec.",
+      "secondary_notes": [
+        "Keep core skills/specs.",
+        "Firmware 2× Airstrike + 2× Get Throwin for +40% splash radius total from those set pieces."
+      ],
+      "gear_deltas": {
+        "grenade": "Waterfall Lingering/Pulsing/Nuke"
+      }
+    },
+    "mobbing": {
+      "swap_slot": "shield",
+      "swap_item": "Firewerk (incendiary preferred)",
+      "why": "One swap: Firewerk on-kill homing missiles clear packs AFK while Booming Business + Peacebreaker keep grenades flowing.",
+      "secondary_notes": [
+        "Skills/specs unchanged from core.",
+        "Hold a fire gun if using Collaborative Ignition / El Diablito-style elemental ordnance bonuses."
+      ],
+      "gear_deltas": {
+        "shield": "Firewerk incendiary"
+      }
+    },
+    "bossing": {
+      "swap_slot": "grenade",
+      "swap_item": "Firepot (sticky / single-target ordnance)",
+      "why": "One swap: Firepot stickies for boss burn; keep Peacebreaker for Overdrive — no skill respec.",
+      "secondary_notes": [
+        "Farm Firepot from Leader Willem (Enter the Electi line) per community guides.",
+        "Optional: swap to a dedicated boss weapon instead if Firepot unavailable — still one slot."
+      ],
+      "gear_deltas": {
+        "grenade": "Firepot"
+      }
+    }
+  }
+}

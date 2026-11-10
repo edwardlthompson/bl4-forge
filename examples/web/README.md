@@ -60,3 +60,7 @@ See [`docs/DESIGN_GUIDE.md`](../../docs/DESIGN_GUIDE.md) for shared key naming w
 ## CI integration
 
 Runs in the root `.github/workflows/ci.yml` web matrix job. GitHub Pages deploy: `.github/workflows/pages.yml` on push to `main`.
+
+## Legal / icons
+
+BL4 Forge is an unaffiliated fan project. Borderlands and related marks are property of Gearbox Software / 2K. Skill and gear icons under `public/icons/datamine/` (when present) are Gearbox property, published at maintainer risk under a HUMAN override — MIT applies to our code and docs only.

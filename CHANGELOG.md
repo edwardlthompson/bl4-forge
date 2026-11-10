@@ -8,29 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Added
-
-* **argus:** Part 1 foundation — `branding/brand.json` + canonical `app-icon-1024.png`, `argus.contract.json` v2, `.goldenpath.json`, empty `ux-baseline.json`, and five hygiene gates (`check-brand-icon`, `check-contract`, `check-orphans`, `check-ux-contract`, `check-layout`)
-* **argus:** Part 2 — `argus/rules/**` SoT + `rules.manifest.json` publish workflow, `docs/UX_LAW.md` / `LAYOUT.md` / `DIRECTORY_RULES.md`, UX fixtures + orphan allowlist/exceptions, `docs/RELEASE_TOKENS.md`
-* **argus:** Part 3 — `fleet.json` (template only), `briefs/` + fanout planner (`argus-fanout-plan.py`)
-* **argus:** Part 4 — YOLO runner off by default (`docs/YOLO.md`, no `yolo.on` in template)
-* **argus:** Part 5 — `argus.remote.json` disabled + remote stub workflow / `state/remote.log`
-
-### Changed
-
-* **docs:** `DIRECTORY_RULES.md` → `CURSOR_DIRECTORY.md`; Blender schema → `icon-render-manifest.schema.json`
-* **init:** primary stack decided → golden-path prune by default (drop unused + optional stacks); `--no-prune` / `--keep-optional` to retain extras
-* **memory:** children keep living memory only under `.agent/` (root `AGENT_MEMORY.md` / `DECISION_LOG.md` removed on init; `check-profile` rejects root stubs)
-* **linguist:** child attrs also vendor `tests/**` and `templates/**`; attribution gate requires patterns (dominant-language residual is advisory)
-* **init:** PowerShell `init-project.ps1` pipes Python here-strings to stdin and uses `PathSeparator` for `PYTHONPATH` (linguist/agent-mode were no-ops or `ModuleNotFoundError` on Linux pwsh)
-
 ## [1.13.0](https://github.com/edwardlthompson/agent-project-bootstrap/compare/v1.12.1...v1.13.0) (2026-11-09)
-
 
 ### Added
 
 * **argus:** foundation, rules, fleet, YOLO, and remote console ([291815f](https://github.com/edwardlthompson/agent-project-bootstrap/commit/291815f76fc517917f16a939f52864907caf7653))
-
 
 ### Fixed
 
@@ -39,7 +21,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * **deps:** clear web npm audit findings for glob/minimatch ([84bc7b4](https://github.com/edwardlthompson/agent-project-bootstrap/commit/84bc7b43fc52193838a8ea5c234706111a956a6f))
 
 ## [1.12.1](https://github.com/edwardlthompson/agent-project-bootstrap/compare/v1.12.0...v1.12.1) (2026-11-06)
-
 
 ### Fixed
 
@@ -72,12 +53,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.10.0](https://github.com/edwardlthompson/agent-project-bootstrap/compare/v1.9.0...v1.10.0) (2026-10-16)
 
-
 ### Added
 
 * **agents:** shape workflow, preferences, and commercial golden path ([146878a](https://github.com/edwardlthompson/agent-project-bootstrap/commit/146878a2ed79c50df77811f89a43064badec9ede))
 * **branding:** ship parent handshake logo and child /brand playbook ([08ac840](https://github.com/edwardlthompson/agent-project-bootstrap/commit/08ac84007be8069376cc29b6f211ea8c369e54cb))
-
 
 ### Fixed
 

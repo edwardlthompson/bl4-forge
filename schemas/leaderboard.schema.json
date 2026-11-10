@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://edwardlthompson.github.io/bl4-forge/schemas/leaderboard.schema.json",
+  "title": "BL4 Forge Leaderboard Index",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "patch",
+    "game_build",
+    "solver_version",
+    "scenario_hash",
+    "frozen_at",
+    "boards"
+  ],
+  "properties": {
+    "patch": { "type": "string", "minLength": 1 },
+    "game_build": { "type": "string", "minLength": 1 },
+    "solver_version": { "type": "string", "minLength": 1 },
+    "scenario_hash": { "type": "string", "minLength": 1 },
+    "frozen_at": { "type": "string", "format": "date-time" },
+    "disclaimer": { "type": "string" },
+    "boards": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "kind", "entries"],
+        "properties": {
+          "id": { "type": "string" },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "hunter_archetype",
+              "hunter_all_around",
+              "boss",
+              "global",
+              "experimental",
+              "archive"
+            ]
+          },
+          "hunter": { "type": "string" },
+          "archetype": {
+            "type": "string",
+            "enum": ["mobbing", "bossing", "balanced"]
+          },
+          "entries": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["rank", "build_ref", "score"],
+              "properties": {
+                "rank": { "type": "integer", "minimum": 1 },
+                "build_ref": { "type": "string" },
+                "score": { "type": "number" },
+                "score_normalized": { "type": "number" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

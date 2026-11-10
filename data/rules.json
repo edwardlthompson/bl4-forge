@@ -1,0 +1,20 @@
+{
+  "level_cap": 70,
+  "skill_point_budget": 69,
+  "beam_width": 64,
+  "anneal_iterations": 2000,
+  "timeout_ms": 8000,
+  "fire_rate_cap": 20,
+  "diversity": {
+    "max_skill_overlap": 0.7,
+    "max_gear_overlap": 0.6
+  },
+  "balanced": {
+    "strategy": "maximin",
+    "mob_floor": 0.4,
+    "boss_floor": 0.4
+  },
+  "robustness_perturbation": 0.2,
+  "obtainable_for_published": ["confirmed"],
+  "obtainable_for_experimental": ["confirmed", "probable", "unverified"]
+}

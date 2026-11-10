@@ -1,0 +1,122 @@
+{
+  "experimental": true,
+  "obtainable": "unverified",
+  "manufacturer": "cov",
+  "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/",
+  "enhancements": [
+    {
+      "id": "cov_cold_open",
+      "manufacturer": "cov",
+      "name": "Cold Open",
+      "effect_text": "Guns with CoV-licensed Magazines gain +20% Damage when below 50% Heat",
+      "requires_licensed_parts": "cov",
+      "stage": "on_shot",
+      "effects": [
+        {
+          "op": "add",
+          "target": "enhancement_gun",
+          "value": 0.2,
+          "stage": "on_shot",
+          "oracle": "name_inferred",
+          "label": "Cold Open"
+        }
+      ],
+      "behavior_tags": [
+        "heat",
+        "gun_damage"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "cov_duct_tape",
+      "manufacturer": "cov",
+      "name": "Duct Tape",
+      "effect_text": "Guns with CoV-licensed Magazines have a 100% Chance to deal Critical Damage while Overheating",
+      "requires_licensed_parts": "cov",
+      "stage": "on_hit",
+      "effects": [
+        {
+          "op": "flag",
+          "target": "duct_tape",
+          "value": 1,
+          "stage": "on_hit",
+          "tag_only": true,
+          "tags": [
+            "heat",
+            "crit"
+          ],
+          "behavior_tags": [
+            "heat",
+            "crit"
+          ],
+          "oracle": "name_inferred",
+          "label": "Duct Tape"
+        }
+      ],
+      "behavior_tags": [
+        "heat",
+        "crit"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "cov_smelter",
+      "manufacturer": "cov",
+      "name": "Smelter",
+      "effect_text": "Guns with CoV-licensed Magazines have +35% Fire Rate when over 50% Heat",
+      "requires_licensed_parts": "cov",
+      "stage": "rate",
+      "effects": [
+        {
+          "op": "add",
+          "target": "fire_rate",
+          "value": 0.35,
+          "stage": "rate",
+          "oracle": "name_inferred",
+          "label": "Smelter"
+        }
+      ],
+      "behavior_tags": [
+        "heat",
+        "fire_rate"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "cov_ventilator",
+      "manufacturer": "cov",
+      "name": "Ventilator",
+      "effect_text": "Guns with CoV-licensed Magazines have a 25% Chance to cost 0 Heat when fired",
+      "requires_licensed_parts": "cov",
+      "stage": "flag",
+      "effects": [
+        {
+          "op": "flag",
+          "target": "ventilator",
+          "value": 1,
+          "stage": "flag",
+          "tag_only": true,
+          "tags": [
+            "heat",
+            "ammo_economy"
+          ],
+          "behavior_tags": [
+            "heat",
+            "ammo_economy"
+          ],
+          "oracle": "name_inferred",
+          "label": "Ventilator"
+        }
+      ],
+      "behavior_tags": [
+        "heat",
+        "ammo_economy"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    }
+  ]
+}

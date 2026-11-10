@@ -1,0 +1,96 @@
+{
+  "version": 2,
+  "note": "Account-wide specialization tree from public Gearbox/Polygon unlock rules (manual). Separate respec from VH trees. Numeric effects are provisional MVP placeholders until card oracle bind.",
+  "evidence": ["manual", "https://borderlands.2k.com/borderlands-4/news/endgame-overview/"],
+  "socket_thresholds": [0, 10, 20, 30],
+  "max_equipped": 4,
+  "nodes": [
+    {
+      "id": "survivor",
+      "display_name": "Survivor",
+      "kind": "base",
+      "requires_nodes": [],
+      "node_bonus": { "max_health": 0.01, "max_shield": 0.01 },
+      "skills": [
+        { "id": "sturdy_stuff", "unlock_points": 1, "synergy": ["ffyl", "survivability"], "proc": "on_ffyl", "effect_text": "Fight For Your Life lasts longer; full health on Second Wind." },
+        { "id": "bullets_are_scared_of_me", "unlock_points": 10, "synergy": ["damage_reduction", "survivability"], "proc": "while_healthy", "effect_text": "Damage reduction scales with fullness of health or shield (whichever higher)." },
+        { "id": "the_best_defense", "unlock_points": 20, "synergy": ["gun_damage", "survivability"], "proc": "while_healthy", "effect_text": "Damage dealt scales with fullness of health or shield (whichever greater capacity)." }
+      ]
+    },
+    {
+      "id": "brute",
+      "display_name": "Brute",
+      "kind": "base",
+      "requires_nodes": [],
+      "node_bonus": { "gun_damage": 0.01 },
+      "skills": [
+        { "id": "lead_or_alive", "unlock_points": 1, "synergy": ["reload", "ffyl"], "proc": "on_ffyl", "effect_text": "Guns auto-reload when entering Fight For Your Life." },
+        { "id": "cqc", "unlock_points": 10, "synergy": ["fire_rate", "melee"], "proc": "on_melee_taken", "effect_text": "Taking melee damage increases fire rate." },
+        { "id": "riddle_you_this", "unlock_points": 20, "synergy": ["gun_damage", "stacks"], "proc": "on_gun_hit", "effect_text": "Gun damage builds Riddle stacks that increase damage dealt; stacks decay if not refreshed." }
+      ]
+    },
+    {
+      "id": "sharpshooter",
+      "display_name": "Sharpshooter",
+      "kind": "base",
+      "requires_nodes": [],
+      "node_bonus": { "reload_speed": 0.01, "accuracy": 0.01 },
+      "skills": [
+        { "id": "down_but_not_out", "unlock_points": 1, "synergy": ["ads", "ffyl"], "proc": "on_ffyl", "effect_text": "Aim down sights while in Fight For Your Life." },
+        { "id": "in_the_zone", "unlock_points": 10, "synergy": ["ads", "gun_damage", "crit"], "proc": "ads", "effect_text": "While aiming, gun damage and crit damage increase; stacks decay when not ADS." },
+        { "id": "one_shot_one_kill", "unlock_points": 20, "synergy": ["overkill", "gun_damage"], "proc": "on_overkill", "effect_text": "Excess damage is stored and added to the next gun shot." }
+      ]
+    },
+    {
+      "id": "runner",
+      "display_name": "Runner",
+      "kind": "base",
+      "requires_nodes": [],
+      "node_bonus": { "move_speed": 0.01, "melee_damage": 0.01 },
+      "skills": [
+        { "id": "bear_arms", "unlock_points": 1, "synergy": ["melee", "gun_damage"], "proc": "on_melee", "effect_text": "Melee damage benefits from increases to gun damage." },
+        { "id": "bullet_train", "unlock_points": 10, "synergy": ["sprint", "hipfire"], "proc": "while_moving", "effect_text": "Hip-fire weapons while sprinting." },
+        { "id": "groundbreaker", "unlock_points": 20, "synergy": ["melee", "kinetic", "stored_damage"], "proc": "on_melee", "effect_text": "Melee/slam deal bonus kinetic from stored non-melee damage." }
+      ]
+    },
+    {
+      "id": "gadgeteer",
+      "display_name": "Gadgeteer",
+      "kind": "prestige",
+      "requires_nodes": ["survivor", "brute"],
+      "require_points_each": 10,
+      "node_bonus": { "ordnance_cooldown": 0.01 },
+      "skills": [
+        { "id": "tripwire", "unlock_points": 1, "synergy": ["action_skill", "ordnance"], "proc": "on_action_skill", "effect_text": "Activating action skill reduces ordnance cooldown." },
+        { "id": "full_spectrum_arsenal", "unlock_points": 10, "synergy": ["ordnance", "gun_damage"], "proc": "on_ordnance_hit", "effect_text": "Ordnance and weapons share damage synergies across the arsenal." },
+        { "id": "fragmentation_payload", "unlock_points": 20, "synergy": ["ordnance", "splash"], "proc": "on_ordnance_hit", "effect_text": "Ordnance deals improved fragmentation / splash payload damage." }
+      ]
+    },
+    {
+      "id": "killer",
+      "display_name": "Killer",
+      "kind": "prestige",
+      "requires_nodes": ["brute", "sharpshooter"],
+      "require_points_each": 10,
+      "node_bonus": { "crit_damage": 0.01, "status_damage": 0.01 },
+      "skills": [
+        { "id": "contamination", "unlock_points": 1, "synergy": ["status", "dot"], "proc": "on_status", "effect_text": "Status effects spread / contaminate more effectively." },
+        { "id": "compounding_affliction", "unlock_points": 10, "synergy": ["status", "stacks"], "proc": "on_status", "effect_text": "Status afflictions compound for higher damage over time." },
+        { "id": "overkill", "unlock_points": 20, "synergy": ["crit", "overkill"], "proc": "on_crit", "effect_text": "Critical hits and overkill damage amplify kill pressure." }
+      ]
+    },
+    {
+      "id": "daredevil",
+      "display_name": "Daredevil",
+      "kind": "prestige",
+      "requires_nodes": ["sharpshooter", "runner"],
+      "require_points_each": 10,
+      "node_bonus": { "action_skill_cooldown": 0.01 },
+      "skills": [
+        { "id": "now_with_caffeine", "unlock_points": 1, "synergy": ["action_skill", "cooldown"], "proc": "on_action_skill", "effect_text": "Action skill cooldown rate improved / more uptime." },
+        { "id": "i_am_a_gun", "unlock_points": 10, "synergy": ["action_skill", "gun_damage"], "proc": "on_action_skill", "effect_text": "Action skill scales harder with gun-oriented bonuses." },
+        { "id": "a_honed_mind", "unlock_points": 20, "synergy": ["action_skill", "crit"], "proc": "on_action_skill", "effect_text": "Action skills can crit; increased action-skill crit damage." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "experimental": true,
+  "obtainable": "unverified",
+  "patch": "post-1.10-curated",
+  "curated_at": "2026-11-10",
+  "curated_by": "offline_llm",
+  "hunter_id": "rafa",
+  "title": "Rafa Peacebreaker core — grenade AFK loop",
+  "action_tree": "remote_agent",
+  "action_skill_id": "pb_action",
+  "augment_ids": [
+    "pb_aug_confeti"
+  ],
+  "capstone_id": "pb_cap_beam_team",
+  "point_budget": 69,
+  "narrative": "One skill/spec core: Peacebreaker for Overdrive uptime + Booming Business / El Paraguas for crit→grenade→splash-crit loops. Swap one gear piece per archetype (see adapters).",
+  "allocation": {
+    "hunterId": "rafa",
+    "ranks": [
+      {
+        "id": "pb_deadline",
+        "rank": 5
+      },
+      {
+        "id": "pb_thrill",
+        "rank": 5
+      },
+      {
+        "id": "pb_las_jaras",
+        "rank": 5
+      },
+      {
+        "id": "pb_vitriol",
+        "rank": 5
+      },
+      {
+        "id": "pb_everdrive",
+        "rank": 5
+      },
+      {
+        "id": "pb_barrage",
+        "rank": 5
+      },
+      {
+        "id": "pb_brain_dump",
+        "rank": 5
+      },
+      {
+        "id": "pb_temerario",
+        "rank": 5
+      },
+      {
+        "id": "pp_rinse",
+        "rank": 5
+      },
+      {
+        "id": "pp_al_centro",
+        "rank": 5
+      },
+      {
+        "id": "yg_handshake",
+        "rank": 5
+      },
+      {
+        "id": "yg_booming_business",
+        "rank": 5
+      },
+      {
+        "id": "yg_el_paraguas",
+        "rank": 5
+      },
+      {
+        "id": "yg_midnight",
+        "rank": 4
+      }
+    ],
+    "actionSkillId": "pb_action",
+    "augmentIds": [
+      "pb_aug_confeti"
+    ],
+    "capstoneId": "pb_cap_beam_team",
+    "pointBudget": 69
+  },
+  "tree_summary": [
+    {
+      "tree": "Remote Agent",
+      "tree_id": "remote_agent",
+      "points": 40
+    },
+    {
+      "tree": "People Person",
+      "tree_id": "people_person",
+      "points": 10
+    },
+    {
+      "tree": "This Year's Gimmick",
+      "tree_id": "this_years_gimmick",
+      "points": 19
+    }
+  ],
+  "spec": {
+    "node_points": {
+      "brute": 20,
+      "sharpshooter": 10,
+      "runner": 10,
+      "daredevil": 20,
+      "killer": 10
+    },
+    "equipped": [
+      "riddle_you_this",
+      "now_with_caffeine",
+      "i_am_a_gun",
+      "a_honed_mind"
+    ],
+    "spend_order": [
+      {
+        "step": 1,
+        "kind": "node",
+        "display_name": "Brute → 10",
+        "reason": "Gun damage node; opens Killer prestige."
+      },
+      {
+        "step": 2,
+        "kind": "node",
+        "display_name": "Sharpshooter → 10",
+        "reason": "Reload/accuracy bridge; unlocks Killer + Daredevil."
+      },
+      {
+        "step": 3,
+        "kind": "node",
+        "display_name": "Runner → 10",
+        "reason": "Unlock Daredevil prestige with Sharpshooter 10."
+      },
+      {
+        "step": 4,
+        "kind": "equip",
+        "display_name": "Equip: Now With Caffeine",
+        "reason": "First socket — Action Skill cooldown for Peacebreaker uptime."
+      },
+      {
+        "step": 5,
+        "kind": "node",
+        "display_name": "Brute → 20",
+        "reason": "Unlock Riddle You This."
+      },
+      {
+        "step": 6,
+        "kind": "equip",
+        "display_name": "Equip: Riddle You This",
+        "reason": "Gun-damage stacks while shooting — feeds crits into Booming Business."
+      },
+      {
+        "step": 7,
+        "kind": "node",
+        "display_name": "Daredevil → 10",
+        "reason": "Open I Am A Gun for Action Skill gun scaling."
+      },
+      {
+        "step": 8,
+        "kind": "equip",
+        "display_name": "Equip: I Am A Gun",
+        "reason": "Peacebreaker scales with gun bonuses."
+      },
+      {
+        "step": 9,
+        "kind": "node",
+        "display_name": "Daredevil → 20",
+        "reason": "Unlock A Honed Mind."
+      },
+      {
+        "step": 10,
+        "kind": "equip",
+        "display_name": "Equip: A Honed Mind",
+        "reason": "Action Skill crit — more Booming Business procs. Keep prior three."
+      },
+      {
+        "step": 11,
+        "kind": "node",
+        "display_name": "Killer → 10",
+        "reason": "Crit/status path without swapping sockets."
+      }
+    ]
+  },
+  "firmware": {
+    "pieces": [
+      {
+        "set_id": "airstrike",
+        "count": 2,
+        "slot_hint": "weapon/shield"
+      },
+      {
+        "set_id": "get_throwin",
+        "count": 2,
+        "slot_hint": "grenade/repkit"
+      },
+      {
+        "set_id": "gadget_ahoy",
+        "count": 1,
+        "slot_hint": "class_mod"
+      }
+    ],
+    "notes": "2× Airstrike + 2× Get Throwin maximize splash radius for Waterfall hops; 1× Gadget Ahoy for ordnance CD."
+  },
+  "class_mod": {
+    "name": "Grenazerker",
+    "rarity": "Legendary",
+    "level": 70,
+    "farm": "Radix (Primordial Guardian, Carcadia Burn) — play as Rafa",
+    "unique": "Whenever Rafa throws a Grenade or Tediore gun, throw an additional one.",
+    "search_exact": "Grenazerker · +3 Sinergia · +4 Confeti · +46% Splash Damage · Gadget Ahoy",
+    "skill_bonuses": [
+      {
+        "id": "sinergia",
+        "display_name": "Sinergia",
+        "points": 3,
+        "max": 3,
+        "why": "Ordnance damage stacks gun + melee damage — mandatory max on this COM."
+      },
+      {
+        "id": "confeti",
+        "display_name": "Confeti",
+        "points": 4,
+        "max": 5,
+        "why": "Ordnance bonus damage in current gun element — pairs with Peacebreaker inherit + Collaborative Ignition."
+      }
+    ],
+    "skill_bonuses_total": 7,
+    "fixed_stat": "+35% Gun Damage",
+    "rolled_stat": "+46% Splash Damage",
+    "firmware": "1× Gadget Ahoy",
+    "reject_if": [
+      "Any Arriba or Abajo points (wastes the 7-pt pool vs Sinergia/Confeti)",
+      "Sinergia below +3",
+      "Confeti below +4",
+      "Random passive that is not Splash Damage"
+    ],
+    "desired_rolls": [
+      "Splash Damage"
+    ],
+    "desired_skills": [
+      {
+        "id": "sinergia",
+        "display_name": "Sinergia +3",
+        "why": "Exact: all 3 available Sinergia points."
+      },
+      {
+        "id": "confeti",
+        "display_name": "Confeti +4",
+        "why": "Exact: remaining 4 of 7 COM points into Confeti (not Arriba/Abajo)."
+      }
+    ],
+    "note": "Grenazerker can ONLY roll Sinergia/Arriba/Abajo/Confeti — never Booming Business or El Paraguas."
+  },
+  "baseline_gear": {
+    "grenade": "Waterfall · Lingering / Pulsing / Nuke",
+    "shield": "High capacity (swap to Firewerk for mobbing)",
+    "weapon": "Assault Rifle — Gun Damage / Fire Rate / Crit"
+  },
+  "sources": [
+    "https://borderlands.2k.com/borderlands-4/game-info/vault-hunters/rafa/",
+    "https://www.reddit.com/r/Borderlands4/comments/1nhw8wv/rafa_grenades_melt_endgame/",
+    "https://mobalytics.gg/borderlands-4/guides/rafa-damage-formula-encyclopedia"
+  ]
+}

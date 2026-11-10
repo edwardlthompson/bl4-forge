@@ -1,0 +1,119 @@
+{
+  "experimental": true,
+  "obtainable": "unverified",
+  "manufacturer": "vladof",
+  "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/",
+  "enhancements": [
+    {
+      "id": "vladof_bottom_feeder",
+      "manufacturer": "vladof",
+      "name": "Bottom Feeder",
+      "effect_text": "Guns with Vladof-Licensed Parts reduce Underbarrel Cooldown Duration by 40%",
+      "requires_licensed_parts": "vladof",
+      "stage": "flag",
+      "effects": [
+        {
+          "op": "flag",
+          "target": "bottom_feeder",
+          "value": 1,
+          "stage": "flag",
+          "tag_only": true,
+          "tags": [
+            "underbarrel"
+          ],
+          "behavior_tags": [
+            "underbarrel"
+          ],
+          "oracle": "name_inferred",
+          "label": "Bottom Feeder"
+        }
+      ],
+      "behavior_tags": [
+        "underbarrel"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "vladof_box_magazine",
+      "manufacturer": "vladof",
+      "name": "Box Magazine",
+      "effect_text": "Guns with Vladof-licensed parts gain +20% Fire Rate and +20% Magazine Size",
+      "requires_licensed_parts": "vladof",
+      "stage": "rate",
+      "effects": [
+        {
+          "op": "add",
+          "target": "fire_rate",
+          "value": 0.2,
+          "stage": "rate",
+          "oracle": "name_inferred",
+          "label": "Box Magazine"
+        }
+      ],
+      "behavior_tags": [
+        "fire_rate",
+        "mag"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "vladof_bullet_hose",
+      "manufacturer": "vladof",
+      "name": "Bullet Hose",
+      "effect_text": "Guns with Vladof-licensed parts have a 30% Chance to add an extra Projectile per shot",
+      "requires_licensed_parts": "vladof",
+      "stage": "on_shot",
+      "effects": [
+        {
+          "op": "flag",
+          "target": "bullet_hose",
+          "value": 1,
+          "stage": "on_shot",
+          "tag_only": true,
+          "tags": [
+            "projectile",
+            "multishot"
+          ],
+          "behavior_tags": [
+            "projectile",
+            "multishot"
+          ],
+          "oracle": "name_inferred",
+          "label": "Bullet Hose"
+        }
+      ],
+      "behavior_tags": [
+        "projectile",
+        "multishot"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    },
+    {
+      "id": "vladof_underdog",
+      "manufacturer": "vladof",
+      "name": "Underdog",
+      "effect_text": "Guns with Vladof-licensed parts gain +50% Underbarrel Damage",
+      "requires_licensed_parts": "vladof",
+      "stage": "on_hit",
+      "effects": [
+        {
+          "op": "add",
+          "target": "gun_damage",
+          "value": 0.5,
+          "stage": "on_hit",
+          "oracle": "name_inferred",
+          "label": "Underdog"
+        }
+      ],
+      "behavior_tags": [
+        "underbarrel",
+        "gun_damage"
+      ],
+      "oracle": "name_inferred",
+      "source_url": "https://mentalmars.com/borderlands-4/loot/enhancements/"
+    }
+  ]
+}

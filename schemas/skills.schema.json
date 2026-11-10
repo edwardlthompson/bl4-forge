@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://edwardlthompson.github.io/bl4-forge/schemas/skills.schema.json",
+  "title": "BL4 Forge Skills Catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["hunters"],
+  "properties": {
+    "hunters": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/hunter" }
+    }
+  },
+  "$defs": {
+    "hunter": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "skills"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "display_name": { "type": "string" },
+        "no_capstones": { "type": "boolean" },
+        "skills": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/skill" }
+        }
+      }
+    },
+    "skill": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "character",
+        "tree",
+        "tier",
+        "max_rank",
+        "requires",
+        "effect_text",
+        "effects",
+        "tags",
+        "activator"
+      ],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "character": { "type": "string", "minLength": 1 },
+        "tree": { "type": "string", "minLength": 1 },
+        "tier": { "type": "integer", "minimum": 0 },
+        "row": { "type": "integer", "minimum": 0 },
+        "lane": {
+          "type": "string",
+          "enum": ["common", "branch_left", "branch_center", "branch_right"]
+        },
+        "kind": {
+          "type": "string",
+          "enum": ["passive", "action", "augment", "capstone", "trait"]
+        },
+        "max_rank": { "type": "integer", "minimum": 0 },
+        "requires": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "effect_text": { "type": "string" },
+        "effects": {
+          "type": "array",
+          "items": { "$ref": "effect.schema.json" }
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "activator": { "type": "boolean" },
+        "point_cost": { "type": "integer", "minimum": 0 },
+        "devils_tines": { "type": "boolean" }
+      }
+    }
+  }
+}

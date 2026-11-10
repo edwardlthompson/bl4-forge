@@ -1,0 +1,38 @@
+{
+  "mobbing": {
+    "always": 1.0,
+    "on_kill": 0.9,
+    "on_crit": 0.55,
+    "on_reload": 0.35,
+    "while_shield_down": 0.15,
+    "while_moving": 0.7,
+    "while_airborne": 0.1,
+    "ads": 0.4,
+    "on_ordnance_hit": 0.45,
+    "on_melee": 0.2
+  },
+  "bossing": {
+    "always": 1.0,
+    "on_kill": 0.2,
+    "on_crit": 0.5,
+    "on_reload": 0.3,
+    "while_shield_down": 0.25,
+    "while_moving": 0.5,
+    "while_airborne": 0.05,
+    "ads": 0.65,
+    "on_ordnance_hit": 0.4,
+    "on_melee": 0.15
+  },
+  "balanced": {
+    "always": 1.0,
+    "on_kill": 0.55,
+    "on_crit": 0.52,
+    "on_reload": 0.32,
+    "while_shield_down": 0.2,
+    "while_moving": 0.6,
+    "while_airborne": 0.08,
+    "ads": 0.5,
+    "on_ordnance_hit": 0.42,
+    "on_melee": 0.18
+  }
+}

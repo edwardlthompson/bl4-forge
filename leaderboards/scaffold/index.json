@@ -1,0 +1,12 @@
+{
+  "patch": "0.0.0-scaffold",
+  "game_build": "26007962",
+  "solver_version": "0.1.0",
+  "scenario_hash": "pending",
+  "frozen_at": null,
+  "disclaimer": "Experimental MVP frontier \u2014 not a certified global optimum. HUMAN in-game spot-check still required before published/confirmed boards.",
+  "entries": [],
+  "freeze_lifted": true,
+  "freeze_lifted_at": "2026-11-10T03:02:00Z",
+  "board_mode": "experimental_mvp"
+}

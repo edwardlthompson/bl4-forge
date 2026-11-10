@@ -1,0 +1,24 @@
+{
+  "patch": "0.0.0-scaffold",
+  "game_build": "scaffold",
+  "solver_version": "0.0.0",
+  "scenario_hash": "scaffold",
+  "frozen_at": "2026-11-09T00:00:00.000Z",
+  "disclaimer": "Frontier of a sweep, not a certified global optimum. Scaffold board only.",
+  "boards": [
+    {
+      "id": "placeholder_hunter_mobbing",
+      "kind": "hunter_archetype",
+      "hunter": "placeholder_hunter",
+      "archetype": "mobbing",
+      "entries": [
+        {
+          "rank": 1,
+          "build_ref": "scaffold_build_001",
+          "score": 100.0,
+          "score_normalized": 100.0
+        }
+      ]
+    }
+  ]
+}

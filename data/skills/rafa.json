@@ -1,0 +1,1380 @@
+{
+  "hunters": [
+    {
+      "id": "rafa",
+      "display_name": "Rafa",
+      "no_capstones": false,
+      "skills": [
+        {
+          "id": "rafa_people_person_action",
+          "character": "rafa",
+          "tree": "people_person",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "action",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Apophis Lance",
+          "effects": [],
+          "tags": [
+            "action"
+          ],
+          "activator": true,
+          "point_cost": 0
+        },
+        {
+          "id": "rafa_people_person_c0_0",
+          "character": "rafa",
+          "tree": "people_person",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Rafa people_person common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_people_person_c0_1",
+          "character": "rafa",
+          "tree": "people_person",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Rafa people_person common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_people_person_c1_0",
+          "character": "rafa",
+          "tree": "people_person",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Rafa people_person common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_people_person_c1_1",
+          "character": "rafa",
+          "tree": "people_person",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Rafa people_person common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_people_person_c2_0",
+          "character": "rafa",
+          "tree": "people_person",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Rafa people_person common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_people_person_c2_1",
+          "character": "rafa",
+          "tree": "people_person",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Rafa people_person common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_people_person_aug_0_people_person_augment_1",
+          "character": "rafa",
+          "tree": "people_person",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "people person augment 1",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "rafa_people_person_aug_1_people_person_augment_2",
+          "character": "rafa",
+          "tree": "people_person",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "people person augment 2",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "rafa_people_person_aug_2_people_person_augment_3",
+          "character": "rafa",
+          "tree": "people_person",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "people person augment 3",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "rafa_people_person_aug_3_people_person_augment_4",
+          "character": "rafa",
+          "tree": "people_person",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "people person augment 4",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "rafa_people_person_aug_4_people_person_augment_5",
+          "character": "rafa",
+          "tree": "people_person",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "people person augment 5",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "rafa_people_person_branch_left_r0",
+          "character": "rafa",
+          "tree": "people_person",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "people_person branch_left row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_people_person_branch_left_r1",
+          "character": "rafa",
+          "tree": "people_person",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "people_person branch_left row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_people_person_branch_left_r2",
+          "character": "rafa",
+          "tree": "people_person",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "people_person branch_left row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_people_person_cap_0_people_person_capstone_1",
+          "character": "rafa",
+          "tree": "people_person",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "people person capstone 1",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "rafa_people_person_branch_center_r0",
+          "character": "rafa",
+          "tree": "people_person",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "people_person branch_center row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_people_person_branch_center_r1",
+          "character": "rafa",
+          "tree": "people_person",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "people_person branch_center row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_people_person_branch_center_r2",
+          "character": "rafa",
+          "tree": "people_person",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "people_person branch_center row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_people_person_cap_1_people_person_capstone_2",
+          "character": "rafa",
+          "tree": "people_person",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "people person capstone 2",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "rafa_people_person_branch_right_r0",
+          "character": "rafa",
+          "tree": "people_person",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "people_person branch_right row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_people_person_branch_right_r1",
+          "character": "rafa",
+          "tree": "people_person",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "people_person branch_right row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_people_person_branch_right_r2",
+          "character": "rafa",
+          "tree": "people_person",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "people_person branch_right row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_people_person_cap_2_people_person_capstone_3",
+          "character": "rafa",
+          "tree": "people_person",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "people person capstone 3",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "rafa_remote_agent_action",
+          "character": "rafa",
+          "tree": "remote_agent",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "action",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Peacebreaker Cannons",
+          "effects": [],
+          "tags": [
+            "action"
+          ],
+          "activator": true,
+          "point_cost": 0
+        },
+        {
+          "id": "rafa_remote_agent_c0_0",
+          "character": "rafa",
+          "tree": "remote_agent",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Rafa remote_agent common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_remote_agent_c0_1",
+          "character": "rafa",
+          "tree": "remote_agent",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Rafa remote_agent common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_remote_agent_c1_0",
+          "character": "rafa",
+          "tree": "remote_agent",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Rafa remote_agent common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_remote_agent_c1_1",
+          "character": "rafa",
+          "tree": "remote_agent",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Rafa remote_agent common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_remote_agent_c2_0",
+          "character": "rafa",
+          "tree": "remote_agent",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Rafa remote_agent common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_remote_agent_c2_1",
+          "character": "rafa",
+          "tree": "remote_agent",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Rafa remote_agent common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_remote_agent_aug_0_remote_agent_augment_1",
+          "character": "rafa",
+          "tree": "remote_agent",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "remote agent augment 1",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "rafa_remote_agent_aug_1_remote_agent_augment_2",
+          "character": "rafa",
+          "tree": "remote_agent",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "remote agent augment 2",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "rafa_remote_agent_aug_2_remote_agent_augment_3",
+          "character": "rafa",
+          "tree": "remote_agent",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "remote agent augment 3",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "rafa_remote_agent_aug_3_remote_agent_augment_4",
+          "character": "rafa",
+          "tree": "remote_agent",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "remote agent augment 4",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "rafa_remote_agent_aug_4_remote_agent_augment_5",
+          "character": "rafa",
+          "tree": "remote_agent",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "remote agent augment 5",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "rafa_remote_agent_branch_left_r0",
+          "character": "rafa",
+          "tree": "remote_agent",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "remote_agent branch_left row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_remote_agent_branch_left_r1",
+          "character": "rafa",
+          "tree": "remote_agent",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "remote_agent branch_left row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_remote_agent_branch_left_r2",
+          "character": "rafa",
+          "tree": "remote_agent",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "remote_agent branch_left row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_remote_agent_cap_0_remote_agent_capstone_1",
+          "character": "rafa",
+          "tree": "remote_agent",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "remote agent capstone 1",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "rafa_remote_agent_branch_center_r0",
+          "character": "rafa",
+          "tree": "remote_agent",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "remote_agent branch_center row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_remote_agent_branch_center_r1",
+          "character": "rafa",
+          "tree": "remote_agent",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "remote_agent branch_center row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_remote_agent_branch_center_r2",
+          "character": "rafa",
+          "tree": "remote_agent",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "remote_agent branch_center row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_remote_agent_cap_1_remote_agent_capstone_2",
+          "character": "rafa",
+          "tree": "remote_agent",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "remote agent capstone 2",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "rafa_remote_agent_branch_right_r0",
+          "character": "rafa",
+          "tree": "remote_agent",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "remote_agent branch_right row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_remote_agent_branch_right_r1",
+          "character": "rafa",
+          "tree": "remote_agent",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "remote_agent branch_right row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_remote_agent_branch_right_r2",
+          "character": "rafa",
+          "tree": "remote_agent",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "remote_agent branch_right row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_remote_agent_cap_2_remote_agent_capstone_3",
+          "character": "rafa",
+          "tree": "remote_agent",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "remote agent capstone 3",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "rafa_this_years_gimmick_action",
+          "character": "rafa",
+          "tree": "this_years_gimmick",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "action",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "Arc Knives",
+          "effects": [],
+          "tags": [
+            "action"
+          ],
+          "activator": true,
+          "point_cost": 0
+        },
+        {
+          "id": "rafa_this_years_gimmick_c0_0",
+          "character": "rafa",
+          "tree": "this_years_gimmick",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Rafa this_years_gimmick common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_this_years_gimmick_c0_1",
+          "character": "rafa",
+          "tree": "this_years_gimmick",
+          "tier": 0,
+          "row": 0,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Rafa this_years_gimmick common r0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_this_years_gimmick_c1_0",
+          "character": "rafa",
+          "tree": "this_years_gimmick",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Rafa this_years_gimmick common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_this_years_gimmick_c1_1",
+          "character": "rafa",
+          "tree": "this_years_gimmick",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Rafa this_years_gimmick common r1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_this_years_gimmick_c2_0",
+          "character": "rafa",
+          "tree": "this_years_gimmick",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Rafa this_years_gimmick common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_this_years_gimmick_c2_1",
+          "character": "rafa",
+          "tree": "this_years_gimmick",
+          "tier": 2,
+          "row": 2,
+          "lane": "common",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "Rafa this_years_gimmick common r2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "common",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_this_years_gimmick_aug_0_this_years_gimmick_augment_1",
+          "character": "rafa",
+          "tree": "this_years_gimmick",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "this years gimmick augment 1",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "rafa_this_years_gimmick_aug_1_this_years_gimmick_augment_2",
+          "character": "rafa",
+          "tree": "this_years_gimmick",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "this years gimmick augment 2",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "rafa_this_years_gimmick_aug_2_this_years_gimmick_augment_3",
+          "character": "rafa",
+          "tree": "this_years_gimmick",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "this years gimmick augment 3",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "rafa_this_years_gimmick_aug_3_this_years_gimmick_augment_4",
+          "character": "rafa",
+          "tree": "this_years_gimmick",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "this years gimmick augment 4",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "rafa_this_years_gimmick_aug_4_this_years_gimmick_augment_5",
+          "character": "rafa",
+          "tree": "this_years_gimmick",
+          "tier": 1,
+          "row": 1,
+          "lane": "common",
+          "kind": "augment",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "this years gimmick augment 5",
+          "effects": [],
+          "tags": [
+            "augment",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "rafa_this_years_gimmick_branch_left_r0",
+          "character": "rafa",
+          "tree": "this_years_gimmick",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "this_years_gimmick branch_left row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_this_years_gimmick_branch_left_r1",
+          "character": "rafa",
+          "tree": "this_years_gimmick",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "this_years_gimmick branch_left row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_this_years_gimmick_branch_left_r2",
+          "character": "rafa",
+          "tree": "this_years_gimmick",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "this_years_gimmick branch_left row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_this_years_gimmick_cap_0_this_years_gimmick_capstone_1",
+          "character": "rafa",
+          "tree": "this_years_gimmick",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_left",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "this years gimmick capstone 1",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "rafa_this_years_gimmick_branch_center_r0",
+          "character": "rafa",
+          "tree": "this_years_gimmick",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "this_years_gimmick branch_center row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_this_years_gimmick_branch_center_r1",
+          "character": "rafa",
+          "tree": "this_years_gimmick",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "this_years_gimmick branch_center row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_this_years_gimmick_branch_center_r2",
+          "character": "rafa",
+          "tree": "this_years_gimmick",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "this_years_gimmick branch_center row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_this_years_gimmick_cap_1_this_years_gimmick_capstone_2",
+          "character": "rafa",
+          "tree": "this_years_gimmick",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_center",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "this years gimmick capstone 2",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        },
+        {
+          "id": "rafa_this_years_gimmick_branch_right_r0",
+          "character": "rafa",
+          "tree": "this_years_gimmick",
+          "tier": 0,
+          "row": 0,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "this_years_gimmick branch_right row 0",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_this_years_gimmick_branch_right_r1",
+          "character": "rafa",
+          "tree": "this_years_gimmick",
+          "tier": 1,
+          "row": 1,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "this_years_gimmick branch_right row 1",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_this_years_gimmick_branch_right_r2",
+          "character": "rafa",
+          "tree": "this_years_gimmick",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "passive",
+          "max_rank": 5,
+          "requires": [],
+          "effect_text": "this_years_gimmick branch_right row 2",
+          "effects": [],
+          "tags": [
+            "passive",
+            "branch",
+            "unparsed"
+          ],
+          "activator": false
+        },
+        {
+          "id": "rafa_this_years_gimmick_cap_2_this_years_gimmick_capstone_3",
+          "character": "rafa",
+          "tree": "this_years_gimmick",
+          "tier": 2,
+          "row": 2,
+          "lane": "branch_right",
+          "kind": "capstone",
+          "max_rank": 1,
+          "requires": [],
+          "effect_text": "this years gimmick capstone 3",
+          "effects": [],
+          "tags": [
+            "capstone",
+            "unparsed"
+          ],
+          "activator": false,
+          "point_cost": 0
+        }
+      ],
+      "quarantine": {
+        "incomplete": true,
+        "reason": "structure_seeded_effects_empty_pending_oracle"
+      }
+    }
+  ]
+}
