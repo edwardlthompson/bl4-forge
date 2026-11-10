@@ -34,10 +34,13 @@ jobs:
       - name: Unit (sweep + solver)
         run: npx vitest run src/sweep src/solver --coverage=false
       - name: Shard stamp
+        env:
+          SHARD: ${{ matrix.shard }}
+          SHARDS: ${{ github.event.inputs.shards || 4 }}
         run: |
-          echo "shard=${{ matrix.shard }} of ${{ github.event.inputs.shards || 4 }}"
+          echo "shard=${SHARD} of ${SHARDS}"
           mkdir -p ../../leaderboards/scaffold/shards
-          echo "{\"shard\":${{ matrix.shard }},\"status\":\"unit-ok\"}" > "../../leaderboards/scaffold/shards/shard-${{ matrix.shard }}.json"
+          echo "{\"shard\":${SHARD},\"status\":\"unit-ok\"}" > "../../leaderboards/scaffold/shards/shard-${SHARD}.json"
       - uses: actions/upload-artifact@v4
         with:
           name: sweep-shard-${{ matrix.shard }}

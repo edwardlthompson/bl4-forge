@@ -12,8 +12,8 @@ test("preview sends CSP and referrer policy", async ({ page }) => {
 
 test("renders golden path heading", async ({ page }) => {
   await page.goto("/");
-  await expect(page.getByRole("heading", { name: "Rafa" })).toBeVisible();
-  await expect(page.getByText("Peacebreaker leveling route")).toBeVisible();
+  await expect(page.getByRole("heading", { name: "BL4 Forge" })).toBeVisible();
+  await expect(page.getByText(/Deterministic min\/max build solver/i)).toBeVisible();
   await expect(page.getByTestId("status")).toContainText("Online");
 });
 
@@ -23,7 +23,7 @@ test("rtl dir places the title after header actions", async ({ page }) => {
     document.documentElement.setAttribute("dir", "rtl");
   });
   await expect(page.locator("html")).toHaveAttribute("dir", "rtl");
-  await expect(page.getByRole("heading", { name: "Rafa" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "BL4 Forge" })).toBeVisible();
   const title = await page.locator(".gp-guide-brand").boundingBox();
   const actions = await page.locator(".gp-header-actions").boundingBox();
   expect(title).toBeTruthy();
@@ -282,12 +282,12 @@ test("serves cached shell offline via service worker", async ({ page, context })
   });
   await page.reload();
   await page.waitForLoadState("networkidle");
-  await expect(page.getByRole("heading", { name: "Rafa" })).toBeVisible();
-  await expect(page.getByText("Peacebreaker leveling route")).toBeVisible();
+  await expect(page.getByRole("heading", { name: "BL4 Forge" })).toBeVisible();
+  await expect(page.getByText(/Deterministic min\/max build solver/i)).toBeVisible();
 
   await context.setOffline(true);
   await page.reload();
-  await expect(page.getByRole("heading", { name: "Rafa" })).toBeVisible();
-  await expect(page.getByText("Peacebreaker leveling route")).toBeVisible();
+  await expect(page.getByRole("heading", { name: "BL4 Forge" })).toBeVisible();
+  await expect(page.getByText(/Deterministic min\/max build solver/i)).toBeVisible();
   await expect(page.getByTestId("status")).toBeVisible();
 });
