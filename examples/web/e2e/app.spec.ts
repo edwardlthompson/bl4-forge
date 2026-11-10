@@ -12,9 +12,9 @@ test("preview sends CSP and referrer policy", async ({ page }) => {
 
 test("renders golden path heading", async ({ page }) => {
   await page.goto("/");
-  await expect(page.getByRole("heading", { name: "Golden Path PWA" })).toBeVisible();
-  await expect(page.getByText("Hello, FOSS!")).toBeVisible();
-  await expect(page.getByTestId("status")).toContainText("Golden Path PWA");
+  await expect(page.getByRole("heading", { name: "Rafa" })).toBeVisible();
+  await expect(page.getByText("Peacebreaker leveling route")).toBeVisible();
+  await expect(page.getByTestId("status")).toContainText("Online");
 });
 
 test("rtl dir places the title after header actions", async ({ page }) => {
@@ -23,8 +23,8 @@ test("rtl dir places the title after header actions", async ({ page }) => {
     document.documentElement.setAttribute("dir", "rtl");
   });
   await expect(page.locator("html")).toHaveAttribute("dir", "rtl");
-  await expect(page.getByRole("heading", { name: "Golden Path PWA" })).toBeVisible();
-  const title = await page.locator(".gp-title").boundingBox();
+  await expect(page.getByRole("heading", { name: "Rafa" })).toBeVisible();
+  const title = await page.locator(".gp-guide-brand").boundingBox();
   const actions = await page.locator(".gp-header-actions").boundingBox();
   expect(title).toBeTruthy();
   expect(actions).toBeTruthy();
@@ -178,8 +178,8 @@ test("arabic locale forces rtl even when strings fall back", async ({ page }) =>
     await decline.click();
   }
   await expect(page.getByRole("button", { name: "Settings" })).toBeVisible();
-  await expect(page.locator(".gp-title")).toBeVisible();
-  const title = await page.locator(".gp-title").boundingBox();
+  await expect(page.locator(".gp-guide-brand")).toBeVisible();
+  const title = await page.locator(".gp-guide-brand").boundingBox();
   const actions = await page.locator(".gp-header-actions").boundingBox();
   expect(title).toBeTruthy();
   expect(actions).toBeTruthy();
@@ -280,12 +280,12 @@ test("serves cached shell offline via service worker", async ({ page, context })
   });
   await page.reload();
   await page.waitForLoadState("networkidle");
-  await expect(page.getByRole("heading", { name: "Golden Path PWA" })).toBeVisible();
-  await expect(page.getByText("Hello, FOSS!")).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Rafa" })).toBeVisible();
+  await expect(page.getByText("Peacebreaker leveling route")).toBeVisible();
 
   await context.setOffline(true);
   await page.reload();
-  await expect(page.getByRole("heading", { name: "Golden Path PWA" })).toBeVisible();
-  await expect(page.getByText("Hello, FOSS!")).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Rafa" })).toBeVisible();
+  await expect(page.getByText("Peacebreaker leveling route")).toBeVisible();
   await expect(page.getByTestId("status")).toBeVisible();
 });
