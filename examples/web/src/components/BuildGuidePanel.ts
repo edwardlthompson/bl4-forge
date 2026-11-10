@@ -8,7 +8,6 @@ import {
   loadRafaSkillEffects,
   loadSynergyRules,
 } from "../experimental/loadPacks";
-import { computeStackTotals } from "../experimental/stackTotals";
 import {
   formatSkillSpendOrder,
   loadRafaPeacebreakerGuide,
@@ -17,8 +16,16 @@ import {
   validateGuide,
 } from "../guide";
 import { t } from "../i18n";
+import { archetypeLoadoutChart, stacksHtml } from "./guideArchHtml";
 import { formatLines, iconImg, specCard, spendCard } from "./guideCardHtml";
-import { buildTagsForRafaGuide, renderEnhancementAndGodroll } from "./guideLoadoutExtras";
+import { renderRecommendedLegendariesHtml, renderRepkitMathHtml } from "./guideLegendariesHtml";
+import {
+  type AdapterLoadout,
+  adapterFor,
+  buildTagsForRafaGuide,
+  renderEnhancementAndGodroll,
+  renderLoadoutCardsHtml,
+} from "./guideLoadoutExtras";
 import { behaviorTagsFromPack, bestGrenadeRecommendation, detectSynergies } from "./guideSynergy";
 
 export type BuildGuideCallbacks = {
@@ -26,7 +33,9 @@ export type BuildGuideCallbacks = {
   onOpenStats?: () => void;
 };
 
-/** Rafa build guide: static core + one-slot archetype swaps (no LLM at runtime). */
+const ARCHES: ArchetypeId[] = ["balanced", "mobbing", "bossing"];
+
+/** Rafa build guide: static skills/specs + full gear loadout per content archetype. */
 export function createBuildGuidePanel(callbacks: BuildGuideCallbacks): HTMLElement {
   const root = document.createElement("section");
   root.className = "gp-panel gp-build-guide";
@@ -53,36 +62,101 @@ export function createBuildGuidePanel(callbacks: BuildGuideCallbacks): HTMLEleme
   const spendText = formatSkillSpendOrder(guide);
   const spent = guide.skill_spend_order.reduce((n, s) => n + (s.points ?? 1), 0);
   const pack = loadRafaSkillEffects();
-  const skillTags = buildTagsForRafaGuide([
-    ...behaviorTagsFromPack(pack, guide.allocation),
-    "double_grenade_spawn",
-  ]);
-  const hits = detectSynergies(
-    loadSynergyRules(),
-    loadGrenadeCatalog(),
-    {
-      grenade_id: "vla_grenade_gadget.comp_05_legendary_Waterfall",
-      payload: "lingering",
-      payload_augment: "pulsing",
-      perk: "nuke",
-      extra_tags: ["airdrop", "radius", "on_kill_missiles", "afk_clear"],
-    },
-    skillTags,
-  );
-  const rec = bestGrenadeRecommendation(hits);
-  const fwLines = sumFirmwareTotals(loadFirmwareCatalog(), core.firmware.pieces);
-  const stacks = computeStackTotals({
-    allocation: guide.allocation,
-    firmware: core.firmware.pieces,
-    includeComGodroll: true,
-  });
+  let arch: ArchetypeId = "balanced";
 
-  let archetype: ArchetypeId = "balanced";
+  const renderDynamic = () => {
+    const adapter = adapterFor(arch);
+    const loadout = adapter.loadout as AdapterLoadout;
+    const skillTags = buildTagsForRafaGuide([
+      ...behaviorTagsFromPack(pack, guide.allocation),
+      "double_grenade_spawn",
+      ...(adapter.stack_tags ?? []),
+    ]);
+    const grenadeRoll = adapter.grenade_roll
+      ? {
+          grenade_id: adapter.grenade_roll.grenade_id,
+          payload: adapter.grenade_roll.payload,
+          payload_augment: adapter.grenade_roll.payload_augment,
+          perk: adapter.grenade_roll.perk,
+          extra_tags: adapter.grenade_roll.extra_tags ?? [],
+        }
+      : {
+          grenade_id: "vla_grenade_gadget.comp_05_legendary_Waterfall",
+          payload: "lingering",
+          payload_augment: "pulsing",
+          perk: "nuke",
+          extra_tags: ["airdrop", "radius"],
+        };
+    const hits = detectSynergies(loadSynergyRules(), loadGrenadeCatalog(), grenadeRoll, skillTags);
+    const rec = bestGrenadeRecommendation(hits);
+    const { enhancementsHtml, godrollHtml } = renderEnhancementAndGodroll(skillTags, arch);
+    const archButtons = ARCHES.map(
+      (id) =>
+        `<button type="button" class="gp-btn gp-guide-arch${id === arch ? " gp-guide-arch-active" : ""}" data-arch="${id}">${t(`guide.arch_${id}`)}</button>`,
+    ).join("");
+    const purple = guide.gear.find((g) => g.purple_why)?.purple_why;
 
-  const render = () => {
-    const adapter = adapters.adapters[archetype];
-    const { enhancementsHtml, godrollHtml } = renderEnhancementAndGodroll(skillTags, archetype);
-    root.innerHTML = `
+    const dyn = root.querySelector("[data-guide-dynamic]");
+    if (!dyn) return;
+    const fwLine = sumFirmwareTotals(loadFirmwareCatalog(), core.firmware.pieces)
+      .map((l) => `${l.label} (${l.sources.join(", ")})`)
+      .join(" · ");
+
+    dyn.innerHTML = `
+      <section class="gp-guide-section gp-guide-scan gp-guide-loadout-block" aria-labelledby="guide-gear-h">
+        <div class="gp-guide-arch-row" role="tablist" aria-label="${t("guide.archetypes")}" data-testid="guide-arch-tabs">
+          ${archButtons}
+        </div>
+        <p class="gp-guide-scan-lead" data-testid="guide-arch-why"><strong>${t(`guide.arch_${arch}`)}</strong> — ${adapter.why}</p>
+        ${(adapter.secondary_notes ?? []).map((n: string) => `<p class="gp-guide-reason">${n}</p>`).join("")}
+
+        <h2 id="guide-gear-h">${t("guide.gear")}</h2>
+        <p class="gp-body gp-guide-com-exact" data-testid="guide-com-exact"><strong>${t("guide.com_godroll")}</strong>:
+          <span class="gp-rarity-legendary">Grenazerker</span> · +3 Sinergia · +4 Confeti · Splash Damage passive · Gadget Ahoy firmware
+        </p>
+        <p class="gp-guide-scan-lead">${t("guide.com_legal")}</p>
+        ${renderLoadoutCardsHtml(loadout)}
+        ${
+          rec
+            ? `<p class="gp-guide-scan-lead">${t("guide.grenade_rec")}: ${loadout.grenade?.item_name ?? "—"} · ${rec.payload}/${rec.payload_augment}/${rec.perk}</p>`
+            : ""
+        }
+        ${
+          purple
+            ? `<p class="gp-guide-reason gp-guide-purple-why" data-testid="guide-purple-why"><strong>${t("guide.purple_why")}</strong>: ${purple}</p>`
+            : ""
+        }
+      </section>
+
+      <section class="gp-guide-section gp-guide-scan" aria-labelledby="guide-stacks-h">
+        <h2 id="guide-stacks-h">${t("guide.stack_totals")}</h2>
+        <p class="gp-guide-scan-lead">${t("guide.stack_totals_help")}</p>
+        ${stacksHtml(guide.allocation, arch)}
+        <p class="gp-body" data-testid="guide-firmware-totals"><strong>${t("guide.firmware_totals")}</strong>:
+          ${fwLine || "—"}
+        </p>
+      </section>
+
+      ${enhancementsHtml}
+      ${godrollHtml}
+
+      <section class="gp-guide-section gp-guide-scan">
+        <h2>${t("mvp.stats.detected")}</h2>
+        <ul class="gp-guide-rank-list" data-testid="guide-synergies">${hits
+          .map((h) => `<li><strong>${h.title}</strong> — ${h.why}</li>`)
+          .join("")}</ul>
+      </section>
+    `;
+
+    dyn.querySelectorAll("[data-arch]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        arch = (btn.getAttribute("data-arch") as ArchetypeId) || "balanced";
+        renderDynamic();
+      });
+    });
+  };
+
+  root.innerHTML = `
     <header class="gp-guide-topband" data-testid="guide-sticky">
       <button type="button" class="gp-btn gp-guide-topband-back" data-close aria-label="${t("nav.back")}">${t("nav.back")}</button>
       <div class="gp-guide-topband-center">
@@ -102,15 +176,11 @@ export function createBuildGuidePanel(callbacks: BuildGuideCallbacks): HTMLEleme
     <p class="gp-guide-icon-disclaimer" data-testid="guide-icon-disclaimer">${t("guide.icon_disclaimer")}</p>
     ${errors.length ? `<p class="gp-body" role="alert">${t("guide.illegal")}: ${errors[0]}</p>` : ""}
 
-    <div class="gp-guide-archetypes" role="tablist" aria-label="${t("guide.archetypes")}">
-      ${(["balanced", "mobbing", "bossing"] as ArchetypeId[])
-        .map(
-          (id) =>
-            `<button type="button" class="gp-btn gp-guide-arch ${archetype === id ? "gp-btn-primary gp-guide-arch-active" : ""}" data-arch="${id}" role="tab" aria-selected="${archetype === id}">${t(`guide.arch_${id}`)}</button>`,
-        )
-        .join("")}
-    </div>
-    <p class="gp-body" data-testid="guide-swap"><strong>${t("guide.one_swap")}</strong>: ${adapter.swap_slot} → ${adapter.swap_item} — ${adapter.why}</p>
+    <section class="gp-guide-section gp-guide-how" aria-labelledby="guide-how-h" data-testid="guide-how">
+      <h2 id="guide-how-h">${t("guide.how_title")}</h2>
+      <p class="gp-body">${t("guide.how_body")}</p>
+      <p class="gp-body">${core.narrative}</p>
+    </section>
 
     <section class="gp-guide-section" aria-labelledby="guide-skills-h">
       <h2 id="guide-skills-h">${t("guide.skills")}</h2>
@@ -159,89 +229,31 @@ export function createBuildGuidePanel(callbacks: BuildGuideCallbacks): HTMLEleme
       <p class="gp-body">${t("guide.specs_equipped")}: ${guide.spec.equipped.join(", ")}</p>
     </section>
 
-    <section class="gp-guide-section" aria-labelledby="guide-stacks-h">
-      <h2 id="guide-stacks-h">${t("guide.stack_totals")}</h2>
-      <p class="gp-body">${t("guide.stack_totals_help")}</p>
-      <ul class="gp-guide-stack-list" data-testid="guide-stack-totals">
-        ${stacks.buckets
-          .map(
-            (b) =>
-              `<li class="gp-guide-stack-row"><strong>${b.label}</strong>
-                <span class="gp-guide-stack-sources">${b.sources.slice(0, 6).join(" · ")}${b.sources.length > 6 ? "…" : ""}</span></li>`,
-          )
-          .join("")}
-      </ul>
-      <p class="gp-guide-icon-disclaimer">${stacks.notes.join(" ")}</p>
-      <p class="gp-body" data-testid="guide-firmware-totals"><strong>${t("guide.firmware_totals")}</strong>:
-        ${fwLines.map((l) => `${l.label} (${l.sources.join(", ")})`).join(" · ") || "—"}
-      </p>
-    </section>
-
-    <section class="gp-guide-section" aria-labelledby="guide-gear-h">
-      <h2 id="guide-gear-h">${t("guide.gear")}</h2>
-      <p class="gp-body gp-guide-com-exact" data-testid="guide-com-exact"><strong>${t("guide.com_godroll")}</strong>:
-        ${core.class_mod.search_exact}
-      </p>
-      <p class="gp-body"><strong>${t("guide.com_skills")}</strong>:
-        ${core.class_mod.desired_skills.map((s) => `${s.display_name} — ${s.why}`).join(" · ")}
-      </p>
-      <ul class="gp-guide-cards gp-guide-gear-cards">
-        ${guide.gear
-          .map((g) => {
-            const label = g.slot_index ? `${g.slot} ${g.slot_index}` : g.slot;
-            const highlight =
-              g.slot === adapter.swap_slot
-                ? `<p class="gp-guide-reason gp-guide-swap-hl">${t("guide.active_swap")}: ${adapter.swap_item}</p>`
-                : "";
-            return `<li class="gp-guide-card">
-              ${iconImg(g.icon_id ?? `slot_${g.slot}`, label)}
-              <div class="gp-guide-card-body">
-                <strong>${label}</strong>${g.item_hint ? ` — ${g.item_hint}` : ""}
-                <p class="gp-guide-reason">${t("guide.want")}: ${g.priorities.join("; ")}</p>
-                ${highlight}
-                ${g.slot === "grenade" && rec ? `<p class="gp-guide-reason">${t("guide.grenade_rec")}: Waterfall · ${rec.payload}/${rec.payload_augment}/${rec.perk}</p>` : ""}
-              </div>
-            </li>`;
-          })
-          .join("")}
-      </ul>
-    </section>
-
-    ${enhancementsHtml}
-    ${godrollHtml}
-
-    <section class="gp-guide-section">
-      <h2>${t("mvp.stats.detected")}</h2>
-      <ul data-testid="guide-synergies">${hits.map((h) => `<li><strong>${h.title}</strong> — ${h.why}</li>`).join("")}</ul>
-    </section>
+    <div data-guide-dynamic></div>
+    ${renderRecommendedLegendariesHtml()}
+    ${renderRepkitMathHtml()}
+    ${archetypeLoadoutChart(adapters.adapters)}
     <p class="gp-body" data-copy-status role="status" hidden></p>
   `;
 
-    root.querySelector("[data-close]")?.addEventListener("click", () => callbacks.onClose());
-    root.querySelector("[data-stats]")?.addEventListener("click", () => callbacks.onOpenStats?.());
-    root.querySelector("[data-copy]")?.addEventListener("click", async () => {
-      const status = root.querySelector<HTMLElement>("[data-copy-status]");
-      try {
-        await navigator.clipboard.writeText(spendText);
-        if (status) {
-          status.hidden = false;
-          status.textContent = t("guide.copied");
-        }
-      } catch {
-        if (status) {
-          status.hidden = false;
-          status.textContent = spendText.slice(0, 120) + "…";
-        }
+  renderDynamic();
+  root.querySelector("[data-close]")?.addEventListener("click", () => callbacks.onClose());
+  root.querySelector("[data-stats]")?.addEventListener("click", () => callbacks.onOpenStats?.());
+  root.querySelector("[data-copy]")?.addEventListener("click", async () => {
+    const status = root.querySelector<HTMLElement>("[data-copy-status]");
+    try {
+      await navigator.clipboard.writeText(spendText);
+      if (status) {
+        status.hidden = false;
+        status.textContent = t("guide.copied");
       }
-    });
-    root.querySelectorAll<HTMLButtonElement>("[data-arch]").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        archetype = btn.getAttribute("data-arch") as ArchetypeId;
-        render();
-      });
-    });
-  };
+    } catch {
+      if (status) {
+        status.hidden = false;
+        status.textContent = spendText.slice(0, 120) + "…";
+      }
+    }
+  });
 
-  render();
   return root;
 }

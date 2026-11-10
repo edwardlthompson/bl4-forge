@@ -1,0 +1,3690 @@
+{
+  "version": 1,
+  "experimental": true,
+  "obtainable": "unverified",
+  "compiled_from": "data/indexes/drops.json",
+  "game_build": "26007962",
+  "weapon_count": 87,
+  "item_count": 90,
+  "items": [
+    {
+      "id": "BOR_HW.comp_05_legendary_DiscJockey",
+      "name": "Disc Jockey",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "DiscJockey",
+        "discjockey"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:DiscJockey:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:DiscJockey:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:DiscJockey:2",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Black Market",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "ripper",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "heavy"
+    },
+    {
+      "id": "BOR_HW.comp_05_legendary_Streamer",
+      "name": "Streamer",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Streamer",
+        "streamer"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Streamer:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Streamer:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "The Oppressor",
+        "rate_band": "rare",
+        "location": "Unknown / The Oppressor"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "ripper",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "heavy"
+    },
+    {
+      "id": "BOR_SG.comp_05_legendary_convergence",
+      "name": "Convergence",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "convergence"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:convergence:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:convergence:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Destroyer",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "ripper",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "shotgun"
+    },
+    {
+      "id": "BOR_SG.comp_05_legendary_CrazedEarl",
+      "name": "Crazed Earl",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "CrazedEarl",
+        "crazedearl"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:CrazedEarl:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:CrazedEarl:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:CrazedEarl:2",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "CrazyEarl",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "ripper",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "shotgun"
+    },
+    {
+      "id": "BOR_SG.comp_05_legendary_GoldenGod",
+      "name": "Golden God",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "GoldenGod",
+        "goldengod"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:GoldenGod:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:GoldenGod:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Grasslands_Commander",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "ripper",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "shotgun"
+    },
+    {
+      "id": "BOR_SG.comp_05_legendary_GoreMaster",
+      "name": "Gore Master",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "GoreMaster",
+        "goremaster"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:GoreMaster:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:GoreMaster:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Grasslands_Commander",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "ripper",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "shotgun"
+    },
+    {
+      "id": "BOR_SM.comp_05_legendary_falke",
+      "name": "Falke",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "falke"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:falke:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:falke:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Nightmare_AllBosses",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "ripper",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "smg"
+    },
+    {
+      "id": "BOR_SM.comp_05_legendary_hellfire",
+      "name": "Hellfire",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "hellfire"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:hellfire:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:hellfire:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "BatMatriarch",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "ripper",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "smg"
+    },
+    {
+      "id": "BOR_SM.comp_05_legendary_prince",
+      "name": "Prince",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "prince"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:prince:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:prince:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Bango",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "ripper",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "smg"
+    },
+    {
+      "id": "bor_sr.comp_05_legendary_stray",
+      "name": "Stray",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "stray"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:stray:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:stray:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Pango",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "ripper",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "sniper"
+    },
+    {
+      "id": "bor_sr.comp_05_legendary_Vamoose",
+      "name": "Vamoose",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Vamoose",
+        "vamoose"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Vamoose:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Vamoose:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "StealthPredator",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "ripper",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "sniper"
+    },
+    {
+      "id": "DAD_AR.comp_05_legendary_Lumberjack",
+      "name": "Lumberjack",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Lumberjack",
+        "lumberjack"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Lumberjack:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Lumberjack:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "FoundryFreak_Splice",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "daedalus",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "assault_rifle"
+    },
+    {
+      "id": "DAD_AR.comp_05_legendary_OM",
+      "name": "OM",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "OM",
+        "om"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:OM:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:OM:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "SoldierAncient",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "daedalus",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "assault_rifle"
+    },
+    {
+      "id": "DAD_AR.comp_05_legendary_star_helix",
+      "name": "Star Helix",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "star_helix"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:star_helix:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:star_helix:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Timekeeper Guardian",
+        "rate_band": "rare",
+        "location": "Dominion / Timekeeper's Stronghold"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "daedalus",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "assault_rifle"
+    },
+    {
+      "id": "DAD_PS.comp_05_legendary_rangefinder",
+      "name": "Rangefinder",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "rangefinder"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:rangefinder:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:rangefinder:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "FirstCorrupt",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "daedalus",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "pistol"
+    },
+    {
+      "id": "DAD_PS.comp_05_legendary_soulsurvivor",
+      "name": "Soulsurvivor",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "soulsurvivor"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:soulsurvivor:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:soulsurvivor:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "DroneCaptain",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "daedalus",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "pistol"
+    },
+    {
+      "id": "DAD_PS.comp_05_legendary_Zipgun",
+      "name": "Zipgun",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Zipgun",
+        "zipgun"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Zipgun:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Zipgun:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Leader Willem",
+        "rate_band": "rare",
+        "location": "Unknown / Leader Willem"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "daedalus",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "pistol"
+    },
+    {
+      "id": "DAD_SG.comp_05_legendary_bod",
+      "name": "Bod",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "bod"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:bod:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:bod:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "CityCat",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "daedalus",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "shotgun"
+    },
+    {
+      "id": "DAD_SG.comp_05_legendary_HeartGUn",
+      "name": "Heart G Un",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "HeartGUn",
+        "heartgun"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:HeartGUn:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:HeartGUn:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Arjay",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "daedalus",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "shotgun"
+    },
+    {
+      "id": "DAD_SM.comp_05_legendary_bloodstarved",
+      "name": "Bloodstarved",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "bloodstarved"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:bloodstarved:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:bloodstarved:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "SurpriseAttack",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "daedalus",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "smg"
+    },
+    {
+      "id": "DAD_SM.comp_05_legendary_follower",
+      "name": "Follower",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "follower"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:follower:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:follower:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "SiphonScavOne",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "daedalus",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "smg"
+    },
+    {
+      "id": "DAD_SM.comp_05_legendary_Luty",
+      "name": "Luty",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Luty",
+        "luty"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Luty:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Luty:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Mimicron",
+        "rate_band": "rare",
+        "location": "Unknown / Mimicron"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "daedalus",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "smg"
+    },
+    {
+      "id": "JAK_AR.comp_05_legendary_BonnieClyde",
+      "name": "Bonnie Clyde",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "BonnieClyde",
+        "bonnieclyde"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:BonnieClyde:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:BonnieClyde:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Redguard",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "jakobs",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "assault_rifle"
+    },
+    {
+      "id": "JAK_AR.comp_05_legendary_rowan",
+      "name": "Rowan",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "rowan"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:rowan:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:rowan:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Redguard",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "jakobs",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "assault_rifle"
+    },
+    {
+      "id": "JAK_PS.comp_05_legendary_kingsgambit",
+      "name": "Kingsgambit",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "kingsgambit"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:kingsgambit:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:kingsgambit:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "FirstCorrupt",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "jakobs",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "pistol"
+    },
+    {
+      "id": "JAK_PS.comp_05_legendary_phantom_flame",
+      "name": "Phantom Flame",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "phantom_flame"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:phantom_flame:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:phantom_flame:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:phantom_flame:2",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Bango",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "jakobs",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "pistol"
+    },
+    {
+      "id": "JAK_PS.comp_05_legendary_QuickDraw",
+      "name": "Quick Draw",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "QuickDraw",
+        "quickdraw"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:QuickDraw:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:QuickDraw:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Rocken Roller",
+        "rate_band": "rare",
+        "location": "Unknown / Rocken Roller"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "jakobs",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "pistol"
+    },
+    {
+      "id": "JAK_PS.comp_05_legendary_seventh_sense",
+      "name": "Seventh Sense",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "seventh_sense"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:seventh_sense:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:seventh_sense:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "SideCity_Psycho",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "jakobs",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "pistol"
+    },
+    {
+      "id": "JAK_SG.comp_05_legendary_Hellwalker",
+      "name": "Hellwalker",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Hellwalker",
+        "hellwalker"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Hellwalker:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Hellwalker:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Jockey",
+        "rate_band": "rare",
+        "location": "Unknown / Jockey"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "jakobs",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "shotgun"
+    },
+    {
+      "id": "JAK_SG.comp_05_legendary_RainbowVomit",
+      "name": "Rainbow Vomit",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "RainbowVomit",
+        "rainbowvomit"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:RainbowVomit:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:RainbowVomit:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Leader Willem",
+        "rate_band": "rare",
+        "location": "Unknown / Leader Willem"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "jakobs",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "shotgun"
+    },
+    {
+      "id": "JAK_SG.comp_05_legendary_Slugger",
+      "name": "Slugger",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Slugger",
+        "slugger"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Slugger:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Slugger:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Callous Harbinger of Annihilating Death",
+        "rate_band": "rare",
+        "location": "Unknown / Callous Harbinger"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "jakobs",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "shotgun"
+    },
+    {
+      "id": "JAK_SG.comp_05_legendary_TKsWave",
+      "name": "T Ks Wave",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "TKsWave",
+        "tkswave"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:TKsWave:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:TKsWave:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Rocken Roller",
+        "rate_band": "rare",
+        "location": "Unknown / Rocken Roller"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "jakobs",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "shotgun"
+    },
+    {
+      "id": "JAK_SR.comp_05_legendary_ballista",
+      "name": "Ballista",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "ballista"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:ballista:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:ballista:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "The Timekeeper",
+        "rate_band": "rare",
+        "location": "Dominion / The Timekeeper"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "jakobs",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "sniper"
+    },
+    {
+      "id": "JAK_SR.comp_05_legendary_Boomslang",
+      "name": "Boomslang",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Boomslang",
+        "boomslang"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Boomslang:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Boomslang:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Destroyer",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "jakobs",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "sniper"
+    },
+    {
+      "id": "JAK_SR.comp_05_legendary_fearstalker",
+      "name": "Fearstalker",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "fearstalker"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:fearstalker:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:fearstalker:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Nightmare_AllBosses",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "jakobs",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "sniper"
+    },
+    {
+      "id": "JAK_SR.comp_05_legendary_Truck",
+      "name": "Truck",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Truck",
+        "truck"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Truck:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Truck:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Thresher_BioArmoredBig",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "jakobs",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "sniper"
+    },
+    {
+      "id": "MAL_HW.comp_05_legendary_BottledLightning",
+      "name": "Bottled Lightning",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "BottledLightning",
+        "bottledlightning"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:BottledLightning:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:BottledLightning:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Mountain Guardian",
+        "rate_band": "rare",
+        "location": "Mountains / Mountain Guardian"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "maliwan",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "heavy"
+    },
+    {
+      "id": "MAL_HW.comp_05_legendary_GammaVoid",
+      "name": "Gamma Void",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "GammaVoid",
+        "gammavoid"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:GammaVoid:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:GammaVoid:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Primordial Guardian Origo",
+        "rate_band": "rare",
+        "location": "Shatterlands / Primordial Guardian Origo"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "maliwan",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "heavy"
+    },
+    {
+      "id": "MAL_HW.comp_05_legendary_Ichor",
+      "name": "Ichor",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Ichor",
+        "ichor"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Ichor:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Ichor:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Nightmare_AllBosses",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "maliwan",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "heavy"
+    },
+    {
+      "id": "MAL_SG.comp_05_legendary_Kaleidosplode",
+      "name": "Kaleidosplode",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Kaleidosplode",
+        "kaleidosplode"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Kaleidosplode:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Kaleidosplode:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Callous Harbinger of Annihilating Death",
+        "rate_band": "rare",
+        "location": "Unknown / Callous Harbinger"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "maliwan",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "shotgun"
+    },
+    {
+      "id": "MAL_SG.comp_05_legendary_Kickballer",
+      "name": "Kickballer",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Kickballer",
+        "kickballer"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Kickballer:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Kickballer:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Sludgemaw",
+        "rate_band": "rare",
+        "location": "Unknown / Sludgemaw"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "maliwan",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "shotgun"
+    },
+    {
+      "id": "MAL_SG.comp_05_legendary_Reminisce",
+      "name": "Reminisce",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Reminisce",
+        "reminisce"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Reminisce:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Reminisce:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Reminisce:2",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "dAHLfATHER",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "maliwan",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "shotgun"
+    },
+    {
+      "id": "MAL_SM.comp_05_legendary_flashcyclone",
+      "name": "Flashcyclone",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "flashcyclone"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:flashcyclone:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:flashcyclone:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "DroneCaptain",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "maliwan",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "smg"
+    },
+    {
+      "id": "MAL_SM.comp_05_legendary_OhmIGot",
+      "name": "Ohm I Got",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "OhmIGot",
+        "ohmigot"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:OhmIGot:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:OhmIGot:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Primordial Guardian Origo",
+        "rate_band": "rare",
+        "location": "Shatterlands / Primordial Guardian Origo"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "maliwan",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "smg"
+    },
+    {
+      "id": "MAL_SM.comp_05_legendary_PlasmaCoil",
+      "name": "Plasma Coil",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "PlasmaCoil",
+        "plasmacoil"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:PlasmaCoil:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:PlasmaCoil:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Timekeeper Guardian",
+        "rate_band": "rare",
+        "location": "Dominion / Timekeeper's Stronghold"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "maliwan",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "smg"
+    },
+    {
+      "id": "MAL_SR.comp_05_legendary_asher",
+      "name": "Asher",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "asher"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:asher:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:asher:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "The Oppressor",
+        "rate_band": "rare",
+        "location": "Unknown / The Oppressor"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "maliwan",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "sniper"
+    },
+    {
+      "id": "MAL_SR.comp_05_legendary_complex_root",
+      "name": "Complex Root",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "complex_root"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:complex_root:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:complex_root:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Mimicron",
+        "rate_band": "rare",
+        "location": "Unknown / Mimicron"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "maliwan",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "sniper"
+    },
+    {
+      "id": "MAL_SR.comp_05_legendary_katagawa",
+      "name": "Katagawa",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "katagawa"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:katagawa:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:katagawa:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Drillerhole",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "maliwan",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "sniper"
+    },
+    {
+      "id": "ORD_AR.comp_05_legendary_crowsourced",
+      "name": "Crowsourced",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "crowsourced"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:crowsourced:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:crowsourced:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:crowsourced:2",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "dAHLfATHER",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "order",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "assault_rifle"
+    },
+    {
+      "id": "ORD_AR.comp_05_legendary_GMR",
+      "name": "GMR",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "GMR",
+        "gmr"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:GMR:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:GMR:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Drillerhole",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "order",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "assault_rifle"
+    },
+    {
+      "id": "ORD_AR.comp_05_legendary_Goalkeeper",
+      "name": "Goalkeeper",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Goalkeeper",
+        "goalkeeper"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Goalkeeper:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Goalkeeper:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "SideCity_Psycho",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "order",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "assault_rifle"
+    },
+    {
+      "id": "ORD_PS.comp_05_legendary_Bully",
+      "name": "Bully",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Bully",
+        "bully"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Bully:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Bully:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "DroneKeeper",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "order",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "pistol"
+    },
+    {
+      "id": "ORD_PS.comp_05_legendary_NoisyCricket",
+      "name": "Noisy Cricket",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "NoisyCricket",
+        "noisycricket"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:NoisyCricket:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:NoisyCricket:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Sydney Pointylegs",
+        "rate_band": "rare",
+        "location": "Unknown / Sydney Pointylegs"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "order",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "pistol"
+    },
+    {
+      "id": "ORD_PS.comp_05_legendary_RocketReload",
+      "name": "Rocket Reload",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "RocketReload",
+        "rocketreload"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:RocketReload:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:RocketReload:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Horace",
+        "rate_band": "rare",
+        "location": "Unknown / Horace"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "order",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "pistol"
+    },
+    {
+      "id": "ORD_PS.comp_05_legendary_sunspot",
+      "name": "Sunspot",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "sunspot"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:sunspot:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:sunspot:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "SiphonScavTwo",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "order",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "pistol"
+    },
+    {
+      "id": "ORD_SR.comp_05_legendary_Fisheye",
+      "name": "Fisheye",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Fisheye",
+        "fisheye"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Fisheye:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Fisheye:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Arjay",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "order",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "sniper"
+    },
+    {
+      "id": "ORD_SR.comp_05_legendary_symmetry",
+      "name": "Symmetry",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "symmetry"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:symmetry:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:symmetry:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "The Timekeeper",
+        "rate_band": "rare",
+        "location": "Dominion / The Timekeeper"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "order",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "sniper"
+    },
+    {
+      "id": "TED_AR.comp_05_legendary_Chuck",
+      "name": "Chuck",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Chuck",
+        "chuck"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Chuck:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Chuck:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Chuck:2",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "FoundryFreak_Psycho",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "tediore",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "assault_rifle"
+    },
+    {
+      "id": "TED_AR.comp_05_legendary_DividedFocus",
+      "name": "Divided Focus",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "DividedFocus",
+        "dividedfocus"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:DividedFocus:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:DividedFocus:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "DroneKeeper",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "tediore",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "assault_rifle"
+    },
+    {
+      "id": "TED_PS.comp_05_legendary_ATLien",
+      "name": "AT Lien",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "ATLien",
+        "atlien"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:ATLien:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:ATLien:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "KOTO Motherbase Brute",
+        "rate_band": "rare",
+        "location": "Unknown / Waterfall dedicated"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "tediore",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "pistol"
+    },
+    {
+      "id": "TED_PS.comp_05_legendary_RubysGrasp",
+      "name": "Rubys Grasp",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "RubysGrasp",
+        "rubysgrasp"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:RubysGrasp:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:RubysGrasp:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "MountainCommander",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "tediore",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "pistol"
+    },
+    {
+      "id": "TED_PS.comp_05_legendary_Sideshow",
+      "name": "Sideshow",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Sideshow",
+        "sideshow"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Sideshow:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Sideshow:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "CloningLeader",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "tediore",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "pistol"
+    },
+    {
+      "id": "TED_SG.comp_05_legendary_anarchy",
+      "name": "Anarchy",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "anarchy"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:anarchy:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:anarchy:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Shatterlands Guardian",
+        "rate_band": "rare",
+        "location": "Shatterlands / Guardian"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "tediore",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "shotgun"
+    },
+    {
+      "id": "TED_SG.comp_05_legendary_HeavyTurret",
+      "name": "Heavy Turret",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "HeavyTurret",
+        "heavyturret"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:HeavyTurret:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:HeavyTurret:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Grasslands Guardian",
+        "rate_band": "rare",
+        "location": "Grasslands / Guardian arena"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "tediore",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "shotgun"
+    },
+    {
+      "id": "TOR_AR.comp_05_legendary_Bugbear",
+      "name": "Bugbear",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Bugbear",
+        "bugbear"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Bugbear:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Bugbear:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Bugbear:2",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "BattleWagon",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "torgue",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "assault_rifle"
+    },
+    {
+      "id": "TOR_AR.comp_05_legendary_PotatoThrower",
+      "name": "Potato Thrower",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "PotatoThrower",
+        "potatothrower"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:PotatoThrower:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:PotatoThrower:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:PotatoThrower:2",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Hovercart",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "torgue",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "assault_rifle"
+    },
+    {
+      "id": "tor_grenade_gadget.comp_05_legendary_firepot",
+      "name": "Firepot",
+      "slot": "grenade",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "firepot"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:firepot:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:firepot:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Leader Willem",
+        "rate_band": "rare",
+        "location": "Unknown / Leader Willem"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "torgue",
+      "red_text": "",
+      "firmware_sensitive": true
+    },
+    {
+      "id": "TOR_HW.comp_05_legendary_DahlFather",
+      "name": "Dahl Father",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "DahlFather",
+        "dahlfather"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:DahlFather:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:DahlFather:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:DahlFather:2",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "dAHLfATHER",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "torgue",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "heavy"
+    },
+    {
+      "id": "TOR_HW.comp_05_legendary_ravenfire",
+      "name": "Ravenfire",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "ravenfire"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:ravenfire:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:ravenfire:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Grasslands Guardian",
+        "rate_band": "rare",
+        "location": "Grasslands / Guardian arena"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "torgue",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "heavy"
+    },
+    {
+      "id": "TOR_PS.comp_05_legendary_QueensRest",
+      "name": "Queens Rest",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "QueensRest",
+        "queensrest"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:QueensRest:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:QueensRest:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "ShatterlandsCommanderFortress",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "torgue",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "pistol"
+    },
+    {
+      "id": "TOR_PS.comp_05_legendary_Roach",
+      "name": "Roach",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Roach",
+        "roach"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Roach:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Roach:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "SkullOrchid",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "torgue",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "pistol"
+    },
+    {
+      "id": "TOR_PS.comp_05_legendary_ScootShoot",
+      "name": "Scoot Shoot",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "ScootShoot",
+        "scootshoot"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:ScootShoot:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:ScootShoot:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:ScootShoot:2",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "CrazyEarl",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "torgue",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "pistol"
+    },
+    {
+      "id": "TOR_SG.comp_05_legendary_LeadBalloon",
+      "name": "Lead Balloon",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "LeadBalloon",
+        "leadballoon"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:LeadBalloon:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:LeadBalloon:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Glide Pack Psycho",
+        "rate_band": "rare",
+        "location": "Unknown / Firewerk dedicated"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "torgue",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "shotgun"
+    },
+    {
+      "id": "TOR_SG.comp_05_legendary_Linebacker",
+      "name": "Linebacker",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Linebacker",
+        "linebacker"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Linebacker:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Linebacker:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "BatMatriarch",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "torgue",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "shotgun"
+    },
+    {
+      "id": "TOR_SG.comp_05_legendary_Unstable_Kor",
+      "name": "Unstable Kor",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Unstable_Kor",
+        "unstable_kor"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Unstable_Kor:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Unstable_Kor:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Nightmare_AllBosses",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "torgue",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "shotgun"
+    },
+    {
+      "id": "tor_shield.comp_05_legendary_firewerks",
+      "name": "Firewerks",
+      "slot": "shield",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "firewerks"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:firewerks:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:firewerks:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Glide Pack Psycho",
+        "rate_band": "rare",
+        "location": "Unknown / Firewerk dedicated"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "torgue",
+      "red_text": "",
+      "firmware_sensitive": true
+    },
+    {
+      "id": "VLA_AR.comp_05_legendary_DualDamage",
+      "name": "Dual Damage",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "DualDamage",
+        "dualdamage"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:DualDamage:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:DualDamage:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Horace",
+        "rate_band": "rare",
+        "location": "Unknown / Horace"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "vladof",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "assault_rifle"
+    },
+    {
+      "id": "VLA_AR.comp_05_legendary_lasercutter",
+      "name": "Lasercutter",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "lasercutter"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:lasercutter:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:lasercutter:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:lasercutter:2",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "DahlMech",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "vladof",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "assault_rifle"
+    },
+    {
+      "id": "VLA_AR.comp_05_Legendary_Lucian",
+      "name": "Lucian",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Lucian",
+        "lucian"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Lucian:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Lucian:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Lucian:2",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "MeatheadRider",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "vladof",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "assault_rifle"
+    },
+    {
+      "id": "VLA_AR.comp_05_legendary_WF",
+      "name": "WF",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "WF",
+        "wf"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:WF:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:WF:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Redguard",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "vladof",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "assault_rifle"
+    },
+    {
+      "id": "VLA_AR.comp_05_legendary_WomboCombo",
+      "name": "Wombo Combo",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "WomboCombo",
+        "wombocombo"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:WomboCombo:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:WomboCombo:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Hovercart",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "vladof",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "assault_rifle"
+    },
+    {
+      "id": "vla_grenade_gadget.comp_05_legendary_Waterfall",
+      "name": "Waterfall",
+      "slot": "grenade",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Waterfall",
+        "waterfall"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Waterfall:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Waterfall:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "KOTO Motherbase Brute",
+        "rate_band": "rare",
+        "location": "Unknown / Waterfall dedicated"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "vladof",
+      "red_text": "",
+      "firmware_sensitive": true
+    },
+    {
+      "id": "VLA_HW.comp_05_legendary_AtlingGun",
+      "name": "Atling Gun",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "AtlingGun",
+        "atlinggun"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:AtlingGun:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:AtlingGun:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Callous Harbinger of Annihilating Death",
+        "rate_band": "rare",
+        "location": "Unknown / Callous Harbinger"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "vladof",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "heavy"
+    },
+    {
+      "id": "VLA_HW.comp_05_legendary_Splatoon",
+      "name": "Splatoon",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Splatoon",
+        "splatoon"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Splatoon:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Splatoon:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "CloningLeader",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "vladof",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "heavy"
+    },
+    {
+      "id": "VLA_SM.comp_05_legendary_BeeGun",
+      "name": "Bee Gun",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "BeeGun",
+        "beegun"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:BeeGun:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:BeeGun:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Sludgemaw",
+        "rate_band": "rare",
+        "location": "Unknown / Sludgemaw"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "vladof",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "smg"
+    },
+    {
+      "id": "VLA_SM.comp_05_legendary_KaoSon",
+      "name": "Kao Son",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "KaoSon",
+        "kaoson"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:KaoSon:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:KaoSon:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Mountain Guardian",
+        "rate_band": "rare",
+        "location": "Mountains / Mountain Guardian"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "vladof",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "smg"
+    },
+    {
+      "id": "VLA_SM.comp_05_legendary_Onslaught",
+      "name": "Onslaught",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Onslaught",
+        "onslaught"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Onslaught:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Onslaught:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Grasslands_Commander",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "vladof",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "smg"
+    },
+    {
+      "id": "VLA_SR.comp_05_legendary_Finnty",
+      "name": "Finnty",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Finnty",
+        "finnty"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Finnty:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Finnty:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "BattleWagon",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "vladof",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "sniper"
+    },
+    {
+      "id": "VLA_SR.comp_05_legendary_Hemorrhage",
+      "name": "Hemorrhage",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "Hemorrhage",
+        "hemorrhage"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Hemorrhage:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Hemorrhage:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:Hemorrhage:2",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Crash",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "vladof",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "sniper"
+    },
+    {
+      "id": "VLA_SR.comp_05_legendary_StopGap",
+      "name": "Stop Gap",
+      "slot": "weapon",
+      "rarity": "legendary",
+      "effects": [],
+      "tag_only": true,
+      "synergy_keys": [
+        "StopGap",
+        "stopgap"
+      ],
+      "obtainable": "unverified",
+      "gate": "base",
+      "has_location": false,
+      "evidence": [
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:StopGap:0",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        },
+        {
+          "kind": "datamine_drop",
+          "ref": "drops:StopGap:1",
+          "game_build": "26007962",
+          "retrieved_at": "2026-11-10"
+        }
+      ],
+      "drop": {
+        "boss": "Backhive",
+        "rate_band": "rare"
+      },
+      "unparsed": true,
+      "stale": false,
+      "game_build": "26007962",
+      "manufacturer": "vladof",
+      "red_text": "",
+      "firmware_sensitive": true,
+      "weapon_type": "sniper"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "experimental": true,
   "obtainable": "unverified",
-  "policy": "HUMAN override Sprint 24 — commit Gearbox UI icons under examples/web/public/icons/datamine when extract succeeds. MIT does not license Gearbox art.",
+  "policy": "HUMAN override Sprint 24 \u2014 commit Gearbox UI icons under examples/web/public/icons/datamine when extract succeeds. MIT does not license Gearbox art.",
   "resolver": "datamine_webp_primary_mono_onerror",
   "icons": {
     "pb_deadline": {
@@ -169,7 +169,492 @@
       "path": "/icons/datamine/gear_grenazerker.avif",
       "pending_extract": false,
       "source": "wiki_cdn"
+    },
+    "gear_Disc_Jockey": {
+      "path": "/icons/mono/gear_Disc_Jockey.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Streamer": {
+      "path": "/icons/mono/gear_Streamer.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Convergence": {
+      "path": "/icons/mono/gear_Convergence.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Crazed_Earl": {
+      "path": "/icons/mono/gear_Crazed_Earl.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Golden_God": {
+      "path": "/icons/mono/gear_Golden_God.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Gore_Master": {
+      "path": "/icons/mono/gear_Gore_Master.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Falke": {
+      "path": "/icons/mono/gear_Falke.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Hellfire": {
+      "path": "/icons/mono/gear_Hellfire.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Prince": {
+      "path": "/icons/mono/gear_Prince.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Stray": {
+      "path": "/icons/mono/gear_Stray.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Vamoose": {
+      "path": "/icons/mono/gear_Vamoose.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Lumberjack": {
+      "path": "/icons/mono/gear_Lumberjack.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_OM": {
+      "path": "/icons/mono/gear_OM.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Star_Helix": {
+      "path": "/icons/mono/gear_Star_Helix.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Rangefinder": {
+      "path": "/icons/mono/gear_Rangefinder.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Soulsurvivor": {
+      "path": "/icons/mono/gear_Soulsurvivor.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Zipgun": {
+      "path": "/icons/mono/gear_Zipgun.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Bod": {
+      "path": "/icons/mono/gear_Bod.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Heart_G_Un": {
+      "path": "/icons/mono/gear_Heart_G_Un.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Bloodstarved": {
+      "path": "/icons/mono/gear_Bloodstarved.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Follower": {
+      "path": "/icons/mono/gear_Follower.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Luty": {
+      "path": "/icons/mono/gear_Luty.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Bonnie_Clyde": {
+      "path": "/icons/mono/gear_Bonnie_Clyde.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Rowan": {
+      "path": "/icons/mono/gear_Rowan.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Kingsgambit": {
+      "path": "/icons/mono/gear_Kingsgambit.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Phantom_Flame": {
+      "path": "/icons/mono/gear_Phantom_Flame.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Quick_Draw": {
+      "path": "/icons/mono/gear_Quick_Draw.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Seventh_Sense": {
+      "path": "/icons/mono/gear_Seventh_Sense.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Hellwalker": {
+      "path": "/icons/mono/gear_Hellwalker.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Rainbow_Vomit": {
+      "path": "/icons/mono/gear_Rainbow_Vomit.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Slugger": {
+      "path": "/icons/mono/gear_Slugger.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_T_Ks_Wave": {
+      "path": "/icons/mono/gear_T_Ks_Wave.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Ballista": {
+      "path": "/icons/mono/gear_Ballista.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Boomslang": {
+      "path": "/icons/mono/gear_Boomslang.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Fearstalker": {
+      "path": "/icons/mono/gear_Fearstalker.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Truck": {
+      "path": "/icons/mono/gear_Truck.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Bottled_Lightning": {
+      "path": "/icons/mono/gear_Bottled_Lightning.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Gamma_Void": {
+      "path": "/icons/mono/gear_Gamma_Void.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Ichor": {
+      "path": "/icons/mono/gear_Ichor.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Kaleidosplode": {
+      "path": "/icons/mono/gear_Kaleidosplode.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Kickballer": {
+      "path": "/icons/mono/gear_Kickballer.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Reminisce": {
+      "path": "/icons/mono/gear_Reminisce.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Flashcyclone": {
+      "path": "/icons/mono/gear_Flashcyclone.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Ohm_I_Got": {
+      "path": "/icons/mono/gear_Ohm_I_Got.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Plasma_Coil": {
+      "path": "/icons/mono/gear_Plasma_Coil.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Asher": {
+      "path": "/icons/mono/gear_Asher.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Complex_Root": {
+      "path": "/icons/mono/gear_Complex_Root.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Katagawa": {
+      "path": "/icons/mono/gear_Katagawa.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Crowsourced": {
+      "path": "/icons/mono/gear_Crowsourced.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_GMR": {
+      "path": "/icons/mono/gear_GMR.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Goalkeeper": {
+      "path": "/icons/mono/gear_Goalkeeper.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Bully": {
+      "path": "/icons/mono/gear_Bully.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Noisy_Cricket": {
+      "path": "/icons/mono/gear_Noisy_Cricket.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Rocket_Reload": {
+      "path": "/icons/mono/gear_Rocket_Reload.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Sunspot": {
+      "path": "/icons/mono/gear_Sunspot.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Fisheye": {
+      "path": "/icons/mono/gear_Fisheye.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Symmetry": {
+      "path": "/icons/mono/gear_Symmetry.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Chuck": {
+      "path": "/icons/mono/gear_Chuck.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Divided_Focus": {
+      "path": "/icons/mono/gear_Divided_Focus.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_AT_Lien": {
+      "path": "/icons/mono/gear_AT_Lien.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Rubys_Grasp": {
+      "path": "/icons/mono/gear_Rubys_Grasp.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Sideshow": {
+      "path": "/icons/mono/gear_Sideshow.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Anarchy": {
+      "path": "/icons/mono/gear_Anarchy.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Heavy_Turret": {
+      "path": "/icons/mono/gear_Heavy_Turret.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Bugbear": {
+      "path": "/icons/mono/gear_Bugbear.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Potato_Thrower": {
+      "path": "/icons/mono/gear_Potato_Thrower.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Firepot": {
+      "path": "/icons/mono/gear_Firepot.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Dahl_Father": {
+      "path": "/icons/mono/gear_Dahl_Father.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Ravenfire": {
+      "path": "/icons/mono/gear_Ravenfire.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Queens_Rest": {
+      "path": "/icons/mono/gear_Queens_Rest.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Roach": {
+      "path": "/icons/mono/gear_Roach.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Scoot_Shoot": {
+      "path": "/icons/mono/gear_Scoot_Shoot.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Lead_Balloon": {
+      "path": "/icons/mono/gear_Lead_Balloon.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Linebacker": {
+      "path": "/icons/mono/gear_Linebacker.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Unstable_Kor": {
+      "path": "/icons/mono/gear_Unstable_Kor.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Firewerks": {
+      "path": "/icons/mono/gear_Firewerks.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Dual_Damage": {
+      "path": "/icons/mono/gear_Dual_Damage.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Lasercutter": {
+      "path": "/icons/mono/gear_Lasercutter.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Lucian": {
+      "path": "/icons/mono/gear_Lucian.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_WF": {
+      "path": "/icons/mono/gear_WF.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Wombo_Combo": {
+      "path": "/icons/mono/gear_Wombo_Combo.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Waterfall": {
+      "path": "/icons/mono/gear_Waterfall.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Atling_Gun": {
+      "path": "/icons/mono/gear_Atling_Gun.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Splatoon": {
+      "path": "/icons/mono/gear_Splatoon.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Bee_Gun": {
+      "path": "/icons/mono/gear_Bee_Gun.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Kao_Son": {
+      "path": "/icons/mono/gear_Kao_Son.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Onslaught": {
+      "path": "/icons/mono/gear_Onslaught.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Finnty": {
+      "path": "/icons/mono/gear_Finnty.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Hemorrhage": {
+      "path": "/icons/mono/gear_Hemorrhage.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Stop_Gap": {
+      "path": "/icons/mono/gear_Stop_Gap.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_TripleBypass": {
+      "path": "/icons/mono/gear_TripleBypass.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Grenazerker": {
+      "path": "/icons/mono/gear_Grenazerker.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_Toile": {
+      "path": "/icons/mono/gear_Toile.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_HeavyTurret": {
+      "path": "/icons/mono/gear_HeavyTurret.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_PlasmaCoil": {
+      "path": "/icons/mono/gear_PlasmaCoil.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_KaoSon": {
+      "path": "/icons/mono/gear_KaoSon.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
+    },
+    "gear_RocketReload": {
+      "path": "/icons/mono/gear_RocketReload.svg",
+      "pending_extract": true,
+      "source": "mono_placeholder"
     }
   },
-  "note": "Icons from Lootlemon CDN when bl4 extract unavailable. © Gearbox art via third party."
+  "note": "Icons from Lootlemon CDN when bl4 extract unavailable. \u00a9 Gearbox art via third party."
 }

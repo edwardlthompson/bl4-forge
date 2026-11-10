@@ -19,6 +19,7 @@
 | Codex review (advanced/optional, not first-time) | `.github/workflow-examples/codex-review.yml` | both |
 | GitHub + depsonar MCP (optional) | `.cursor/mcp.foss.example` | foss |
 | Feature radar | `scripts/cursor-feature-radar.sh` | both |
+
 Commercial-only features stay as `*.commercial.example` — see [CURSOR_INTEGRATIONS.md](../CURSOR_INTEGRATIONS.md).
 
 Full matrix: [CURSOR_INTEGRATIONS.md](../CURSOR_INTEGRATIONS.md).

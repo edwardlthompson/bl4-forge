@@ -541,11 +541,62 @@ main.gp-route-guide .gp-build-guide {
   font-size: 0.85rem;
 }
 
-.gp-guide-archetypes {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--gp-space-xs);
+.gp-guide-how {
+  margin-block-end: var(--gp-space-md);
+}
+
+.gp-guide-swap-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
   margin-block: var(--gp-space-sm);
+}
+
+.gp-guide-swap-table th,
+.gp-guide-swap-table td {
+  border: 1px solid color-mix(in srgb, var(--gp-color-outline) 40%, transparent);
+  padding: 0.45rem 0.55rem;
+  text-align: start;
+  vertical-align: top;
+}
+
+.gp-guide-swap-table thead th {
+  background: color-mix(in srgb, var(--gp-color-surface) 80%, var(--gp-color-outline));
+  font-weight: 600;
+}
+
+.gp-guide-swap-table tbody th {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.gp-guide-gear-slot {
+  margin: 0;
+  font-size: 0.75rem;
+  opacity: 0.85;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.gp-rarity-legendary {
+  color: #f93;
+}
+
+.gp-rarity-pearl {
+  color: #edf;
+}
+
+.gp-rarity-epic {
+  color: #c0f;
+}
+
+.gp-rarity-rare {
+  color: #4af;
+}
+
+.gp-guide-purple-why {
+  border-left: 3px solid #c0f;
+  padding-inline-start: 0.55rem;
 }
 
 .gp-guide-columns {
@@ -738,17 +789,279 @@ main.gp-route-guide .gp-build-guide {
 .gp-guide-chip {
   display: inline-flex;
   align-items: center;
-  padding: 0.35rem 0.65rem;
-  border: 1px solid color-mix(in srgb, var(--guide-tree-remote-agent) 55%, transparent);
+  padding: 0.2rem 0.45rem;
+  border: 1px solid color-mix(in srgb, var(--guide-tree-remote-agent) 45%, transparent);
   color: var(--guide-tree-remote-agent);
-  font-size: 0.85rem;
-  background: color-mix(in srgb, var(--guide-tree-remote-agent) 12%, transparent);
+  font-size: 0.72rem;
+  line-height: 1.2;
+  background: color-mix(in srgb, var(--guide-tree-remote-agent) 10%, transparent);
+}
+
+.gp-guide-chip--epic {
+  border-color: color-mix(in srgb, #c0f 55%, transparent);
+  color: #c0f;
+  background: color-mix(in srgb, #c0f 12%, transparent);
 }
 
 .gp-guide-chip-note {
   border-color: color-mix(in srgb, var(--gp-color-outline) 50%, transparent);
   color: var(--gp-color-on-surface-variant);
   background: transparent;
+}
+
+.gp-guide-chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-block: 0.35rem;
+}
+
+.gp-guide-scan-lead {
+  margin: 0 0 var(--gp-space-sm);
+  font-size: 0.9rem;
+  color: var(--gp-color-on-surface-variant);
+  line-height: 1.35;
+}
+
+.gp-guide-scan-h3 {
+  margin: var(--gp-space-md) 0 var(--gp-space-xs);
+  font-size: 0.95rem;
+}
+
+.gp-guide-hero-callout {
+  display: grid;
+  gap: 0.15rem;
+  padding: 0.75rem 0.9rem;
+  margin-block-end: var(--gp-space-sm);
+  border: 1px solid color-mix(in srgb, var(--guide-tree-remote-agent) 55%, transparent);
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--guide-tree-remote-agent) 18%, transparent),
+    color-mix(in srgb, var(--gp-color-surface) 90%, transparent)
+  );
+}
+
+.gp-guide-hero-eyebrow {
+  margin: 0;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--gp-color-on-surface-variant);
+}
+
+.gp-guide-hero-body {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.gp-guide-tile-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 0.55rem;
+}
+
+.gp-guide-tile {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 0.45rem;
+  padding: 0.5rem;
+  border: 1px solid color-mix(in srgb, var(--gp-color-outline) 35%, transparent);
+  background: color-mix(in srgb, var(--gp-color-surface) 78%, transparent);
+  min-height: 100%;
+}
+
+.gp-guide-tile .gp-guide-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.gp-guide-tile-body {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.gp-guide-tile-meta {
+  font-size: 0.7rem;
+  color: var(--gp-color-on-surface-variant);
+}
+
+.gp-guide-tile-farm {
+  font-size: 0.72rem;
+  color: var(--gp-color-on-surface-variant);
+}
+
+.gp-guide-meter-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.gp-guide-meter-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.gp-guide-meter-val {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  color: var(--guide-tree-remote-agent);
+}
+
+.gp-guide-meter-track {
+  height: 0.45rem;
+  margin-block: 0.2rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--gp-color-outline) 28%, transparent);
+  overflow: hidden;
+}
+
+.gp-guide-meter-fill {
+  height: 100%;
+  border-radius: inherit;
+  background: color-mix(in srgb, var(--guide-tree-remote-agent) 85%, #fff 5%);
+  transition: width 200ms ease-out;
+}
+
+.gp-guide-meter-detail {
+  margin: 0;
+  font-size: 0.7rem;
+  color: var(--gp-color-on-surface-variant);
+  line-height: 1.3;
+}
+
+.gp-guide-more {
+  margin-block: 0.35rem;
+  font-size: 0.82rem;
+}
+
+.gp-guide-more > summary {
+  cursor: pointer;
+  color: var(--guide-tree-remote-agent);
+  font-weight: 600;
+}
+
+.gp-guide-more-body {
+  margin-block-start: 0.35rem;
+  padding: 0.45rem 0.55rem;
+  border-inline-start: 2px solid color-mix(in srgb, var(--gp-color-outline) 45%, transparent);
+  color: var(--gp-color-on-surface-variant);
+  line-height: 1.4;
+}
+
+.gp-guide-com-banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+  margin-block-end: var(--gp-space-sm);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.gp-guide-arch-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-block-end: var(--gp-space-sm);
+}
+
+.gp-guide-pair-row,
+.gp-guide-perk-row,
+.gp-guide-syn-row {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.45rem;
+}
+
+.gp-guide-pair-tile,
+.gp-guide-perk-pill,
+.gp-guide-syn-chip {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.55rem 0.65rem;
+  border: 1px solid color-mix(in srgb, var(--gp-color-outline) 35%, transparent);
+  background: color-mix(in srgb, var(--gp-color-surface) 75%, transparent);
+  font-size: 0.82rem;
+}
+
+.gp-guide-pair-tile--best {
+  border-color: color-mix(in srgb, var(--guide-tree-remote-agent) 65%, transparent);
+  background: color-mix(in srgb, var(--guide-tree-remote-agent) 14%, transparent);
+}
+
+.gp-guide-pair-rank {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--gp-color-on-surface-variant);
+}
+
+.gp-guide-arch-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.65rem;
+}
+
+.gp-guide-arch-card {
+  padding: 0.65rem;
+  border: 1px solid color-mix(in srgb, var(--gp-color-outline) 35%, transparent);
+  background: color-mix(in srgb, var(--gp-color-surface) 78%, transparent);
+}
+
+.gp-guide-arch-card h3 {
+  margin: 0 0 0.45rem;
+  font-size: 0.95rem;
+}
+
+.gp-guide-mini-gear-row {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.gp-guide-mini-gear {
+  display: grid;
+  grid-template-columns: 32px 1fr;
+  grid-template-rows: auto auto;
+  column-gap: 0.4rem;
+  align-items: center;
+  font-size: 0.78rem;
+}
+
+.gp-guide-mini-gear .gp-guide-icon {
+  width: 32px;
+  height: 32px;
+  grid-row: 1 / 3;
+}
+
+.gp-guide-mini-slot {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--gp-color-on-surface-variant);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gp-guide-meter-fill {
+    transition: none;
+  }
 }
 
 .gp-guide-cards {

@@ -20,7 +20,11 @@ export function createAppShell(
   const route = current(state.nav);
   const atHome = route === "home";
   const wideRoute =
-    route === "guide" || route === "stats" || route === "forge" || route === "specs";
+    route === "guide" ||
+    route === "stats" ||
+    route === "forge" ||
+    route === "specs" ||
+    route === "builds";
   const mainClass = [
     "gp-forge-home",
     wideRoute ? "gp-route-wide" : "",
@@ -47,11 +51,12 @@ export function createAppShell(
         <p class="gp-guide-sub">${t("guide.home_sub")}</p>
         <p class="gp-body" data-testid="status">${t(statusKey)}</p>
         <div class="gp-guide-actions">
-          <button type="button" class="gp-btn gp-btn-primary" data-guide-open data-testid="home-guide-cta">${t("guide.open")}</button>
-          <button type="button" class="gp-btn" data-stats-open>${t("guide.stats_secondary")}</button>
+          <button type="button" class="gp-btn gp-btn-primary" data-solver-open data-testid="home-solver-cta">${t("solver.open")}</button>
+          <button type="button" class="gp-btn" data-guide-open data-testid="home-guide-cta">${t("guide.open")}</button>
         </div>
         <p class="gp-settings-hint">${t("guide.home_more")}</p>
         <div class="gp-guide-secondary">
+          <button type="button" class="gp-settings-btn" data-stats-open>${t("guide.stats_secondary")}</button>
           <button type="button" class="gp-settings-btn" data-forge-open>${t("forge.open")}</button>
           <button type="button" class="gp-settings-btn" data-specs-open>${t("mvp.specs.open")}</button>
         </div>
@@ -64,6 +69,9 @@ export function createAppShell(
     </main>
   `;
 
+  root.querySelector("[data-solver-open]")?.addEventListener("click", () => {
+    toggleOrPush(route, "builds", callbacks);
+  });
   root.querySelector("[data-guide-open]")?.addEventListener("click", () => {
     toggleOrPush(route, "guide", callbacks);
   });

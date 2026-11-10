@@ -51,10 +51,18 @@ export type GuideSpecStep = {
   replace_to?: string;
 };
 
+export type GuideGearRarity = "legendary" | "pearl" | "epic" | "rare";
+
 export type GuideGearSlot = {
   slot: string;
   slot_index?: number;
+  /** Exact search / display name for the item. */
+  item_name?: string;
   item_hint?: string;
+  rarity?: GuideGearRarity;
+  farm?: string;
+  /** Why an Epic/purple is preferred over legendary for this slot (omit if legendary/pearl). */
+  purple_why?: string;
   priorities: string[];
   avoid?: string[];
   icon_id?: string;

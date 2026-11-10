@@ -1,0 +1,30 @@
+{
+  "patch": "experimental",
+  "game_build": "26007962",
+  "solver_version": "0.25.0-rafa",
+  "scenario_hash": "mobbing+bossing-maximin",
+  "frozen_at": "2026-11-10T13:00:00Z",
+  "disclaimer": "Frontier of a sweep, not a certified global optimum. Skill axis is approximate.",
+  "board_mode": "experimental",
+  "published": false,
+  "note": "Published boards blocked on HUMAN in-game spot-check.",
+  "entries": [
+    {
+      "id": "seed_placeholder",
+      "score": 0,
+      "mobScore": 0,
+      "bossScore": 0,
+      "obtainable": "unverified",
+      "gate": "base",
+      "legal": true,
+      "prereqsMet": true,
+      "skills": [],
+      "gear": [
+        "MAL_SM.comp_05_legendary_PlasmaCoil",
+        "tor_shield.comp_05_legendary_firewerks",
+        "vla_grenade_gadget.comp_05_legendary_Waterfall"
+      ],
+      "synergyKeys": ["rolls:approximate"]
+    }
+  ]
+}

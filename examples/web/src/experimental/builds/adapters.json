@@ -3,41 +3,261 @@
   "obtainable": "unverified",
   "patch": "post-1.10-curated",
   "core_ref": "data/experimental/builds/core.json",
+  "note": "Skills/specs fixed. Full gear loadout swaps per archetype (free). Two enhancement perks on one Maliwan enhancement item when dual-rolled (e.g. Toile).",
   "adapters": {
     "balanced": {
-      "swap_slot": "grenade",
-      "swap_item": "Waterfall (Lingering + Pulsing + Nuke)",
-      "why": "Default: chain explosions + Nuke radius cover mixed content without respec.",
+      "why": "Mixed content: Waterfall clear + Accelerator AS uptime + Mixologist/Transfuser dual enhancement.",
       "secondary_notes": [
-        "Keep core skills/specs.",
-        "Firmware 2× Airstrike + 2× Get Throwin for +40% splash radius total from those set pieces."
+        "Skills/specs unchanged.",
+        "Enhancement: search Maliwan dual-perk Toile (Mixologist + Transfuser) or equivalent."
       ],
-      "gear_deltas": {
-        "grenade": "Waterfall Lingering/Pulsing/Nuke"
+      "loadout": {
+        "weapon_1": {
+          "item_name": "PlasmaCoil",
+          "rarity": "legendary",
+          "farm": "Timekeeper Guardian",
+          "icon_id": "gear_PlasmaCoil"
+        },
+        "weapon_2": {
+          "item_name": "Kickballer",
+          "rarity": "legendary",
+          "farm": "Sludgemaw",
+          "icon_id": "gear_Kickballer"
+        },
+        "weapon_3": {
+          "item_name": "Lucian",
+          "rarity": "legendary",
+          "farm": "Jockey",
+          "icon_id": "gear_Lucian"
+        },
+        "weapon_4": {
+          "item_name": "HeavyTurret",
+          "rarity": "legendary",
+          "farm": "Grasslands Guardian",
+          "icon_id": "gear_HeavyTurret"
+        },
+        "shield": {
+          "item_name": "firewerks",
+          "rarity": "legendary",
+          "farm": "GlidePackPsycho",
+          "icon_id": "gear_firewerk",
+          "note": "OK for mixed; swap off for pure bossing"
+        },
+        "grenade": {
+          "item_name": "Waterfall",
+          "rarity": "legendary",
+          "farm": "KOTOMotherbaseBrute",
+          "icon_id": "gear_waterfall",
+          "rolls": "Lingering / Pulsing / Nuke"
+        },
+        "class_mod": {
+          "item_name": "Grenazerker",
+          "rarity": "legendary",
+          "farm": "Primordial Guardian Radix",
+          "icon_id": "gear_grenazerker",
+          "rolls": "+3 Sinergia · +4 Confeti · Splash passive · Gadget Ahoy firmware"
+        },
+        "repkit": {
+          "item_name": "TripleBypass",
+          "rarity": "legendary",
+          "farm": "Backhive",
+          "icon_id": "gear_TripleBypass",
+          "rolls": "Heart Pump · secondary Accelerator (Adrenalized) · Mini"
+        },
+        "enhancement": {
+          "item_name": "Toile",
+          "rarity": "legendary",
+          "farm": "Maliwan enhancement pools / world legendary enhancements",
+          "icon_id": "gear_Toile",
+          "rolls": "Mixologist + Transfuser (dual perk)",
+          "why": "Mixologist feeds inactive element into Peacebreaker; Transfuser spreads status on kill for pack clear."
+        },
+        "artifact": {
+          "item_name": "Splash / AS artifact",
+          "rarity": "legendary",
+          "farm": "World Drop legendary artifacts",
+          "icon_id": "slot_artifact",
+          "rolls": "Splash Radius · Action Skill Damage"
+        }
+      },
+      "stack_tags": ["splash", "radius", "afk_clear", "inactive_element", "dual_element", "on_kill", "status"],
+      "grenade_roll": {
+        "grenade_id": "vla_grenade_gadget.comp_05_legendary_Waterfall",
+        "payload": "lingering",
+        "payload_augment": "pulsing",
+        "perk": "nuke",
+        "extra_tags": ["airdrop", "radius", "on_kill_missiles"]
       }
     },
     "mobbing": {
-      "swap_slot": "shield",
-      "swap_item": "Firewerk (incendiary preferred)",
-      "why": "One swap: Firewerk on-kill homing missiles clear packs AFK while Booming Business + Peacebreaker keep grenades flowing.",
+      "why": "AFK pack clear: Firewerk missiles + Waterfall + Transfuser spreads + Accelerator dump for near-permanent Overdrive.",
       "secondary_notes": [
-        "Skills/specs unchanged from core.",
-        "Hold a fire gun if using Collaborative Ignition / El Diablito-style elemental ordnance bonuses."
+        "Skills/specs unchanged.",
+        "Heart Pump on Triple Bypass matters here (charge return on kill)."
       ],
-      "gear_deltas": {
-        "shield": "Firewerk incendiary"
+      "loadout": {
+        "weapon_1": {
+          "item_name": "PlasmaCoil",
+          "rarity": "legendary",
+          "farm": "Timekeeper Guardian",
+          "icon_id": "gear_PlasmaCoil"
+        },
+        "weapon_2": {
+          "item_name": "Kaleidosplode",
+          "rarity": "legendary",
+          "farm": "Callous Harbinger (BlasterBrute)",
+          "icon_id": "gear_Kaleidosplode"
+        },
+        "weapon_3": {
+          "item_name": "KaoSon",
+          "rarity": "legendary",
+          "farm": "Mountain Guardian",
+          "icon_id": "gear_KaoSon"
+        },
+        "weapon_4": {
+          "item_name": "anarchy",
+          "rarity": "legendary",
+          "farm": "Shatterlands Guardian",
+          "icon_id": "gear_anarchy"
+        },
+        "shield": {
+          "item_name": "firewerks",
+          "rarity": "legendary",
+          "farm": "GlidePackPsycho",
+          "icon_id": "gear_firewerk",
+          "rolls": "Incendiary preferred"
+        },
+        "grenade": {
+          "item_name": "Waterfall",
+          "rarity": "legendary",
+          "farm": "KOTOMotherbaseBrute",
+          "icon_id": "gear_waterfall",
+          "rolls": "Lingering / Pulsing / Nuke"
+        },
+        "class_mod": {
+          "item_name": "Grenazerker",
+          "rarity": "legendary",
+          "farm": "Primordial Guardian Radix",
+          "icon_id": "gear_grenazerker",
+          "rolls": "+3 Sinergia · +4 Confeti · Splash · Gadget Ahoy"
+        },
+        "repkit": {
+          "item_name": "TripleBypass",
+          "rarity": "legendary",
+          "farm": "Backhive",
+          "icon_id": "gear_TripleBypass",
+          "rolls": "Heart Pump · Accelerator · Mini",
+          "why": "3× Caffeine dump + Heart Pump charge return — best mobbing AS uptime."
+        },
+        "enhancement": {
+          "item_name": "Toile",
+          "rarity": "legendary",
+          "farm": "Maliwan enhancement pools",
+          "icon_id": "gear_Toile",
+          "rolls": "Mixologist + Transfuser",
+          "why": "Transfuser on-kill spread is strongest in dense packs."
+        },
+        "artifact": {
+          "item_name": "Splash / move artifact",
+          "rarity": "legendary",
+          "farm": "World Drop",
+          "icon_id": "slot_artifact",
+          "rolls": "Splash Radius · Move Speed · Ordnance"
+        }
+      },
+      "stack_tags": ["splash", "radius", "afk_clear", "on_kill", "status", "inactive_element", "dual_element"],
+      "grenade_roll": {
+        "grenade_id": "vla_grenade_gadget.comp_05_legendary_Waterfall",
+        "payload": "lingering",
+        "payload_augment": "pulsing",
+        "perk": "nuke",
+        "extra_tags": ["airdrop", "radius", "on_kill_missiles", "afk_clear"]
       }
     },
     "bossing": {
-      "swap_slot": "grenade",
-      "swap_item": "Firepot (sticky / single-target ordnance)",
-      "why": "One swap: Firepot stickies for boss burn; keep Peacebreaker for Overdrive — no skill respec.",
+      "why": "Single-target: Firepot stickies + Amp repkit bursts + Mixologist/Primed Potency (Transfuser weak with few kills).",
       "secondary_notes": [
-        "Farm Firepot from Leader Willem (Enter the Electi line) per community guides.",
-        "Optional: swap to a dedicated boss weapon instead if Firepot unavailable — still one slot."
+        "Skills/specs unchanged.",
+        "Drop Firewerk — on-kill missiles waste value on bosses.",
+        "Repkit secondary Amp beats Accelerator when you need damage spikes more than mid-fight AS dumps; keep Accelerator if phases force long CD waits."
       ],
-      "gear_deltas": {
-        "grenade": "Firepot"
+      "loadout": {
+        "weapon_1": {
+          "item_name": "PlasmaCoil",
+          "rarity": "legendary",
+          "farm": "Timekeeper Guardian",
+          "icon_id": "gear_PlasmaCoil"
+        },
+        "weapon_2": {
+          "item_name": "Kickballer",
+          "rarity": "legendary",
+          "farm": "Sludgemaw",
+          "icon_id": "gear_Kickballer"
+        },
+        "weapon_3": {
+          "item_name": "Lucian",
+          "rarity": "legendary",
+          "farm": "Jockey",
+          "icon_id": "gear_Lucian"
+        },
+        "weapon_4": {
+          "item_name": "RocketReload",
+          "rarity": "legendary",
+          "farm": "Horace",
+          "icon_id": "gear_RocketReload"
+        },
+        "shield": {
+          "item_name": "High-capacity legendary shield",
+          "rarity": "legendary",
+          "farm": "World Drop (Shields) / boss shield legendaries",
+          "icon_id": "slot_shield",
+          "rolls": "Max capacity · recharge · survival — not Firewerk"
+        },
+        "grenade": {
+          "item_name": "firepot",
+          "rarity": "legendary",
+          "farm": "Leader Willem (UpgradedElectiMole)",
+          "icon_id": "gear_firepot",
+          "rolls": "Sticky / single-target ordnance"
+        },
+        "class_mod": {
+          "item_name": "Grenazerker",
+          "rarity": "legendary",
+          "farm": "Primordial Guardian Radix",
+          "icon_id": "gear_grenazerker",
+          "rolls": "+3 Sinergia · +4 Confeti · Splash · Gadget Ahoy"
+        },
+        "repkit": {
+          "item_name": "TripleBypass",
+          "rarity": "legendary",
+          "farm": "Backhive",
+          "icon_id": "gear_TripleBypass",
+          "rolls": "Heart Pump · secondary Amp (Amplified) · Mini",
+          "why": "Bossing: Amp +200% next shot × 3 charges for phase burst. Accelerator if you need AS back between long phases instead."
+        },
+        "enhancement": {
+          "item_name": "Maliwan dual (Mixologist + Primed Potency)",
+          "rarity": "legendary",
+          "farm": "Maliwan enhancement pools",
+          "icon_id": "gear_Toile",
+          "rolls": "Mixologist + Primed Potency (or Synthesizer)",
+          "why": "Transfuser needs kills — weak on bosses. Primed Potency first-shot status / Synthesizer status damage scale single-target better with Mixologist."
+        },
+        "artifact": {
+          "item_name": "AS / gun damage artifact",
+          "rarity": "legendary",
+          "farm": "World Drop",
+          "icon_id": "slot_artifact",
+          "rolls": "Action Skill Damage · Gun Damage · Crit"
+        }
+      },
+      "stack_tags": ["gun_damage", "inactive_element", "dual_element", "status", "crit", "amp"],
+      "grenade_roll": {
+        "grenade_id": "tor_grenade_gadget.comp_05_legendary_firepot",
+        "payload": "lingering",
+        "payload_augment": "pulsing",
+        "perk": "nuke",
+        "extra_tags": ["sticky", "bossing"]
       }
     }
   }

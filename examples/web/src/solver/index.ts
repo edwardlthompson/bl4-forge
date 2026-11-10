@@ -3,6 +3,7 @@ export { beamOverDag } from "./beam";
 export type { BoundPart, GodRollPick, PartAttr } from "./godroll";
 export { enumerateGodRolls, godRollCandidate } from "./godroll";
 export { maximin, paretoFilter, rankByMaximin } from "./pareto";
+export { boundPartsForPool, godRollSeedFromParts } from "./partsPool";
 export { solve } from "./pipeline";
 export { prune } from "./pruner";
 export { mulberry32 } from "./rng";

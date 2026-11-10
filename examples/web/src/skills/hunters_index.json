@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "hunters": [
+    {
+      "id": "amon",
+      "display_name": "Amon",
+      "skill_count": 72,
+      "effects_nonempty": 0,
+      "coverage": "structure_only"
+    },
+    {
+      "id": "c4sh",
+      "display_name": "C4SH",
+      "skill_count": 66,
+      "effects_nonempty": 0,
+      "coverage": "structure_only"
+    },
+    {
+      "id": "harlowe",
+      "display_name": "Harlowe",
+      "skill_count": 72,
+      "effects_nonempty": 0,
+      "coverage": "structure_only"
+    },
+    {
+      "id": "loveless",
+      "display_name": "Loveless",
+      "skill_count": 72,
+      "effects_nonempty": 0,
+      "coverage": "structure_only"
+    },
+    {
+      "id": "rafa",
+      "display_name": "Rafa",
+      "skill_count": 72,
+      "effects_nonempty": 17,
+      "coverage": "experimental_pack"
+    },
+    {
+      "id": "vex",
+      "display_name": "Vex",
+      "skill_count": 72,
+      "effects_nonempty": 0,
+      "coverage": "structure_only"
+    }
+  ]
+}

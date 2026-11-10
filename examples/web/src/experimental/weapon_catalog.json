@@ -1,0 +1,174 @@
+{
+  "experimental": true,
+  "obtainable": "unverified",
+  "oracle_default": "name_inferred",
+  "rolls": "approximate",
+  "note": "Manufacturer-wide part pools until per-legendary NCS legality lands. Ability flags are name_inferred tags only.",
+  "default_roll_slots": ["body", "barrel", "magazine", "accessory", "firmware"],
+  "mfg_extra_slots": {
+    "maliwan": ["element_mode"],
+    "vladof": ["underbarrel"],
+    "jakobs": ["ricochet_accessory"],
+    "torgue": ["sticky_mag"]
+  },
+  "weapons": [
+    {
+      "id": "MAL_SM.comp_05_legendary_PlasmaCoil",
+      "search_name": "PlasmaCoil",
+      "behavior_tags": ["coil", "beam", "dual_element", "maliwan"],
+      "ability_flags": ["unique_fire_mode"],
+      "synergy_keys": ["inactive_element", "mixologist", "gun_element_bonus"]
+    },
+    {
+      "id": "TED_SG.comp_05_legendary_HeavyTurret",
+      "search_name": "HeavyTurret",
+      "behavior_tags": ["turret", "deploy", "tediore"],
+      "ability_flags": ["deploy_turret"],
+      "synergy_keys": ["ordnance", "pet", "deploy"]
+    },
+    {
+      "id": "JAK_SG.comp_05_legendary_TKsWave",
+      "search_name": "TKsWave",
+      "behavior_tags": ["wave", "projectile", "jakobs"],
+      "ability_flags": ["wave_projectile"],
+      "synergy_keys": ["splash", "projectile"]
+    },
+    {
+      "id": "MAL_SR.comp_05_legendary_complex_root",
+      "search_name": "complex_root",
+      "behavior_tags": ["root", "beam", "maliwan"],
+      "ability_flags": ["complex_beam"],
+      "synergy_keys": ["beam", "crit"]
+    },
+    {
+      "id": "VLA_SM.comp_05_legendary_BeeGun",
+      "search_name": "BeeGun",
+      "behavior_tags": ["swarm", "projectile", "vladof"],
+      "ability_flags": ["swarm_projectiles"],
+      "synergy_keys": ["multishot", "projectile"]
+    },
+    {
+      "id": "MAL_HW.comp_05_legendary_BottledLightning",
+      "search_name": "BottledLightning",
+      "behavior_tags": ["shock", "heavy", "maliwan"],
+      "ability_flags": ["bottled_element"],
+      "synergy_keys": ["shock", "splash"]
+    },
+    {
+      "id": "VLA_HW.comp_05_legendary_AtlingGun",
+      "search_name": "AtlingGun",
+      "behavior_tags": ["rotary", "heavy", "vladof"],
+      "ability_flags": ["atling_spin"],
+      "synergy_keys": ["fire_rate", "underbarrel"]
+    },
+    {
+      "id": "BOR_HW.comp_05_legendary_Streamer",
+      "search_name": "Streamer",
+      "behavior_tags": ["stream", "heavy"],
+      "ability_flags": ["stream_beam"],
+      "synergy_keys": ["sustained"]
+    },
+    {
+      "id": "BOR_HW.comp_05_legendary_DiscJockey",
+      "search_name": "DiscJockey",
+      "behavior_tags": ["disc", "heavy", "black_market"],
+      "ability_flags": ["disc_projectile", "black_market_variant"],
+      "synergy_keys": ["projectile", "splash"]
+    },
+    {
+      "id": "MAL_SG.comp_05_legendary_Kickballer",
+      "search_name": "Kickballer",
+      "behavior_tags": ["projectile", "maliwan"],
+      "ability_flags": ["kickball_projectile"],
+      "synergy_keys": ["splash", "projectile"]
+    },
+    {
+      "id": "MAL_SG.comp_05_legendary_Kaleidosplode",
+      "search_name": "Kaleidosplode",
+      "behavior_tags": ["splash", "element", "maliwan"],
+      "ability_flags": ["kaleido_explode"],
+      "synergy_keys": ["splash", "radius"]
+    },
+    {
+      "id": "JAK_SG.comp_05_legendary_RainbowVomit",
+      "search_name": "RainbowVomit",
+      "behavior_tags": ["element", "jakobs"],
+      "ability_flags": ["rainbow_element"],
+      "synergy_keys": ["element", "splash"]
+    },
+    {
+      "id": "TED_SG.comp_05_legendary_anarchy",
+      "search_name": "anarchy",
+      "behavior_tags": ["anarchy", "tediore"],
+      "ability_flags": ["anarchy_stacks"],
+      "synergy_keys": ["gun_damage", "risk"]
+    },
+    {
+      "id": "MAL_SM.comp_05_legendary_OhmIGot",
+      "search_name": "OhmIGot",
+      "behavior_tags": ["shock", "maliwan"],
+      "ability_flags": ["ohm_shock"],
+      "synergy_keys": ["shock"]
+    },
+    {
+      "id": "MAL_HW.comp_05_legendary_GammaVoid",
+      "search_name": "GammaVoid",
+      "behavior_tags": ["radiation", "void", "maliwan"],
+      "ability_flags": ["gamma_void"],
+      "synergy_keys": ["radiation", "splash"]
+    },
+    {
+      "id": "ORD_SR.comp_05_legendary_symmetry",
+      "search_name": "symmetry",
+      "behavior_tags": ["symmetry", "order"],
+      "ability_flags": ["symmetry_shot"],
+      "synergy_keys": ["crit", "precision"]
+    },
+    {
+      "id": "JAK_SG.comp_05_legendary_Hellwalker",
+      "search_name": "Hellwalker",
+      "behavior_tags": ["incendiary", "jakobs"],
+      "ability_flags": ["hellwalker"],
+      "synergy_keys": ["incendiary", "splash"]
+    },
+    {
+      "id": "ORD_PS.comp_05_legendary_NoisyCricket",
+      "search_name": "NoisyCricket",
+      "behavior_tags": ["compact", "order"],
+      "ability_flags": ["noisy_cricket"],
+      "synergy_keys": ["gun_damage"]
+    },
+    {
+      "id": "ORD_PS.comp_05_legendary_RocketReload",
+      "search_name": "RocketReload",
+      "behavior_tags": ["rocket", "reload", "order"],
+      "ability_flags": ["rocket_on_reload"],
+      "synergy_keys": ["reload", "splash", "ordnance"]
+    },
+    {
+      "id": "tor_shield.comp_05_legendary_firewerks",
+      "search_name": "firewerks",
+      "slot": "shield",
+      "behavior_tags": ["on_kill", "missile", "afk", "torgue"],
+      "ability_flags": ["on_kill_missiles"],
+      "synergy_keys": ["afk_clear", "on_kill", "ordnance"]
+    },
+    {
+      "id": "vla_grenade_gadget.comp_05_legendary_Waterfall",
+      "search_name": "Waterfall",
+      "slot": "grenade",
+      "behavior_tags": ["chain_explode", "splash", "ordnance"],
+      "ability_flags": ["chain_explode"],
+      "synergy_keys": ["splash", "radius", "ordnance"],
+      "roll_slots": ["payload", "payload_augment", "perk"]
+    },
+    {
+      "id": "tor_grenade_gadget.comp_05_legendary_firepot",
+      "search_name": "firepot",
+      "slot": "grenade",
+      "behavior_tags": ["sticky", "ordnance", "boss"],
+      "ability_flags": ["sticky_ordnance"],
+      "synergy_keys": ["bossing", "ordnance"]
+    }
+  ]
+}

@@ -30,6 +30,9 @@ hint_on_fail verify-env bash scripts/check-env.sh
 echo "=== verify: bootstrap gates ==="
 hint_on_fail verify-bootstrap bash scripts/validate-bootstrap.sh --quick
 
+echo "=== verify: effect / legendary coverage ==="
+hint_on_fail verify-effect-coverage python3 scripts/check-effect-coverage.py
+
 if [ "$FULL" = true ]; then
   STACK="multi"
   if [ -f .cursor/stack-selection.json ]; then

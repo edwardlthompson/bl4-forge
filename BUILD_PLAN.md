@@ -153,6 +153,39 @@ Copy this shape when you add sprints: `### Sprint N — title`, then numbered ro
 6. ✅ [AGENT][LOCAL] Guide chrome (wide gutters, topband) — scope: BuildGuidePanel.ts, style.css, locales
 7. ✅ [AGENT][LOCAL] Gates/smoke + DECISION_LOG — scope: BUILD_PLAN.md, .agent/
 
+### Sprint 25 — Legendary catalog + Rafa discovery solver
+
+<!-- parallel_exception: sequential lock for Sprint 25 — legendary catalog + Rafa solver -->
+
+1. ✅ [AGENT][LOCAL] Naming module + compile 87 legendaries (+ priority shield/grenade) from drops → items.json — scope: examples/web/src/items/, tools/datamine/, data/
+2. ✅ [AGENT][LOCAL] Weapon roll_slots catalog + ability flags; wire enumerateGodRolls to part pools — scope: data/experimental/, examples/web/src/solver/
+3. ✅ [AGENT][LOCAL] Rafa candidate factory + dual-scenario score + anneal skills/loadout + worker primary UI — scope: examples/web/src/
+4. ✅ [AGENT][LOCAL] Tests + gates/smoke for Sprint 25 — scope: examples/web/, BUILD_PLAN.md
+
+### Sprint 26 — Farms UX + six hunters
+
+<!-- parallel_exception: sequential lock for Sprint 26 — farms + multi-hunter -->
+
+1. ✅ [AGENT][LOCAL] Boss→map location join + shopping list farmRoute from solver gear — scope: data/indexes/, examples/web/src/report/, components/
+2. ✅ [AGENT][LOCAL] Bundle six skill trees + hunter picker + coverage banners — scope: examples/web/src/
+3. ✅ [AGENT][LOCAL] Tests + gates/smoke for Sprint 26 — scope: examples/web/, BUILD_PLAN.md
+
+### Sprint 27 — Red text / oracle / skill packs
+
+<!-- parallel_exception: sequential lock for Sprint 27 — effects honesty -->
+
+1. ✅ [AGENT][LOCAL] Legendary red-text/effect bind + quarantine; remaining hunter skill packs stubs — scope: data/, tools/, examples/web/src/
+2. ✅ [AGENT][LOCAL] Coverage CI gate for numeric regression — scope: scripts/, .github/
+3. ✅ [AGENT][LOCAL] Tests + gates/smoke for Sprint 27 — scope: examples/web/, BUILD_PLAN.md
+
+### Sprint 28 — Sweep + experimental boards
+
+<!-- parallel_exception: sequential lock for Sprint 28 — sweep freeze -->
+
+1. ✅ [AGENT][LOCAL] Wire real factory into sweep; dedupe/diversity; freeze experimental leaderboards — scope: examples/web/src/sweep/, leaderboards/
+2. ✅ [AGENT][LOCAL] Page copy: frontier not certified; published blocked on HUMAN spot-check — scope: examples/web/src/, leaderboards/
+3. ✅ [AGENT][LOCAL] Tests + gates/smoke for Sprint 28 — scope: examples/web/, BUILD_PLAN.md
+
 > **Sprint 19 — MVP preview** archived in COMPLETED_TASKS.md (experimental unfreeze; stub frontier demoted).
 
 ### Waiting on a person

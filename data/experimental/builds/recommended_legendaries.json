@@ -1,0 +1,87 @@
+{
+  "experimental": true,
+  "obtainable": "unverified",
+  "hunter_id": "rafa",
+  "build_id": "rafa_peacebreaker_leveling",
+  "note": "Named legendaries that feed Peacebreaker Overdrive + Booming Business / El Paraguas grenade loops. Prefer Maliwan Mixologist enhancement.",
+  "weapons": [
+    {
+      "id": "MAL_SM.comp_05_legendary_PlasmaCoil",
+      "search_name": "PlasmaCoil",
+      "slot_hint": "weapon 1 (primary)",
+      "why": "Maliwan coil/beam — dual-element snapshot into Peacebreaker; pairs with Mixologist inactive-element bonus.",
+      "farm": "Timekeeper Guardian",
+      "want_rolls": ["Maliwan dual element", "Gun Damage", "Fire Rate", "Magazine"]
+    },
+    {
+      "id": "MAL_SG.comp_05_legendary_Kickballer",
+      "search_name": "Kickballer",
+      "slot_hint": "weapon 2 (clear / ricochet)",
+      "why": "Energy orbs ricochet and crit — feeds Booming Business grenade spawns and splash-crit El Paraguas.",
+      "farm": "Sludgemaw (TrashThresher)",
+      "want_rolls": ["Jakobs ricochet accessory if available", "Crit", "Splash"]
+    },
+    {
+      "id": "MAL_SG.comp_05_legendary_Kaleidosplode",
+      "search_name": "Kaleidosplode",
+      "slot_hint": "weapon 2 alt (splash)",
+      "why": "Elemental splash shotgun — denser splash crits for the Waterfall hop loop.",
+      "farm": "Callous Harbinger (BlasterBrute)",
+      "want_rolls": ["Splash radius", "Status", "Gun Damage"]
+    },
+    {
+      "id": "VLA_AR.comp_05_Legendary_Lucian",
+      "search_name": "Lucian",
+      "slot_hint": "weapon 3 (Vladof platform)",
+      "why": "Vladof AR underbarrel / fire-rate platform — I Am A Gun + Peacebreaker scale with gun bonuses.",
+      "farm": "Jockey / Meathead Riders",
+      "want_rolls": ["Underbarrel", "Fire Rate", "Magazine", "Vladof license"]
+    },
+    {
+      "id": "VLA_SM.comp_05_legendary_KaoSon",
+      "search_name": "KaoSon",
+      "slot_hint": "weapon 3 alt",
+      "why": "Vladof SMG — high fire rate for Overdrive gun-damage stacks and crit density.",
+      "farm": "Mountain Guardian",
+      "want_rolls": ["Fire Rate", "Magazine", "Crit"]
+    },
+    {
+      "id": "TED_SG.comp_05_legendary_HeavyTurret",
+      "search_name": "HeavyTurret",
+      "slot_hint": "weapon 4 (Tediore / Grenazerker)",
+      "why": "Deployed turret + Tediore throw doubles with Grenazerker (grenade or Tediore gun throws another).",
+      "farm": "Grasslands Guardian",
+      "want_rolls": ["Tediore license", "Ordnance", "Gun Damage"]
+    },
+    {
+      "id": "TED_SG.comp_05_legendary_anarchy",
+      "search_name": "anarchy",
+      "slot_hint": "weapon 4 alt",
+      "why": "Tediore anarchy stacks — another Grenazerker double-throw candidate for ordnance loops.",
+      "farm": "Shatterlands Guardian",
+      "want_rolls": ["Tediore", "Gun Damage", "Reload"]
+    },
+    {
+      "id": "ORD_PS.comp_05_legendary_RocketReload",
+      "search_name": "RocketReload",
+      "slot_hint": "weapon 4 alt (ordnance)",
+      "why": "Rocket-on-reload adds ordnance hits that chain with Waterfall splash.",
+      "farm": "Horace (KotoLieutenant)",
+      "want_rolls": ["Reload Speed", "Ordnance Damage", "Splash"]
+    }
+  ],
+  "repkit": {
+    "winner_id": "ord_repair_kit.comp_05_legendary_TripleBypass",
+    "search_name": "TripleBypass",
+    "farm": "Backhive (The Claim, Dissected Plateau / Fadefields)",
+    "want_rolls": [
+      "Legendary unique: Heart Pump / 3 charges",
+      "Secondary #1: Accelerator (Adrenalized)",
+      "Secondary #2: Splash Damage or Elemental Affinity",
+      "Mini size",
+      "Avoid: Hard Hitter / Nova"
+    ],
+    "requires_spec": "now_with_caffeine",
+    "math_note": "Now With Caffeine removes 25% of max action-skill CD per repkit use. Triple Bypass has 3 charges → one dump removes 75% CD (25% left). One-charge legendaries only remove 25%."
+  }
+}

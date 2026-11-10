@@ -1,0 +1,68 @@
+{
+  "experimental": true,
+  "obtainable": "unverified",
+  "source": "https://mentalmars.com/borderlands-4/loot/repkits/",
+  "rarity_rules": {
+    "epic": "1 Primary + 1 Secondary",
+    "legendary": "1 Legendary unique + 1 Secondary"
+  },
+  "ideal_triple_bypass": {
+    "search_name": "TripleBypass",
+    "rarity": "legendary",
+    "farm": "Backhive — The Claim abandoned Auger mine, Dissected Plateau (Fadefields); Moxxi Big Encore",
+    "legendary_perk": "Heart Pump / 3 charges (unique — not available on purple)",
+    "best_secondary_ranked": [
+      {
+        "perk": "Accelerator",
+        "prefix": "Adrenalized",
+        "effect": "+50% Action Skill Cooldown Rate for 8s on use",
+        "why": "Clears the leftover 25% Peacebreaker CD after a 3-charge Caffeine dump — highest AS uptime secondary."
+      },
+      {
+        "perk": "Splash Damage",
+        "prefix": "Explosive",
+        "effect": "+25% Splash Damage for 8s",
+        "why": "Directly feeds Waterfall hop damage and splash-crit El Paraguas."
+      },
+      {
+        "perk": "Elemental Affinity",
+        "prefix": "Reactive",
+        "effect": "+25% Elemental Damage for 8s",
+        "why": "Buffs Maliwan PlasmaCoil / Kickballer elements and Peacebreaker snapshot damage."
+      },
+      {
+        "perk": "Go Go Gadget",
+        "prefix": "Nootropic",
+        "effect": "+50% Ordnance Cooldown Rate for 8s",
+        "why": "More Waterfall / Firepot throws in the grenade loop."
+      },
+      {
+        "perk": "Amp",
+        "prefix": "Amplified",
+        "effect": "+200% next shot damage",
+        "why": "Bossing secondary winner: +200% next shot × 3 Triple Bypass charges for phase burst. Mobbing/balanced still prefer Accelerator for leftover CD clear."
+      },
+      {
+        "perk": "Fire Rate",
+        "prefix": "Spasmodic",
+        "effect": "+15% Fire Rate for 8s (−9% heal, +9% kit CD)",
+        "why": "Helps gun DPS under Overdrive; small kit-CD penalty."
+      },
+      {
+        "perk": "Repair Kit Cooling",
+        "prefix": "Quick-Charger",
+        "effect": "−33% Repkit cooldown",
+        "why": "Faster charge regen between dumps; take if Accelerator already secured via other means."
+      }
+    ],
+    "size": "Mini preferred (shorter kit CD) unless you need Mega heal for UVH survival",
+    "firmware": "LVL25+ can roll firmware — favor Gadget Ahoy / Airstrike if available on kit"
+  },
+  "purple_bridge": {
+    "search_name": "Order Recorporator (Epic)",
+    "rarity": "epic",
+    "why_purple": "Order manufacturer trait = 2 charges on Epic. Epic rolls Primary + Secondary (e.g. Accelerator + Splash Damage). Legendary Triple Bypass locks the legendary perk slot to 3-charge/Heart Pump and only allows ONE secondary — so a purple Order with Accelerator + Splash/Elemental Affinity has two combat buffs you cannot stack the same way on a legendary. Use until Triple Bypass drops, or keep if your Triple Bypass secondary is trash.",
+    "farm": "World Drop (Repair Kits) and Order-weighted pools; farm bosses that drop Order gear / general legendary/epic kits",
+    "ideal_rolls": ["Accelerator (Adrenalized)", "Splash Damage (Explosive) or Elemental Affinity (Reactive)"]
+  }
+}

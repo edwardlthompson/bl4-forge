@@ -2,6 +2,7 @@ import type { SkillEffectPack } from "../skills/effects";
 import type { GrenadeCatalog, SynergyRulesPack } from "../synergy";
 import adaptersJson from "./builds/adapters.json";
 import coreJson from "./builds/core.json";
+import recommendedLegendariesJson from "./builds/recommended_legendaries.json";
 import enhancementCatalogA from "./enhancement_catalog_a.json";
 import enhancementCatalogB from "./enhancement_catalog_b.json";
 import firmwareCatalogJson from "./firmware_catalog.json";
@@ -75,5 +76,13 @@ export function loadEnhancementCatalog(): EnhancementCatalog {
 export function loadWeaponGodrolls(): WeaponGodrollPack {
   const pack = weaponGodrollsJson as WeaponGodrollPack & { experimental: boolean };
   if (pack.experimental !== true) throw new Error("weapon_godrolls must be experimental");
+  return pack;
+}
+
+export type RecommendedLegendariesPack = typeof recommendedLegendariesJson;
+
+export function loadRecommendedLegendaries(): RecommendedLegendariesPack {
+  const pack = recommendedLegendariesJson as RecommendedLegendariesPack;
+  if (pack.experimental !== true) throw new Error("recommended_legendaries must be experimental");
   return pack;
 }

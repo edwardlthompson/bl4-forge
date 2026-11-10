@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "note": "Partial map join — unverified stubs until HUMAN confirmed. Keys are drop source ids.",
+  "locations": {
+    "Timekeeper_Guardian": { "map": "Dominion", "area": "Timekeeper's Stronghold", "display": "Timekeeper Guardian" },
+    "Grasslands_Guardian": { "map": "Grasslands", "area": "Guardian arena", "display": "Grasslands Guardian" },
+    "RockAndRoll": { "map": "Unknown", "area": "Rocken Roller", "display": "Rocken Roller" },
+    "StrikerSplitter": { "map": "Unknown", "area": "Mimicron", "display": "Mimicron" },
+    "TrashThresher": { "map": "Unknown", "area": "Sludgemaw", "display": "Sludgemaw" },
+    "MountainGuardian": { "map": "Mountains", "area": "Mountain Guardian", "display": "Mountain Guardian" },
+    "BlasterBrute": { "map": "Unknown", "area": "Callous Harbinger", "display": "Callous Harbinger of Annihilating Death" },
+    "MeatPlantGunship": { "map": "Unknown", "area": "The Oppressor", "display": "The Oppressor" },
+    "SpiderJumbo": { "map": "Unknown", "area": "Sydney Pointylegs", "display": "Sydney Pointylegs" },
+    "ShatterlandsGuardian": { "map": "Shatterlands", "area": "Guardian", "display": "Shatterlands Guardian" },
+    "ShatterlandsCommanderElpis": { "map": "Shatterlands", "area": "Primordial Guardian Origo", "display": "Primordial Guardian Origo" },
+    "Timekeeper_TKBoss": { "map": "Dominion", "area": "The Timekeeper", "display": "The Timekeeper" },
+    "MeatheadRider_Jockey": { "map": "Unknown", "area": "Jockey", "display": "Jockey" },
+    "KotoLieutenant": { "map": "Unknown", "area": "Horace", "display": "Horace" },
+    "KOTOMotherbaseBrute": { "map": "Unknown", "area": "Waterfall dedicated", "display": "KOTO Motherbase Brute" },
+    "GlidePackPsycho": { "map": "Unknown", "area": "Firewerk dedicated", "display": "Glide Pack Psycho" },
+    "UpgradedElectiMole": { "map": "Unknown", "area": "Leader Willem", "display": "Leader Willem" }
+  }
+}

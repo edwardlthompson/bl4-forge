@@ -1,0 +1,23 @@
+{
+  "experimental": true,
+  "obtainable": "unverified",
+  "oracle_default": "name_inferred",
+  "note": "Red-text bind placeholder. Behavior tags only until card corpus matches titles.",
+  "by_id": {
+    "MAL_SM.comp_05_legendary_PlasmaCoil": {
+      "tag_only": true,
+      "behavior_tags": ["coil", "beam", "dual_element"],
+      "effects": []
+    },
+    "TED_SG.comp_05_legendary_HeavyTurret": {
+      "tag_only": true,
+      "behavior_tags": ["turret", "deploy"],
+      "effects": []
+    },
+    "vla_grenade_gadget.comp_05_legendary_Waterfall": {
+      "tag_only": false,
+      "behavior_tags": ["chain_explode", "splash"],
+      "effects": []
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "beam_width": 64,
+  "anneal_iterations": 80,
+  "timeout_ms": 8000,
+  "balanced": { "strategy": "maximin", "mob_floor": 0.4, "boss_floor": 0.4 },
+  "obtainable_for_published": ["confirmed"],
+  "obtainable_for_experimental": ["confirmed", "probable", "unverified"]
+}

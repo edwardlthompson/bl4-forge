@@ -6,6 +6,7 @@ import { createBuildStatsPanel } from "./components/BuildStatsPanel";
 import { createFeedbackPanel } from "./components/FeedbackPanel";
 import { createSettingsPanel } from "./components/SettingsPanel";
 import { createSkillPlannerPanel } from "./components/SkillPlannerPanel";
+import { createSolverPanel } from "./components/SolverPanel";
 import { createSpecPlannerPanel } from "./components/SpecPlannerPanel";
 import { applyPanelScroll, type GpRoute } from "./nav";
 import { bindPanelDialog } from "./panelDialog";
@@ -63,6 +64,18 @@ export function mountShellRoute(
       mount,
       state,
       createSkillPlannerPanel(getPlannerHunters(), null, { onClose: callbacks.onPop }),
+      callbacks.onPop,
+    );
+  }
+  if (route === "builds") {
+    return finish(
+      root,
+      mount,
+      state,
+      createSolverPanel({
+        onClose: callbacks.onPop,
+        onOpenGuide: () => callbacks.onPushRoute("guide"),
+      }),
       callbacks.onPop,
     );
   }

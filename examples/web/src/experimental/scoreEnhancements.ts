@@ -31,9 +31,41 @@ export type ScoredEnhancement = {
 };
 
 const ARCH_WEIGHTS: Record<ArchetypeId, Record<string, number>> = {
-  mobbing: { ricochet: 3, splash: 3, afk_clear: 3, on_kill: 2, radius: 2, status: 1 },
-  bossing: { gun_damage: 3, charge: 2, stacking: 2, crit: 2, pierce: 2, amp: 2 },
-  balanced: { gun_damage: 1, splash: 1, ricochet: 1, inactive_element: 2, dual_element: 2 },
+  mobbing: {
+    ricochet: 3,
+    splash: 3,
+    afk_clear: 3,
+    on_kill: 3,
+    spread: 3,
+    radius: 2,
+    status: 2,
+    inactive_element: 2,
+    dual_element: 2,
+    gun_element_bonus: 2,
+  },
+  bossing: {
+    gun_damage: 3,
+    charge: 2,
+    stacking: 2,
+    crit: 2,
+    pierce: 2,
+    amp: 2,
+    status: 2,
+    on_reload: 2,
+    inactive_element: 3,
+    dual_element: 3,
+    gun_element_bonus: 3,
+  },
+  balanced: {
+    gun_damage: 1,
+    splash: 1,
+    ricochet: 1,
+    on_kill: 1,
+    status: 1,
+    inactive_element: 2,
+    dual_element: 2,
+    gun_element_bonus: 2,
+  },
 };
 
 /** Deterministic score: tag overlap + license match + archetype weights. */
@@ -43,8 +75,7 @@ export function scoreEnhancements(
 ): ScoredEnhancement[] {
   const tags = new Set(input.buildTags.map((t) => t.toLowerCase()));
   const licenses = new Set((input.weaponLicenses ?? []).map((l) => l.toLowerCase()));
-  const arch = input.archetype ?? "balanced";
-  const weights = ARCH_WEIGHTS[arch];
+  const weights = ARCH_WEIGHTS[input.archetype ?? "balanced"];
 
   const ranked = catalog.enhancements.map((enhancement) => {
     let score = 0;
@@ -79,3 +110,8 @@ export function scoreEnhancements(
     (a, b) => b.score - a.score || a.enhancement.id.localeCompare(b.enhancement.id),
   );
 }
+
+export {
+  type ScoredEnhancementPair,
+  scoreEnhancementPairs,
+} from "./scoreEnhancementPairs";

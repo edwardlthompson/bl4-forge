@@ -63,6 +63,15 @@ describe("createAppShell nav render", () => {
     expect(root.querySelector(".gp-theme-toggle")).toBeNull();
     expect(root.querySelector("[data-testid='home-status']")).toBeTruthy();
     expect(root.querySelectorAll(".gp-status-card").length).toBe(1);
+    expect(root.querySelector("[data-testid='home-solver-cta']")).toBeTruthy();
+  });
+
+  it("opens solver builds route full-width", () => {
+    const root = document.createElement("div");
+    createAppShell(root, { ...baseState(), nav: push(homeNav(), "builds") }, handlers());
+    const main = root.querySelector("main");
+    expect(main?.classList.contains("gp-route-wide")).toBe(true);
+    expect(root.querySelector(".gp-solver-panel")).toBeTruthy();
   });
 
   it("hides Settings in the header on inner routes", () => {

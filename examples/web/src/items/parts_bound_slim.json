@@ -1,0 +1,2501 @@
+{
+  "version": 1,
+  "rolls": "approximate",
+  "parts": [
+    {
+      "category": 1,
+      "index": 52,
+      "name": "pearl_reload",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 1,
+      "index": 53,
+      "name": "pearl_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 1,
+      "name": "stat2_criticalhitchance_melee",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        },
+        {
+          "target": "crit_chance",
+          "op": "add",
+          "min": 0.02,
+          "max": 0.15,
+          "median": 0.08499999999999999,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 9,
+      "name": "stat_criticalhitchance_ordnance",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        },
+        {
+          "target": "crit_chance",
+          "op": "add",
+          "min": 0.02,
+          "max": 0.15,
+          "median": 0.08499999999999999,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 10,
+      "name": "stat2_criticalhitchance_ordnance",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        },
+        {
+          "target": "crit_chance",
+          "op": "add",
+          "min": 0.02,
+          "max": 0.15,
+          "median": 0.08499999999999999,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 11,
+      "name": "stat_criticalhitchance_skill",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        },
+        {
+          "target": "crit_chance",
+          "op": "add",
+          "min": 0.02,
+          "max": 0.15,
+          "median": 0.08499999999999999,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 12,
+      "name": "stat2_criticalhitchance_skill",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        },
+        {
+          "target": "crit_chance",
+          "op": "add",
+          "min": 0.02,
+          "max": 0.15,
+          "median": 0.08499999999999999,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 13,
+      "name": "stat2_criticalhitchance_gun",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        },
+        {
+          "target": "crit_chance",
+          "op": "add",
+          "min": 0.02,
+          "max": 0.15,
+          "median": 0.08499999999999999,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 14,
+      "name": "stat_criticalhitchance_gun",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        },
+        {
+          "target": "crit_chance",
+          "op": "add",
+          "min": 0.02,
+          "max": 0.15,
+          "median": 0.08499999999999999,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 34,
+      "name": "stat_shield_regen_rate",
+      "attributes": [
+        {
+          "target": "shield_recharge",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 35,
+      "name": "stat_reload_speed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 47,
+      "name": "stat_shield_capacity",
+      "attributes": [
+        {
+          "target": "shield_capacity",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 54,
+      "name": "stat2_shield_regen_rate",
+      "attributes": [
+        {
+          "target": "shield_recharge",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 55,
+      "name": "stat2_reload_speed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 67,
+      "name": "stat2_shield_capacity",
+      "attributes": [
+        {
+          "target": "shield_capacity",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 234,
+      "index": 102,
+      "name": "stat_criticalhitchance_melee",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        },
+        {
+          "target": "crit_chance",
+          "op": "add",
+          "min": 0.02,
+          "max": 0.15,
+          "median": 0.08499999999999999,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 243,
+      "index": 57,
+      "name": "part_aug_d_shieldcharge",
+      "attributes": [
+        {
+          "target": "shield_recharge",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 243,
+      "index": 65,
+      "name": "part_aug_o_reload_speed_on_use",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 243,
+      "index": 80,
+      "name": "part_aug_d_shieldcharge_sec",
+      "attributes": [
+        {
+          "target": "shield_recharge",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 0
+        }
+      ]
+    },
+    {
+      "category": 243,
+      "index": 88,
+      "name": "part_aug_o_reload_speed_on_use_sec",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 21,
+      "name": "part_stat_wt_sr_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 22,
+      "name": "part_stat_wt_sg_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 23,
+      "name": "part_stat_wt_sm_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 24,
+      "name": "part_stat_wt_ps_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 25,
+      "name": "part_stat_wt_ar_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 26,
+      "name": "part_stat_wt_sr_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 27,
+      "name": "part_stat_wt_sg_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 28,
+      "name": "part_stat_wt_sm_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 29,
+      "name": "part_stat_wt_ps_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 30,
+      "name": "part_stat_wt_ar_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 36,
+      "name": "part_stat_wt_sr_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 37,
+      "name": "part_stat_wt_sg_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 38,
+      "name": "part_stat_wt_sm_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 39,
+      "name": "part_stat_wt_ps_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 40,
+      "name": "part_stat_wt_ar_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 82,
+      "name": "part_stat_weapon_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 88,
+      "name": "part_stat_weapon_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 90,
+      "name": "part_stat_weapon_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 92,
+      "name": "part_stat_wt_sr_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 93,
+      "name": "part_stat_wt_sm_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 94,
+      "name": "part_stat_wt_sg_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 95,
+      "name": "part_stat_wt_ar_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 96,
+      "name": "part_stat_wt_ps_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 97,
+      "name": "part_stat_weapon_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 108,
+      "name": "part_stat3_wt_sr_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 109,
+      "name": "part_stat3_wt_sr_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 110,
+      "name": "part_stat3_wt_sr_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 113,
+      "name": "part_stat3_wt_sr_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 120,
+      "name": "part_stat3_wt_sm_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 121,
+      "name": "part_stat3_wt_sm_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 122,
+      "name": "part_stat3_wt_sm_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 125,
+      "name": "part_stat3_wt_sm_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 132,
+      "name": "part_stat3_wt_sg_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 133,
+      "name": "part_stat3_wt_sg_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 134,
+      "name": "part_stat3_wt_sg_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 137,
+      "name": "part_stat3_wt_sg_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 144,
+      "name": "part_stat3_wt_ps_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 145,
+      "name": "part_stat3_wt_ps_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 146,
+      "name": "part_stat3_wt_ps_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 149,
+      "name": "part_stat3_wt_ps_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 156,
+      "name": "part_stat3_wt_ar_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 157,
+      "name": "part_stat3_wt_ar_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 158,
+      "name": "part_stat3_wt_ar_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 161,
+      "name": "part_stat3_wt_ar_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 166,
+      "name": "part_stat3_weapon_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 167,
+      "name": "part_stat3_weapon_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 168,
+      "name": "part_stat3_weapon_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 171,
+      "name": "part_stat3_weapon_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 180,
+      "name": "part_stat2_weapon_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 183,
+      "name": "part_stat2_weapon_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 184,
+      "name": "part_stat2_weapon_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 185,
+      "name": "part_stat2_weapon_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 190,
+      "name": "part_stat2_wt_ar_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 193,
+      "name": "part_stat2_wt_ar_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 194,
+      "name": "part_stat2_wt_ar_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 195,
+      "name": "part_stat2_wt_ar_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 202,
+      "name": "part_stat2_wt_ps_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 205,
+      "name": "part_stat2_wt_ps_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 206,
+      "name": "part_stat2_wt_ps_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 207,
+      "name": "part_stat2_wt_ps_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 214,
+      "name": "part_stat2_wt_sg_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 217,
+      "name": "part_stat2_wt_sg_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 218,
+      "name": "part_stat2_wt_sg_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 219,
+      "name": "part_stat2_wt_sg_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 226,
+      "name": "part_stat2_wt_sm_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 229,
+      "name": "part_stat2_wt_sm_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 230,
+      "name": "part_stat2_wt_sm_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 231,
+      "name": "part_stat2_wt_sm_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 238,
+      "name": "part_stat2_wt_sr_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 241,
+      "name": "part_stat2_wt_sr_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 242,
+      "name": "part_stat2_wt_sr_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 247,
+      "index": 243,
+      "name": "part_stat2_wt_sr_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 180,
+      "name": "part_stat2_weapon_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 183,
+      "name": "part_stat2_weapon_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 184,
+      "name": "part_stat2_weapon_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 185,
+      "name": "part_stat2_weapon_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 190,
+      "name": "part_stat2_wt_ar_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 193,
+      "name": "part_stat2_wt_ar_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 194,
+      "name": "part_stat2_wt_ar_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 195,
+      "name": "part_stat2_wt_ar_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 202,
+      "name": "part_stat2_wt_ps_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 205,
+      "name": "part_stat2_wt_ps_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 206,
+      "name": "part_stat2_wt_ps_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 207,
+      "name": "part_stat2_wt_ps_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 214,
+      "name": "part_stat2_wt_sg_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 217,
+      "name": "part_stat2_wt_sg_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 218,
+      "name": "part_stat2_wt_sg_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 219,
+      "name": "part_stat2_wt_sg_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 226,
+      "name": "part_stat2_wt_sm_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 229,
+      "name": "part_stat2_wt_sm_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 230,
+      "name": "part_stat2_wt_sm_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 231,
+      "name": "part_stat2_wt_sm_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 238,
+      "name": "part_stat2_wt_sr_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 241,
+      "name": "part_stat2_wt_sr_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 242,
+      "name": "part_stat2_wt_sr_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 10001,
+      "index": 243,
+      "name": "part_stat2_wt_sr_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 108,
+      "name": "part_stat3_wt_sr_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 109,
+      "name": "part_stat3_wt_sr_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 110,
+      "name": "part_stat3_wt_sr_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 113,
+      "name": "part_stat3_wt_sr_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 120,
+      "name": "part_stat3_wt_sm_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 121,
+      "name": "part_stat3_wt_sm_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 122,
+      "name": "part_stat3_wt_sm_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 125,
+      "name": "part_stat3_wt_sm_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 132,
+      "name": "part_stat3_wt_sg_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 133,
+      "name": "part_stat3_wt_sg_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 134,
+      "name": "part_stat3_wt_sg_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 137,
+      "name": "part_stat3_wt_sg_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 144,
+      "name": "part_stat3_wt_ps_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 145,
+      "name": "part_stat3_wt_ps_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 146,
+      "name": "part_stat3_wt_ps_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 149,
+      "name": "part_stat3_wt_ps_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 156,
+      "name": "part_stat3_wt_ar_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 157,
+      "name": "part_stat3_wt_ar_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 158,
+      "name": "part_stat3_wt_ar_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 161,
+      "name": "part_stat3_wt_ar_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 166,
+      "name": "part_stat3_weapon_reloadspeed",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 167,
+      "name": "part_stat3_weapon_magsize",
+      "attributes": [
+        {
+          "target": "magazine_size",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 3
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 168,
+      "name": "part_stat3_weapon_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    },
+    {
+      "category": 10002,
+      "index": 171,
+      "name": "part_stat3_weapon_criticaldamage",
+      "attributes": [
+        {
+          "target": "crit_damage",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 7
+        }
+      ]
+    },
+    {
+      "category": 10006,
+      "index": 52,
+      "name": "pearl_reload",
+      "attributes": [
+        {
+          "target": "reload_speed",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 5
+        }
+      ]
+    },
+    {
+      "category": 10006,
+      "index": 53,
+      "name": "pearl_firerate",
+      "attributes": [
+        {
+          "target": "fire_rate",
+          "op": "mul",
+          "min": 1.05,
+          "max": 1.25,
+          "median": 1.15,
+          "oracle": "name_inferred",
+          "source": "part_name+balance_prop_presence",
+          "balance_hits": 8
+        }
+      ]
+    }
+  ],
+  "count": 142
+}

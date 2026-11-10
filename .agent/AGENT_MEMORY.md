@@ -184,3 +184,7 @@ Golden Path Settings/About/Feedback are a route stack, not three booleans. Web H
 ### Retrospective — 2026-11-10 (Sprint 24 icons + math + god-rolls)
 
 - HUMAN override: commit/publish datamine icons (pending_extract until AES extract). On-Shot×On-Hit staged compose. Full enhancement catalog (44 perks, all manufacturers) + `scoreEnhancements` + `godrollFromBuild`. Guide topband, ranked enhancements, god-roll parts.
+
+### Retrospective — 2026-11-10 (Sprint 25–28 solver + legendaries)
+
+- Product re-centered on discovery: drops→`items.json` (87 guns + Firewerk/Waterfall/firepot), naming parse, weapon_catalog ability flags, Rafa `solveRafa` maximin UI primary. Six-hunter picker (Rafa unlocked). Boss location stubs; coverage gate; experimental Rafa board frozen; published still HUMAN-gated.

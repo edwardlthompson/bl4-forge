@@ -18,4 +18,25 @@ describe("computeStackTotals", () => {
     expect(radius?.pct).toBeGreaterThanOrEqual(40);
     expect(totals.buckets.length).toBeGreaterThan(2);
   });
+
+  it("folds gear pieces + Mixologist into gun/splash stacks", () => {
+    const guide = loadRafaPeacebreakerGuide();
+    const core = loadBuildCore();
+    const totals = computeStackTotals({
+      allocation: guide.allocation,
+      firmware: core.firmware.pieces,
+      includeComGodroll: true,
+      enhancementIds: ["maliwan_mixologist", "maliwan_transfuser"],
+      gearPieces: [
+        { slot: "weapon_1", item_name: "PlasmaCoil" },
+        { slot: "grenade", item_name: "Waterfall" },
+        { slot: "shield", item_name: "firewerks" },
+        { slot: "repkit", item_name: "TripleBypass", rolls: "Accelerator" },
+      ],
+    });
+    const gun = totals.buckets.find((b) => b.target === "gun_damage");
+    expect(gun?.pct).toBeGreaterThanOrEqual(45); // COM 35 + Mixologist 10 + PlasmaCoil 5
+    expect(totals.notes.some((n) => /Loadout gear counted/i.test(n))).toBe(true);
+    expect(totals.notes.some((n) => /Accelerator/i.test(n))).toBe(true);
+  });
 });

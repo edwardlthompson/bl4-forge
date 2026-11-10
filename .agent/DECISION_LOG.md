@@ -17,6 +17,13 @@
 
 ## Entries
 
+### 2026-11-10 — Solver-primary UX + legendary catalog from drops
+- **Status:** Accepted
+- **Context:** Product brief is hunter+archetype min/max discovery; shipped surface was curated Rafa Peacebreaker. `items.json` was empty while `drops.json` held 87 unique legendary weapons.
+- **Decision:** Compile drops → `items.json` / web `catalog.json` (≥87 weapons + Firewerk/Waterfall/firepot). Home CTA is Solve Rafa; guide demoted to seed. Ability-shaped legendaries enter loadout anneal with tag_only until oracle. Experimental board at `leaderboards/experimental/rafa/balanced/`; published still HUMAN-gated. Coverage gate: `scripts/check-effect-coverage.py`.
+- **Alternatives considered:** Keep guide-primary (rejected — contradicts AGENT.md); invent red-text DPS (rejected — tag_only + name_inferred only).
+- **Consequences:** Rafa-first numeric slice; other hunters structure/tag-only until effect packs; farm maps stubbed (`has_location: false`).
+
 ### 2026-11-10 — Wiki CDN icon fallback + exact Grenazerker COM
 - **Status:** Accepted
 - **Context:** bl4 texture extract not wired / AES empty; guide needed real skill art. Grenazerker COM skill pool is only Sinergia/Arriba/Abajo/Confeti (not Booming Business).

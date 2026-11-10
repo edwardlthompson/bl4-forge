@@ -207,7 +207,8 @@
     "level": 70,
     "farm": "Radix (Primordial Guardian, Carcadia Burn) — play as Rafa",
     "unique": "Whenever Rafa throws a Grenade or Tediore gun, throw an additional one.",
-    "search_exact": "Grenazerker · +3 Sinergia · +4 Confeti · +46% Splash Damage · Gadget Ahoy",
+    "search_exact": "Grenazerker · +3 Sinergia · +4 Confeti · Splash Damage passive · Gadget Ahoy firmware",
+    "skill_pool_only": ["sinergia", "arriba", "abajo", "confeti"],
     "skill_bonuses": [
       {
         "id": "sinergia",
@@ -254,7 +255,8 @@
   "baseline_gear": {
     "grenade": "Waterfall · Lingering / Pulsing / Nuke",
     "shield": "High capacity (swap to Firewerk for mobbing)",
-    "weapon": "Assault Rifle — Gun Damage / Fire Rate / Crit"
+    "weapon": "PlasmaCoil · Kickballer/Kaleidosplode · Lucian/KaoSon · HeavyTurret/anarchy",
+    "repkit": "TripleBypass (Backhive) + Now With Caffeine — 3×25% AS CDR dump"
   },
   "sources": [
     "https://borderlands.2k.com/borderlands-4/game-info/vault-hunters/rafa/",

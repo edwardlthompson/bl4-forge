@@ -1104,26 +1104,31 @@
     {
       "slot": "weapon",
       "slot_index": 1,
-      "item_hint": "Assault Rifle (primary)",
+      "item_name": "PlasmaCoil",
+      "rarity": "legendary",
+      "farm": "Timekeeper Guardian (dedicated) · World Drop (SMGs) backup",
+      "item_hint": "MAL SM · Maliwan dual-element primary",
       "priorities": [
+        "Maliwan dual element",
         "Gun Damage",
         "Fire Rate",
         "Magazine Size",
-        "Crit Damage"
+        "Mixologist enhancement"
       ],
-      "avoid": [
-        "Pure Melee Damage"
-      ],
+      "avoid": ["Pure Melee Damage"],
       "icon_id": "slot_weapon"
     },
     {
       "slot": "weapon",
       "slot_index": 2,
-      "item_hint": "SMG / Shotgun (swap)",
+      "item_name": "Kickballer",
+      "rarity": "legendary",
+      "farm": "Sludgemaw / TrashThresher · World Drop (Shotguns)",
+      "item_hint": "MAL SG · alt Kaleidosplode @ Callous Harbinger (BlasterBrute)",
       "priorities": [
-        "Close-range Damage",
-        "Status Chance",
-        "Reload Speed"
+        "Ricochet / splash crits for Booming Business",
+        "Gun Damage",
+        "Status Chance"
       ],
       "avoid": [],
       "icon_id": "slot_weapon"
@@ -1131,11 +1136,14 @@
     {
       "slot": "weapon",
       "slot_index": 3,
-      "item_hint": "Sniper / Boss weapon",
+      "item_name": "Lucian",
+      "rarity": "legendary",
+      "farm": "Jockey / Meathead Riders · World Drop (Assault Rifles)",
+      "item_hint": "VLA AR · alt KaoSon @ Mountain Guardian",
       "priorities": [
-        "Crit Damage",
-        "Boss Damage",
-        "Handling"
+        "Vladof underbarrel / fire rate",
+        "Magazine Size",
+        "Crit Damage"
       ],
       "avoid": [],
       "icon_id": "slot_weapon"
@@ -1143,32 +1151,41 @@
     {
       "slot": "weapon",
       "slot_index": 4,
-      "item_hint": "Element coverage",
+      "item_name": "HeavyTurret",
+      "rarity": "legendary",
+      "farm": "Grasslands Guardian · World Drop (Shotguns)",
+      "item_hint": "TED SG · alt anarchy @ Shatterlands Guardian · RocketReload @ Horace",
       "priorities": [
-        "Shock or Corrosive",
-        "Ordnance Synergy"
+        "Tediore throw (Grenazerker double)",
+        "Ordnance Damage",
+        "Gun Damage"
       ],
       "avoid": [],
       "icon_id": "slot_weapon"
     },
     {
       "slot": "shield",
-      "item_hint": "Firewerk (mobbing swap) / high capacity (baseline)",
+      "item_name": "firewerks",
+      "rarity": "legendary",
+      "farm": "GlidePackPsycho (dedicated) · World Drop (Shields)",
+      "item_hint": "Torgue Firewerk — mobbing on-kill missiles; high-cap legendary shield OK for bossing",
       "priorities": [
         "On-kill missiles (Firewerk)",
+        "Incendiary preferred",
         "Max Shield",
         "Recharge Rate"
       ],
-      "avoid": [
-        "Empty amplifier if you cannot keep shields up"
-      ],
+      "avoid": ["Empty amplifier if you cannot keep shields up"],
       "icon_id": "gear_firewerk"
     },
     {
       "slot": "grenade",
-      "item_hint": "Waterfall (balanced) / Firepot (bossing swap)",
+      "item_name": "Waterfall",
+      "rarity": "legendary",
+      "farm": "KOTOMotherbaseBrute (dedicated) · World Drop (Grenades) · Firepot @ Leader Willem for bossing",
+      "item_hint": "Vladof Waterfall · Lingering / Pulsing / Nuke",
       "priorities": [
-        "Lingering+Pulsing+Nuke",
+        "Lingering + Pulsing + Nuke",
         "Splash Radius",
         "Ordnance Damage"
       ],
@@ -1177,55 +1194,84 @@
     },
     {
       "slot": "class_mod",
-      "item_hint": "Grenazerker L70 — search: +3 Sinergia / +4 Confeti / Splash Damage / Gadget Ahoy",
+      "item_name": "Grenazerker",
+      "rarity": "legendary",
+      "farm": "Primordial Guardian Radix (Carcadia Burn) — play as Rafa",
+      "item_hint": "L70 only rolls Sinergia / Arriba / Abajo / Confeti skill points",
       "priorities": [
-        "+3 Sinergia",
-        "+4 Confeti",
-        "+46% Splash Damage",
-        "Gadget Ahoy firmware",
-        "Fixed +35% Gun Damage"
+        "+3 Sinergia (skill — max)",
+        "+4 Confeti (skill — remaining of 7)",
+        "Splash Damage passive (not a skill point)",
+        "Gadget Ahoy firmware (firmware slot, not COM skill)"
       ],
       "avoid": [
-        "Arriba points",
-        "Abajo points",
-        "Sinergia <3",
-        "Confeti <4",
-        "non-Splash random passive"
+        "Any Arriba or Abajo skill points",
+        "Booming Business / El Paraguas (cannot roll on Grenazerker)",
+        "Sinergia <3 or Confeti <4"
       ],
       "icon_id": "gear_grenazerker"
     },
     {
       "slot": "artifact",
-      "item_hint": "Movement / Overdrive",
+      "item_name": "Splash / AS artifact",
+      "rarity": "legendary",
+      "farm": "World Drop / boss legendary artifact pools (prefer named legendaries with splash or action-skill stats)",
+      "item_hint": "Legendary or pearlescent when available",
       "priorities": [
+        "Splash Radius",
+        "Action Skill Damage / Cooldown",
         "Move Speed",
-        "Action Skill Damage",
-        "Splash Radius"
+        "Ordnance Damage"
       ],
       "avoid": [],
       "icon_id": "slot_artifact"
     },
     {
       "slot": "enhancement",
-      "item_hint": "Firmware",
+      "item_name": "Mixologist",
+      "rarity": "legendary",
+      "farm": "Manufacturer enhancement drops / world legendary enhancements (Maliwan license)",
+      "item_hint": "Maliwan Mixologist — mandatory for dual-element Peacebreaker snapshot",
       "priorities": [
-        "Deadeye / Crit",
-        "Gun Damage"
+        "Mixologist (inactive element bonus)",
+        "Then gun damage / crit firmware sets (Airstrike, Get Throwin on other pieces)"
       ],
       "avoid": [],
       "icon_id": "slot_enhancement"
     },
     {
       "slot": "repkit",
-      "item_hint": "Repkit",
+      "item_name": "TripleBypass",
+      "rarity": "legendary",
+      "farm": "Backhive — The Claim Auger mine, Dissected Plateau (Fadefields); Big Encore · World Drop (Repair Kits)",
+      "item_hint": "Requires Now With Caffeine · secondary: Accelerator > Splash > Elemental Affinity",
       "priorities": [
-        "Charges",
-        "Cooldown Reduction",
-        "Heal amount / Duration"
+        "Legendary: Heart Pump / 3 charges",
+        "Secondary: Accelerator (Adrenalized)",
+        "Alt secondary: Splash Damage or Elemental Affinity",
+        "Mini size (shorter kit CD)",
+        "LVL25+ firmware if present"
       ],
       "avoid": [
-        "Ultra-long CD with 1 charge"
+        "1-charge kits when farming AS uptime",
+        "Melee Hard Hitter / Nova perks for this build"
       ],
+      "icon_id": "slot_repkit"
+    },
+    {
+      "slot": "repkit",
+      "slot_index": 2,
+      "item_name": "Order Recorporator",
+      "rarity": "epic",
+      "farm": "World Drop (Repair Kits) · Order-weighted epic pools",
+      "purple_why": "Order Epic always has 2 charges and rolls Primary + Secondary (e.g. Accelerator + Splash Damage). Legendary Triple Bypass uses the legendary perk slot for 3-charge/Heart Pump and only gets ONE secondary — so purple is the only way to run Accelerator and Splash/Elemental Affinity together before/until a god-roll Triple Bypass secondary drops.",
+      "item_hint": "Bridge / fallback purple — keep if Triple Bypass secondary is weak",
+      "priorities": [
+        "Primary: Accelerator (Adrenalized)",
+        "Secondary: Splash Damage (Explosive) or Elemental Affinity (Reactive)",
+        "Mini size"
+      ],
+      "avoid": ["Hard Hitter", "Nova"],
       "icon_id": "slot_repkit"
     }
   ],
