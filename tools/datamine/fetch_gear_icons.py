@@ -30,12 +30,6 @@ JOBS = [
         "url": "https://cdn.prod.website-files.com/5ff36780a1084987868ce198/68dd849b54595784f4e935e3_Grenazerker%2520(Rafa-BL4).avif",
         "ext": "avif",
     },
-    {
-        "id": "gear_firewerks_alt",
-        "slot": None,
-        "url": "https://mentalmars.com/wp-content/uploads/2025/09/BL4-Legendary-Armor-Firewerks.jpg",
-        "ext": "jpg",
-    },
 ]
 
 

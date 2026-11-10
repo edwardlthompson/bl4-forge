@@ -1,7 +1,7 @@
 {
   "experimental": true,
   "obtainable": "unverified",
-  "policy": "HUMAN override Sprint 24 \u2014 commit Gearbox UI icons under examples/web/public/icons/datamine when extract succeeds. MIT does not license Gearbox art.",
+  "policy": "HUMAN override Sprint 24 — commit Gearbox UI icons under examples/web/public/icons/datamine when extract succeeds. MIT does not license Gearbox art.",
   "resolver": "datamine_webp_primary_mono_onerror",
   "icons": {
     "pb_deadline": {
@@ -169,12 +169,7 @@
       "path": "/icons/datamine/gear_grenazerker.avif",
       "pending_extract": false,
       "source": "wiki_cdn"
-    },
-    "gear_firewerks_alt": {
-      "path": "/icons/datamine/gear_firewerks_alt.jpg",
-      "pending_extract": false,
-      "source": "wiki_cdn"
     }
   },
-  "note": "Icons from Lootlemon CDN when bl4 extract unavailable. \u00a9 Gearbox art via third party."
+  "note": "Icons from Lootlemon CDN when bl4 extract unavailable. © Gearbox art via third party."
 }

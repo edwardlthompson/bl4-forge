@@ -4,7 +4,7 @@ export function iconUrl(id: string): string {
   return iconCandidates(id).primary;
 }
 
-const JPG_PRIMARY = new Set(["gear_waterfall", "gear_firewerks_alt", "slot_grenade"]);
+const JPG_PRIMARY = new Set(["gear_waterfall", "slot_grenade"]);
 
 export function iconCandidates(id: string): {
   primary: string;

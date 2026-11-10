@@ -11,10 +11,14 @@ ERRORS=0
 MAX_REPORT=20
 reported=0
 
-# Single ls-tree; parse size without per-file git/awk (Windows Git Bash).
+# Prefer the index tree (write-tree) so staged deletions can land; else HEAD.
 tmp="$(mktemp)"
 trap 'rm -f "$tmp"' EXIT
-git ls-tree -r -l HEAD >"$tmp"
+tree_ref=HEAD
+if tree="$(git write-tree 2>/dev/null)"; then
+  tree_ref="$tree"
+fi
+git ls-tree -r -l "$tree_ref" >"$tmp"
 
 while IFS= read -r line; do
   [ -z "$line" ] && continue
