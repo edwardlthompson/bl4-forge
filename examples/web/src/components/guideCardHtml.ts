@@ -1,5 +1,5 @@
-import { iconCandidates } from "../guide";
 import { loadRafaSkillEffects } from "../experimental/loadPacks";
+import { iconCandidates } from "../guide";
 import { cumulativeStatLines, type RankedEffectDef } from "../skills/effects";
 
 export function iconImg(id: string, alt: string): string {

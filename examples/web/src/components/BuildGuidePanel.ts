@@ -17,7 +17,7 @@ import {
   validateGuide,
 } from "../guide";
 import { t } from "../i18n";
-import { formatLines, iconImg, spendCard, specCard } from "./guideCardHtml";
+import { formatLines, iconImg, specCard, spendCard } from "./guideCardHtml";
 import { buildTagsForRafaGuide, renderEnhancementAndGodroll } from "./guideLoadoutExtras";
 import { behaviorTagsFromPack, bestGrenadeRecommendation, detectSynergies } from "./guideSynergy";
 
