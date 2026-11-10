@@ -23,8 +23,8 @@ jobs:
       run:
         working-directory: examples/web
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: "22"
           cache: npm
@@ -41,7 +41,7 @@ jobs:
           echo "shard=${SHARD} of ${SHARDS}"
           mkdir -p ../../leaderboards/scaffold/shards
           echo "{\"shard\":${SHARD},\"status\":\"unit-ok\"}" > "../../leaderboards/scaffold/shards/shard-${SHARD}.json"
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: sweep-shard-${{ matrix.shard }}
           path: leaderboards/scaffold/shards/shard-${{ matrix.shard }}.json
