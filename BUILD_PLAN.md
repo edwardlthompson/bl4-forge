@@ -1,7 +1,7 @@
 # Build Plan
 
 <!-- remaining-tally -->
-**Remaining:** AGENT 0 · LOCAL 0 · CLOUD 0 · AUTO 2 · HUMAN 0 · ADB 0 · **2 open**
+**Remaining:** AGENT 0 · LOCAL 0 · CLOUD 0 · AUTO 3 · HUMAN 0 · ADB 0 · **3 open**
 <!-- /remaining-tally -->
 
 ### Product (do not drift)
@@ -85,6 +85,7 @@ _No cloud agent items._
 > Auto-managed. Do not hand-edit rows inside the markers. Run `python3 scripts/agent-run.py sync-open-prs-build-plan -- --apply` (or `/resume` / `/dependabot`).
 
 <!-- open-prs-sync:begin -->
+- 🔲 [AUTO] Merge Dependabot [#3](https://github.com/edwardlthompson/bl4-forge/pull/3) (Bump the android-dependencies group in /examples/android with 2 updates)
 - 🔲 [AUTO] Merge Dependabot [#2](https://github.com/edwardlthompson/bl4-forge/pull/2) (Bump the node-dependencies group in /examples/node with 6 updates)
 - 🔲 [AUTO] Merge Dependabot [#1](https://github.com/edwardlthompson/bl4-forge/pull/1) (Bump the web-dependencies group in /examples/web with 4 updates)
 <!-- open-prs-sync:end -->
