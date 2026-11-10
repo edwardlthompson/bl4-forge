@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
 ## [1.14.0](https://github.com/edwardlthompson/bl4-forge/compare/v1.13.0...v1.14.0) (2026-11-10)
 
 
@@ -24,8 +26,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * **ci:** web-only CodeQL; drop oversized Firewerks alt; hygiene uses index tree ([06bd002](https://github.com/edwardlthompson/bl4-forge/commit/06bd00234cedf90301fe58950566013885cb7415))
 * **web:** biome import order; skip stale visual snapshots until rebrand baselines ([50213d7](https://github.com/edwardlthompson/bl4-forge/commit/50213d74151a189ac306d782a5fff619630c921d))
 * **web:** skip stale Playwright visual baselines after rebrand ([4e3391e](https://github.com/edwardlthompson/bl4-forge/commit/4e3391e9a6958f73d12d8ff8d6335787e2cc5355))
-
-## [Unreleased]
 
 ## [1.13.0](https://github.com/edwardlthompson/agent-project-bootstrap/compare/v1.12.1...v1.13.0) (2026-11-09)
 
