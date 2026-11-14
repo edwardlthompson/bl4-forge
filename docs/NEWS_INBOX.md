@@ -31,3 +31,13 @@ A Cursor planning agent should review these items and fold the useful ones into 
 - [ ] Refresh drop tables and farm routes for the 1.11 legendary source changes — Murmur, Skully, and Phosphene Devourer were not in the current items.json compiled from drops.json. Label: `[AGENT][LOCAL]` · Priority: P1 · https://support.borderlands.com/hc/en-us/articles/56652595228051-Borderlands-4-Version-1-11-October-22-2026
 - [ ] Watch official Year 2 content announcements before adding new DLC gates — Gearbox wrapped Year 1 and is working on more Borderlands 4 content, but has not named the next pack or date. Label: `[HUMAN]` · Priority: P3 · https://store.steampowered.com/news/app/1285190/view/705535362075723834
 - [ ] Note the November 12–19 Boomslang wildcard as a temporary farm route — The official weekly guarantees Boomslang this week; the item already has a permanent boss source in items.json. Label: `[AGENT][LOCAL]` · Priority: P3 · https://store.steampowered.com/news/app/1285190/view/693151734943449328
+
+## 2026-11-14
+
+**News and updates**
+
+- wfx-loot campaign pushed a CI secret stealer into 17,000+ public repos using stolen GitHub credentials since Nov 10; an npm postinstall hook slipped past GitHub's workflow hold. IOCs: wfx-docs branch, .ci-xxxxxx.sh files, build-audit-*.yml workflows. [source](https://blog.gitguardian.com/wfx-loot-a-ci-secret-stealer-pushed-with-stolen-github-credentials/)
+
+**Tasks for the planning agent**
+
+- [ ] Audit the repo for wfx-loot IOCs — Checks for the wfx-docs branch/PR, .ci-*.sh files, build-audit-*.yml workflows and new npm lifecycle hooks, since the campaign steals CI secrets and Cursor credentials. Label: `[AGENT][LOCAL]` · Priority: P1 · https://blog.gitguardian.com/wfx-loot-a-ci-secret-stealer-pushed-with-stolen-github-credentials/
