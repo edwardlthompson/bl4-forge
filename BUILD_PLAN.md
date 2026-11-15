@@ -236,7 +236,9 @@ Complete list from construction gaps and `/ux-review`. Status is only planned / 
 Standing queue for This Computer. Rows: `🔲 [AGENT][LOCAL] … — scope: path`. `/build` claims these only. See [`docs/adr/0008-agent-venue.md`](docs/adr/0008-agent-venue.md).
 
 <!-- local-agent-lane:begin -->
-_No local agent items._
+- 🔲 [AGENT][LOCAL] Re-ingest Version 1.11 skill and balance data into the solver packs — scope: data/skills/ (news P1, 2026-11-13) https://support.borderlands.com/hc/en-us/articles/56652595228051-Borderlands-4-Version-1-11-October-22-2026
+- 🔲 [AGENT][LOCAL] Refresh drop tables and farm routes for the 1.11 legendary source changes — scope: data/indexes/ (news P1, 2026-11-13) https://support.borderlands.com/hc/en-us/articles/56652595228051-Borderlands-4-Version-1-11-October-22-2026
+- 🔲 [AGENT][LOCAL] Audit the repo for wfx-loot IOCs — scope: .github/ (news P1, 2026-11-14) https://blog.gitguardian.com/wfx-loot-a-ci-secret-stealer-pushed-with-stolen-github-credentials/
 <!-- local-agent-lane:end -->
 
 ### Cloud agent (Cursor Cloud)
